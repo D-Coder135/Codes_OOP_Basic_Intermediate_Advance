@@ -5,6 +5,14 @@
  *   File: PracticeCode1.java
  */
 
+/*
+ Problem Statement =>
+ 1. Program starts and asks user to input integer numbers separated by space.
+ 2. Program creates and array object with entered numbers.
+ 3. Program calls specific method which takes int[] as a parameter and returns max value in this array.
+ 4. Program prints max value from the array to the console.
+  */
+
 package oopsBasicToAdvanceCourse.methodsPractice;
 
 import java.util.Arrays;

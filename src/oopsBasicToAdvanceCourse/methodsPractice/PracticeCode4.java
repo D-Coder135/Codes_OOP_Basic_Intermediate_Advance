@@ -5,6 +5,16 @@
  *   File: PracticeCode4.java
  */
 
+/*
+ Problem Statement =>
+ 1. Program starts and asks user to enter random words separated by space.
+ 2. Program asks user to enter minimum length of string to filter words which were entered.
+ 3. Program creates array object from entered words.
+ 4. Program calls specific method which takes String[] as a parameter and returns array of string which contains words
+    that have length more or equal to value specified by user.
+  */
+
+
 package oopsBasicToAdvanceCourse.methodsPractice;
 
 import java.util.ArrayList;

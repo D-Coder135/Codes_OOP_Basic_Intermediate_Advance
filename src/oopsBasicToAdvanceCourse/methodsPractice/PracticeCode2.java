@@ -34,23 +34,23 @@ public class PracticeCode2 {
     public static void drawRectangle(int height, int width) {
 //        int newHeight = height - 2;
 //        for (int i = 0; i < width; i++) {
-//            System.out.print("+");
+//            System.out.print("*");
 //        }
 //        System.out.println();
 //
 //        for (int i = 0; i < newHeight; i++) {
-//            System.out.print("+" + "\t" + " " + "+");
+//            System.out.print("*" + "\t" + " " + "*");
 //            System.out.println();
 //        }
 //        for (int i = 0; i < width; i++) {
-//            System.out.print("+");
+//            System.out.print("*");
 //        }
 //    }
 
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 if (j == 0 || j == width - 1 || i == 0 || i == height - 1) {
-                    System.out.print("+");
+                    System.out.print("*");
                 } else {
                     System.out.print(" ");
                 }

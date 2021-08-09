@@ -57,7 +57,7 @@ public class PracticeCode2 {
                 if (j == 0 || j == width - 1 || i == 0 || i == height - 1) {
                     System.out.println("+");
                 } else {
-
+                    System.out.println(" ");
                 }
             }
         }

@@ -60,6 +60,7 @@ public class PracticeCode2 {
                     System.out.println(" ");
                 }
             }
+            System.out.println();
         }
         }
     }

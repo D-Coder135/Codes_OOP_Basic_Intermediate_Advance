@@ -5,6 +5,15 @@
  *   File: PracticeCode2.java
  */
 
+/*
+ Problem Statement =>
+ 1. Program starts and asks user to input height of the rectangle.
+ 2. After user inputs heights of the rectangle, program asks to input width of the rectangle.
+ 3. Program calls specific method which takes two parameters of int types which prints rectangle to the console.
+ NOTE: Rectangle is empty inside.
+  */
+
+
 package oopsBasicToAdvanceCourse.methodsPractice;
 
 import java.util.Scanner;

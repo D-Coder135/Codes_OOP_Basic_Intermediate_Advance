@@ -45,14 +45,14 @@ public class PracticeCode5 {
     }
 
     public static void rotate90(double[][] matrix) {
-		<write your code here>
+//		<write your code here>
     }
 
     public static void rotate180(double[][] matrix) {
-		<write your code here>
+//		<write your code here>
     }
 
     public static void rotate270(double[][] matrix) {
-		<write your code here>
+//		<write your code here>
     }
 }

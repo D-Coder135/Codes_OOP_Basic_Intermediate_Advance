@@ -46,6 +46,7 @@ public class PracticeCode5 {
 
     public static double[][] generateMatrix(int size) {
         double[][] resultantMatrix = new double[size][size];
+        return resultantMatrix;
     }
 
     public static void rotate90(double[][] matrix) {

@@ -18,6 +18,7 @@
 
 package oopsBasicToAdvanceCourse.methodsPractice;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class PracticeCode5 {
@@ -27,7 +28,7 @@ public class PracticeCode5 {
 
         System.out.print("Please, enter matrix size: ");
         int size = in.nextInt();
-        double[][] matrix = generateMatrix(size);
+        float[][] matrix = generateMatrix(size);
 
         System.out.println("How you want to rotate matrix:" + System.lineSeparator() +
                 "\t1 - 90" + System.lineSeparator() +
@@ -44,28 +45,22 @@ public class PracticeCode5 {
         }
     }
 
-    public static double[][] generateMatrix(int size) {
-        double[][] resultantMatrix = new double[size][size];
+    public static float[][] generateMatrix(int size) {
+        float[][] resultantMatrix = new float[size][size];
+        DecimalFormat decimalFormat = new DecimalFormat("#.#");
+
 
         for (int i = 0; i < size; i++) {
+            float matrixValue = (float) i;
             for (int j = 0; j < size; j++) {
-                if (i == 0) {
-                    resultantMatrix[i][j] = (double) j;
-                } else if (i == 1) {
-                    resultantMatrix[i][j] = (double) j + 0.1;
-                } else if (i == 2) {
-                    resultantMatrix[i][j] = (double) j + 0.2;
-                } else if (i == 3) {
-                    resultantMatrix[i][j] = (double) j + 0.3;
-                } else {
-                    resultantMatrix[i][j] = (double) j + 0.4;
-                }
+                resultantMatrix[j][i] = Float.parseFloat(decimalFormat.format(matrixValue));
+                matrixValue += 0.1;
             }
         }
         return resultantMatrix;
     }
 
-    public static void printMatrixToConsole(double[][] matrix) {
+    public static void printMatrixToConsole(float[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
                 System.out.print(matrix[j][i] + " ");

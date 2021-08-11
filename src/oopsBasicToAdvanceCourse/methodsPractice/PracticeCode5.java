@@ -79,6 +79,8 @@ public class PracticeCode5 {
         } else if (mode == 3) {
             rotate270(matrix);
             return true;
+        } else {
+            return false;
         }
     }
 

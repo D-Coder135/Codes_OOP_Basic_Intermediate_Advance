@@ -65,6 +65,15 @@ public class PracticeCode5 {
         return resultantMatrix;
     }
 
+    public static void printMatrixToConsole(double[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                System.out.print(matrix[j][i] + " ");
+            }
+            System.out.println();
+        }
+    }
+
     public static void rotate90(double[][] matrix) {
 //		<write your code here>
     }

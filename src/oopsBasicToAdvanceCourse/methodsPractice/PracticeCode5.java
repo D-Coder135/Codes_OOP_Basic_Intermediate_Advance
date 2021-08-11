@@ -46,6 +46,22 @@ public class PracticeCode5 {
 
     public static double[][] generateMatrix(int size) {
         double[][] resultantMatrix = new double[size][size];
+
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                if (i == 0) {
+                    resultantMatrix[i][j] = (double) j;
+                } else if (i == 1) {
+                    resultantMatrix[i][j] = (double) j + 0.1;
+                } else if (i == 2) {
+                    resultantMatrix[i][j] = (double) j + 0.2;
+                } else if (i == 3) {
+                    resultantMatrix[i][j] = (double) j + 0.3;
+                } else {
+                    resultantMatrix[i][j] = (double) j + 0.4;
+                }
+            }
+        }
         return resultantMatrix;
     }
 

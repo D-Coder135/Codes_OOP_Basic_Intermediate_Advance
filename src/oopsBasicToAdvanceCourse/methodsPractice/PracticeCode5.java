@@ -85,7 +85,9 @@ public class PracticeCode5 {
     }
 
     public static void rotate90(float[][] matrix) {
+        for (int i = matrix.length - 1; i >= 0; i--) {
 
+        }
     }
 
     public static void rotate180(float[][] matrix) {

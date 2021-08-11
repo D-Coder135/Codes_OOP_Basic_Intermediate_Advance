@@ -72,8 +72,9 @@ public class PracticeCode5 {
     public static boolean rotateMatrix(float[][] matrix, int mode) {
 
     }
+    }
 
-    public static void rotate90(double[][] matrix) {
+    public static void rotate90(float[][] matrix) {
 //		<write your code here>
     }
 

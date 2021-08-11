@@ -78,7 +78,7 @@ public class PracticeCode5 {
 //		<write your code here>
     }
 
-    public static void rotate180(double[][] matrix) {
+    public static void rotate180(float[][] matrix) {
 //		<write your code here>
     }
 

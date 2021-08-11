@@ -70,8 +70,10 @@ public class PracticeCode5 {
     }
 
     public static boolean rotateMatrix(float[][] matrix, int mode) {
-
-    }
+        if (mode == 1) {
+            rotate90(matrix);
+            return true;
+        }
     }
 
     public static void rotate90(float[][] matrix) {

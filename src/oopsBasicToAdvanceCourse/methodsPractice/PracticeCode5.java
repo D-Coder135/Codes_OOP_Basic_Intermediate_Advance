@@ -126,7 +126,7 @@ public class PracticeCode5 {
 
     public static void rotate90(float[][] matrix) {
         transposeMatrix(matrix);
-
+        verticalReflection(matrix);
     }
 
     public static void rotate180(float[][] matrix) {

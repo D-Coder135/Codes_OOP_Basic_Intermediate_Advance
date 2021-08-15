@@ -77,6 +77,7 @@ public class PracticeCode5 {
                 break;
 
             case 2:
+                System.out.println("180 degrees rotated:" + System.lineSeparator());
         }
     }
 

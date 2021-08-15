@@ -46,8 +46,11 @@ public class PracticeCode6 {
      *              and additionally contains the same elements multiplied by two.
      * @return extended array.
      */
-
     public static int[] extendArray(int[] array) {
+
+    }
+
+    public static int[] generateRandomArray(int numberOfElements) {
 
     }
 }

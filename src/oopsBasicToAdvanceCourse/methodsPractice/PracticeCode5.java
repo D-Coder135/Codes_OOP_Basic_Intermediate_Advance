@@ -71,7 +71,9 @@ public class PracticeCode5 {
 
     public static boolean rotateMatrix(float[][] matrix, int mode) {
         switch (mode) {
+            case 1: {
 
+            }
         }
     }
 

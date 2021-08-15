@@ -36,6 +36,17 @@ public class PracticeCode6 {
         System.out.println(Arrays.toString(extendedArray));
     }
 
+
+    /**
+     * The method extends array.
+     * If array {1, 2, 3} has been passed to this method then array {1, 2, 3, 2, 4, 6}
+     * is returned from this method.
+     *
+     * @param array - base of extension. Extended array contains elements from this array
+     *              and additionally contains the same elements multiplied by two.
+     * @return extended array.
+     */
+
     public static int[] extendArray(int[] array) {
 
     }

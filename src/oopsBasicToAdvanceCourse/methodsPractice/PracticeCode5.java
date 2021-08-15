@@ -81,6 +81,7 @@ public class PracticeCode5 {
             }
             case 3 -> {
                 System.out.println("270 degrees rotated:" + System.lineSeparator());
+                rotate270(matrix);
             }
         }
     }

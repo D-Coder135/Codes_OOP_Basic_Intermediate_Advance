@@ -74,6 +74,7 @@ public class PracticeCode5 {
             case 1: {
                 System.out.println("90 degrees rotated:" + System.lineSeparator());
                 rotate90(matrix);
+                break;
             }
         }
     }

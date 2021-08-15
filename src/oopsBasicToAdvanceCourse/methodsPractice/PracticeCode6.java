@@ -48,7 +48,8 @@ public class PracticeCode6 {
      */
     public static int[] extendArray(int[] array) {
         int[] resultantArray = array;
-        for (int index = 0; index < array.length * 2; index++) {
+        int counter = 0;
+        for (int index = array.length - 1; index < array.length * 2; index++) {
 
         }
     }

@@ -92,7 +92,7 @@ public class PracticeCode5 {
     }
 
     public static void transposeMatrix(float[][] matrix) {
-
+        float temp;
     }
 
     public static void rotate90(float[][] matrix) {

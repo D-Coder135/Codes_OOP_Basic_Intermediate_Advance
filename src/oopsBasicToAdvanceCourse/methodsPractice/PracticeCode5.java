@@ -125,13 +125,8 @@ public class PracticeCode5 {
     }
 
     public static void rotate90(float[][] matrix) {
-        int size = matrix.length - 1;
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix.length; j++) {
-                matrix[j][size] = matrix[i][j];
-            }
-            size--;
-        }
+        transposeMatrix(matrix);
+
     }
 
     public static void rotate180(float[][] matrix) {

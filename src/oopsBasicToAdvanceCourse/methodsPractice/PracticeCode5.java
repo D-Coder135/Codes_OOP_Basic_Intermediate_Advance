@@ -94,7 +94,9 @@ public class PracticeCode5 {
     public static void transposeMatrix(float[][] matrix) {
         float temp;
         for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < i; j++) {
 
+            }
         }
     }
 

@@ -20,5 +20,19 @@ array #1 = {1,3,5,7,10,11,12,15,17,20,2,6,10,14,20,22,24,30,34,40}
 
 package oopsBasicToAdvanceCourse.methodsPractice;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class PracticeCode6 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Please, enter length of initial array: ");
+        int baseArrayLength = sc.nextInt();
+        int[] arr = generateRandomArray(baseArrayLength);
+        int[] extendedArray = extendArray(arr);
+        System.out.println("*** Initial array ***");
+        System.out.println(Arrays.toString(arr));
+        System.out.println("*** Extended array ***");
+        System.out.println(Arrays.toString(extendedArray));
+    }
 }

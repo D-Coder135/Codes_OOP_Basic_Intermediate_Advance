@@ -83,6 +83,9 @@ public class PracticeCode5 {
                 System.out.println("270 degrees rotated:" + System.lineSeparator());
                 rotate270(matrix);
             }
+            default -> {
+                System.err.println("You selected non-existing mode!!");
+            }
         }
     }
 

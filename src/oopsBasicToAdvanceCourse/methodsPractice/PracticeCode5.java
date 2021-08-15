@@ -88,6 +88,7 @@ public class PracticeCode5 {
                 return false;
             }
         }
+        return true;
     }
 
     public static void rotate90(float[][] matrix) {

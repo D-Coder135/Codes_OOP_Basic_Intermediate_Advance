@@ -95,7 +95,7 @@ public class PracticeCode5 {
         float temp;
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < i; j++) {
-
+                temp = matrix[i][j];
             }
         }
     }

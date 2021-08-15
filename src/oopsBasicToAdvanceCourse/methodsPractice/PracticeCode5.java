@@ -103,7 +103,7 @@ public class PracticeCode5 {
     }
 
     public static void verticalReflection(float[][] matrix) {
-        
+        float temp;
     }
 
     public static void rotate90(float[][] matrix) {

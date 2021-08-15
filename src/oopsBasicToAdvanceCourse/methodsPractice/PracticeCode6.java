@@ -58,7 +58,7 @@ public class PracticeCode6 {
 
     public static int[] generateRandomArray(int numberOfElements) {
         int[] resultantArray = new int[numberOfElements];
-        for (int i = 0; i < numberOfElements; i++) {
+        for (int index = 0; index < numberOfElements; index++) {
 
         }
     }

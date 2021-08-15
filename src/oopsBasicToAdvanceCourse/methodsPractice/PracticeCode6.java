@@ -61,6 +61,7 @@ public class PracticeCode6 {
         Random random = new Random();
         int[] resultantArray = new int[numberOfElements];
         for (int index = 0; index < numberOfElements; index++) {
+            resultantArray[index] = random.nextInt(10);
         }
     }
 }

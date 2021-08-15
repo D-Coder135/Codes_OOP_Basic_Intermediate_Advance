@@ -22,6 +22,7 @@ package oopsBasicToAdvanceCourse.methodsPractice;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Random;
 
 public class PracticeCode6 {
     public static void main(String[] args) {
@@ -59,7 +60,7 @@ public class PracticeCode6 {
     public static int[] generateRandomArray(int numberOfElements) {
         int[] resultantArray = new int[numberOfElements];
         for (int index = 0; index < numberOfElements; index++) {
-
+            resultantArray[index] =
         }
     }
 }

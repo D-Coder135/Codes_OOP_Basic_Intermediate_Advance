@@ -91,6 +91,10 @@ public class PracticeCode5 {
         return true;
     }
 
+    public static void transposeMatrix(float[][] matrix) {
+
+    }
+
     public static void rotate90(float[][] matrix) {
         int size = matrix.length - 1;
         for (int i = 0; i < matrix.length; i++) {

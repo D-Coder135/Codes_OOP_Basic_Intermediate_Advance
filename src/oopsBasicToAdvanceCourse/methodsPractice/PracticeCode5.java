@@ -53,7 +53,7 @@ public class PracticeCode5 {
         for (int i = 0; i < size; i++) {
             float matrixValue = (float) i;
             for (int j = 0; j < size; j++) {
-                resultantMatrix[j][i] = Float.parseFloat(decimalFormat.format(matrixValue));
+                resultantMatrix[i][j] = Float.parseFloat(decimalFormat.format(matrixValue));
                 matrixValue += 0.1;
             }
         }
@@ -61,37 +61,37 @@ public class PracticeCode5 {
     }
 
     public static void printMatrixToConsole(float[][] matrix) {
-        for (int i = 0; i < matrix.length; i++) {
+        for (float[] floats : matrix) {
             for (int j = 0; j < matrix[0].length; j++) {
-                System.out.print(matrix[j][i] + " ");
+                System.out.print(floats[j] + " ");
             }
             System.out.println();
         }
     }
 
     public static boolean rotateMatrix(float[][] matrix, int mode) {
-        if (mode == 1) {
-            rotate90(matrix);
-            return true;
-        } else if (mode == 2) {
-            rotate180(matrix);
-            return false;
-        } else if (mode == 3) {
-            rotate270(matrix);
-            return true;
-        } else {
-            return false;
-        }
+
     }
 
     public static void rotate90(float[][] matrix) {
-        for (int i = matrix.length - 1; i >= 0; i--) {
-
+        int size = matrix.length - 1;
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix.length; j++) {
+                matrix[j][size] = matrix[i][j];
+            }
+            size--;
         }
     }
 
     public static void rotate180(float[][] matrix) {
-//		<write your code here>
+        rotate90(matrix);
+        int temp1 = 0;
+        for (int i = matrix.length - 1; i >= 0; i--) {
+            for (int j = 0; j < matrix.length; j++) {
+                matrix[j][temp1] = matrix[i][j];
+            }
+            temp1++;
+        }
     }
 
     public static void rotate270(float[][] matrix) {

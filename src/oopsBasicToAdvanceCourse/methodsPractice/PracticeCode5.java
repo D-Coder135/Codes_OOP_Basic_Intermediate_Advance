@@ -116,7 +116,9 @@ public class PracticeCode5 {
     public static void horizontalReflection(float[][] matrix) {
         float temp;
         for (int i = 0; i < matrix.length / 2; i++) {
-
+            for (int j = 0; j < matrix.length; j++) {
+                temp = matrix[i][j];
+            }
         }
     }
 

@@ -131,7 +131,7 @@ public class PracticeCode5 {
 
     public static void rotate180(float[][] matrix) {
         rotate90(matrix);
-
+        rotate90(matrix);
     }
 
     public static void rotate270(float[][] matrix) {

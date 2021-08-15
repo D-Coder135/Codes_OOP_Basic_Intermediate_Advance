@@ -119,6 +119,7 @@ public class PracticeCode5 {
             for (int j = 0; j < matrix.length; j++) {
                 temp = matrix[i][j];
                 matrix[i][j] = matrix[matrix.length - 1 - i][j];
+                matrix[matrix.length - 1 - i][j] = temp;
             }
         }
     }

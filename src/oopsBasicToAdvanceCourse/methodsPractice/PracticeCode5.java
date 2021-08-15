@@ -115,7 +115,9 @@ public class PracticeCode5 {
 
     public static void horizontalReflection(float[][] matrix) {
         float temp;
+        for (int i = 0; i < matrix.length / 2; i++) {
 
+        }
     }
 
     public static void rotate90(float[][] matrix) {

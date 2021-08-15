@@ -72,7 +72,7 @@ public class PracticeCode5 {
     public static boolean rotateMatrix(float[][] matrix, int mode) {
         switch (mode) {
             case 1: {
-
+                System.out.println("90 degrees rotated:" + System.lineSeparator());
             }
         }
     }

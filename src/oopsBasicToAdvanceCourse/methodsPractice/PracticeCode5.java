@@ -85,6 +85,7 @@ public class PracticeCode5 {
             }
             default -> {
                 System.err.println("You selected non-existing mode!!");
+                return false;
             }
         }
     }

@@ -35,4 +35,8 @@ public class PracticeCode6 {
         System.out.println("*** Extended array ***");
         System.out.println(Arrays.toString(extendedArray));
     }
+
+    public static int[] extendArray(int[] array) {
+
+    }
 }

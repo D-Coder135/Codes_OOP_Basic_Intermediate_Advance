@@ -113,6 +113,10 @@ public class PracticeCode5 {
         }
     }
 
+    public static void horizontalReflection(float[][] marks) {
+
+    }
+
     public static void rotate90(float[][] matrix) {
         int size = matrix.length - 1;
         for (int i = 0; i < matrix.length; i++) {

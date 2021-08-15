@@ -73,6 +73,7 @@ public class PracticeCode5 {
         switch (mode) {
             case 1: {
                 System.out.println("90 degrees rotated:" + System.lineSeparator());
+                rotate90(matrix);
             }
         }
     }

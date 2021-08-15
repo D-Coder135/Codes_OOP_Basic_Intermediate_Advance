@@ -97,6 +97,7 @@ public class PracticeCode5 {
             for (int j = 0; j < i; j++) {
                 temp = matrix[i][j];
                 matrix[i][j] = matrix[j][i];
+                matrix[j][i] = temp;
             }
         }
     }

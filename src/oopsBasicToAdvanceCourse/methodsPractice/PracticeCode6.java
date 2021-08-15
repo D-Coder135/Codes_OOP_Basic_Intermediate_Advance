@@ -53,6 +53,7 @@ public class PracticeCode6 {
             resultantArray[index] = array[counter] * 2;
             counter++;
         }
+        return resultantArray;
     }
 
     public static int[] generateRandomArray(int numberOfElements) {

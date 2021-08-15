@@ -50,7 +50,7 @@ public class PracticeCode6 {
         int[] resultantArray = array;
         int counter = 0;
         for (int index = array.length - 1; index < array.length * 2; index++) {
-
+            resultantArray[index] = array[counter] * 2;
         }
     }
 

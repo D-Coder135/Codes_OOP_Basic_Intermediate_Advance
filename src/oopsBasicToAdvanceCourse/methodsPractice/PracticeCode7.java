@@ -28,4 +28,11 @@ public class PracticeCode7 {
 
         System.out.println(gcdRecursive(number1, number2));
     }
+
+    public static int gcdRecursive(int firstNumber, int secondNumber) {
+//		<write your code here>
+
+    }
+
+}
 }

@@ -30,7 +30,7 @@ public class PracticeCode8 {
         int digits = 0, sumOfDigits = 0;
         while (number != 0) {
             digits = number % 10;
-
+            sumOfDigits += digits;
         }
     }
 }

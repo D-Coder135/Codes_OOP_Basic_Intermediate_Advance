@@ -28,5 +28,6 @@ public class PracticeCode8 {
 
     public static int sumDigitsInNumber(int number) {
         int digits = 0;
+        int sumOfDigits = 0;
     }
 }

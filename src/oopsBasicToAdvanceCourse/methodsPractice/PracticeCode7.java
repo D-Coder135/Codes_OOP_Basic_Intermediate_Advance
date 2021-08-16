@@ -34,5 +34,9 @@ public class PracticeCode7 {
 
     }
 
+    public static int lcm(int firstnumber, int secondnumber) {
+
+    }
+
 }
 }

@@ -30,7 +30,7 @@ public class PracticeCode7 {
     }
 
     public static int gcdRecursive(int firstNumber, int secondNumber) {
-//		<write your code here>
+
 
     }
 

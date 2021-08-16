@@ -47,4 +47,9 @@ public class PracticeCode9 {
         System.out.println(convert2(INPUT_DATA));
 
     }
+
+    public static String convert1(String input) {
+		<write your code here>
+
+    }
 }

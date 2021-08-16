@@ -25,4 +25,8 @@ public class PracticeCode8 {
         int sumOfDigits = sumDigitsInNumber(number);
         System.out.println(sumOfDigits);
     }
+
+    public static int sumDigitsInNumber(int number) {
+//		<write your code here>
+    }
 }

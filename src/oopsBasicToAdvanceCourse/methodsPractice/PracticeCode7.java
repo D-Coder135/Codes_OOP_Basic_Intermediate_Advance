@@ -39,8 +39,8 @@ public class PracticeCode7 {
         while (true) {
             if (lcm % firstnumber == 0 && lcm % secondnumber == 0) {
                 return lcm;
-
             }
+            ++lcm;
         }
     }
 

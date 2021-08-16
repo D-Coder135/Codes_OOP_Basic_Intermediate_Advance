@@ -33,6 +33,6 @@ public class PracticeCode8 {
             sumOfDigits += digits;
             number /= 10;
         }
-        return sumOfDigits;
+        return Math.abs(sumOfDigits);
     }
 }

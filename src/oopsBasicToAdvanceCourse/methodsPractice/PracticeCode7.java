@@ -35,7 +35,7 @@ public class PracticeCode7 {
     }
 
     public static int lcm(int firstnumber, int secondnumber) {
-
+        int lcm = Math.max(firstnumber, secondnumber);
     }
 
 }

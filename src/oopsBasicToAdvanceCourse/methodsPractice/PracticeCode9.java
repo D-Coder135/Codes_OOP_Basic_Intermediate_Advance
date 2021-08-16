@@ -52,4 +52,9 @@ public class PracticeCode9 {
 //		<write your code here>
 
     }
+
+    public static String convert2(String input) {
+		<write your code here>
+
+    }
 }

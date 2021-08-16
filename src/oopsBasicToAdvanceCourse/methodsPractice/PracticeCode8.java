@@ -31,6 +31,7 @@ public class PracticeCode8 {
         while (number != 0) {
             digits = number % 10;
             sumOfDigits += digits;
+            number /= 10;
         }
     }
 }

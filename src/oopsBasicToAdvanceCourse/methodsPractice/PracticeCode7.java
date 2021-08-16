@@ -31,7 +31,7 @@ public class PracticeCode7 {
 
     public static int gcdRecursive(int firstNumber, int secondNumber) {
         int gcd = Math.abs(firstNumber * secondNumber) / lcm(firstNumber, secondNumber);
-
+        return gcd;
     }
 
     public static int lcm(int firstNumber, int secondNumber) {

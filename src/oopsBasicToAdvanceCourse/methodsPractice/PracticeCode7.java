@@ -34,10 +34,10 @@ public class PracticeCode7 {
 
     }
 
-    public static int lcm(int firstnumber, int secondnumber) {
-        int lcm = Math.max(firstnumber, secondnumber);
+    public static int lcm(int firstNumber, int secondNumber) {
+        int lcm = Math.max(firstNumber, secondNumber);
         while (true) {
-            if (lcm % firstnumber == 0 && lcm % secondnumber == 0) {
+            if (lcm % firstNumber == 0 && lcm % secondNumber == 0) {
                 return lcm;
             }
             ++lcm;

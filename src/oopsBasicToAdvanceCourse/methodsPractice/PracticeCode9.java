@@ -54,6 +54,7 @@ public class PracticeCode9 {
         for (int index = 1; index < stringArray.length; index++) {
 
         }
+        return formattedString;
     }
 
     public static String convert2(String input) {

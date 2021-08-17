@@ -12,9 +12,9 @@
 
     Login;Name;Email
 
-    Peterson;Chris Peterson:perterson@outlook.com
-    James;Derek James;james@gmail.com
-    Jackson;Walter Jackson;Jackson@gmail.com
+    peterson;Chris Peterson:perterson@outlook.com
+    james;Derek James;james@gmail.com
+    jackson;Walter Jackson;Jackson@gmail.com
     gregory:Mike Gregory:gregory@yahoo.com
 
     1. Your program has next method. Which formats input data likes this:

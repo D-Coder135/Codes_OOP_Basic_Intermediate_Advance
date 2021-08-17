@@ -43,29 +43,38 @@ public class PracticeCode9 {
         System.out.println("===== Convert 1 demo =====");
         System.out.println(convert1(INPUT_DATA));
 
-        System.out.println("===== Convert 2 demo =====");
-        System.out.println(convert2(INPUT_DATA));
+//        System.out.println("===== Convert 2 demo =====");
+//        System.out.println(convert2(INPUT_DATA));
 
     }
 
     public static String convert1(String input) {
         String[] stringArray = INPUT_DATA.split("[\r\n]+");
-        String formattedString;
-        String loginName = "";
+        String formattedString = "";
+        String requiredPart = "";
         for (int index = 1; index < stringArray.length; index++) {
             String temp = stringArray[index];
             for (int j = 0; j < temp.length(); j++) {
                 char character = temp.charAt(j);
                 if (character != ';') {
-                    loginName = loginName.concat(String.valueOf(character));
+                    requiredPart = requiredPart.concat(String.valueOf(character));
+                } else {
+                    formattedString = formattedString.concat(String.format("%s ===> ", requiredPart));
+                    requiredPart = "";
+                    do {
+                        j++;
+                        character = temp.charAt(j);
+                    } while (character != ';');
                 }
             }
+            formattedString = formattedString.concat(" " + requiredPart + System.lineSeparator());
+            requiredPart = "";
         }
         return formattedString;
     }
 
-    public static String convert2(String input) {
-//		<write your code here>
-
-    }
+//    public static String convert2(String input) {
+////		<write your code here>
+//
+//    }
 }

@@ -79,6 +79,9 @@ public class PracticeCode9 {
         String requiredPart = "";
         for (int index = 1; index < stringArray.length; index++) {
             String temp = stringArray[index];
+            for (int j = 0; j < temp.length(); j++) {
+
+            }
         }
     }
 }

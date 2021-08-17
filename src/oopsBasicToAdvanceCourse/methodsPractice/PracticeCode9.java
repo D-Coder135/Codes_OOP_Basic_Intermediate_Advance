@@ -81,6 +81,9 @@ public class PracticeCode9 {
             String temp = stringArray[index];
             for (int j = 0; j < temp.length(); j++) {
                 char character = temp.charAt(j);
+                if (character != ';') {
+
+                }
             }
         }
     }

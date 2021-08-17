@@ -77,5 +77,8 @@ public class PracticeCode9 {
         String[] stringArray = INPUT_DATA.split("[\r\n]+");
         String formattedString = "";
         String requiredPart = "";
+        for (int index = 1; index < stringArray.length; index++) {
+
+        }
     }
 }

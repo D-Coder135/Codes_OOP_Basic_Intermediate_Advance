@@ -43,8 +43,8 @@ public class PracticeCode9 {
         System.out.println("===== Convert 1 demo =====");
         System.out.println(convert1(INPUT_DATA));
 
-//        System.out.println("===== Convert 2 demo =====");
-//        System.out.println(convert2(INPUT_DATA));
+        System.out.println("===== Convert 2 demo =====");
+        System.out.println(convert2(INPUT_DATA));
 
     }
 
@@ -73,8 +73,8 @@ public class PracticeCode9 {
         return formattedString;
     }
 
-//    public static String convert2(String input) {
-////		<write your code here>
-//
-//    }
+    public static String convert2(String input) {
+//		<write your code here>
+
+    }
 }

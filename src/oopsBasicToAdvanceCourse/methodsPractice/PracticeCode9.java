@@ -52,7 +52,7 @@ public class PracticeCode9 {
         String[] stringArray = INPUT_DATA.split("[\r\n]+");
         String formattedString;
         for (int index = 1; index < stringArray.length; index++) {
-
+            String temp = stringArray[index];
         }
         return formattedString;
     }

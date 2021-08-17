@@ -49,6 +49,7 @@ public class PracticeCode9 {
     }
 
     public static String convert1(String input) {
+        String[] stringArray = INPUT_DATA.split("[\r\n]+");
     }
 
     public static String convert2(String input) {

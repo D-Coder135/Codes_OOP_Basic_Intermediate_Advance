@@ -82,7 +82,7 @@ public class PracticeCode9 {
             for (int j = 0; j < temp.length(); j++) {
                 char character = temp.charAt(j);
                 if (character != ';') {
-
+                    continue;
                 }
             }
         }

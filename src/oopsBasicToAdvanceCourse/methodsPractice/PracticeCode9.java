@@ -51,6 +51,7 @@ public class PracticeCode9 {
     public static String convert1(String input) {
         String[] stringArray = INPUT_DATA.split("[\r\n]+");
         String formattedString;
+        String loginName = "";
         for (int index = 1; index < stringArray.length; index++) {
             String temp = stringArray[index];
             for (int j = 0; j < temp.length(); j++) {

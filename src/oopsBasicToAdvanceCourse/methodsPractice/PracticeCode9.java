@@ -74,6 +74,8 @@ public class PracticeCode9 {
     }
 
     public static String convert2(String input) {
-
+        String[] stringArray = INPUT_DATA.split("[\r\n]+");
+        String formattedString = "";
+        String requiredPart = "";
     }
 }

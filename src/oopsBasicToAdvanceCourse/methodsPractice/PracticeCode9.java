@@ -80,5 +80,6 @@ public class PracticeCode9 {
             String[] wordsInLine = stringArray[index].split(";");
             formattedString += wordsInLine[1] + "(email: " + wordsInLine[2] + ")" + System.lineSeparator();
         }
+        return formattedString;
     }
 }

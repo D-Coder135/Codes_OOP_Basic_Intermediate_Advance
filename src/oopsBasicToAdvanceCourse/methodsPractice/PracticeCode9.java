@@ -78,6 +78,7 @@ public class PracticeCode9 {
         String formattedString = "";
         for (int index = 1; index < stringArray.length; index++) {
             String[] wordsInLine = stringArray[index].split(";");
+            formattedString += wordsInLine[1] + "(email: " + wordsInLine[2] + ")" + System.lineSeparator();
         }
     }
 }

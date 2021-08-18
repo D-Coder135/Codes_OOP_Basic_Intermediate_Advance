@@ -77,7 +77,7 @@ public class PracticeCode9 {
         String[] stringArray = input.split("[\r\n]+");
         String formattedString = "";
         for (int index = 1; index < stringArray.length; index++) {
-
+            String[] wordsInLine = stringArray[index].split(";");
         }
     }
 }

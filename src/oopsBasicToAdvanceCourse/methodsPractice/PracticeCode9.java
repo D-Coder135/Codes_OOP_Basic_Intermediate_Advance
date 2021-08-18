@@ -78,7 +78,7 @@ public class PracticeCode9 {
         StringBuilder formattedString = new StringBuilder();
         for (int index = 1; index < stringArray.length; index++) {
             String[] wordsInLine = stringArray[index].split(";");
-            formattedString.append(wordsInLine[1]).append("(email: ").append(wordsInLine[2]).append(")").append(System.lineSeparator());
+            formattedString.append(wordsInLine[1]).append(" (email: ").append(wordsInLine[2]).append(")").append(System.lineSeparator());
         }
         return formattedString.toString();
     }

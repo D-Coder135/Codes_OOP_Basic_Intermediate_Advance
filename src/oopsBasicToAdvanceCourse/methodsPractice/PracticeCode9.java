@@ -76,22 +76,8 @@ public class PracticeCode9 {
     public static String convert2(String input) {
         String[] stringArray = input.split("[\r\n]+");
         String formattedString = "";
-        String requiredPart = "";
         for (int index = 1; index < stringArray.length; index++) {
-            String temp = stringArray[index];
-            for (int j = 0; j < temp.length(); j++) {
-                char character = temp.charAt(j);
-                if (character == ';') {
-                    formattedString = formattedString.concat(String.format("%s (email: ", requiredPart));
-                } else {
-                    requiredPart = "";
-                    do {
-                        j++;
-                        character = temp.charAt(j);
-                        requiredPart = requiredPart.concat(String.valueOf(character));
-                    } while (character == ';');
-                }
-            }
+
         }
     }
 }

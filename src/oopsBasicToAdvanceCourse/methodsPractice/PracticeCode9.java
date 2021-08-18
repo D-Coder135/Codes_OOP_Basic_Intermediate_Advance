@@ -75,11 +75,11 @@ public class PracticeCode9 {
 
     public static String convert2(String input) {
         String[] stringArray = input.split("[\r\n]+");
-        String formattedString = "";
+        StringBuilder formattedString = new StringBuilder();
         for (int index = 1; index < stringArray.length; index++) {
             String[] wordsInLine = stringArray[index].split(";");
-            formattedString += wordsInLine[1] + "(email: " + wordsInLine[2] + ")" + System.lineSeparator();
+            formattedString.append(wordsInLine[1]).append("(email: ").append(wordsInLine[2]).append(")").append(System.lineSeparator());
         }
-        return formattedString;
+        return formattedString.toString();
     }
 }

@@ -59,7 +59,7 @@ public class PracticeCode9 {
                 if (character != ';') {
                     requiredPart = requiredPart.concat(String.valueOf(character));
                 } else {
-                    formattedString = formattedString.concat(String.format("%s ===> ", requiredPart));
+                    formattedString = formattedString.concat(String.format("%s ==> ", requiredPart));
                     requiredPart = "";
                     do {
                         j++;
@@ -67,7 +67,7 @@ public class PracticeCode9 {
                     } while (character != ';');
                 }
             }
-            formattedString = formattedString.concat(" " + requiredPart + System.lineSeparator());
+            formattedString = formattedString.concat(requiredPart + System.lineSeparator());
             requiredPart = "";
         }
         return formattedString;

@@ -36,8 +36,8 @@ public class PracticeCode10 {
             char character = string.charAt(index);
             if (index == 0) {
                 resultantTitle = resultantTitle + String.valueOf(character).toUpperCase();
-            } else if (character == ' ') {
-
+            } else if (string.charAt(index - 1) == ' ') {
+                resultantTitle = resultantTitle + String.valueOf(character).toUpperCase();
             }
         }
     }

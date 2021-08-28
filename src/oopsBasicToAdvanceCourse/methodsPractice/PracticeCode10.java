@@ -17,5 +17,15 @@
 
 package oopsBasicToAdvanceCourse.methodsPractice;
 
+import java.util.Scanner;
+
 public class PracticeCode10 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Please, enter any text: ");
+        String userInput = sc.nextLine();
+
+
+        System.out.println(firstCharToTitleCase(userInput));
+    }
 }

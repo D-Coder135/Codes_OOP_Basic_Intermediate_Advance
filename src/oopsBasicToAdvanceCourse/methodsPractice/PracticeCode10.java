@@ -30,5 +30,6 @@ public class PracticeCode10 {
     }
 
     public static String firstCharToTitleCase(String string) {
+        String resultantTitle;
     }
 }

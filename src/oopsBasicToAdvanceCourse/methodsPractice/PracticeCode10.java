@@ -42,5 +42,6 @@ public class PracticeCode10 {
                 resultantTitle = resultantTitle + String.valueOf(character).toLowerCase();
             }
         }
+        return resultantTitle;
     }
 }

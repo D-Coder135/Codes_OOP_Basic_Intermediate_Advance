@@ -39,7 +39,7 @@ public class PracticeCode10 {
             } else if (string.charAt(index - 1) == ' ') {
                 resultantTitle = resultantTitle + String.valueOf(character).toUpperCase();
             } else {
-
+                resultantTitle = resultantTitle + String.valueOf(character).toLowerCase();
             }
         }
     }

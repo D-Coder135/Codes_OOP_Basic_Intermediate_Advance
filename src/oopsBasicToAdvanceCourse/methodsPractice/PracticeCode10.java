@@ -28,4 +28,7 @@ public class PracticeCode10 {
 
         System.out.println(firstCharToTitleCase(userInput));
     }
+
+    public static String firstCharToTitleCase(String string) {
+    }
 }

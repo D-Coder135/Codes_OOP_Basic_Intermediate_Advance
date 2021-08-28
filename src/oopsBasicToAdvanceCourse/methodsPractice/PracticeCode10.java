@@ -33,7 +33,9 @@ public class PracticeCode10 {
         String resultantTitle = "";
         for (int index = 0; index < string.length(); index++) {
             char character = string.charAt(index);
+            if (index == 0) {
 
+            }
         }
     }
 }

@@ -31,6 +31,7 @@ public class PracticeCode10 {
 
     public static String firstCharToTitleCase(String string) {
         String resultantTitle = "";
+        string = string.toLowerCase();
         for (int index = 0; index < string.length(); index++) {
             char character = string.charAt(index);
             if (index == 0) {

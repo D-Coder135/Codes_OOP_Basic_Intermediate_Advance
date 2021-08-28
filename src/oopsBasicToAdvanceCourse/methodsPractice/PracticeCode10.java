@@ -30,18 +30,18 @@ public class PracticeCode10 {
     }
 
     public static String firstCharToTitleCase(String string) {
-        String resultantTitle = "";
+        StringBuilder resultantTitle = new StringBuilder();
         string = string.toLowerCase();
         for (int index = 0; index < string.length(); index++) {
             char character = string.charAt(index);
             if (index == 0) {
-                resultantTitle = resultantTitle + String.valueOf(character).toUpperCase();
-            } else if (string.charAt(index - 1) == ' ') {
-                resultantTitle = resultantTitle + String.valueOf(character).toUpperCase();
+                resultantTitle.append(String.valueOf(character).toUpperCase());
+            } else if (string.charAt(index - 1) < 97 || string.charAt(index - 1) > 122) {
+                resultantTitle.append(String.valueOf(character).toUpperCase());
             } else {
-                resultantTitle = resultantTitle + String.valueOf(character).toLowerCase();
+                resultantTitle.append(character);
             }
         }
-        return resultantTitle;
+        return resultantTitle.toString();
     }
 }

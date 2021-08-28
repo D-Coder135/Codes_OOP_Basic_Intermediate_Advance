@@ -38,6 +38,8 @@ public class PracticeCode10 {
                 resultantTitle = resultantTitle + String.valueOf(character).toUpperCase();
             } else if (string.charAt(index - 1) == ' ') {
                 resultantTitle = resultantTitle + String.valueOf(character).toUpperCase();
+            } else {
+
             }
         }
     }

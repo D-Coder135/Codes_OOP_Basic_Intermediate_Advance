@@ -17,6 +17,7 @@
 
 package oopsBasicToAdvanceCourse.methodsPractice;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class PracticeCode10 {
@@ -34,7 +35,7 @@ public class PracticeCode10 {
         for (int index = 0; index < string.length(); index++) {
             char character = string.charAt(index);
             if (index == 0) {
-
+                resultantTitle = resultantTitle + String.valueOf(character).toUpperCase();
             }
         }
     }

@@ -5,6 +5,22 @@
  *   File: PracticeCode11.java
  */
 
+
+/*
+ Problem Statement =>
+ 1. Program starts and asks user to select more:
+    a. to convert from decimal to Roman number user should enter D2R
+    b. to convert from Roman number to decimal user should enter R2D
+ 2. In case user entered random text, program asks user again to enter either D2R or R2D.
+ 3. In case user entered R2D, program asks user to enter Roman number.
+ 4. In case this is invalid Roman number, program asks user to enter Roman number again.
+ 5. In case this is valid Roman number, program converts it to decimal and prints to console.
+ 6. In case user entered D2R, program asks user to enter integer.
+ 7. In case this is negative integer number or more than 100 or zero, program asks user to enter integer number again.
+ 8. In case this is valid integer, program converts it to Roman number and prints to console.
+ 9. Program works properly with range of numbers from 1 to 100 inclusively and the same range for Roman numbers.
+  */
+
 package oopsBasicToAdvanceCourse.methodsPractice;
 
 import java.util.Scanner;

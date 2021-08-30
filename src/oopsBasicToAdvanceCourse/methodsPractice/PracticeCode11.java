@@ -30,7 +30,6 @@ public class PracticeCode11 {
                     } else {
                         System.out.println("You entered invalid Roman number. "
                                 + "Please, try one more time.");
-                        continue;
                     }
                 }
             } else if (mode.equalsIgnoreCase("D2R")) {
@@ -43,7 +42,6 @@ public class PracticeCode11 {
                         break mainLoop;
                     } else {
                         System.out.println("Please, enter positive integer from 1 to 100.");
-                        continue;
                     }
 
                 }

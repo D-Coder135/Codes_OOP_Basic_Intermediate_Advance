@@ -79,6 +79,7 @@ public class PracticeCode11 {
      */
     public static String decimal2Roman(int number) {
         String[] roman = new String[]{"I", "IV", "V", "IX", "X", "XL", "L", "XC", "C"};
+        int[] decimal = new int[]{1, 4, 5, 9, 10, 40, 50, 90, 100};
     }
 
     /**

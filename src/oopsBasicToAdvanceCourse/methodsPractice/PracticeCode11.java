@@ -81,6 +81,9 @@ public class PracticeCode11 {
         String[] roman = new String[]{"I", "IV", "V", "IX", "X", "XL", "L", "XC", "C"};
         int[] decimal = new int[]{1, 4, 5, 9, 10, 40, 50, 90, 100};
         StringBuilder resultant = new StringBuilder();
+        for (int index = roman.length - 1; index >= 0; index--) {
+
+        }
     }
 
     /**

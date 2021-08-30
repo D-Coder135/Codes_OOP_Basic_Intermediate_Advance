@@ -87,6 +87,7 @@ public class PracticeCode11 {
                 number -= decimal[index];
             }
         }
+        return resultant.toString();
     }
 
     /**

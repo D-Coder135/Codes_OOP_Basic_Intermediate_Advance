@@ -84,6 +84,7 @@ public class PracticeCode11 {
         for (int index = roman.length - 1; index >= 0; index--) {
             while (number >= decimal[index]) {
                 resultant.append(roman[index]);
+                number -= decimal[index];
             }
         }
     }

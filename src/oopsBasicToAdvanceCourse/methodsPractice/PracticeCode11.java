@@ -118,6 +118,8 @@ public class PracticeCode11 {
     private static int processDecimal(int decimal, int lastNumber, int lastDecimal) {
         if (lastNumber > decimal) {
             return lastDecimal - decimal;
+        } else {
+
         }
     }
 

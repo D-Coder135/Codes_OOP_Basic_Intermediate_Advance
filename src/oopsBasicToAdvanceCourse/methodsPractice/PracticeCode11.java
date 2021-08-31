@@ -116,7 +116,8 @@ public class PracticeCode11 {
      * @return int value
      */
     private static int processDecimal(int decimal, int lastNumber, int lastDecimal) {
-
+        if (lastNumber > decimal) {
+        }
     }
 
 

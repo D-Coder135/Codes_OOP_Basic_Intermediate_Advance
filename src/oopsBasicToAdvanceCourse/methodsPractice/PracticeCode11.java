@@ -119,7 +119,7 @@ public class PracticeCode11 {
         if (lastNumber > decimal) {
             return lastDecimal - decimal;
         } else {
-
+            return lastDecimal + decimal;
         }
     }
 

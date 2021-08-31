@@ -169,6 +169,6 @@ public class PracticeCode11 {
     }
 
     public static boolean isDecimalNumberValid(int decimalNumber) {
-//		<write your code here>
+
     }
 }

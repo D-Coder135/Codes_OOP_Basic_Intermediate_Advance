@@ -109,7 +109,7 @@ public class PracticeCode11 {
         int decimal = 0, lastNumber = 0;
 
         for (int index = romanNumeral.length() - 1; index >= 0; index--) {
-
+            char characterOfRomanNumber = romanNumber.charAt(index);
         }
     }
 

@@ -117,7 +117,7 @@ public class PracticeCode11 {
                     lastNumber = 100;
                 }
                 case 'L' -> {
-
+                    decimal = processDecimal(50, lastNumber, decimal);
                 }
             }
         }

@@ -165,7 +165,7 @@ public class PracticeCode11 {
      * @return true if String is Roman number
      */
     public static boolean isRomanNumberValid(String romanNumber) {
-
+        return romanNumber.matches("^(?i)M{0,3}(D?C{0,3}|C[DM])(L?X{0,3}|X[LC])(V?I{0,3}|I[VX])$");
     }
 
     public static boolean isDecimalNumberValid(int decimalNumber) {

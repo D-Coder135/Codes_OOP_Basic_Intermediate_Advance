@@ -120,6 +120,9 @@ public class PracticeCode11 {
                     decimal = processDecimal(50, lastNumber, decimal);
                     lastNumber = 50;
                 }
+                case 'X' -> {
+
+                }
             }
         }
     }

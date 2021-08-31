@@ -128,6 +128,9 @@ public class PracticeCode11 {
                     decimal = processDecimal(5, lastNumber, decimal);
                     lastNumber = 5;
                 }
+                case 'I' -> {
+
+                }
             }
         }
     }

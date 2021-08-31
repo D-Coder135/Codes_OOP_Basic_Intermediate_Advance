@@ -114,6 +114,7 @@ public class PracticeCode11 {
             switch (characterOfRomanNumber) {
                 case 'C' -> {
                     decimal = processDecimal(100, lastNumber, decimal);
+                    lastNumber = 100;
                 }
             }
         }

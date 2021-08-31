@@ -129,7 +129,7 @@ public class PracticeCode11 {
                     lastNumber = 5;
                 }
                 case 'I' -> {
-
+                    decimal = processDecimal(1, lastNumber, decimal);
                 }
             }
         }

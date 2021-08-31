@@ -115,6 +115,9 @@ public class PracticeCode11 {
      * @param lastDecimal
      * @return int value
      */
+    private static int processDecimal() {
+        
+    }
 
 
     /**

@@ -105,6 +105,8 @@ public class PracticeCode11 {
 
     public static int roman2Decimal(String romanNumber) {
         String romanNumeral = romanNumber.toUpperCase();
+
+        int decimal = 0, lastNumber = 0;
     }
 
     /**

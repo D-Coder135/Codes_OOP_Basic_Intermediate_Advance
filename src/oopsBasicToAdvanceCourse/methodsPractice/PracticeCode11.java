@@ -106,6 +106,16 @@ public class PracticeCode11 {
 
     }
 
+    /**
+     * Utility method which is the part of algorithm that converts Roman numbers to
+     * decimal.
+     *
+     * @param decimal
+     * @param lastNumber
+     * @param lastDecimal
+     * @return int value
+     */
+
 
     /**
      * Validation for Roman numbers.

@@ -112,7 +112,9 @@ public class PracticeCode11 {
             char characterOfRomanNumber = romanNumber.charAt(index);
 
             switch (characterOfRomanNumber) {
+                case 'C' -> {
 
+                }
             }
         }
     }

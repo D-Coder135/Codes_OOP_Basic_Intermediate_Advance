@@ -23,6 +23,7 @@
 
 package oopsBasicToAdvanceCourse.methodsPractice;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class PracticeCode11 {
@@ -103,7 +104,7 @@ public class PracticeCode11 {
      */
 
     public static int roman2Decimal(String romanNumber) {
-
+        String romanNumeral = romanNumber.toUpperCase();
     }
 
     /**

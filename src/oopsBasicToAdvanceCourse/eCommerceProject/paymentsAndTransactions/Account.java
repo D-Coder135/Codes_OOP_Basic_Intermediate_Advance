@@ -15,18 +15,18 @@ public class Account {
         return transactions;
     }
 
-    public static class Transaction {
-        private Account accountFrom, accountTo;
-        private double moneyAmount;
-        private StandardAccountOperations operations;
-    }
-
     public void sendMoneyToAccount(Account accountTo, double moneyAmount) {
 
     }
 
     public void withdrawMoney(double moneyAmount) {
 
+    }
+
+    public static class Transaction {
+        private Account accountFrom, accountTo;
+        private double moneyAmount;
+        private StandardAccountOperations operations;
     }
 
 }

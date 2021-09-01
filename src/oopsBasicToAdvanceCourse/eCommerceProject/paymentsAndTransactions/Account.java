@@ -30,6 +30,8 @@ public class Account {
                 nonNullTransactionsAmount++;
             }
         }
+
+        Transaction[] filteredTransactions = new Transaction[nonNullTransactionsAmount];
     }
 
     public void sendMoneyToAccount(Account accountTo, double moneyAmount) {

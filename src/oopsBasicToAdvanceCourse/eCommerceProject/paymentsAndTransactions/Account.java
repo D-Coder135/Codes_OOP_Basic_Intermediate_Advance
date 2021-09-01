@@ -35,7 +35,7 @@ public class Account {
         int index = 0;
         for (Transaction transaction : transactions) {
             if (transaction != null) {
-
+                filteredTransactions[index++] = transaction;
             }
         }
     }

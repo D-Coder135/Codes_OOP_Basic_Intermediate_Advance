@@ -40,6 +40,7 @@ public class Account {
             return;
         }
         Transaction transaction = new Transaction(accountFrom, this, moneyAmount, StandardAccountOperations.MONEY_TRANSFER_RECEIVE);
+        addTransaction(transaction);
     }
 
     private void addTransaction(Transaction transaction) {

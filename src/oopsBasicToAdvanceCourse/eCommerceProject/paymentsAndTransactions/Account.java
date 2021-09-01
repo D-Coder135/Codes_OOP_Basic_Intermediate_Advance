@@ -34,6 +34,38 @@ public class Account {
             this.moneyAmount = moneyAmount;
             this.operations = operations;
         }
+
+        public Account getAccountFrom() {
+            return accountFrom;
+        }
+
+        public void setAccountFrom(Account accountFrom) {
+            this.accountFrom = accountFrom;
+        }
+
+        public Account getAccountTo() {
+            return accountTo;
+        }
+
+        public void setAccountTo(Account accountTo) {
+            this.accountTo = accountTo;
+        }
+
+        public double getMoneyAmount() {
+            return moneyAmount;
+        }
+
+        public void setMoneyAmount(double moneyAmount) {
+            this.moneyAmount = moneyAmount;
+        }
+
+        public StandardAccountOperations getOperations() {
+            return operations;
+        }
+
+        public void setOperations(StandardAccountOperations operations) {
+            this.operations = operations;
+        }
     }
 
 }

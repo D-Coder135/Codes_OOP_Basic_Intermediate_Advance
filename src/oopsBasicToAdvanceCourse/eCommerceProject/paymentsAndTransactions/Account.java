@@ -8,6 +8,6 @@
 package oopsBasicToAdvanceCourse.eCommerceProject.paymentsAndTransactions;
 
 public class Account {
-    int id;
+    private int id;
     Transaction[] transactions;
 }

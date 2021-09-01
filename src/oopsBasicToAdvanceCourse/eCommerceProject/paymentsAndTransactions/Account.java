@@ -24,4 +24,8 @@ public class Account {
     public void sendMoneyToAccount(Account accountTo, double moneyAmount) {
 
     }
+
+    public void withdrawMoney() {
+
+    }
 }

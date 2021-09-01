@@ -127,6 +127,11 @@ public class Account {
         public void setOperations(StandardAccountOperations operations) {
             this.operations = operations;
         }
+
+        @Override
+        public String toString() {
+            return super.toString();
+        }
     }
 
 }

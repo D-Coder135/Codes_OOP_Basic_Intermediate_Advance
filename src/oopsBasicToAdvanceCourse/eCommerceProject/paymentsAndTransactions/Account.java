@@ -27,6 +27,13 @@ public class Account {
         private Account accountFrom, accountTo;
         private double moneyAmount;
         private StandardAccountOperations operations;
+
+        public Transaction(Account accountFrom, Account accountTo, double moneyAmount, StandardAccountOperations operations) {
+            this.accountFrom = accountFrom;
+            this.accountTo = accountTo;
+            this.moneyAmount = moneyAmount;
+            this.operations = operations;
+        }
     }
 
 }

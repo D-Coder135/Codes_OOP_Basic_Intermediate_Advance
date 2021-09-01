@@ -9,5 +9,5 @@ package oopsBasicToAdvanceCourse.eCommerceProject.paymentsAndTransactions;
 
 public class Account {
     private int id;
-    Transaction[] transactions;
+    private Transaction[] transactions;
 }

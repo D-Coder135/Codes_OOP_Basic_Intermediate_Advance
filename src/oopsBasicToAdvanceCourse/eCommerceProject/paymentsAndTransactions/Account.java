@@ -89,11 +89,11 @@ public class Account {
         private double moneyAmount;
         private StandardAccountOperations operations;
 
-        public Transaction(Account accountFrom, Account accountTo, double moneyAmount, StandardAccountOperations operations) {
+        public Transaction(Account accountFrom, Account accountTo, double moneyAmount, StandardAccountOperations operation) {
             this.accountFrom = accountFrom;
             this.accountTo = accountTo;
             this.moneyAmount = moneyAmount;
-            this.operations = operations;
+            this.operations = operation;
         }
 
         public Account getAccountFrom() {

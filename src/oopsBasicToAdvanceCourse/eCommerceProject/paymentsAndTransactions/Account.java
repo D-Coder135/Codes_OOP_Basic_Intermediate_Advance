@@ -32,6 +32,10 @@ public class Account {
 
     }
 
+    private void recieveMoney() {
+        
+    }
+
     private void addTransaction(Transaction transaction) {
         if (transaction == null) {
             return;

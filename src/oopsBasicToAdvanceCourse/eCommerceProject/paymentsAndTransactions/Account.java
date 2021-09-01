@@ -120,11 +120,11 @@ public class Account {
             this.moneyAmount = moneyAmount;
         }
 
-        public StandardAccountOperations getOperations() {
+        public StandardAccountOperations getOperation() {
             return operations;
         }
 
-        public void setOperations(StandardAccountOperations operations) {
+        public void setOperation(StandardAccountOperations operations) {
             this.operations = operations;
         }
 

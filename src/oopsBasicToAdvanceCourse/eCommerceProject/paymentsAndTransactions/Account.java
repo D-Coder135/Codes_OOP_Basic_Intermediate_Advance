@@ -20,4 +20,8 @@ public class Account {
         private double moneyAmount;
         private StandardAccountOperations operations;
     }
+
+    public void sendMoneyToAccount() {
+
+    }
 }

@@ -35,6 +35,7 @@ public class Account {
         if (moneyAmount <= 0) {
             return;
         }
+        Transaction transaction = new Transaction(this, accountTo, moneyAmount, StandardAccountOperations.MONEY_TRANSFER_SEND);
     }
 
     private void recieveMoney(Account accountFrom, double moneyAmount) {

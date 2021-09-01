@@ -27,7 +27,7 @@ public class Account {
         int nonNullTransactionsAmount = 0;
         for (Transaction transaction : transactions) {
             if (transaction != null) {
-
+                nonNullTransactionsAmount++;
             }
         }
     }

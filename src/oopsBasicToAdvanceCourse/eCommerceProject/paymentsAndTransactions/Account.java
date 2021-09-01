@@ -37,7 +37,7 @@ public class Account {
             return;
         }
         if (moneyAmount <= 0) {
-
+            return;
         }
     }
 

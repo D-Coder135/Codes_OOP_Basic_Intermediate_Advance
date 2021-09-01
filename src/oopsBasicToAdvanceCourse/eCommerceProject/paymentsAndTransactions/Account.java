@@ -36,6 +36,7 @@ public class Account {
         }
         Transaction transaction = new Transaction(this, accountTo, moneyAmount, StandardAccountOperations.MONEY_TRANSFER_SEND);
         addTransaction(transaction);
+        accountTo.recieveMoney(this, moneyAmount);
     }
 
     private void recieveMoney(Account accountFrom, double moneyAmount) {

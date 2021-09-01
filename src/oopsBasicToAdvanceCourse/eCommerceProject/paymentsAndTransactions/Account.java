@@ -14,4 +14,8 @@ public class Account {
     public Transaction[] getTransactions() {
         return transactions;
     }
+
+    public static class Transaction {
+
+    }
 }

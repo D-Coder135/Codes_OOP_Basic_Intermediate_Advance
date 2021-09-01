@@ -10,6 +10,7 @@ package oopsBasicToAdvanceCourse.eCommerceProject.paymentsAndTransactions;
 public class Account {
     private int id;
     private Transaction[] transactions;
+    private int lastTransactionIndex;
 
     private static final int DEFAULT_TRANSACTIONS_AMOUNT = 10;
 

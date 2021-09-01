@@ -65,6 +65,11 @@ public class Account {
         addTransaction(transaction);
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
     public static class Transaction {
         private Account accountFrom, accountTo;
         private double moneyAmount;

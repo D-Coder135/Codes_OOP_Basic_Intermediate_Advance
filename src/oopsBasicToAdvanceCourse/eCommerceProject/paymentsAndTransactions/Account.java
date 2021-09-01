@@ -29,7 +29,7 @@ public class Account {
 
     }
 
-    private void addTransaction() {
+    private void addTransaction(Transaction transaction) {
 
     }
 

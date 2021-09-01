@@ -32,8 +32,8 @@ public class Account {
 
     }
 
-    private void recieveMoney() {
-        
+    private void recieveMoney(Account accountFrom, double moneyAmount) {
+
     }
 
     private void addTransaction(Transaction transaction) {

@@ -7,6 +7,8 @@
 
 package oopsBasicToAdvanceCourse.eCommerceProject.paymentsAndTransactions;
 
+import java.util.Arrays;
+
 public class Account {
     private int id;
     private Transaction[] transactions;
@@ -35,7 +37,7 @@ public class Account {
             return;
         }
         if (transactions.length <= lastTransactionIndex) {
-
+            transactions = Arrays.copyOf(transactions, transactions.length << 1);
         }
     }
 

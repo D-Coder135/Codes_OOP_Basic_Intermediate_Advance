@@ -67,7 +67,7 @@ public class Account {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Account ID: " + this.id;
     }
 
     public static class Transaction {

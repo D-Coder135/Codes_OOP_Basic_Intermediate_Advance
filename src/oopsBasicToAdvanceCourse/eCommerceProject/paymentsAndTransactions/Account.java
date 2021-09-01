@@ -18,5 +18,6 @@ public class Account {
     public static class Transaction {
         private Account accountFrom, accountTo;
         private double moneyAmount;
+        private StandardAccountOperations operations;
     }
 }

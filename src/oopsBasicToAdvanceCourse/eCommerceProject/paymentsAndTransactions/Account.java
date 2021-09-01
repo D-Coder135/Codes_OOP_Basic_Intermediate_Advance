@@ -10,4 +10,8 @@ package oopsBasicToAdvanceCourse.eCommerceProject.paymentsAndTransactions;
 public class Account {
     private int id;
     private Transaction[] transactions;
+
+    public Transaction[] getTransactions() {
+        return transactions;
+    }
 }

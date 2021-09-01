@@ -30,7 +30,9 @@ public class Account {
     }
 
     private void addTransaction(Transaction transaction) {
+        if (transaction == null) {
 
+        }
     }
 
     public void withdrawMoney(double moneyAmount) {

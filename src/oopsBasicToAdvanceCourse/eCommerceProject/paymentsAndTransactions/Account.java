@@ -25,6 +25,9 @@ public class Account {
 
     public Transaction[] getTransactions() {
         int nonNullTransactionsAmount = 0;
+        for (Transaction transaction : transactions) {
+
+        }
     }
 
     public void sendMoneyToAccount(Account accountTo, double moneyAmount) {

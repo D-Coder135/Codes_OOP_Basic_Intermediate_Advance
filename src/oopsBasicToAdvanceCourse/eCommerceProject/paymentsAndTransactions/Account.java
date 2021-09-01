@@ -39,6 +39,7 @@ public class Account {
         if (moneyAmount <= 0) {
             return;
         }
+        Transaction transaction = new Transaction(accountFrom, this, moneyAmount, StandardAccountOperations.MONEY_TRANSFER_RECEIVE);
     }
 
     private void addTransaction(Transaction transaction) {

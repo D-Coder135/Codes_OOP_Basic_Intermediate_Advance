@@ -24,7 +24,7 @@ public class Account {
     }
 
     public Transaction[] getTransactions() {
-        return transactions;
+
     }
 
     public void sendMoneyToAccount(Account accountTo, double moneyAmount) {

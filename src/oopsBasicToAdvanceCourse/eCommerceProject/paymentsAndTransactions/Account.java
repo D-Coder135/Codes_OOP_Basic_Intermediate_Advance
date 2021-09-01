@@ -62,6 +62,7 @@ public class Account {
 
     public void withdrawMoney(double moneyAmount) {
         Transaction transaction = new Transaction(this, null, moneyAmount, StandardAccountOperations.WITHDRAW);
+        addTransaction(transaction);
     }
 
     public static class Transaction {

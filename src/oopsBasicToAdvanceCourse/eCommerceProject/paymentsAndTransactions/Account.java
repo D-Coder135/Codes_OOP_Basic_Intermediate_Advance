@@ -31,7 +31,7 @@ public class Account {
 
     private void addTransaction(Transaction transaction) {
         if (transaction == null) {
-
+            return;
         }
     }
 

@@ -30,7 +30,7 @@ public class Account {
 
     public void sendMoneyToAccount(Account accountTo, double moneyAmount) {
         if (accountTo == null) {
-
+            return;
         }
     }
 

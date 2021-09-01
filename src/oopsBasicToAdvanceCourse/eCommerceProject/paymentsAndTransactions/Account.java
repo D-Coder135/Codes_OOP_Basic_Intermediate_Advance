@@ -36,10 +36,10 @@ public class Account {
         }
         Transaction transaction = new Transaction(this, accountTo, moneyAmount, StandardAccountOperations.MONEY_TRANSFER_SEND);
         addTransaction(transaction);
-        accountTo.recieveMoney(this, moneyAmount);
+        accountTo.receiveMoney(this, moneyAmount);
     }
 
-    private void recieveMoney(Account accountFrom, double moneyAmount) {
+    private void receiveMoney(Account accountFrom, double moneyAmount) {
         if (accountFrom == null) {
             return;
         }

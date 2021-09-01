@@ -34,6 +34,9 @@ public class Account {
         if (transaction == null) {
             return;
         }
+        if (transactions.length <= lastTransactionIndex) {
+
+        }
     }
 
     public void withdrawMoney(double moneyAmount) {

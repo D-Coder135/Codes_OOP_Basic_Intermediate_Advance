@@ -36,6 +36,9 @@ public class Account {
         if (accountFrom == null) {
             return;
         }
+        if (moneyAmount <= 0) {
+
+        }
     }
 
     private void addTransaction(Transaction transaction) {

@@ -25,7 +25,7 @@ public class Account {
 
     }
 
-    public void withdrawMoney() {
+    public void withdrawMoney(double moneyAmount) {
 
     }
 }

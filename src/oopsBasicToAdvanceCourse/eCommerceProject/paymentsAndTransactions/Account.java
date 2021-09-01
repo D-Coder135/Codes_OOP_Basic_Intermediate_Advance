@@ -34,7 +34,7 @@ public class Account {
 
     private void recieveMoney(Account accountFrom, double moneyAmount) {
         if (accountFrom == null) {
-
+            return;
         }
     }
 

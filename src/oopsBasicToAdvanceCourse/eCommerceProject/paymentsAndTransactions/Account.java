@@ -32,6 +32,9 @@ public class Account {
         if (accountTo == null) {
             return;
         }
+        if (moneyAmount <= 0) {
+
+        }
     }
 
     private void recieveMoney(Account accountFrom, double moneyAmount) {

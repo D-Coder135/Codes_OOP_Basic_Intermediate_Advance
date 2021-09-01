@@ -10,11 +10,10 @@ package oopsBasicToAdvanceCourse.eCommerceProject.paymentsAndTransactions;
 import java.util.Arrays;
 
 public class Account {
+    private static final int DEFAULT_TRANSACTIONS_AMOUNT = 10;
     private int id;
     private Transaction[] transactions;
     private int lastTransactionIndex;
-
-    private static final int DEFAULT_TRANSACTIONS_AMOUNT = 10;
 
     {
         transactions = new Transaction[DEFAULT_TRANSACTIONS_AMOUNT];
@@ -36,6 +35,7 @@ public class Account {
             return;
         }
         Transaction transaction = new Transaction(this, accountTo, moneyAmount, StandardAccountOperations.MONEY_TRANSFER_SEND);
+        addTransaction(transaction);
     }
 
     private void recieveMoney(Account accountFrom, double moneyAmount) {

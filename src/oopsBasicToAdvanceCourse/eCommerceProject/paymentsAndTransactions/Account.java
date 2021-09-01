@@ -11,6 +11,8 @@ public class Account {
     private int id;
     private Transaction[] transactions;
 
+    private static final int DEFAULT_TRANSACTIONS_AMOUNT = 10;
+
     public Account(int id) {
         this.id = id;
     }

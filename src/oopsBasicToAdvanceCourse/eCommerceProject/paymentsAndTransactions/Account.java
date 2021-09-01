@@ -33,7 +33,9 @@ public class Account {
     }
 
     private void recieveMoney(Account accountFrom, double moneyAmount) {
+        if (accountFrom == null) {
 
+        }
     }
 
     private void addTransaction(Transaction transaction) {

@@ -32,6 +32,7 @@ public class Account {
         }
 
         Transaction[] filteredTransactions = new Transaction[nonNullTransactionsAmount];
+        int index = 0;
     }
 
     public void sendMoneyToAccount(Account accountTo, double moneyAmount) {

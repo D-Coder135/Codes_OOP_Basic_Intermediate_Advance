@@ -11,6 +11,10 @@ public class Account {
     private int id;
     private Transaction[] transactions;
 
+    public Account(int id) {
+        this.id = id;
+    }
+
     public Transaction[] getTransactions() {
         return transactions;
     }

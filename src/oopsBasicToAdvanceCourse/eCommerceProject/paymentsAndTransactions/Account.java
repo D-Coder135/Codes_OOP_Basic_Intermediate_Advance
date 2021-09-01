@@ -21,7 +21,7 @@ public class Account {
         private StandardAccountOperations operations;
     }
 
-    public void sendMoneyToAccount() {
+    public void sendMoneyToAccount(Account accountTo, double moneyAmount) {
 
     }
 }

@@ -38,6 +38,7 @@ public class Account {
                 filteredTransactions[index++] = transaction;
             }
         }
+        return filteredTransactions;
     }
 
     public void sendMoneyToAccount(Account accountTo, double moneyAmount) {

@@ -39,6 +39,7 @@ public class Account {
         if (transactions.length <= lastTransactionIndex) {
             transactions = Arrays.copyOf(transactions, transactions.length << 1);
         }
+        transactions[lastTransactionIndex++] = transaction;
     }
 
     public void withdrawMoney(double moneyAmount) {

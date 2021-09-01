@@ -130,7 +130,7 @@ public class Account {
 
         @Override
         public String toString() {
-            return super.toString();
+            return "Transaction [accountFrom = " + accountFrom + ", accountTo = " + accountTo + ", moneyAmount = " + moneyAmount + ", operation = " + operations + "]";
         }
     }
 

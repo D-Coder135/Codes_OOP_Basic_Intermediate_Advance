@@ -10,6 +10,7 @@ package oopsBasicToAdvanceCourse.eCommerceProject.booksManagement;
 import java.math.BigDecimal;
 
 public class Book {
+    private static final int DEFAULT_NUMBER_OF_BOOKS = 10;
     private int id, amountOfPages;
     private String name;
     private Author[] authors;

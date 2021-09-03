@@ -26,4 +26,7 @@ public class Book {
         this.price = price;
         this.coverType = coverType;
     }
+
+    public Book() {
+    }
 }

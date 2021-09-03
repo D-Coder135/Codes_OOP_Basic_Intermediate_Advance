@@ -33,4 +33,12 @@ public class Publisher {
     public int hashCode() {
         return Objects.hash(id, publisherName);
     }
+
+    @Override
+    public String toString() {
+        return "Publisher{" +
+                "id=" + id +
+                ", publisherName='" + publisherName + '\'' +
+                '}';
+    }
 }

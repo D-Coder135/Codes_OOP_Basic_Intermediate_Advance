@@ -22,7 +22,7 @@ public class Book {
     private CoverType coverType;
 
 
-    public Book(int id, int amountOfPages, int publishingYear, String name, Author[] authors, Publisher publisher, BigDecimal price, CoverType coverType) {
+    public Book(int id, String name, Author[] authors, Publisher publisher, int publishingYear, int amountOfPages, BigDecimal price, CoverType coverType) {
         this.id = id;
         this.name = name;
         this.authors = authors;

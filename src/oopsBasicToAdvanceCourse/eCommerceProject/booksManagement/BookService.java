@@ -10,7 +10,9 @@ package oopsBasicToAdvanceCourse.eCommerceProject.booksManagement;
 public class BookService {
 
     public Book[] filterBooksByAuthor(Author author, Book[] books) {
+        if (author == null || books == null) {
 
+        }
     }
 
     public Book[] filterBookByPublisher(Publisher publisher, Book[] books) {

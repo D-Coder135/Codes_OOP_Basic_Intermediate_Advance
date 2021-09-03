@@ -9,5 +9,5 @@ package oopsBasicToAdvanceCourse.eCommerceProject.booksManagement;
 
 public class Author {
     private int id;
-    private String firstName;
+    private String firstName, lastName;
 }

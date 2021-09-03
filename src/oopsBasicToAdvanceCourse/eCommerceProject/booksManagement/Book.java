@@ -127,7 +127,7 @@ public class Book {
                 '}';
     }
 
-    public boolean hasAuthor(Author author) {
+    public boolean hasAuthor(Author authorCriteria) {
 
     }
 }

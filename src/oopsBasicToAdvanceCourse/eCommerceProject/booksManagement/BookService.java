@@ -41,6 +41,8 @@ public class BookService {
             }
         }
 
+        Book[] filteredBooks = new Book[matchBooksAmount];
+
     }
 
     public Book[] filterBooksAfterSpecifiedYear(int yearFromInclusively, Book[] books) {

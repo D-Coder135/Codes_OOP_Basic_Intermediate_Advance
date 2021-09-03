@@ -19,7 +19,7 @@ public class Book {
     private CoverType coverType;
 
     {
-
+        authors = new Author[DEFAULT_NUMBER_OF_AUTHORS];
     }
 
     public Book(int id, int amountOfPages, String name, Author[] authors, Publisher publisher, BigDecimal price, CoverType coverType) {

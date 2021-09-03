@@ -9,6 +9,8 @@ package oopsBasicToAdvanceCourse.eCommerceProject.booksManagement;
 
 public class Demo {
     public static void main(String[] args) {
+        Book[] books = new Book[]{
 
+        };
     }
 }

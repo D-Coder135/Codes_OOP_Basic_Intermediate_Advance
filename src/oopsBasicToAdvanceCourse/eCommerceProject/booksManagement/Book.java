@@ -8,7 +8,7 @@
 package oopsBasicToAdvanceCourse.eCommerceProject.booksManagement;
 
 public class Book {
-    private int id;
+    private int id, amountOfPages;
     private String name;
     private Author[] authors;
     private Publisher publisher;

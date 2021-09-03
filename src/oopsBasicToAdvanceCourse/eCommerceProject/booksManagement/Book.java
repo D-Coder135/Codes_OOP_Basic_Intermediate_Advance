@@ -10,7 +10,7 @@ package oopsBasicToAdvanceCourse.eCommerceProject.booksManagement;
 import java.math.BigDecimal;
 
 public class Book {
-    private int id, amountOfPages;
+    private int id, amountOfPages, publishingYear;
     private String name;
     private Author[] authors;
     private Publisher publisher;

@@ -16,7 +16,7 @@ public class BookService {
         int matchBooksAmount = 0;
         for (Book book : books) {
             if (book.hasAuthor(author)) {
-
+                matchBooksAmount++;
             }
         }
     }

@@ -35,6 +35,9 @@ public class BookService {
             return new Book[0];
         }
         int matchBooksAmount = 0;
+        for (Book book : books) {
+
+        }
 
     }
 

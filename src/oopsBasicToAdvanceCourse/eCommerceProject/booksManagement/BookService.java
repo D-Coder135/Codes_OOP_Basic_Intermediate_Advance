@@ -45,7 +45,7 @@ public class BookService {
         int index = 0;
         for (Book book : books) {
             if (book.getPublisher().equals(publisher)) {
-
+                filteredBooks[index++] = book;
             }
         }
 

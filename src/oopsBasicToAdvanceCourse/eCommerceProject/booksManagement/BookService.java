@@ -71,5 +71,6 @@ public class BookService {
                 filteredBooks[index++] = book;
             }
         }
+        return filteredBooks;
     }
 }

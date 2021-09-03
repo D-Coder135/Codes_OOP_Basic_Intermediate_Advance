@@ -11,7 +11,7 @@ public class BookService {
 
     public Book[] filterBooksByAuthor(Author author, Book[] books) {
         if (author == null || books == null) {
-
+            return new Book[0];
         }
     }
 

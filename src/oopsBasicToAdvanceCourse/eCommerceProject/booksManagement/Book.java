@@ -23,9 +23,10 @@ public class Book {
     public Book(int id, int amountOfPages, int publishingYear, String name, Author[] authors, Publisher publisher, BigDecimal price, CoverType coverType) {
         this.id = id;
         this.amountOfPages = amountOfPages;
-        this.name = name;
-        this.publisher = publisher;
         this.publishingYear = publishingYear;
+        this.name = name;
+        this.authors = authors;
+        this.publisher = publisher;
         this.price = price;
         this.coverType = coverType;
     }

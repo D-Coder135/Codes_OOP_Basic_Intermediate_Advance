@@ -12,21 +12,23 @@ import java.util.Arrays;
 import java.util.Objects;
 
 public class Book {
-    private int id, amountOfPages, publishingYear;
+    private int id;
     private String name;
     private Author[] authors;
     private Publisher publisher;
+    private int publishingYear;
+    private int amountOfPages;
     private BigDecimal price;
     private CoverType coverType;
 
 
     public Book(int id, int amountOfPages, int publishingYear, String name, Author[] authors, Publisher publisher, BigDecimal price, CoverType coverType) {
         this.id = id;
-        this.amountOfPages = amountOfPages;
-        this.publishingYear = publishingYear;
         this.name = name;
         this.authors = authors;
         this.publisher = publisher;
+        this.publishingYear = publishingYear;
+        this.amountOfPages = amountOfPages;
         this.price = price;
         this.coverType = coverType;
     }

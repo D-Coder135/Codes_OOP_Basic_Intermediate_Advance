@@ -56,5 +56,6 @@ public class BookService {
         if (books == null) {
             return new Book[0];
         }
+        int matchBooksAmount = 0;
     }
 }

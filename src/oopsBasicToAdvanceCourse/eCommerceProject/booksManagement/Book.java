@@ -126,4 +126,8 @@ public class Book {
                 ", coverType=" + coverType +
                 '}';
     }
+
+    public boolean hasAuthor() {
+
+    }
 }

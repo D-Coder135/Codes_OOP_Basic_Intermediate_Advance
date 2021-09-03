@@ -15,4 +15,7 @@ public class Publisher {
         this.id = id;
         this.publisherName = publisherName;
     }
+
+    public Publisher() {
+    }
 }

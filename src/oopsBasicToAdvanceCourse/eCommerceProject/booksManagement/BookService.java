@@ -19,6 +19,8 @@ public class BookService {
                 matchBooksAmount++;
             }
         }
+
+        Book[] filteredBooks = new Book[matchBooksAmount];
     }
 
     public Book[] filterBookByPublisher(Publisher publisher, Book[] books) {

@@ -21,6 +21,7 @@ public class BookService {
         }
 
         Book[] filteredBooks = new Book[matchBooksAmount];
+        int index = 0;
     }
 
     public Book[] filterBookByPublisher(Publisher publisher, Book[] books) {

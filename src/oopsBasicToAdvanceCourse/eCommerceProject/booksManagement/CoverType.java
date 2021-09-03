@@ -1,5 +1,5 @@
 package oopsBasicToAdvanceCourse.eCommerceProject.booksManagement;
 
 public enum CoverType {
-    PAPERBACK;
+    PAPERBACK, HARDCOVER;
 }

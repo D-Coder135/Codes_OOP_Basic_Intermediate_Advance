@@ -8,4 +8,5 @@
 package oopsBasicToAdvanceCourse.eCommerceProject.booksManagement;
 
 public class Author {
+    private int id;
 }

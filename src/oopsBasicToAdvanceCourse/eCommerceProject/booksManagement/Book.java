@@ -15,4 +15,5 @@ public class Book {
     private Author[] authors;
     private Publisher publisher;
     private BigDecimal price;
+    private CoverType coverType;
 }

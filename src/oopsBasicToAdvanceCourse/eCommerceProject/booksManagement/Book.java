@@ -8,6 +8,8 @@
 package oopsBasicToAdvanceCourse.eCommerceProject.booksManagement;
 
 import java.math.BigDecimal;
+import java.util.Arrays;
+import java.util.Objects;
 
 public class Book {
     private int id, amountOfPages, publishingYear;
@@ -28,15 +30,15 @@ public class Book {
         this.coverType = coverType;
     }
 
+    public Book() {
+    }
+
     public int getPublishingYear() {
         return publishingYear;
     }
 
     public void setPublishingYear(int publishingYear) {
         this.publishingYear = publishingYear;
-    }
-
-    public Book() {
     }
 
     public int getId() {
@@ -93,5 +95,20 @@ public class Book {
 
     public void setCoverType(CoverType coverType) {
         this.coverType = coverType;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Book book = (Book) o;
+        return id == book.id && amountOfPages == book.amountOfPages && publishingYear == book.publishingYear && Objects.equals(name, book.name) && Arrays.equals(authors, book.authors) && Objects.equals(publisher, book.publisher) && Objects.equals(price, book.price) && Objects.equals(coverType, book.coverType);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(id, amountOfPages, publishingYear, name, publisher, price, coverType);
+        result = 31 * result + Arrays.hashCode(authors);
+        return result;
     }
 }

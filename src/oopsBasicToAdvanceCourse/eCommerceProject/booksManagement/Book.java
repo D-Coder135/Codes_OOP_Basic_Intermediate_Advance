@@ -28,6 +28,14 @@ public class Book {
         this.coverType = coverType;
     }
 
+    public int getPublishingYear() {
+        return publishingYear;
+    }
+
+    public void setPublishingYear(int publishingYear) {
+        this.publishingYear = publishingYear;
+    }
+
     public Book() {
     }
 

@@ -37,7 +37,7 @@ public class BookService {
         int matchBooksAmount = 0;
         for (Book book : books) {
             if (book.getPublisher().equals(publisher)) {
-
+                matchBooksAmount++;
             }
         }
 

@@ -23,7 +23,7 @@ public class Demo {
 
         System.out.println(Arrays.toString(bookService.filterBooksByAuthor(new Author(3, "Walter", "Peterson"), books)));
 
-        System.out.println(Arrays.toString(bookService.filterBookByPublisher(new Publisher(2, "Publisher_2"), books)));
+        System.out.println(Arrays.toString(bookService.filterBooksByPublisher(new Publisher(2, "Publisher_2"), books)));
 
         System.out.println(Arrays.toString(bookService.filterBooksAfterSpecifiedYear(1997, books)));
     }

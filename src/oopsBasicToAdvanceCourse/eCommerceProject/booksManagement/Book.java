@@ -130,7 +130,7 @@ public class Book {
     public boolean hasAuthor(Author authorCriteria) {
         for (Author author : authors) {
             if (author.equals(authorCriteria)) {
-
+                return true;
             }
         }
     }

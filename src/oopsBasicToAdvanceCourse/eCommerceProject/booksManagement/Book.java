@@ -10,13 +10,17 @@ package oopsBasicToAdvanceCourse.eCommerceProject.booksManagement;
 import java.math.BigDecimal;
 
 public class Book {
-    private static final int DEFAULT_NUMBER_OF_BOOKS = 10;
+    private static final int DEFAULT_NUMBER_OF_AUTHORS = 10;
     private int id, amountOfPages;
     private String name;
     private Author[] authors;
     private Publisher publisher;
     private BigDecimal price;
     private CoverType coverType;
+
+    {
+
+    }
 
     public Book(int id, int amountOfPages, String name, Author[] authors, Publisher publisher, BigDecimal price, CoverType coverType) {
         this.id = id;

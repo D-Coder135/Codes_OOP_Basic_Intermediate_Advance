@@ -24,7 +24,7 @@ public class BookService {
         int index = 0;
         for (Book book : books) {
             if (book.hasAuthor(author)) {
-
+                filteredBooks[index++] = book;
             }
         }
     }

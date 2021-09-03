@@ -62,5 +62,7 @@ public class BookService {
                 matchBooksAmount++;
             }
         }
+
+        Book[] filteredBooks = new Book[matchBooksAmount];
     }
 }

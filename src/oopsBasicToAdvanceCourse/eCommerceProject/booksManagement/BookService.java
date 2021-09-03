@@ -64,5 +64,6 @@ public class BookService {
         }
 
         Book[] filteredBooks = new Book[matchBooksAmount];
+        int index = 0;
     }
 }

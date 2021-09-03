@@ -9,4 +9,5 @@ package oopsBasicToAdvanceCourse.eCommerceProject.booksManagement;
 
 public class Publisher {
     private int id;
+    private String publisherName;
 }

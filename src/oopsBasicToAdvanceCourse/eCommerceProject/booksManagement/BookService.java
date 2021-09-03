@@ -65,5 +65,9 @@ public class BookService {
 
         Book[] filteredBooks = new Book[matchBooksAmount];
         int index = 0;
+
+        for (Book book : books) {
+
+        }
     }
 }

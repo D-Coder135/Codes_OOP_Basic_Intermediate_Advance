@@ -32,7 +32,7 @@ public class BookService {
 
     public Book[] filterBookByPublisher(Publisher publisher, Book[] books) {
         if (publisher == null || books == null) {
-
+            return new Book[0];
         }
 
     }

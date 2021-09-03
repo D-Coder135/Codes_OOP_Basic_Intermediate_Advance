@@ -27,6 +27,7 @@ public class BookService {
                 filteredBooks[index++] = book;
             }
         }
+        return filteredBooks;
     }
 
     public Book[] filterBookByPublisher(Publisher publisher, Book[] books) {

@@ -8,4 +8,8 @@
 package oopsBasicToAdvanceCourse.eCommerceProject.booksManagement;
 
 public class BookService {
+
+    public Book[] filterBooksByAuthor() {
+
+    }
 }

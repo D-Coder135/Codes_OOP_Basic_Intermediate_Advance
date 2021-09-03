@@ -16,4 +16,14 @@ public class Book {
     private Publisher publisher;
     private BigDecimal price;
     private CoverType coverType;
+
+    public Book(int id, int amountOfPages, String name, Author[] authors, Publisher publisher, BigDecimal price, CoverType coverType) {
+        this.id = id;
+        this.amountOfPages = amountOfPages;
+        this.name = name;
+        this.authors = authors;
+        this.publisher = publisher;
+        this.price = price;
+        this.coverType = coverType;
+    }
 }

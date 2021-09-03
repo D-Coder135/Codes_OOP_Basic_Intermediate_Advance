@@ -34,6 +34,7 @@ public class BookService {
         if (publisher == null || books == null) {
             return new Book[0];
         }
+        int matchBooksAmount = 0;
 
     }
 

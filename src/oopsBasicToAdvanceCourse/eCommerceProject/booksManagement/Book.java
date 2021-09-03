@@ -26,7 +26,6 @@ public class Book {
         this.id = id;
         this.amountOfPages = amountOfPages;
         this.name = name;
-        this.authors = authors;
         this.publisher = publisher;
         this.price = price;
         this.coverType = coverType;

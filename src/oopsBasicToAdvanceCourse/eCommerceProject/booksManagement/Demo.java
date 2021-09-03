@@ -8,6 +8,7 @@
 package oopsBasicToAdvanceCourse.eCommerceProject.booksManagement;
 
 import java.math.BigDecimal;
+import java.util.Arrays;
 
 public class Demo {
     public static void main(String[] args) {
@@ -19,5 +20,7 @@ public class Demo {
         };
 
         BookService bookService = new BookService();
+
+        System.out.println(Arrays.toString(bookService.filterBooksByAuthor(new Author(3, "Walter", "Peterson"), books)));
     }
 }

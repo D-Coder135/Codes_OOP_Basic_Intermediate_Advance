@@ -43,7 +43,8 @@ public class BookService {
 
         Book[] filteredBooks = new Book[matchBooksAmount];
         for (Book book : books) {
-            
+            if (book.getPublisher().equals(publisher)) {
+            }
         }
 
     }

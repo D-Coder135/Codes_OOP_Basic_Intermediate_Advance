@@ -13,6 +13,7 @@ public class BookService {
         if (author == null || books == null) {
             return new Book[0];
         }
+        int matchBooksAmount = 0;
     }
 
     public Book[] filterBookByPublisher(Publisher publisher, Book[] books) {

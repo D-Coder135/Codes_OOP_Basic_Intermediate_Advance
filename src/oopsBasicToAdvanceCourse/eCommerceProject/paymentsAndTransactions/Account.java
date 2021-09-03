@@ -133,5 +133,4 @@ public class Account {
             return "Transaction [accountFrom = " + accountFrom + ", accountTo = " + accountTo + ", moneyAmount = " + moneyAmount + ", operation = " + operations + "]";
         }
     }
-
 }

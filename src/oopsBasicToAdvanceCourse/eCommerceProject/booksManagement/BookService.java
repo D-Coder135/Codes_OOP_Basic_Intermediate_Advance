@@ -12,4 +12,8 @@ public class BookService {
     public Book[] filterBooksByAuthor(Author author, Book[] books) {
 
     }
+
+    public Book[] filterBookByPublisher() {
+
+    }
 }

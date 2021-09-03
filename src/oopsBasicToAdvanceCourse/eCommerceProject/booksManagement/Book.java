@@ -18,7 +18,7 @@ public class Book {
     private CoverType coverType;
 
 
-    public Book(int id, int amountOfPages, String name, Author[] authors, Publisher publisher, BigDecimal price, CoverType coverType) {
+    public Book(int id, int amountOfPages, int publishingYear, String name, Author[] authors, Publisher publisher, BigDecimal price, CoverType coverType) {
         this.id = id;
         this.amountOfPages = amountOfPages;
         this.name = name;

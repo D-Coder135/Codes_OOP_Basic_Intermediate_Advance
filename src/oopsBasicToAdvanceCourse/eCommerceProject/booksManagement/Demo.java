@@ -22,5 +22,7 @@ public class Demo {
         BookService bookService = new BookService();
 
         System.out.println(Arrays.toString(bookService.filterBooksByAuthor(new Author(3, "Walter", "Peterson"), books)));
+
+        System.out.println(Arrays.toString(bookService.filterBookByPublisher(new Publisher(2, "Publisher_2"), books)));
     }
 }

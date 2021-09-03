@@ -54,7 +54,7 @@ public class BookService {
 
     public Book[] filterBooksAfterSpecifiedYear(int yearFromInclusively, Book[] books) {
         if (books == null) {
-
+            return new Book[0];
         }
     }
 }

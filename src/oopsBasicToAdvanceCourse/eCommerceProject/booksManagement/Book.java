@@ -10,7 +10,6 @@ package oopsBasicToAdvanceCourse.eCommerceProject.booksManagement;
 import java.math.BigDecimal;
 
 public class Book {
-    private static final int DEFAULT_NUMBER_OF_AUTHORS = 10;
     private int id, amountOfPages;
     private String name;
     private Author[] authors;
@@ -18,9 +17,6 @@ public class Book {
     private BigDecimal price;
     private CoverType coverType;
 
-    {
-        authors = new Author[DEFAULT_NUMBER_OF_AUTHORS];
-    }
 
     public Book(int id, int amountOfPages, String name, Author[] authors, Publisher publisher, BigDecimal price, CoverType coverType) {
         this.id = id;

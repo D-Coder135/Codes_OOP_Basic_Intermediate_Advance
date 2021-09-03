@@ -16,4 +16,7 @@ public class Author {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+
+    public Author() {
+    }
 }

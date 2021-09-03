@@ -17,7 +17,7 @@ public class BookService {
 
     }
 
-    public Book[] filterBooksAfterSpecifiedYear() {
+    public Book[] filterBooksAfterSpecifiedYear(int yearFromInclusively, Book[] books) {
 
     }
 }

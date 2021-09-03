@@ -68,7 +68,7 @@ public class BookService {
 
         for (Book book : books) {
             if (book.getPublishingYear() >= yearFromInclusively) {
-
+                filteredBooks[index++] = book;
             }
         }
     }

@@ -13,7 +13,7 @@ public class BookService {
 
     }
 
-    public Book[] filterBookByPublisher() {
+    public Book[] filterBookByPublisher(Publisher publisher, Book[] books) {
 
     }
 }

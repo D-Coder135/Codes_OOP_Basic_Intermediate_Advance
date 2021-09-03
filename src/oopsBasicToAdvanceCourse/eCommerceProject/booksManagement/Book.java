@@ -111,4 +111,18 @@ public class Book {
         result = 31 * result + Arrays.hashCode(authors);
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", amountOfPages=" + amountOfPages +
+                ", publishingYear=" + publishingYear +
+                ", name='" + name + '\'' +
+                ", authors=" + Arrays.toString(authors) +
+                ", publisher=" + publisher +
+                ", price=" + price +
+                ", coverType=" + coverType +
+                '}';
+    }
 }

@@ -10,7 +10,7 @@ public class I_Reverse {
 
         for (int i = 1; i <= testCases; i++) {
             int size = scanner.nextInt();
-            int array[] = new int[size];
+            int[] array = new int[size];
             for (int j = 0; j < size; j++) {
                 array[j] = scanner.nextInt();
             }

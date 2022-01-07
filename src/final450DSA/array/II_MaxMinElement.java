@@ -9,4 +9,8 @@ public class II_MaxMinElement {
             this.second = second;
         }
     }
+
+    static Pair getMinMax(long[] a, long n) {
+
+    }
 }

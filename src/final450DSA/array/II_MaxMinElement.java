@@ -14,5 +14,7 @@ public class II_MaxMinElement {
 
     static Pair getMinMax(long[] a, long n) {
         Arrays.sort(a);
+        long min = a[0];
+
     }
 }

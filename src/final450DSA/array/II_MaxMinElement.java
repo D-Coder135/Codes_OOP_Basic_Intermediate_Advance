@@ -1,5 +1,7 @@
 package final450DSA.array;
 
+import java.util.Arrays;
+
 public class II_MaxMinElement {
     static class Pair {
         long first, second;
@@ -11,6 +13,6 @@ public class II_MaxMinElement {
     }
 
     static Pair getMinMax(long[] a, long n) {
-
+        Arrays.sort(a);
     }
 }

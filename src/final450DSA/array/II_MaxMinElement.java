@@ -16,5 +16,6 @@ public class II_MaxMinElement {
         Arrays.sort(a);
         long min = a[0];
         long max = a[(int) (n - 1)];
+        return (new Pair(min, max));
     }
 }

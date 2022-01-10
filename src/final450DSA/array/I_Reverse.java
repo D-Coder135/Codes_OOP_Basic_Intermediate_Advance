@@ -1,3 +1,14 @@
+/**
+ * Given an array A of size N, print the reverse of it.
+ * <p>
+ * Input:
+ * First line contains an integer denoting the test cases 'T'. T testcases follow. Each testcase contains two lines of
+ * input. First line contains N the size of the array A. The second line contains the elements of the array.
+ * <p>
+ * Output:
+ * For each testcase, in a new line, print the array in reverse order.
+ */
+
 package final450DSA.array;
 
 import java.util.Scanner;

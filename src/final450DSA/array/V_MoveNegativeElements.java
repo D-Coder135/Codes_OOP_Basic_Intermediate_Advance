@@ -18,8 +18,8 @@ public class V_MoveNegativeElements {
         }
         index = n - list.size();
 
-        for (int i = 0; i < list.size(); i++) {
-            arr[index] = list.get(i);
+        for (Integer integer : list) {
+            arr[index] = integer;
             index++;
         }
 

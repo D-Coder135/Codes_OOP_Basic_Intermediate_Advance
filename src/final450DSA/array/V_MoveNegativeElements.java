@@ -16,6 +16,8 @@ public class V_MoveNegativeElements {
                 index++;
             }
         }
+        index = n - list.size();
+
     }
 
 }

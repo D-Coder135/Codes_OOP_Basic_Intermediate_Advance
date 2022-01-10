@@ -20,6 +20,7 @@ public class V_MoveNegativeElements {
 
         for (int i = 0; i < list.size(); i++) {
             arr[index] = list.get(i);
+            index++;
         }
 
     }

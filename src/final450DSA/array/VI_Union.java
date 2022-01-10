@@ -31,5 +31,9 @@ public class VI_Union {
         for (int i = 0; i < n; i++) {
             hashSet.add(a[i]);
         }
+
+        for (int i = 0; i < m; i++) {
+
+        }
     }
 }

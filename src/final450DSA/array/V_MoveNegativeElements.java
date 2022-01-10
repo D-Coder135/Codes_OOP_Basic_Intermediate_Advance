@@ -18,6 +18,10 @@ public class V_MoveNegativeElements {
         }
         index = n - list.size();
 
+        for (int i = 0; i < list.size(); i++) {
+
+        }
+
     }
 
 }

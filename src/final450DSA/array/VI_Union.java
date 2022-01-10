@@ -33,7 +33,7 @@ public class VI_Union {
         }
 
         for (int i = 0; i < m; i++) {
-
+            hashSet.add(b[i]);
         }
     }
 }

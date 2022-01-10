@@ -29,7 +29,7 @@ public class VI_Union {
         HashSet<Integer> hashSet = new HashSet<>();
 
         for (int i = 0; i < n; i++) {
-
+            hashSet.add(a[i]);
         }
     }
 }

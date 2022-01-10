@@ -16,6 +16,6 @@ package final450DSA.array;
 
 public class VII_RotateClockwise {
     public void rotate(int[] arr, int n) {
-
+        int temp = arr[n - 1];
     }
 }

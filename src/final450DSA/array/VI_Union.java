@@ -22,4 +22,7 @@
 package final450DSA.array;
 
 public class VI_Union {
+    public static int doUnion(int a[], int n, int b[], int m) {
+        //Your code here
+    }
 }

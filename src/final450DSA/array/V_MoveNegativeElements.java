@@ -11,6 +11,9 @@ public class V_MoveNegativeElements {
         for (int i = 0; i < n; i++) {
             if (arr[i] < 0) {
                 list.add(arr[i]);
+            } else {
+                arr[index] = arr[i];
+                index++;
             }
         }
     }

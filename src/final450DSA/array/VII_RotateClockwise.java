@@ -24,7 +24,7 @@ public class VII_RotateClockwise {
         arr[0] = temp;
 
         for (int values : arr) {
-
+            System.out.println(values);
         }
     }
 }

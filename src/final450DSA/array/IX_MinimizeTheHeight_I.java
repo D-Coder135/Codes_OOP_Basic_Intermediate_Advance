@@ -1,4 +1,9 @@
 package final450DSA.array;
 
 public class IX_MinimizeTheHeight_I {
+
+    int getMinDiff(int[] arr, int n, int k) {
+        // code here
+    }
+
 }

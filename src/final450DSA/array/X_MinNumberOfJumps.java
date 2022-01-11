@@ -23,4 +23,25 @@
 package final450DSA.array;
 
 public class X_MinNumberOfJumps {
+    static int minJumps(int[] arr) {
+        // your code here
+        int currfar = 0, currend = 0, jumps = 0;
+        for (int i = 0; i < arr.length - 1; i++) {
+            currfar = Math.max(currfar, i + arr[i]);
+
+            if (i == currend) {
+                jumps++;
+                currend = currfar;
+            }
+
+            if (currend >= arr.length - 1) {
+                break;
+            }
+        }
+        if (currend < arr.length - 1) {
+            return -1;
+        } else {
+            return jumps;
+        }
+    }
 }

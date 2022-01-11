@@ -6,6 +6,8 @@ public class VIII_LargestSumContiguousSubarray {
 
         // Your code here
 
+        long max_sum = 0, max_end = 0;
+
     }
 
 }

@@ -8,6 +8,10 @@ public class VIII_LargestSumContiguousSubarray {
 
         long max_sum = 0, max_end = 0;
 
+        for (int i = 0; i < n; i++) {
+
+        }
+
     }
 
 }

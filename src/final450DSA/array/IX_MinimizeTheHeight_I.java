@@ -12,7 +12,7 @@ public class IX_MinimizeTheHeight_I {
 
         for (int i = 0; i < n; i++) {
             if (i < n / 2) {
-
+                arr[i] = arr[i] + k;
             }
         }
 

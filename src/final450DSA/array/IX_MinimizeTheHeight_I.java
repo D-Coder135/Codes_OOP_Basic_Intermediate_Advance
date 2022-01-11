@@ -6,19 +6,23 @@ public class IX_MinimizeTheHeight_I {
 
     int getMinDiff(int[] arr, int n, int k) {
         // code here
-        int minDiff = 0;
 
         Arrays.sort(arr);
+        int ans = (arr[n - 1] + k) - (arr[0] + k);
 
-        for (int i = 0; i < n; i++) {
-            if (i < n / 2) {
-                arr[i] = arr[i] + k;
-            } else {
-                arr[i] = arr[i] - k;
-            }
+        int tempMax = arr[n - 1] - k;
+
+        int tempMin = arr[0] + k;
+
+        int max, min;
+
+        for (int i = 0; i < n - 1; i++) {
+            max = Math.max(tempMax, arr[i] + k);
+            min = Math.min(tempMin, arr[i + 1] - k);
+
+            ans = Math.min(ans, max - min);
         }
-        minDiff = arr[n - 1] - arr[0];
-        return minDiff;
+        return ans;
     }
 
 }

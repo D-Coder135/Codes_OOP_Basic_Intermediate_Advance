@@ -49,3 +49,17 @@ public class IX_MinimizeTheHeight_II {
     }
 
 }
+/*
+* static int minJumps(int[] arr){
+        // your code here
+        int sum = 0;
+        for(int i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+            i = arr[i];
+        }
+        if(sum >= arr.length) {
+            return sum;
+        } else {
+            return -1;
+        }
+    }*/

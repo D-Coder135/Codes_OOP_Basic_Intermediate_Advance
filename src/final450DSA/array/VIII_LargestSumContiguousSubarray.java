@@ -13,6 +13,8 @@ public class VIII_LargestSumContiguousSubarray {
             if (max_end < 0) {
                 max_end = 0;
             }
+            if (max_end > max_sum) {
+            }
         }
         return max_sum;
     }

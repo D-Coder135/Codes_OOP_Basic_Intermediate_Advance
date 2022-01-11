@@ -10,6 +10,9 @@ public class VIII_LargestSumContiguousSubarray {
 
         for (int i = 0; i < n; i++) {
             max_end += arr[i];
+            if (max_end < 0) {
+
+            }
         }
         return max_sum;
     }

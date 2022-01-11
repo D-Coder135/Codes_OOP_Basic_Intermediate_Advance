@@ -14,7 +14,7 @@ public class IX_MinimizeTheHeight_I {
             if (i < n / 2) {
                 arr[i] = arr[i] + k;
             } else {
-
+                arr[i] = arr[i] - k;
             }
         }
 

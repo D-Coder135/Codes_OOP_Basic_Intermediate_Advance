@@ -11,7 +11,9 @@ public class IX_MinimizeTheHeight_I {
         Arrays.sort(arr);
 
         for (int i = 0; i < n; i++) {
-            
+            if (i < n / 2) {
+
+            }
         }
 
         return minDiff;

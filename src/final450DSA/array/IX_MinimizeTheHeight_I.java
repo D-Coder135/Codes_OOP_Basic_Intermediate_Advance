@@ -17,7 +17,7 @@ public class IX_MinimizeTheHeight_I {
                 arr[i] = arr[i] - k;
             }
         }
-
+        minDiff = arr[n - 1] - arr[0];
         return minDiff;
     }
 

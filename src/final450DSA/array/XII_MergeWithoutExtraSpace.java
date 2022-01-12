@@ -25,6 +25,10 @@ public class XII_MergeWithoutExtraSpace {
         // code here
         int i = n - 1;
         int j = 0;
+
+        while (i >= 0 && j < m) {
+
+        }
     }
 
 }

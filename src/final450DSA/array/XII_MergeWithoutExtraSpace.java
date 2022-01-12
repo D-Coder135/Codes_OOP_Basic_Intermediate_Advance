@@ -25,24 +25,22 @@ public class XII_MergeWithoutExtraSpace {
 
     public void merge(int[] arr1, int[] arr2, int n, int m) {
         // code here
-        int i = n - 1;
-        int j = 0;
+        int i = 0;
+        int j = 0, k = n - 1;
 
-        while (i >= 0 && j < m) {
-            if (arr1[i] > arr2[j]) {
-                swap(arr1[i], arr2[j]);
+        while (i <= k && j < m) {
+            if (arr1[i] < arr2[j]) {
+                i++;
+            } else {
+                int temp = arr2[j];
+                arr2[j] = arr1[k];
+                arr1[k] = temp;
+                j++;
+                k--;
             }
-            i--;
-            j++;
         }
         Arrays.sort(arr1);
         Arrays.sort(arr2);
-    }
-
-    private void swap(int i, int j) {
-        int temp = i;
-        i = j;
-        j = temp;
     }
 
 }

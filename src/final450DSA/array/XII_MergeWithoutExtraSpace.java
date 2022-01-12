@@ -27,7 +27,9 @@ public class XII_MergeWithoutExtraSpace {
         int j = 0;
 
         while (i >= 0 && j < m) {
+            if (arr1[i] > arr2[j]) {
 
+            }
         }
     }
 

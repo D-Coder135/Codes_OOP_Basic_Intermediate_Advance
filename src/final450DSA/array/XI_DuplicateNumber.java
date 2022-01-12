@@ -21,11 +21,11 @@ public class XI_DuplicateNumber {
     public int findDuplicate(int[] nums) {
         boolean[] booleanArray = new boolean[nums.length];
 
-        for (int i = 0; i < nums.length; i++) {
-            if (booleanArray[nums[i]]) {
-                return nums[i];
+        for (int num : nums) {
+            if (booleanArray[num]) {
+                return num;
             }
-            booleanArray[nums[i]] = true;
+            booleanArray[num] = true;
         }
         return -1;
     }

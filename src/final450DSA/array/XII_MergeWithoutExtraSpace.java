@@ -31,7 +31,7 @@ public class XII_MergeWithoutExtraSpace {
                 swap(arr1[i], arr2[j]);
             }
             i--;
-
+            j++;
         }
     }
 

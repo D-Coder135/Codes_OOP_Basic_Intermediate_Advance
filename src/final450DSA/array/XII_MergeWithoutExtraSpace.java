@@ -36,7 +36,7 @@ public class XII_MergeWithoutExtraSpace {
             j++;
         }
         Arrays.sort(arr1);
-
+        Arrays.sort(arr2);
     }
 
 }

@@ -27,5 +27,6 @@ public class XI_DuplicateNumber {
             }
             booleanArray[nums[i]] = true;
         }
+        return -1;
     }
 }

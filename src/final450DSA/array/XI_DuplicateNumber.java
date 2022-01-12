@@ -22,7 +22,9 @@ public class XI_DuplicateNumber {
         boolean[] booleanArray = new boolean[nums.length];
 
         for (int i = 0; i < nums.length; i++) {
+            if (booleanArray[nums[i]]) {
 
+            }
         }
     }
 }

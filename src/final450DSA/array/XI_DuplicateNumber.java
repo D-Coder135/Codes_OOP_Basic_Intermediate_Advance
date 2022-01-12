@@ -23,8 +23,9 @@ public class XI_DuplicateNumber {
 
         for (int i = 0; i < nums.length; i++) {
             if (booleanArray[nums[i]]) {
-
+                return nums[i];
             }
+            booleanArray[nums[i]] = true;
         }
     }
 }

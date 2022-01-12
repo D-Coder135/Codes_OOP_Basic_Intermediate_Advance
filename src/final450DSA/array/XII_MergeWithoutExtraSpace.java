@@ -23,6 +23,8 @@ public class XII_MergeWithoutExtraSpace {
 
     public void merge(int[] arr1, int[] arr2, int n, int m) {
         // code here
+        int i = n - 1;
+        int j = 0;
     }
 
 }

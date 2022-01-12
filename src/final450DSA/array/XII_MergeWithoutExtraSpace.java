@@ -21,7 +21,7 @@ package final450DSA.array;
 
 public class XII_MergeWithoutExtraSpace {
 
-    public void merge(int arr1[], int arr2[], int n, int m) {
+    public void merge(int[] arr1, int[] arr2, int n, int m) {
         // code here
     }
 

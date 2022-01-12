@@ -20,5 +20,9 @@ public class XI_DuplicateNumber {
 
     public int findDuplicate(int[] nums) {
         boolean[] booleanArray = new boolean[nums.length];
+
+        for (int i = 0; i < nums.length; i++) {
+
+        }
     }
 }

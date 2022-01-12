@@ -39,4 +39,10 @@ public class XII_MergeWithoutExtraSpace {
         Arrays.sort(arr2);
     }
 
+    private void swap(int i, int j) {
+        int temp = i;
+        i = j;
+        j = temp;
+    }
+
 }

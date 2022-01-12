@@ -19,6 +19,8 @@
 
 package final450DSA.array;
 
+import java.util.Arrays;
+
 public class XII_MergeWithoutExtraSpace {
 
     public void merge(int[] arr1, int[] arr2, int n, int m) {
@@ -33,6 +35,8 @@ public class XII_MergeWithoutExtraSpace {
             i--;
             j++;
         }
+        Arrays.sort(arr1);
+
     }
 
 }

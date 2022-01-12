@@ -28,7 +28,7 @@ public class XII_MergeWithoutExtraSpace {
 
         while (i >= 0 && j < m) {
             if (arr1[i] > arr2[j]) {
-
+                swap(arr1[i], arr2[j]);
             }
         }
     }

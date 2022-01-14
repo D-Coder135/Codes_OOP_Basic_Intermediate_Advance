@@ -24,6 +24,7 @@ public class XIII_MergeIntervals {
         ArrayList<int[]> ans = new ArrayList<>();
 
         int start = intervals[0][0];
+        int end = intervals[0][1];
 
         return ans.toArray(new int[0][]);
     }

@@ -33,6 +33,7 @@ public class XIII_MergeIntervals {
             int e = intervals[i][1];
 
             if (s <= end) {
+                end = Math.max(end, e);
             }
         }
 

@@ -30,6 +30,7 @@ public class XIII_MergeIntervals {
 
         while (i < intervals.length) {
             int s = intervals[i][0];
+            int e = intervals[i][1];
         }
 
         return ans.toArray(new int[0][]);

@@ -34,6 +34,8 @@ public class XIII_MergeIntervals {
 
             if (s <= end) {
                 end = Math.max(end, e);
+            } else {
+
             }
         }
 

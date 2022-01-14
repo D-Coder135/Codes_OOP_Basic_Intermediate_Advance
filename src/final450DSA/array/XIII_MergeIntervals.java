@@ -14,5 +14,7 @@ package final450DSA.array;
 
 public class XIII_MergeIntervals {
 
+    public int[][] merge(int[][] intervals1) {
 
+    }
 }

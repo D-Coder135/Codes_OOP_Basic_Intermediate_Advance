@@ -22,5 +22,7 @@ public class XIII_MergeIntervals {
         Arrays.sort(intervals, (Comparator.comparingInt(o -> o[0])));
 
         ArrayList<int[]> ans = new ArrayList<>();
+
+        return ans.toArray(new int[0][]);
     }
 }

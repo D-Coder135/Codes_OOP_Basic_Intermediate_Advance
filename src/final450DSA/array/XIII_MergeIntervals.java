@@ -28,6 +28,10 @@ public class XIII_MergeIntervals {
 
         int i = 1;
 
+        while (i < intervals.length) {
+
+        }
+
         return ans.toArray(new int[0][]);
     }
 }

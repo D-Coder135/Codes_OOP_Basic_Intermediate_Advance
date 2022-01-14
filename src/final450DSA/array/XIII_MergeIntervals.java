@@ -39,6 +39,7 @@ public class XIII_MergeIntervals {
                 start = s;
                 end = e;
             }
+            i++;
         }
 
         return ans.toArray(new int[0][]);

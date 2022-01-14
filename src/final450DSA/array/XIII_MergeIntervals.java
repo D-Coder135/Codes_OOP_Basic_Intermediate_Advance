@@ -37,6 +37,7 @@ public class XIII_MergeIntervals {
             } else {
                 ans.add(new int[]{start, end});
                 start = s;
+                end = e;
             }
         }
 

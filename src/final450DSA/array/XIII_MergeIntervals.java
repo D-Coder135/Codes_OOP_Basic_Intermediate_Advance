@@ -13,10 +13,11 @@
 package final450DSA.array;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class XIII_MergeIntervals {
 
     public int[][] merge(int[][] intervals) {
-        Arrays.sort(intervals, ((o1, o2) -> o1[0] - o2[0]));
+        Arrays.sort(intervals, (Comparator.comparingInt(o -> o[0])));
     }
 }

@@ -54,6 +54,9 @@ public class XV_CountInversions {
         long inv = 0;
         long[] res = new long[a1r - a1l + a2r - a2l + 2];
         int i = a1l, j = a2l, k = 0;
+        while (i <= a1r && j <= a2r) {
+
+        }
         return 0;
     }
 

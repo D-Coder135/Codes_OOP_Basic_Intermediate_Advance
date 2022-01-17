@@ -81,7 +81,7 @@ public class XV_CountInversions {
         for (int x = a1l; x <= a2r; x++) {
             arr[x] = res[x - a1l];
         }
-        return 0;
+        return inv;
     }
 
 }

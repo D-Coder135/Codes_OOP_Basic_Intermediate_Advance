@@ -66,6 +66,21 @@ public class XV_CountInversions {
                 k++;
             }
         }
+
+//        while (i <= a1r) {
+//            res[k] = arr[i];
+//            i++;
+//            k++;
+//        }
+//
+//        while (j <= a2r) {
+//            res[k] = arr[j];
+//            k++;
+//            j++;
+//        }
+        for (int x = a1l; x <= a2r; x++) {
+            arr[x] = res[x - a1l];
+        }
         return 0;
     }
 

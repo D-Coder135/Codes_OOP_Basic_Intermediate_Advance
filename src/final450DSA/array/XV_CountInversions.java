@@ -51,6 +51,7 @@ public class XV_CountInversions {
     }
 
     private static long merge(long[] arr, int a1l, int a1r, int a2l, int a2r) {
+        long inv = 0;
         return 0;
     }
 

@@ -40,7 +40,9 @@ public class XIV_NextPermutation {
     }
 
     private void reverse(int[] nums, int i, int j) {
+        if (i < j) {
 
+        }
     }
 
     private void swap(int[] nums, int i, int j) {

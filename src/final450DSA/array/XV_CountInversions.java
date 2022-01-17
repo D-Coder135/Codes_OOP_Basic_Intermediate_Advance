@@ -42,6 +42,8 @@ public class XV_CountInversions {
             return 0;
         }
         int mid = low + (high - low) / 2;
+
+        long left = mergeSort(arr, low, mid);
         return 0;
     }
 

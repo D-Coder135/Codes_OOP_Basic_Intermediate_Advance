@@ -41,6 +41,7 @@ public class XV_CountInversions {
         if (low >= high) {
             return 0;
         }
+        int mid = low + (high - low) / 2;
         return 0;
     }
 

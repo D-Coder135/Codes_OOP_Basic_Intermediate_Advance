@@ -60,6 +60,8 @@ public class XV_CountInversions {
                 k++;
                 j++;
                 inv += a1r - i + 1;
+            } else {
+
             }
         }
         return 0;

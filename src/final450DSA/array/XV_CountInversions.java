@@ -33,4 +33,8 @@
 package final450DSA.array;
 
 public class XV_CountInversions {
+    static long inversionCount(long arr[], long N) {
+
+    }
+
 }

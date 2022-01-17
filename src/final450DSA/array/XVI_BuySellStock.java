@@ -33,6 +33,7 @@ public class XVI_BuySellStock {
         int min = Integer.MAX_VALUE, ans = 0;
         for (int price : prices) {
             min = Math.min(min, price);
+            ans = Math.max(price - min, ans);
         }
     }
 

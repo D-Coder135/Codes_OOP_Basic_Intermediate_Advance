@@ -35,6 +35,7 @@ package final450DSA.array;
 public class XV_CountInversions {
     static long inversionCount(long arr[], long N) {
         long ans = mergeSort(arr, 0, (int) N - 1);
+        return ans;
     }
 
 }

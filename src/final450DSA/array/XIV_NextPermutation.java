@@ -36,5 +36,6 @@ public class XIV_NextPermutation {
             }
             swap(nums, i - 1, j);
         }
+        reverse(nums, i, nums.length - 1);
     }
 }

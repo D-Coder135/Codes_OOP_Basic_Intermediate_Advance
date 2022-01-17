@@ -28,4 +28,9 @@
 package final450DSA.array;
 
 public class XVI_BuySellStock {
+
+    public int maxProfit(int[] prices) {
+
+    }
+
 }

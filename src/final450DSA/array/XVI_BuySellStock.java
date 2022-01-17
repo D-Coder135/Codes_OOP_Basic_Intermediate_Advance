@@ -35,6 +35,7 @@ public class XVI_BuySellStock {
             min = Math.min(min, price);
             ans = Math.max(price - min, ans);
         }
+        return ans;
     }
 
 }

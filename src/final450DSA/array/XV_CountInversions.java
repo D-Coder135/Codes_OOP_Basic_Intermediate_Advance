@@ -61,7 +61,9 @@ public class XV_CountInversions {
                 j++;
                 inv += a1r - i + 1;
             } else {
-
+                res[k] = arr[i];
+                i++;
+                k++;
             }
         }
         return 0;

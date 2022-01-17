@@ -41,7 +41,7 @@ public class XIV_NextPermutation {
 
     private void reverse(int[] nums, int i, int j) {
         if (i < j) {
-
+            swap(nums, i++, j--);
         }
     }
 

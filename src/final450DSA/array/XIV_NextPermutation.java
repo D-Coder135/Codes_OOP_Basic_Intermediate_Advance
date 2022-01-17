@@ -39,6 +39,10 @@ public class XIV_NextPermutation {
         reverse(nums, i, nums.length - 1);
     }
 
+    private void reverse(int[] nums, int i, int j) {
+
+    }
+
     private void swap(int[] nums, int i, int j) {
         int temp = nums[i];
         nums[i] = nums[j];

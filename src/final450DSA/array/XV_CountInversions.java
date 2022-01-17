@@ -56,7 +56,7 @@ public class XV_CountInversions {
         int i = a1l, j = a2l, k = 0;
         while (i <= a1r && j <= a2r) {
             if (arr[i] > arr[j]) {
-                res[k] = arr[i];
+                res[k] = arr[j];
                 k++;
                 j++;
                 inv += a1r - i + 1;
@@ -67,20 +67,18 @@ public class XV_CountInversions {
             }
         }
 
-//        while (i <= a1r) {
-//            res[k] = arr[i];
-//            i++;
-//            k++;
-//        }
-//
-//        while (j <= a2r) {
-//            res[k] = arr[j];
-//            k++;
-//            j++;
-//        }
-        for (int x = a1l; x <= a2r; x++) {
-            arr[x] = res[x - a1l];
+        while (i <= a1r) {
+            res[k] = arr[i];
+            i++;
+            k++;
         }
+
+        while (j <= a2r) {
+            res[k] = arr[j];
+            k++;
+            j++;
+        }
+        if (a2r + 1 - a1l >= 0) System.arraycopy(res, 0, arr, a1l, a2r + 1 - a1l);
         return inv;
     }
 

@@ -1,3 +1,10 @@
+/*   Created by IntelliJ IDEA.
+ *   Author: Devansh Shukla (D-Coder135)
+ *   Date: 17-01-2022
+ *   Time: 06:01 PM
+ *   File: XV_CountInversions.java
+ */
+
 /**
  * Given an array of integers. Find the Inversion Count in the array.
  * <p>

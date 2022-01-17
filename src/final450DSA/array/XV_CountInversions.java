@@ -39,7 +39,7 @@ public class XV_CountInversions {
 
     private static long mergeSort(long[] arr, int low, int high) {
         if (low >= high) {
-
+            return 0;
         }
         return 0;
     }

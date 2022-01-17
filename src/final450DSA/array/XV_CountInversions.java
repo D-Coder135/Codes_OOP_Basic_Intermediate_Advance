@@ -37,4 +37,8 @@ public class XV_CountInversions {
         return mergeSort(arr, 0, (int) N - 1);
     }
 
+    private static long mergeSort(long[] arr, int low, int high) {
+        return 0;
+    }
+
 }

@@ -28,7 +28,7 @@ public class XIV_NextPermutation {
         int j = nums.length - 1;
 
         while (i > 0 && nums[i] <= nums[i - 1]) {
-
+            i--;
         }
     }
 }

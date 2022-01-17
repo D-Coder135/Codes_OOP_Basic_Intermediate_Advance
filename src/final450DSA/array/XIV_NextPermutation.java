@@ -34,6 +34,7 @@ public class XIV_NextPermutation {
             while (j > 0 && nums[j] <= nums[i - 1]) {
                 j--;
             }
+            swap(nums, i - 1, j);
         }
     }
 }

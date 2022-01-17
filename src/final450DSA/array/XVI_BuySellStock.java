@@ -31,6 +31,9 @@ public class XVI_BuySellStock {
 
     public int maxProfit(int[] prices) {
         int min = Integer.MAX_VALUE, ans = 0;
+        for (int price : prices) {
+
+        }
     }
 
 }

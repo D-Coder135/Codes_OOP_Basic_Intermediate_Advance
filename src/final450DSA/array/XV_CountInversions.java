@@ -55,7 +55,12 @@ public class XV_CountInversions {
         long[] res = new long[a1r - a1l + a2r - a2l + 2];
         int i = a1l, j = a2l, k = 0;
         while (i <= a1r && j <= a2r) {
-
+            if (arr[i] > arr[j]) {
+                res[k] = arr[i];
+                k++;
+                j++;
+                inv += a1r - i + 1;
+            }
         }
         return 0;
     }

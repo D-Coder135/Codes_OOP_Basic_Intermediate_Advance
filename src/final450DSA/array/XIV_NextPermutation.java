@@ -38,4 +38,8 @@ public class XIV_NextPermutation {
         }
         reverse(nums, i, nums.length - 1);
     }
+
+    private void swap(int[] nums, int i, int j) {
+
+    }
 }

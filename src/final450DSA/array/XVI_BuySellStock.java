@@ -30,7 +30,7 @@ package final450DSA.array;
 public class XVI_BuySellStock {
 
     public int maxProfit(int[] prices) {
-        int min = Integer.MAX_VALUE;
+        int min = Integer.MAX_VALUE, ans = 0;
     }
 
 }

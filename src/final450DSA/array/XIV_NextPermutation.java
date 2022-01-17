@@ -23,4 +23,7 @@
 package final450DSA.array;
 
 public class XIV_NextPermutation {
+    public void nextPermutation(int[] nums) {
+
+    }
 }

@@ -30,5 +30,8 @@ public class XIV_NextPermutation {
         while (i > 0 && nums[i] <= nums[i - 1]) {
             i--;
         }
+        if (i > 0) {
+
+        }
     }
 }

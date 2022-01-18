@@ -42,6 +42,7 @@ public class XVIII_CommonElements {
             if (set1.contains(element) && set2.contains(element)) {
                 arrayList.add(element);
                 set1.remove(element);
+                set2.remove(element);
             }
         }
         return arrayList;

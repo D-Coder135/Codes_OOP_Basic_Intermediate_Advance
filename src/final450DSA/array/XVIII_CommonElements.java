@@ -31,6 +31,7 @@ public class XVIII_CommonElements {
         // code here
         ArrayList<Integer> arrayList = new ArrayList<>();
         Set<Integer> set1 = new HashSet<>();
+        Set<Integer> set2 = new HashSet<>();
         return arrayList;
     }
 }

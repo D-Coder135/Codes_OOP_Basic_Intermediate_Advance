@@ -28,5 +28,6 @@ public class XVIII_CommonElements {
     ArrayList<Integer> commonElements(int A[], int B[], int C[], int n1, int n2, int n3) {
         // code here
         ArrayList<Integer> arrayList = new ArrayList<>();
+        return arrayList;
     }
 }

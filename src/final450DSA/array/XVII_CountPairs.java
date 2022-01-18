@@ -8,4 +8,7 @@
 package final450DSA.array;
 
 public class XVII_CountPairs {
+    int getPairsCount(int[] arr, int n, int k) {
+
+    }
 }

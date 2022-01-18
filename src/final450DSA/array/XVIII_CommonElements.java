@@ -33,7 +33,7 @@ public class XVIII_CommonElements {
         Set<Integer> set1 = new HashSet<>();
         Set<Integer> set2 = new HashSet<>();
         for (int element : A) {
-
+            set1.add(element);
         }
         return arrayList;
     }

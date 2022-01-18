@@ -42,6 +42,8 @@ public class XIX_AlternatePositveNegative {
             if (i % 2 == 0) {
                 arr[i] = positives.get(j);
                 j++;
+            } else {
+
             }
         }
     }

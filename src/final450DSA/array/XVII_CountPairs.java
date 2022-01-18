@@ -13,5 +13,8 @@ public class XVII_CountPairs {
     int getPairsCount(int[] arr, int n, int k) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         int count = 0;
+        for (int value : arr) {
+
+        }
     }
 }

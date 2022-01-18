@@ -19,5 +19,6 @@ public class XVII_CountPairs {
             }
             hashMap.put(value, hashMap.getOrDefault(value, 0) + 1);
         }
+        return count;
     }
 }

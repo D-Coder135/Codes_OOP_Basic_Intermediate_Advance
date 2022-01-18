@@ -21,10 +21,13 @@
 
 package final450DSA.array;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class XIX_AlternatePositveNegative {
 
     void rearrange(int[] arr, int n) {
-
+        List<Integer> positives = new ArrayList<>();
     }
 
 }

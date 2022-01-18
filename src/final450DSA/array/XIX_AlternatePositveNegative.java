@@ -39,7 +39,9 @@ public class XIX_AlternatePositveNegative {
         }
         int i = 0, j = 0, k = 0;
         while (i < arr.length && j < positives.size() && k < negatives.size()) {
+            if (i % 2 == 0) {
 
+            }
         }
     }
 

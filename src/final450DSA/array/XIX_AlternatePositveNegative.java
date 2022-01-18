@@ -22,4 +22,9 @@
 package final450DSA.array;
 
 public class XIX_AlternatePositveNegative {
+
+    void rearrange(int arr[], int n) {
+
+    }
+
 }

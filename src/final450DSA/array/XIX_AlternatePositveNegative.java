@@ -37,6 +37,8 @@ public class XIX_AlternatePositveNegative {
                 negatives.add(arr[i]);
             }
         }
+        int i = 0, j = 0, k = 0;
+
     }
 
 }

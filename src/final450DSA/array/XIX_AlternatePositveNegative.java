@@ -29,6 +29,14 @@ public class XIX_AlternatePositveNegative {
     void rearrange(int[] arr, int n) {
         List<Integer> positives = new ArrayList<>();
         List<Integer> negatives = new ArrayList<>();
+
+        for (int i = 0; i < n; i++) {
+            if (arr[i] >= 0) {
+                positives.add(arr[i]);
+            } else {
+                negatives.add(arr[i]);
+            }
+        }
     }
 
 }

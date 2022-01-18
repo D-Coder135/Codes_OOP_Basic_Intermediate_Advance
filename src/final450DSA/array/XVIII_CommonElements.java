@@ -40,7 +40,7 @@ public class XVIII_CommonElements {
         }
         for (int element : C) {
             if (set1.contains(element) && set2.contains(element)) {
-
+                arrayList.add(element);
             }
         }
         return arrayList;

@@ -50,6 +50,8 @@ public class XIX_AlternatePositveNegative {
         }
         while (j < positives.size()) {
             arr[i] = positives.get(j);
+            j++;
+            i++;
         }
     }
 

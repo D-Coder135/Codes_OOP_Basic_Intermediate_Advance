@@ -48,6 +48,9 @@ public class XIX_AlternatePositveNegative {
             }
             i++;
         }
+        while (j < positives.size()) {
+
+        }
     }
 
 }

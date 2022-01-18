@@ -38,6 +38,9 @@ public class XVIII_CommonElements {
         for (int element : B) {
             set2.add(element);
         }
+        for (int element : C) {
+
+        }
         return arrayList;
     }
 }

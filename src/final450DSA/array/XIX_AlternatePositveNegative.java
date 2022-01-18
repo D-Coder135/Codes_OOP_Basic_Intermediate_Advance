@@ -49,7 +49,7 @@ public class XIX_AlternatePositveNegative {
             i++;
         }
         while (j < positives.size()) {
-
+            arr[i] = positives.get(j);
         }
     }
 

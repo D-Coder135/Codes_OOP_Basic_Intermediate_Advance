@@ -15,7 +15,7 @@ public class XVII_CountPairs {
         int count = 0;
         for (int value : arr) {
             if (hashMap.containsKey(k - value)) {
-
+                count += hashMap.get(k - value);
             }
         }
     }

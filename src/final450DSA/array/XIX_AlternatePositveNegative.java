@@ -53,6 +53,11 @@ public class XIX_AlternatePositveNegative {
             j++;
             i++;
         }
+        while (k < negatives.size()) {
+            arr[i] = negatives.get(k);
+            k++;
+            i++;
+        }
     }
 
 }

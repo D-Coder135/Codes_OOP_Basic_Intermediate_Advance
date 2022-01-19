@@ -34,6 +34,7 @@ public class XXII_MaxProductSubarray {
             maxProd = Math.max(maxProd * arr[i], arr[i]);
             minProd = Math.min(minProd * arr[i], arr[i]);
 
+            ans = Math.max(ans, maxProd);
         }
     }
 }

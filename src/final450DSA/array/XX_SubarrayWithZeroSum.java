@@ -30,6 +30,9 @@ public class XX_SubarrayWithZeroSum {
         HashMap<Integer, Integer> map = new HashMap<>();
         int sum = 0;
         map.put(0, 1);
+        for (int i = 0; i < n; i++) {
+
+        }
     }
 
 }

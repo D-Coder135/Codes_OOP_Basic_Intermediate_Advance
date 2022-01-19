@@ -25,10 +25,12 @@
 
 package final450DSA.array;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 
 public class XXI_FactorialLargeNumbers {
     static ArrayList<Integer> factorial(int N) {
         ArrayList<Integer> arrayList = new ArrayList<>();
+        BigInteger factorial = new BigInteger("1");
     }
 }

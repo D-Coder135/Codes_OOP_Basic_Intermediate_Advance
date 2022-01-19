@@ -36,5 +36,6 @@ public class XXII_MaxProductSubarray {
 
             ans = Math.max(ans, maxProd);
         }
+        return ans;
     }
 }

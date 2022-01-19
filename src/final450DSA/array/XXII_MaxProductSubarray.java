@@ -25,5 +25,8 @@ public class XXII_MaxProductSubarray {
     long maxProduct(int[] arr, int n) {
         // code here
         long maxProd = 1, minProd = 1, ans = Integer.MIN_VALUE;
+        for (int i = 0; i < n; i++) {
+
+        }
     }
 }

@@ -5,6 +5,21 @@
  *   File: XX_SubarrayWithZeroSum
  */
 
+/**
+ * Given an array of positive and negative numbers. Find if there is a subarray (of size at-least one) with 0 sum.
+ * <p>
+ * Example 1:
+ * Input:
+ * 5
+ * 4 2 -3 1 6
+ * Output:
+ * Yes
+ * <p>
+ * Explanation:
+ * 2, -3, 1 is the subarray
+ * with sum 0.
+ */
+
 package final450DSA.array;
 
 public class XX_SubarrayWithZeroSum {

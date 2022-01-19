@@ -36,6 +36,9 @@ public class XXIII_LargestConsecutiveSubarray {
         for (int x : arr) {
             set.add(x);
         }
+        for (Integer i : set) {
+
+        }
         return max;
     }
 }

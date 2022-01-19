@@ -35,5 +35,7 @@ public class XXI_FactorialLargeNumbers {
         for (int i = 2; i <= N; i++) {
             factorial = factorial.multiply(BigInteger.valueOf(i));
         }
+
+        String temp = factorial.toString();
     }
 }

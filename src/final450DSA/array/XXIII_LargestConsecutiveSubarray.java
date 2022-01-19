@@ -38,7 +38,7 @@ public class XXIII_LargestConsecutiveSubarray {
         }
         for (Integer i : set) {
             if (set.contains(i + 1)) {
-
+                count++;
             }
         }
         return max;

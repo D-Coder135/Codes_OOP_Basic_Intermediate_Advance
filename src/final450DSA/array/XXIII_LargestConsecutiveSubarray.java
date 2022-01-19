@@ -41,6 +41,7 @@ public class XXIII_LargestConsecutiveSubarray {
                 count++;
             } else {
                 max = Math.max(max, count);
+                count = 1;
             }
         }
         return max;

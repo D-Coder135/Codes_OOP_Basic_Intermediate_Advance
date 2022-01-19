@@ -25,5 +25,10 @@
 
 package final450DSA.array;
 
+import java.util.ArrayList;
+
 public class XXI_FactorialLargeNumbers {
+    static ArrayList<Integer> factorial(int N) {
+
+    }
 }

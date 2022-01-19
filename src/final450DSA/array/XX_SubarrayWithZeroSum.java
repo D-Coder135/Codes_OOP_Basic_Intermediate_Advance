@@ -28,6 +28,7 @@ public class XX_SubarrayWithZeroSum {
 
     static boolean findsum(int[] arr, int n) {
         HashMap<Integer, Integer> map = new HashMap<>();
+        int sum = 0;
     }
 
 }

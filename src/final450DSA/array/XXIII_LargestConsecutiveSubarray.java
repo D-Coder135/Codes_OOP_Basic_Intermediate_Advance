@@ -34,7 +34,7 @@ public class XXIII_LargestConsecutiveSubarray {
         int count = 1, max = -1;
         TreeSet<Integer> set = new TreeSet<>();
         for (int x : arr) {
-
+            set.add(x);
         }
         return max;
     }

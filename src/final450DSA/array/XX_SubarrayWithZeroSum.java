@@ -32,6 +32,9 @@ public class XX_SubarrayWithZeroSum {
         map.put(0, 1);
         for (int i = 0; i < n; i++) {
             sum += arr[i];
+            if (map.containsKey(sum)) {
+
+            }
         }
     }
 

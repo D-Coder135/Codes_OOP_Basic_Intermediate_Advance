@@ -40,6 +40,7 @@ public class XXI_FactorialLargeNumbers {
 
         for (int i = 0; i < temp.length(); i++) {
             int number = Integer.parseInt(String.valueOf(temp.charAt(i)));
+            arrayList.add(number);
         }
     }
 }

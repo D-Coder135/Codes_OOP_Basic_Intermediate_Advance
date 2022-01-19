@@ -33,7 +33,7 @@ public class XX_SubarrayWithZeroSum {
         for (int i = 0; i < n; i++) {
             sum += arr[i];
             if (map.containsKey(sum)) {
-
+                return true;
             }
         }
     }

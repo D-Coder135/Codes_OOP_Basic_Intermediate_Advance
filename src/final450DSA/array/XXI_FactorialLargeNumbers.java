@@ -37,5 +37,9 @@ public class XXI_FactorialLargeNumbers {
         }
 
         String temp = factorial.toString();
+
+        for (int i = 0; i < temp.length(); i++) {
+
+        }
     }
 }

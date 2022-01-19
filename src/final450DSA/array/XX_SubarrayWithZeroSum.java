@@ -22,10 +22,12 @@
 
 package final450DSA.array;
 
+import java.util.HashMap;
+
 public class XX_SubarrayWithZeroSum {
 
     static boolean findsum(int[] arr, int n) {
-
+        HashMap<Integer, Integer> map = new HashMap<>();
     }
 
 }

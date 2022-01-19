@@ -34,6 +34,8 @@ public class XX_SubarrayWithZeroSum {
             sum += arr[i];
             if (map.containsKey(sum)) {
                 return true;
+            } else {
+
             }
         }
     }

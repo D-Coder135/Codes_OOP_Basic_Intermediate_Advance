@@ -40,7 +40,7 @@ public class XXIII_LargestConsecutiveSubarray {
             if (set.contains(i + 1)) {
                 count++;
             } else {
-
+                max = Math.max(max, count);
             }
         }
         return max;

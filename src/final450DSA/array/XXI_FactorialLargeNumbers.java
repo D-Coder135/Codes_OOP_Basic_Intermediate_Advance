@@ -42,5 +42,6 @@ public class XXI_FactorialLargeNumbers {
             int number = Integer.parseInt(String.valueOf(temp.charAt(i)));
             arrayList.add(number);
         }
+        return arrayList;
     }
 }

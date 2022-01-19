@@ -29,6 +29,6 @@ package final450DSA.array;
 
 public class XXIII_LargestConsecutiveSubarray {
     static int findLongestConseqSubseq(int[] arr, int N) {
-
+        int count = 1, max = -1;
     }
 }

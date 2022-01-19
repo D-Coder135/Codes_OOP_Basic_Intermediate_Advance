@@ -27,9 +27,12 @@
 
 package final450DSA.array;
 
+import java.util.TreeSet;
+
 public class XXIII_LargestConsecutiveSubarray {
     static int findLongestConseqSubseq(int[] arr, int N) {
         int count = 1, max = -1;
+        TreeSet<Integer> set = new TreeSet<>();
         return max;
     }
 }

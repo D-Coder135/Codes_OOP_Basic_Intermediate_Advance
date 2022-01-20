@@ -12,8 +12,11 @@
 
 package final450DSA.array;
 
+import java.util.TreeMap;
+
 public class XXIV_OccurrenceInArray {
     static void printElements(int[] arr, int n, int k) {
         int x = n / k;
+        TreeMap<Integer, Integer> map = new TreeMap<>();
     }
 }

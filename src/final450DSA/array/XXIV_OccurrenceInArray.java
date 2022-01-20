@@ -23,7 +23,9 @@ public class XXIV_OccurrenceInArray {
             map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
         }
         for (Map.Entry m : map.entrySet()) {
+            if ((int) m.getValue() > x) {
 
+            }
         }
     }
 }

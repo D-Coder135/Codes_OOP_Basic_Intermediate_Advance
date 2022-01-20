@@ -18,5 +18,8 @@ public class XXIV_OccurrenceInArray {
     static void printElements(int[] arr, int n, int k) {
         int x = n / k;
         TreeMap<Integer, Integer> map = new TreeMap<>();
+        for (int i : arr) {
+
+        }
     }
 }

@@ -13,4 +13,7 @@
 package final450DSA.array;
 
 public class XXIV_OccurrenceInArray {
+    static void printElements(int[] arr, int n, int k) {
+
+    }
 }

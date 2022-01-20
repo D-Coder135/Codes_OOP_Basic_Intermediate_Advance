@@ -19,7 +19,7 @@ public class XXIV_OccurrenceInArray {
         int x = n / k;
         TreeMap<Integer, Integer> map = new TreeMap<>();
         for (int i : arr) {
-
+            map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
         }
     }
 }

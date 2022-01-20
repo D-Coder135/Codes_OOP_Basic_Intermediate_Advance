@@ -24,7 +24,7 @@ public class XXIV_OccurrenceInArray {
         }
         for (Map.Entry m : map.entrySet()) {
             if ((int) m.getValue() > x) {
-
+                System.out.println(m.getKey());
             }
         }
     }

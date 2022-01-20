@@ -12,6 +12,7 @@
 
 package final450DSA.array;
 
+import java.util.Map;
 import java.util.TreeMap;
 
 public class XXIV_OccurrenceInArray {
@@ -20,6 +21,9 @@ public class XXIV_OccurrenceInArray {
         TreeMap<Integer, Integer> map = new TreeMap<>();
         for (int i : arr) {
             map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
+        }
+        for (Map.Entry m : map.entrySet()) {
+
         }
     }
 }

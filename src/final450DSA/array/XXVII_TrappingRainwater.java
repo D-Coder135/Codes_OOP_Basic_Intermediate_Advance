@@ -25,5 +25,7 @@ public class XXVII_TrappingRainwater {
     static long trappingWater(int[] arr, int n) {
         int[] left = new int[n];
         int[] right = new int[n];
+
+        left[0] = arr[0];
     }
 }

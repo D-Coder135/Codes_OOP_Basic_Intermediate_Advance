@@ -25,6 +25,6 @@ package final450DSA.array;
 
 public class XXVI_TripletSum {
 
-    public static boolean find3Numbers(int A[], int n, int X) {
+    public static boolean find3Numbers(int[] A, int n, int X) {
     }
 }

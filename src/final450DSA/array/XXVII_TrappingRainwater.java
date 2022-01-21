@@ -40,5 +40,6 @@ public class XXVII_TrappingRainwater {
         for (int i = 0; i < n; i++) {
             ans += Math.min(left[i], right[i]) - arr[i];
         }
+        return ans;
     }
 }

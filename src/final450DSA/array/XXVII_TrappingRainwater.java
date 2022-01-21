@@ -27,5 +27,9 @@ public class XXVII_TrappingRainwater {
         int[] right = new int[n];
 
         left[0] = arr[0];
+
+        for (int i = 1; i < n; i++) {
+
+        }
     }
 }

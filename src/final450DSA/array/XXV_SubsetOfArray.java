@@ -30,6 +30,8 @@ public class XXV_SubsetOfArray {
     public String isSubset(long[] a1, long[] a2, long n, long m) {
         List<Long> list = new ArrayList<>();
 
+        for (long num : a1) {
 
+        }
     }
 }

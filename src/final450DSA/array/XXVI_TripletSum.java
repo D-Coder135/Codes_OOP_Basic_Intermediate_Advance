@@ -43,6 +43,10 @@ public class XXVI_TripletSum {
                 int val1 = list.get(i);
                 int val2 = list.get(j);
                 int val3 = X - val1 - val2;
+
+                if (list.contains(val3) && val1 != val3 && val2 != val3) {
+
+                }
             }
         }
     }

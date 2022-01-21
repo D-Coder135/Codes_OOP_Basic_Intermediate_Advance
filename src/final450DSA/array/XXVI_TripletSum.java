@@ -32,5 +32,9 @@ public class XXVI_TripletSum {
     public static boolean find3Numbers(int[] A, int n, int X) {
         HashSet<Integer> set = new HashSet<>();
         List<Integer> list = new ArrayList<>();
+
+        for (int num : A) {
+
+        }
     }
 }

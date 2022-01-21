@@ -42,6 +42,8 @@ public class XXV_SubsetOfArray {
         }
         if (count == a2.length) {
             return "Yes";
+        } else {
+            return "No";
         }
     }
 }

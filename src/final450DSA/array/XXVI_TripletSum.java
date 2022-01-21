@@ -45,7 +45,7 @@ public class XXVI_TripletSum {
                 int val3 = X - val1 - val2;
 
                 if (list.contains(val3) && val1 != val3 && val2 != val3) {
-
+                    return true;
                 }
             }
         }

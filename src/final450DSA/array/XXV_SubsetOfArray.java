@@ -36,7 +36,9 @@ public class XXV_SubsetOfArray {
         int count = 0;
 
         for (long number : a2) {
+            if (list.contains(number)) {
 
+            }
         }
     }
 }

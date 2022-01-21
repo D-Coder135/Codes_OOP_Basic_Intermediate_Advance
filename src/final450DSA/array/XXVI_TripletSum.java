@@ -23,11 +23,14 @@
 
 package final450DSA.array;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 
 public class XXVI_TripletSum {
 
     public static boolean find3Numbers(int[] A, int n, int X) {
         HashSet<Integer> set = new HashSet<>();
+        List<Integer> list = new ArrayList<>();
     }
 }

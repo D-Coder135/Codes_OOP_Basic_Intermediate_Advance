@@ -38,7 +38,7 @@ public class XXVI_TripletSum {
         }
 
         for (Integer number : set) {
-
+            list.add(number);
         }
     }
 }

@@ -40,7 +40,9 @@ public class XXVI_TripletSum {
 
         for (int i = 0; i < list.size() - 1; i++) {
             for (int j = i + 1; j < list.size(); j++) {
-
+                int val1 = list.get(i);
+                int val2 = list.get(j);
+                int val3 = X - val1 - val2;
             }
         }
     }

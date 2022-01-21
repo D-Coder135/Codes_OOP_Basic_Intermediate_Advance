@@ -34,5 +34,9 @@ public class XXV_SubsetOfArray {
             list.add(num);
         }
         int count = 0;
+
+        for (long number : a2) {
+
+        }
     }
 }

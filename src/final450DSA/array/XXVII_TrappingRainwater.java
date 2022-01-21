@@ -31,5 +31,7 @@ public class XXVII_TrappingRainwater {
         for (int i = 1; i < n; i++) {
             left[i] = Math.max(left[i - 1], arr[i]);
         }
+
+        right[n - 1] = arr[n - 1];
     }
 }

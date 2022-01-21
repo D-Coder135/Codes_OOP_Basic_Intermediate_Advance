@@ -22,4 +22,7 @@
 package final450DSA.array;
 
 public class XXVII_TrappingRainwater {
+    static long trappingWater(int arr[], int n) {
+
+    }
 }

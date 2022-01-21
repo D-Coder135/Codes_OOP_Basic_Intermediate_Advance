@@ -27,7 +27,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class XXV_SubsetOfArray {
-    public String isSubset(long a1[], long a2[], long n, long m) {
+    public String isSubset(long[] a1, long[] a2, long n, long m) {
         List<Long> list = new ArrayList<>();
+
+
     }
 }

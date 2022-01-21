@@ -33,5 +33,6 @@ public class XXV_SubsetOfArray {
         for (long num : a1) {
             list.add(num);
         }
+        int count = 0;
     }
 }

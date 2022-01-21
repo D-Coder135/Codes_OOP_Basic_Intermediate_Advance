@@ -34,7 +34,7 @@ public class XXVI_TripletSum {
         List<Integer> list = new ArrayList<>();
 
         for (int num : A) {
-
+            set.add(num);
         }
     }
 }

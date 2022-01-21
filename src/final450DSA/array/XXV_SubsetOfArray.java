@@ -31,7 +31,7 @@ public class XXV_SubsetOfArray {
         List<Long> list = new ArrayList<>();
 
         for (long num : a1) {
-
+            list.add(num);
         }
     }
 }

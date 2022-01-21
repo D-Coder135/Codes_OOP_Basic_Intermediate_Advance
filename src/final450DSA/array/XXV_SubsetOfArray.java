@@ -40,5 +40,8 @@ public class XXV_SubsetOfArray {
                 count++;
             }
         }
+        if (count == a2.length) {
+            
+        }
     }
 }

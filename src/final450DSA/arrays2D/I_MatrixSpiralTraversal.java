@@ -27,5 +27,6 @@ import java.util.ArrayList;
 public class I_MatrixSpiralTraversal {
     static ArrayList<Integer> spirallyTraverse(int matrix[][], int r, int c) {
         // code here
+        ArrayList<Integer> list = new ArrayList<>();
     }
 }

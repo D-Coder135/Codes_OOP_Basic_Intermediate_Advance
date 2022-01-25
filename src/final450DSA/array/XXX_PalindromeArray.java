@@ -36,4 +36,7 @@
 package final450DSA.array;
 
 public class XXX_PalindromeArray {
+    public static int palinArray(int[] a, int n) {
+
+    }
 }

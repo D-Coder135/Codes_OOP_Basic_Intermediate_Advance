@@ -8,4 +8,7 @@
 package final450DSA.arrays;
 
 public class XXXII_MedianOfDifferentSize {
+    public static void main(String[] args) {
+
+    }
 }

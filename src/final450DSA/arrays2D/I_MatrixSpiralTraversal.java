@@ -34,12 +34,12 @@ public class I_MatrixSpiralTraversal {
         while (top <= down && left <= right) {
             if (dir == 0) {
                 for (int i = left; i <= right; i++) {
-                    list.add(matrix[r][i]);
+                    list.add(matrix[top][i]);
                 }
                 top += 1;
             } else if (dir == 1) {
                 for (int i = top; i <= down; i++) {
-                    list.add(matrix[i][c]);
+                    list.add(matrix[i][right]);
                 }
                 right -= 1;
             } else if (dir == 2) {

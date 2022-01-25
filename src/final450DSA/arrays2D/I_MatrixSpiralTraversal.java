@@ -30,5 +30,9 @@ public class I_MatrixSpiralTraversal {
         ArrayList<Integer> list = new ArrayList<>();
         int top = 0, down = r - 1, left = 0, right = c - 1;
         int dir = 0;
+
+        while (top <= down && left <= right) {
+
+        }
     }
 }

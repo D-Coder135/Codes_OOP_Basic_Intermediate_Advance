@@ -25,7 +25,7 @@ package final450DSA.arrays2D;
 import java.util.ArrayList;
 
 public class I_MatrixSpiralTraversal {
-    static ArrayList<Integer> spirallyTraverse(int matrix[][], int r, int c) {
+    static ArrayList<Integer> spirallyTraverse(int[][] matrix, int r, int c) {
         // code here
         ArrayList<Integer> list = new ArrayList<>();
         int top = 0, down = r - 1, left = 0, right = c - 1;

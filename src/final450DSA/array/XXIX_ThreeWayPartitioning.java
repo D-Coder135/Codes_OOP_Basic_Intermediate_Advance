@@ -30,7 +30,7 @@ package final450DSA.array;
 
 public class XXIX_ThreeWayPartitioning {
 
-    public void threeWayPartition(int array[], int a, int b) {
+    public void threeWayPartition(int[] array, int a, int b) {
 
     }
 }

@@ -28,5 +28,17 @@
 
 package final450DSA.array;
 
+import java.util.Arrays;
+
 public class XXXI_Median {
+
+    public int find_median(int[] v) {
+        // Code here
+        Arrays.sort(v);
+        if (v.length % 2 == 0) {
+            return (v[v.length / 2] + v[(v.length / 2) - 1]) / 2;
+        }
+        return v[(v.length / 2)];
+    }
+
 }

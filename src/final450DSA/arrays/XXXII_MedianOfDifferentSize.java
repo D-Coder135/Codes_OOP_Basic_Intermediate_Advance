@@ -7,6 +7,9 @@
 
 package final450DSA.arrays;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class XXXII_MedianOfDifferentSize {
@@ -23,11 +26,28 @@ public class XXXII_MedianOfDifferentSize {
         for (int i = 0; i < m; i++) {
             arr2[i] = scanner.nextInt();
         }
+//        int[] arr1 = {-5, 3, 6, 12, 15};
+//        int[] arr2 = {-12, -10, -6, -3, 4, 10};
+//        int n = arr1.length;
+//        int m = arr2.length;
 
         System.out.println(calcMedian(arr1, arr2, m, n));
     }
 
     private static int calcMedian(int[] arr1, int[] arr2, int size1, int size2) {
-        return 0;
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        for (int i : arr1) {
+            arrayList.add(i);
+        }
+        for (int i : arr2) {
+            arrayList.add(i);
+        }
+
+        Collections.sort(arrayList);
+
+        if (arrayList.size() % 2 == 0) {
+            return ((arrayList.get(arrayList.size() / 2) + arrayList.get((arrayList.size() / 2) - 1)) / 2);
+        }
+        return arrayList.get(arrayList.size() / 2);
     }
 }

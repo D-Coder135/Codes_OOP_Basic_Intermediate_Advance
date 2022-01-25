@@ -26,4 +26,8 @@ public class XXXII_MedianOfDifferentSize {
 
         System.out.println(calcMedian(arr1, arr2, m, n));
     }
+
+    private static int calcMedian(int[] arr1, int[] arr2, int size1, int size2) {
+        return 0;
+    }
 }

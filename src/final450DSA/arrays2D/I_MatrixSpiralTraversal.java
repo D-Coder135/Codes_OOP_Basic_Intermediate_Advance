@@ -54,5 +54,6 @@ public class I_MatrixSpiralTraversal {
                 left += 1;
             }
         }
+        dir = (dir + 1) % 4;
     }
 }

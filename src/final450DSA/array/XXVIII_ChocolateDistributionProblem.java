@@ -27,5 +27,10 @@
 
 package final450DSA.array;
 
+import java.util.ArrayList;
+
 public class XXVIII_ChocolateDistributionProblem {
+    public long findMinDiff(ArrayList<Long> a, long n, long m) {
+
+    }
 }

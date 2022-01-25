@@ -31,6 +31,19 @@ package final450DSA.array;
 public class XXIX_ThreeWayPartitioning {
 
     public void threeWayPartition(int[] array, int a, int b) {
+        int start = 0;
+        int end = array.length - 1;
 
+        for (int i = 0; i <= end; i++) {
+            if (array[i] < a) {
+                swap(i, start, array);
+                start++;
+            } else {
+                if (array[i] > b) {
+                    swap(i, end, array);
+                    end--;
+                    i--;
+                }
+            }
+        }
     }
-}

@@ -28,5 +28,7 @@ public class I_MatrixSpiralTraversal {
     static ArrayList<Integer> spirallyTraverse(int matrix[][], int r, int c) {
         // code here
         ArrayList<Integer> list = new ArrayList<>();
+        int top = 0, down = r - 1, left = 0, right = c - 1;
+        int dir = 0;
     }
 }

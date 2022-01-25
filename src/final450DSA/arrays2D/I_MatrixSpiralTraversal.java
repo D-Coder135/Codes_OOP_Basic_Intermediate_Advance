@@ -34,7 +34,7 @@ public class I_MatrixSpiralTraversal {
         while (top <= down && left <= right) {
             if (dir == 0) {
                 for (int i = left; i <= right; i++) {
-
+                    list.add(matrix[r][i]);
                 }
             }
         }

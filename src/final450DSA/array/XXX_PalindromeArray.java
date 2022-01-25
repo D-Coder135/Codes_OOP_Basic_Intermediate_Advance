@@ -37,6 +37,23 @@ package final450DSA.array;
 
 public class XXX_PalindromeArray {
     public static int palinArray(int[] a, int n) {
-
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            int r = 0;
+            int rev = 0;
+            int temp = a[i];
+            while (a[i] != 0) {
+                r = a[i] % 10;
+                rev = (rev * 10) + r;
+                a[i] = a[i] / 10;
+            }
+            if (rev == temp) {
+                count++;
+            }
+        }
+        if (count == n) {
+            return 1;
+        }
+        return 0;
     }
 }

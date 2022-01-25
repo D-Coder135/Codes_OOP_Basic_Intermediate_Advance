@@ -7,8 +7,10 @@
 
 package final450DSA.arrays;
 
+import java.util.Scanner;
+
 public class XXXII_MedianOfDifferentSize {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
     }
 }

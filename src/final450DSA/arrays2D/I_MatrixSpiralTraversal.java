@@ -47,6 +47,11 @@ public class I_MatrixSpiralTraversal {
                     list.add(matrix[down][i]);
                 }
                 down -= 1;
+            } else if (dir == 3) {
+                for (int i = down; i >= top; i--) {
+                    list.add(matrix[i][left]);
+                }
+                left += 1;
             }
         }
     }

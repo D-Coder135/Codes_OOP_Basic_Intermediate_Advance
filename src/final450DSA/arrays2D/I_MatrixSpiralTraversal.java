@@ -32,7 +32,9 @@ public class I_MatrixSpiralTraversal {
         int dir = 0;
 
         while (top <= down && left <= right) {
+            if (dir == 0) {
 
+            }
         }
     }
 }

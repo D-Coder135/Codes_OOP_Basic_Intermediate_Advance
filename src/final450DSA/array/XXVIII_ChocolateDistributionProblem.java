@@ -28,9 +28,22 @@
 package final450DSA.array;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class XXVIII_ChocolateDistributionProblem {
     public long findMinDiff(ArrayList<Long> a, long n, long m) {
+        Collections.sort(a);
 
+        long maxValue = Long.MAX_VALUE;
+        long x = m - 1;
+
+        for (int i = 0; x < n; i++) {
+            long val = a.get((int) x) - a.get(i);
+            if (val < maxValue) {
+                maxValue = val;
+            }
+            x++;
+        }
+        return maxValue;
     }
 }

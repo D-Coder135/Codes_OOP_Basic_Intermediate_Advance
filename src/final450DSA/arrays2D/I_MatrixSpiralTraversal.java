@@ -36,6 +36,7 @@ public class I_MatrixSpiralTraversal {
                 for (int i = left; i <= right; i++) {
                     list.add(matrix[r][i]);
                 }
+                top += 1;
             }
         }
     }

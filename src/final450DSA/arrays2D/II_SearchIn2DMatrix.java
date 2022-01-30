@@ -6,7 +6,13 @@
  */
 
 /**
- * LEETCODE QUESTION 74
+ * LEETCODE QUESTION 74 =>
+ * <p>
+ * Write an efficient algorithm that searches for a value target in an m x n integer matrix.
+ * This matrix has the following properties:
+ * <p>
+ * Integers in each row are sorted from left to right.
+ * The first integer of each row is greater than the last integer of the previous row.
  */
 
 package final450DSA.arrays2D;

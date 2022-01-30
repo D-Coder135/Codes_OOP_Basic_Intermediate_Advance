@@ -105,9 +105,9 @@ public class VI_MaxRectangleArea {
     public int maximalRectangle(char[][] matrix) {
         int[] heights = new int[matrix[0].length];
         int res = 0;
-        for (int i = 0; i < matrix.length; i++) {
+        for (char[] chars : matrix) {
             for (int j = 0; j < matrix[0].length; j++) {
-                if (matrix[i][j] == '0') {
+                if (chars[j] == '0') {
                     heights[j] = 0;
                 } else {
                     heights[j] += 1;

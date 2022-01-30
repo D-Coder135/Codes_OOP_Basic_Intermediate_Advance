@@ -34,4 +34,6 @@
 package final450DSA.arrays2D;
 
 public class VI_MaxRectangleArea {
+    // GFG Solution
+
 }

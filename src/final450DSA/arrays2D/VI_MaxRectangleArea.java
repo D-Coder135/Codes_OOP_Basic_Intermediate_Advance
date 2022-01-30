@@ -100,4 +100,7 @@ public class VI_MaxRectangleArea {
         }
         return ns;
     }
+
+    // LEETCODE SOLUTION
+
 }

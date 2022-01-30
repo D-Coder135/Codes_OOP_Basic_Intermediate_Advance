@@ -18,4 +18,15 @@
 package final450DSA.arrays2D;
 
 public class II_SearchIn2DMatrix {
+    public boolean searchMatrix(int[][] matrix, int target) {
+        for (int[] a : matrix) {
+            if (target >= a[0] && target <= a[matrix[0].length - 1]) {
+                for (int element : a) {
+                    if (target == element)
+                        return true;
+                }
+            }
+        }
+        return false;
+    }
 }

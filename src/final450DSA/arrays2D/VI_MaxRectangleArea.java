@@ -33,7 +33,71 @@
 
 package final450DSA.arrays2D;
 
+import java.util.Stack;
+
 public class VI_MaxRectangleArea {
     // GFG Solution
+    public int maxArea(int[][] M, int n, int m) {
+        int[] arr = M[0];
+        int maxarea = getArea(arr, m);
+        int k = 0;
+        for (int i = 1; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (M[i][j] == 0) {
+                    arr[k++] = 0;
+                } else {
+                    arr[k++] += M[i][j];
+                }
+            }
+            k = 0;
+            int currentarea = getArea(arr, m);
+            maxarea = Math.max(maxarea, currentarea);
+        }
+        return maxarea;
+    }
 
+    int getArea(int[] arr, int n) {
+        int[] ps = previousSmaller(arr);
+        int[] ns = nextSmaller(arr);
+        int maxarea = 0;
+        for (int i = 0; i < n; i++) {
+            int area = ((ns[i] - ps[i]) - 1) * arr[i];
+            maxarea = Math.max(maxarea, area);
+        }
+        return maxarea;
+    }
+
+    int[] previousSmaller(int[] arr) {
+        int[] ps = new int[arr.length];
+        Stack<Integer> s = new Stack<>();
+        for (int i = 0; i < arr.length; i++) {
+            while (!s.isEmpty() && arr[s.peek()] >= arr[i]) {
+                s.pop();
+            }
+            if (s.isEmpty()) {
+                ps[i] = -1;
+            } else {
+                ps[i] = s.peek();
+            }
+            s.push(i);
+        }
+        return ps;
+    }
+
+    int[] nextSmaller(int[] arr) {
+        int[] ns = new int[arr.length];
+        Stack<Integer> s = new Stack<>();
+        for (int i = arr.length - 1; i >= 0; i--) {
+            while (!s.isEmpty() && arr[s.peek()] >= arr[i]) {
+                s.pop();
+            }
+            if (s.isEmpty()) {
+                ns[i] = arr.length;
+            } else {
+                ns[i] = s.peek();
+            }
+            s.push(i);
+        }
+        return ns;
+    }
 }

@@ -12,6 +12,11 @@
 package final450DSA.arrays2D;
 
 public class VII_Rotate90Degree {
+
+    public static void main(String[] args) {
+
+    }
+
     public static void rotate90(int[][] matrix) {
         int n = matrix.length;
 

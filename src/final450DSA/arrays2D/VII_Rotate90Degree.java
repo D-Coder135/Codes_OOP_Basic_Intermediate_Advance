@@ -5,6 +5,10 @@
  *   File: VII_Rotate90Degree
  */
 
+/**
+ * Given a square matrix, turn it by 90 degrees in a clockwise direction without using any extra space.
+ */
+
 package final450DSA.arrays2D;
 
 public class VII_Rotate90Degree {

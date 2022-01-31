@@ -35,6 +35,11 @@ public class VII_Rotate90Degree {
     }
 
     public static void printMatrix(int[][] matrix) {
-
+        for (int[] rows : matrix) {
+            for (int value : rows) {
+                System.out.println(value + " ");
+            }
+            System.out.println();
+        }
     }
 }

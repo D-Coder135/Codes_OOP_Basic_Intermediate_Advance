@@ -16,6 +16,10 @@ public class VII_Rotate90Degree {
         int n = matrix.length;
 
         // First Rotate the matrix with respect to the main diagonal.
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i; j++) {
 
+            }
+        }
     }
 }

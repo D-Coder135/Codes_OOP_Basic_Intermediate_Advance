@@ -18,8 +18,12 @@ public class VII_Rotate90Degree {
         // First Rotate the matrix with respect to the main diagonal.
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < i; j++) {
-
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = temp;
             }
         }
+
+        // Second Rotate the matrix with respect to the middle column.
     }
 }

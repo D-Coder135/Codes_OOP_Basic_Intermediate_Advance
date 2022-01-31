@@ -12,4 +12,7 @@
 package final450DSA.arrays2D;
 
 public class VII_Rotate90Degree {
+    public static void rotate90(int[][] matrix) {
+
+    }
 }

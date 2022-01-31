@@ -33,4 +33,8 @@ public class VII_Rotate90Degree {
             }
         }
     }
+
+    public static void printMatrix(int[][] matrix) {
+
+    }
 }

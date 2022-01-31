@@ -14,7 +14,12 @@ package final450DSA.arrays2D;
 public class VII_Rotate90Degree {
 
     public static void main(String[] args) {
-
+        int arr[][] = {{1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12},
+                {13, 14, 15, 16}};
+        rotate90(arr);
+        printMatrix(arr);
     }
 
     public static void rotate90(int[][] matrix) {

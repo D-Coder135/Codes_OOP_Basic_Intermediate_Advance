@@ -26,8 +26,14 @@
 
 package final450DSA.strings;
 
-public class ReverseString {
-    public void reverseString(char[] chars) {
+import java.util.Arrays;
 
+public class ReverseString {
+    public void reverseString(char[] s) {
+        int start = 0;
+        int end = s.length - 1;
+
+        char[] result = swapElements(s, start, end);
+        System.out.println(Arrays.toString(result));
     }
 }

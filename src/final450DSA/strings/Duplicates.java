@@ -16,6 +16,8 @@ public class Duplicates {
         for (int i = 0; i < string.length(); i++) {
             if (!count.containsKey(string.charAt(i))) {
                 count.put(string.charAt(i), 1);
+            } else {
+                count.put(string.charAt(i), count.get(string.charAt(i)) + 1);
             }
         }
     }

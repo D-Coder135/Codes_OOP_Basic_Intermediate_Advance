@@ -29,5 +29,11 @@ public class VIII_KthSmallestElement {
         int[] oneDArray = new int[n * n];
         int index = 0;
         int ansIndex = k - 1;
+
+        for (int[] arr : matrix) {
+            for (int value : arr) {
+
+            }
+        }
     }
 }

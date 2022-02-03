@@ -12,7 +12,16 @@
 package final450DSA.strings;
 
 public class PalindromeString {
-    int isPalindrome(String s) {
+    public static int isPalindrome(String s) {
+        StringBuilder str = new StringBuilder();
+        for (int i = s.length() - 1; i >= 0; i--) {
+            str.append(s.charAt(i));
+        }
 
+        if (str.toString().equals(s)) {
+            return 1;
+        } else {
+            return 0;
+        }
     }
 }

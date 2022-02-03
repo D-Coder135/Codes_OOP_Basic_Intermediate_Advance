@@ -26,6 +26,7 @@ package final450DSA.arrays2D;
 
 public class VIII_KthSmallestElement {
     public static int kthSmallestElement(int[][] matrix, int n, int k) {
+        int[] oneDArray = new int[n * n];
 
     }
 }

@@ -38,5 +38,6 @@ public class VIII_KthSmallestElement {
             }
         }
         Arrays.sort(oneDArray);
+        return oneDArray[ansIndex];
     }
 }

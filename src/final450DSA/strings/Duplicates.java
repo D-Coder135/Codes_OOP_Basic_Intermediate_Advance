@@ -14,7 +14,9 @@ public class Duplicates {
         HashMap<Character, Integer> count = new HashMap<>();
 
         for (int i = 0; i < string.length(); i++) {
+            if (!count.containsKey(string.charAt(i))) {
 
+            }
         }
     }
 }

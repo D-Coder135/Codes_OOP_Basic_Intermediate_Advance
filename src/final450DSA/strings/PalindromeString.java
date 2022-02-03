@@ -5,6 +5,10 @@
  *   File: PalindromeString
  */
 
+/**
+ * Given a string S, check if it is palindrome or not.
+ */
+
 package final450DSA.strings;
 
 public class PalindromeString {

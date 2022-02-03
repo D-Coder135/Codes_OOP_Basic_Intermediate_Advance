@@ -41,6 +41,10 @@ public class ReverseString {
         if (start > end) {
             return s;
         }
+
+        char temp = s[start];
+        s[start] = s[end];
+        s[end] = temp;
         return new char[0];
     }
 }

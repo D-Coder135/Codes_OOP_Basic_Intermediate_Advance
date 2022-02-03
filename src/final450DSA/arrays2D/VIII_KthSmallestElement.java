@@ -32,7 +32,7 @@ public class VIII_KthSmallestElement {
 
         for (int[] arr : matrix) {
             for (int value : arr) {
-
+                oneDArray[index++] = value;
             }
         }
     }

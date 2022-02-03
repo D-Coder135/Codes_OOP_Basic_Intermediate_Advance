@@ -39,7 +39,7 @@ public class ReverseString {
 
     private char[] swapElements(char[] s, int start, int end) {
         if (start > end) {
-
+            return s;
         }
         return new char[0];
     }

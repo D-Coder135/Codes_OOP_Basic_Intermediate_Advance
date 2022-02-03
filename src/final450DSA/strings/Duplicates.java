@@ -8,6 +8,7 @@
 package final450DSA.strings;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Duplicates {
     static void printDuplicates(String string) {
@@ -19,6 +20,10 @@ public class Duplicates {
             } else {
                 count.put(string.charAt(i), count.get(string.charAt(i)) + 1);
             }
+        }
+
+        for (Map.Entry mapElement : count.entrySet()) {
+
         }
     }
 }

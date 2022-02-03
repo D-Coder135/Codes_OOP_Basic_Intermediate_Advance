@@ -24,6 +24,8 @@
 
 package final450DSA.arrays2D;
 
+import java.util.Arrays;
+
 public class VIII_KthSmallestElement {
     public static int kthSmallestElement(int[][] matrix, int n, int k) {
         int[] oneDArray = new int[n * n];
@@ -35,5 +37,6 @@ public class VIII_KthSmallestElement {
                 oneDArray[index++] = value;
             }
         }
+        Arrays.sort(oneDArray);
     }
 }

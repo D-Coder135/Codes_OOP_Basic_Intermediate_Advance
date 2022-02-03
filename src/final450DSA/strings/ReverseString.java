@@ -36,4 +36,8 @@ public class ReverseString {
         char[] result = swapElements(s, start, end);
         System.out.println(Arrays.toString(result));
     }
+
+    private char[] swapElements(char[] s, int start, int end) {
+        return new char[0];
+    }
 }

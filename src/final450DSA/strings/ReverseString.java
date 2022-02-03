@@ -45,6 +45,6 @@ public class ReverseString {
         char temp = s[start];
         s[start] = s[end];
         s[end] = temp;
-        return new char[0];
+        return swapElements(s, start + 1, end - 1);
     }
 }

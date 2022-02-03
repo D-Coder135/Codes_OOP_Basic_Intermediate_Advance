@@ -12,5 +12,9 @@ import java.util.HashMap;
 public class Duplicates {
     static void printDuplicates(String string) {
         HashMap<Character, Integer> count = new HashMap<>();
+
+        for (int i = 0; i < string.length(); i++) {
+
+        }
     }
 }

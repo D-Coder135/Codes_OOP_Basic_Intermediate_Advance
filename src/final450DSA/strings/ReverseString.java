@@ -27,4 +27,7 @@
 package final450DSA.strings;
 
 public class ReverseString {
+    public void reverseString(char[] chars) {
+
+    }
 }

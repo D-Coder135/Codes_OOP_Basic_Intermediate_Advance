@@ -23,7 +23,7 @@ public class Duplicates {
         }
 
         for (Map.Entry mapElement : count.entrySet()) {
-
+            char key = (char) mapElement.getKey();
         }
     }
 }

@@ -51,4 +51,18 @@ public class ValidShuffle {
 
         return i >= str1.length() && j >= str2.length();
     }
+
+    public static void main(String[] args) {
+        String str1 = "XY";
+        String str2 = "12";
+        String[] results = {"1XY2", "Y1X2", "Y21XX"};
+
+        for (String result : results) {
+            if (checkLength(str1, str2, result) && shuffleCheck(str1, str2, result)) {
+                System.out.println("Valid");
+            } else {
+                System.out.println("Not Valid");
+            }
+        }
+    }
 }

@@ -15,6 +15,8 @@
 
 package final450DSA.strings;
 
+import java.util.Arrays;
+
 public class ValidShuffle {
     static boolean checkLength(String str1, String str2, String result) {
         return str1.length() + str2.length() == result.length();
@@ -22,5 +24,6 @@ public class ValidShuffle {
 
     static String sortStrings(String string) {
         char[] charArray = string.toCharArray();
+        Arrays.sort(charArray);
     }
 }

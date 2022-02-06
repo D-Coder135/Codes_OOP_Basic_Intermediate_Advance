@@ -39,7 +39,9 @@ public class ValidShuffle {
         int i = 0, j = 0, k = 0;
 
         while (k != result.length()) {
-
+            if (i < str1.length() && str1.charAt(i) == result.charAt(k)) {
+                i++;
+            }
         }
     }
 }

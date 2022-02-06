@@ -46,6 +46,7 @@ public class ValidShuffle {
             } else {
                 return false;
             }
+            k++;
         }
     }
 }

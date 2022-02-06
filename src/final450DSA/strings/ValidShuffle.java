@@ -19,4 +19,8 @@ public class ValidShuffle {
     static boolean checkLength(String str1, String str2, String result) {
         return str1.length() + str2.length() == result.length();
     }
+
+    static String sortStrings(String string) {
+
+    }
 }

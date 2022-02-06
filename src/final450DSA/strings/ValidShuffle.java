@@ -17,10 +17,6 @@ package final450DSA.strings;
 
 public class ValidShuffle {
     static boolean checkLength(String str1, String str2, String result) {
-        if (str1.length() + str2.length() == result.length()) {
-            return true;
-        } else {
-            return false;
-        }
+        return str1.length() + str2.length() == result.length();
     }
 }

@@ -28,5 +28,6 @@ public class ValidShuffle {
 
         string = String.valueOf(charArray);
 
+        return string;
     }
 }

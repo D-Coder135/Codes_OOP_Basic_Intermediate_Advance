@@ -22,7 +22,7 @@ public class ValidShuffle {
         return str1.length() + str2.length() == result.length();
     }
 
-    static String sortStrings(String string) {
+    static String sortString(String string) {
         char[] charArray = string.toCharArray();
         Arrays.sort(charArray);
 
@@ -30,4 +30,5 @@ public class ValidShuffle {
 
         return string;
     }
+
 }

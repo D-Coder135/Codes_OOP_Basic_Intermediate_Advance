@@ -43,6 +43,8 @@ public class ValidShuffle {
                 i++;
             } else if (j < str2.length() && str2.charAt(j) == result.charAt(k)) {
                 j++;
+            } else {
+                return false;
             }
         }
     }

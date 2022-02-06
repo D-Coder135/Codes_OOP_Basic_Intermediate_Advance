@@ -31,4 +31,7 @@ public class ValidShuffle {
         return string;
     }
 
+    static boolean shuffleCheck(String str1, String str2, String result) {
+
+    }
 }

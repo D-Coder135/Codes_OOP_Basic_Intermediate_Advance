@@ -52,5 +52,6 @@ public class ValidShuffle {
         if (i < str1.length() || j < str2.length()) {
             return false;
         }
+        return true;
     }
 }

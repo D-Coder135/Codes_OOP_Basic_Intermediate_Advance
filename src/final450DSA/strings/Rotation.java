@@ -18,6 +18,13 @@ public class Rotation {
     }
 
     public static void main(String[] args) {
+        String str1 = "ABCD";
+        String str2 = "CDAB";
 
+        if (areRoations(str1, str2)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
     }
 }

@@ -25,5 +25,8 @@ public class ValidShuffle {
     static String sortStrings(String string) {
         char[] charArray = string.toCharArray();
         Arrays.sort(charArray);
+
+        string = String.valueOf(charArray);
+
     }
 }

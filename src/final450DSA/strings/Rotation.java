@@ -13,4 +13,7 @@
 package final450DSA.strings;
 
 public class Rotation {
+    static boolean areRoations(String str1, String str2) {
+
+    }
 }

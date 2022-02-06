@@ -48,5 +48,9 @@ public class ValidShuffle {
             }
             k++;
         }
+
+        if (i < str1.length() || j < str2.length()) {
+            return false;
+        }
     }
 }

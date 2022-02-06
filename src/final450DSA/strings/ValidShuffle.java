@@ -36,4 +36,10 @@ public class ValidShuffle {
         str2 = sortString(str2);
         result = sortString(result);
 
+        int i = 0, j = 0, k = 0;
+
+        while (k != result.length()) {
+
+        }
     }
+}

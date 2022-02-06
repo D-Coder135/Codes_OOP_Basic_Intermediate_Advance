@@ -21,6 +21,6 @@ public class ValidShuffle {
     }
 
     static String sortStrings(String string) {
-
+        char[] charArray = string.toCharArray();
     }
 }

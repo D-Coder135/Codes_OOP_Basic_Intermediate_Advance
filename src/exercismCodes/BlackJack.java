@@ -51,12 +51,12 @@ public class BlackJack {
 
         if (!isBlackjack) {
             return "P";
-        }
-
-        if (isBlackjack && dealerScore != 11 || dealerScore != 10) {
-            return "W";
         } else {
-            return "S";
+            if (dealerScore != 11 && dealerScore != 10) {
+                return "W";
+            } else {
+                return "S";
+            }
         }
     }
 

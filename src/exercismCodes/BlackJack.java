@@ -61,7 +61,7 @@ public class BlackJack {
     }
 
     public String smallHand(int handScore, int dealerScore) {
-        throw new UnsupportedOperationException("Please implement the Blackjack.smallHand method");
+//        throw new UnsupportedOperationException("Please implement the Blackjack.smallHand method");
     }
 
     // FirstTurn returns the semi-optimal decision for the first turn, given the cards of the player and the dealer.

@@ -1,7 +1,8 @@
+package exercismCodes;
+
 public class BlackJack {
 
     public int parseCard(String card) {
-        throw new UnsupportedOperationException("Please implement the Blackjack.parseCard method");
         switch (card) {
             case "ace" -> {
                 return 11;
@@ -36,6 +37,7 @@ public class BlackJack {
             default -> {
                 return 0;
             }
+//            throw new UnsupportedOperationException("Please implement the Blackjack.parseCard method");
         }
     }
 

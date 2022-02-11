@@ -69,7 +69,7 @@ public class BlackJack {
         } else if (handScore >= 12 && handScore <= 16 && dealerScore < 7) {
             return "S";
         } else {
-
+            return "H";
         }
     }
 

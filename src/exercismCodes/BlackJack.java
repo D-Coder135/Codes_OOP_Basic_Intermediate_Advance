@@ -42,7 +42,7 @@ public class BlackJack {
     }
 
     public boolean isBlackjack(String card1, String card2) {
-        throw new UnsupportedOperationException("Please implement the Blackjack.isBlackjack method");
+//        throw new UnsupportedOperationException("Please implement the Blackjack.isBlackjack method");
     }
 
     public String largeHand(boolean isBlackjack, int dealerScore) {

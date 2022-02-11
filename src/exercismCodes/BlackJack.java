@@ -64,6 +64,8 @@ public class BlackJack {
 //        throw new UnsupportedOperationException("Please implement the Blackjack.smallHand method");
         if (handScore >= 17) {
             return "S";
+        } else if (handScore <= 11) {
+            return "H";
         }
     }
 

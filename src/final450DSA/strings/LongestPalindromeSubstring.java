@@ -64,4 +64,36 @@ public class LongestPalindromeSubstring {
     }
 
     // GFG Solution
+    static class SolutionGFG {
+        static String longestPalin(String S) {
+            // code here
+            int max = 0;
+            String ans = "";
+            for (int i = 0; i < S.length(); i++) {
+                for (int j = i; j < S.length(); j++) {
+                    String sub = S.substring(i, j + 1);
+                    int len = checkPalin(sub);
+                    if (len > max) {
+                        max = len;
+                        ans = sub;
+                    }
+                }
+            }
+            return ans;
+        }
+
+        static int checkPalin(String str) {
+            int i = 0;
+            int j = str.length() - 1;
+
+            while (i < j) {
+                if (str.charAt(i) != str.charAt(j)) {
+                    return 0;
+                }
+                i++;
+                j--;
+            }
+            return str.length();
+        }
+    }
 }

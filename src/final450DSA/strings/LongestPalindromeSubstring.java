@@ -33,6 +33,12 @@ public class LongestPalindromeSubstring {
             }
 
             String best = s.substring(0, 1);
+
+            for (int i = 0; i < s.length(); i++) {
+                for (int j = s.length() - 1; j > i; j--) {
+
+                }
+            }
         }
     }
 }

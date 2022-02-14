@@ -56,7 +56,7 @@ public class CountAndSay {
                 if (str.charAt(i) == str.charAt(i + 1)) {
                     count++;
                 } else {
-
+                    string.append(count).append(str.charAt(i));
                 }
             }
             return null;

@@ -53,7 +53,9 @@ public class LongestPalindromeSubstring {
         }
 
         private String checkPalindrome(String s, int start, int end) {
-            return null;
+            for (int i = start, j = end; i < j; i++, j--) {
+
+            }
         }
     }
 }

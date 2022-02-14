@@ -51,5 +51,9 @@ public class LongestPalindromeSubstring {
             }
             return best;
         }
+
+        private String checkPalindrome(String s, int start, int end) {
+            return null;
+        }
     }
 }

@@ -57,6 +57,7 @@ public class CountAndSay {
                     count++;
                 } else {
                     string.append(count).append(str.charAt(i));
+                    count = 1;
                 }
             }
             return string.append(count).append(str.charAt(str.length() - 1)).toString();

@@ -58,6 +58,7 @@ public class LongestPalindromeSubstring {
                     return null;
                 }
             }
+            return s.substring(start, end + 1);
         }
     }
 }

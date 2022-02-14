@@ -36,7 +36,9 @@ public class LongestPalindromeSubstring {
 
             for (int i = 0; i < s.length(); i++) {
                 for (int j = s.length() - 1; j > i; j--) {
-
+                    if (s.charAt(i) == s.charAt(j)) {
+                        String result = checkPalindrome(s, i, j);
+                    }
                 }
             }
         }

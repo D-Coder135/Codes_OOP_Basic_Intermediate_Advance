@@ -45,6 +45,7 @@ public class LongestPalindromeSubstring {
                         if (result.length() > best.length()) {
                             best = result;
                         }
+                        break;
                     }
                 }
             }

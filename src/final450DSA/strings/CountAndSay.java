@@ -47,5 +47,9 @@ public class CountAndSay {
             String result = countAndSay(n - 1);
             return helper(result);
         }
+
+        private String helper(String str) {
+            return null;
+        }
     }
 }

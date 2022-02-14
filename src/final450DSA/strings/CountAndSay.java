@@ -59,7 +59,7 @@ public class CountAndSay {
                     string.append(count).append(str.charAt(i));
                 }
             }
-            return null;
+            return string.append(count).append(str.charAt(str.length() - 1)).toString();
         }
     }
 }

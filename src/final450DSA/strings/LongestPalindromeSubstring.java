@@ -26,4 +26,9 @@
 package final450DSA.strings;
 
 public class LongestPalindromeSubstring {
+    static class Solution {
+        public String longestPalindrome(String s) {
+
+        }
+    }
 }

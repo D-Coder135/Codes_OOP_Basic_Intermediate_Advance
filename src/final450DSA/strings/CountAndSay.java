@@ -39,4 +39,9 @@
 package final450DSA.strings;
 
 public class CountAndSay {
+    static class Solution {
+        public String countAndSay(int n) {
+
+        }
+    }
 }

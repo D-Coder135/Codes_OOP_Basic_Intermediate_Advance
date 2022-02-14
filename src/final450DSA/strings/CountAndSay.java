@@ -44,6 +44,7 @@ public class CountAndSay {
             if (n == 1) {
                 return "1";
             }
+            String result = countAndSay(n - 1);
         }
     }
 }

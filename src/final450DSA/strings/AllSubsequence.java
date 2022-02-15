@@ -28,5 +28,7 @@ public class AllSubsequence {
         }
 
         findSubsequences(str.substring(1), ans + str.charAt(0));
+
+        findSubsequences(str.substring(1), ans);
     }
 }

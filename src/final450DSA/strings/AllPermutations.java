@@ -19,6 +19,10 @@ public class AllPermutations {
             solve(S, ans, 0);
             return ans;
         }
+
+        private void solve(String s, List<String> ans, int index) {
+
+        }
     }
 
 }

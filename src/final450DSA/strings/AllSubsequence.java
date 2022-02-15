@@ -19,4 +19,8 @@ import java.util.List;
 
 public class AllSubsequence {
     static List<String> allSubsequ = new ArrayList<>();
+
+    public static void findSubsequences(String str, String ans) {
+
+    }
 }

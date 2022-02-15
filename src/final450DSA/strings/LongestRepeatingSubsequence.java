@@ -8,4 +8,10 @@
 package final450DSA.strings;
 
 public class LongestRepeatingSubsequence {
+    static class Solution {
+        public int longestRepeatingSubsequence(String str) {
+            // code here
+
+        }
+    }
 }

@@ -17,7 +17,7 @@ public class AllPermutations {
             // Code here
             List<String> ans = new ArrayList<>();
             solve(S, ans, 0);
-
+            return ans;
         }
     }
 

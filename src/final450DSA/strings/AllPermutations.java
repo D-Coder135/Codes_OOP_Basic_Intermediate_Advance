@@ -16,6 +16,8 @@ public class AllPermutations {
         public List<String> find_permutation(String S) {
             // Code here
             List<String> ans = new ArrayList<>();
+            solve(S, ans, 0);
+
         }
     }
 

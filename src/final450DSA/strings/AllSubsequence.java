@@ -19,8 +19,8 @@ import java.util.List;
 
 public class AllSubsequence {
 
+    static List<String> allSubsequ = new ArrayList<>();
     public static List<String> findSubsequences(String str, String ans) {
-        List<String> allSubsequ = new ArrayList<>();
 
         if (str.length() == 0) {
             allSubsequ.add(ans);
@@ -31,5 +31,10 @@ public class AllSubsequence {
         findSubsequences(str.substring(1), ans); // not adding the first character of the string to the ans.
 
         return allSubsequ;
+    }
+
+    public static void main(String[] args) {
+        String s = "abcd";
+        System.out.println(findSubsequences(s, ""));
     }
 }

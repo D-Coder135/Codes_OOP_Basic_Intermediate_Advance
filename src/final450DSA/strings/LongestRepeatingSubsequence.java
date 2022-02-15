@@ -11,7 +11,7 @@ public class LongestRepeatingSubsequence {
     static class Solution {
         public int longestRepeatingSubsequence(String str) {
             // code here
-
+            int length = str.length();
         }
     }
 }

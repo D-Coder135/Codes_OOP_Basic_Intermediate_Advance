@@ -27,8 +27,8 @@ public class AllSubsequence {
             return allSubsequ;
         }
 
-        findSubsequences(str.substring(1), ans + str.charAt(0));
-        findSubsequences(str.substring(1), ans);
+        findSubsequences(str.substring(1), ans + str.charAt(0)); // adding first character of the string to the ans.
+        findSubsequences(str.substring(1), ans); // not adding the first character of the string to the ans.
 
         return allSubsequ;
     }

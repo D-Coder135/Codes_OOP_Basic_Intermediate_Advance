@@ -14,5 +14,9 @@
 
 package final450DSA.strings;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class AllSubsequence {
+    static List<String> allSubsequ = new ArrayList<>();
 }

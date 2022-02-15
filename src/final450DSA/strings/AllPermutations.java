@@ -8,6 +8,8 @@
 package final450DSA.strings;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class AllPermutations {
@@ -16,14 +18,20 @@ public class AllPermutations {
         public List<String> find_permutation(String S) {
             // Code here
             List<String> ans = new ArrayList<>();
-            solve(S, ans, 0);
+            solve(S, ans, "");
+            Collections.sort(ans);
             return ans;
         }
 
-        private void solve(String s, List<String> ans, int index) {
-            if (index >= s.length()) {
-                ans.add(s);
+        private void solve(String s, List<String> ans, String ansString) {
+            if (s.length() == 0) {
+                ans.add(ansString);
                 return;
+            }
+
+            for (int i = 0; i < s.length(); i++) {
+                String str = s.substring(0, i) + s.substring(i + 1);
+                solve(str, ans, ansString + s.charAt(i));
             }
         }
     }

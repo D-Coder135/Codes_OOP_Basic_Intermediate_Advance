@@ -22,5 +22,9 @@ public class AllSubsequence {
     public static List<String> findSubsequences(String str, String ans) {
         List<String> allSubsequ = new ArrayList<>();
 
+        if (str.length() == 0) {
+            allSubsequ.add(ans);
+            return allSubsequ;
+        }
     }
 }

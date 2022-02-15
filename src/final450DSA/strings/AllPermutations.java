@@ -21,7 +21,10 @@ public class AllPermutations {
         }
 
         private void solve(String s, List<String> ans, int index) {
-
+            if (index >= s.length()) {
+                ans.add(s);
+                return;
+            }
         }
     }
 

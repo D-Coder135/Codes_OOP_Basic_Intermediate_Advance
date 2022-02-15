@@ -7,5 +7,14 @@
 
 package final450DSA.strings;
 
+import java.util.List;
+
 public class AllPermutations {
+
+    static class Solution {
+        public List<String> find_permutation(String S) {
+            // Code here
+        }
+    }
+
 }

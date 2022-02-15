@@ -32,6 +32,7 @@ public class LongestRepeatingSubsequence {
                     }
                 }
             }
+            return dp[length][length];
         }
     }
 }

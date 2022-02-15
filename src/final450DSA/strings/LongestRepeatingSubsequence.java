@@ -21,6 +21,10 @@ public class LongestRepeatingSubsequence {
             for (int j = 0; j < length; j++) {
                 dp[0][j] = 0;
             }
+
+            for (int i = 1; i <= length; i++) {
+
+            }
         }
     }
 }

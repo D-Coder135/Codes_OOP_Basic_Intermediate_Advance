@@ -13,6 +13,10 @@ public class LongestRepeatingSubsequence {
             // code here
             int length = str.length();
             int[][] dp = new int[length + 1][length + 1];
+
+            for (int i = 0; i < length; i++) {
+                dp[i][0] = 0;
+            }
         }
     }
 }

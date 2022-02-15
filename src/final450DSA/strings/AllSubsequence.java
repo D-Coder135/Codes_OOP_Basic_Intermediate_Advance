@@ -26,5 +26,7 @@ public class AllSubsequence {
             allSubsequ.add(ans);
             return allSubsequ;
         }
+
+        findSubsequences(str.substring(1), ans + str.charAt(0));
     }
 }

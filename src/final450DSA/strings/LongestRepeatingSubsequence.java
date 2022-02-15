@@ -12,6 +12,7 @@ public class LongestRepeatingSubsequence {
         public int longestRepeatingSubsequence(String str) {
             // code here
             int length = str.length();
+            int[][] dp = new int[length + 1][length + 1];
         }
     }
 }

@@ -33,8 +33,8 @@ public class AllSubsequence {
         return allSubsequ;
     }
 
-    public static void main(String[] args) {
-        String s = "abcd";
-        System.out.println(findSubsequences(s, ""));
-    }
+//    public static void main(String[] args) {
+//        String s = "abcd";
+//        System.out.println(findSubsequences(s, ""));
+//    }
 }

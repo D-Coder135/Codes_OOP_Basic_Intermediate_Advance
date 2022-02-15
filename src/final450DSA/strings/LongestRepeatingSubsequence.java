@@ -25,6 +25,9 @@ public class LongestRepeatingSubsequence {
             for (int i = 1; i <= length; i++) {
                 for (int j = 1; j <= length; j++) {
 
+                    if (str.charAt(i - 1) == str.charAt(j - 1) && i != j) {
+                        dp[i][j] = dp[i - 1][j - 1] + 1;
+                    }
                 }
             }
         }

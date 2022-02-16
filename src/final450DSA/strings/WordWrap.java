@@ -82,6 +82,6 @@ public class WordWrap {
                 }
             }
         }
-
+        return c[n];
     }
 }

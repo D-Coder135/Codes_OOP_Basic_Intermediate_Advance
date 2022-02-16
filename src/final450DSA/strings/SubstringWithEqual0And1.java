@@ -34,6 +34,8 @@ public class SubstringWithEqual0And1 {
         for (int i = 0; i < string.length(); i++) {
             if (string.charAt(i) == '0') {
                 count0++;
+            } else {
+                count1++;
             }
         }
     }

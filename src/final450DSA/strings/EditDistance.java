@@ -45,7 +45,11 @@ public class EditDistance {
     static class Solution {
         public int minDistance(String word1, String word2) {
             int[][] dp = new int[word1.length() + 1][word2.length() + 1];
+            for (int i = 0; i < dp.length; i++) {
+                for (int j = 0; j < dp[0].length; j++) {
 
+                }
+            }
         }
     }
 }

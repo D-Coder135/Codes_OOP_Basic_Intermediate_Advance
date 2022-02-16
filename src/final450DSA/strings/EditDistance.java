@@ -51,6 +51,10 @@ public class EditDistance {
                         dp[i][j] = j;
                     } else if (j == 0) {
                         dp[i][j] = i;
+                    } else {
+                        if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
+
+                        }
                     }
                 }
             }

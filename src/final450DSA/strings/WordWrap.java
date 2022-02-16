@@ -63,7 +63,9 @@ public class WordWrap {
 
         for (int i = 1; i <= n; i++) {
             for (int j = i; j <= n; j++) {
-
+                if (space[i][j] < 0) {
+                    ls[i][j] = inf;
+                }
             }
         }
     }

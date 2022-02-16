@@ -49,6 +49,8 @@ public class EditDistance {
                 for (int j = 0; j < dp[0].length; j++) {
                     if (i == 0) {
                         dp[i][j] = j;
+                    } else if (j == 0) {
+                        dp[i][j] = i;
                     }
                 }
             }

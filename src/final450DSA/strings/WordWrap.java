@@ -53,5 +53,12 @@ public class WordWrap {
         int[][] ls = new int[n + 1][n + 1];
         int[] c = new int[n + 1];
 
+        for (int i = 1; i <= n; i++) {
+            space[i][i] = k - nums[i - 1];
+
+            for (int j = i + 1; j <= n; j++) {
+                space[i][j] = space[i][j - 1] - nums[j - 1] - 1;
+            }
+        }
     }
 }

@@ -60,5 +60,11 @@ public class WordWrap {
                 space[i][j] = space[i][j - 1] - nums[j - 1] - 1;
             }
         }
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = i; j <= n; j++) {
+
+            }
+        }
     }
 }

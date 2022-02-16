@@ -55,7 +55,10 @@ public class EditDistance {
                         if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
                             dp[i][j] = dp[i - 1][j - 1];
                         } else {
-
+                            int f1 = 1 + dp[i - 1][j - 1];
+                            int f2 = 1 + dp[i][j - 1];
+                            int f3 = 1 + dp[i - 1][j];
+                            dp[i][j] = Math.min(f1, Math.min(f2, f3));
                         }
                     }
                 }

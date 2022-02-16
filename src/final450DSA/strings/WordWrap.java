@@ -45,4 +45,5 @@
 package final450DSA.strings;
 
 public class WordWrap {
+    final static int inf = Integer.MAX_VALUE;
 }

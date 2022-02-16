@@ -65,6 +65,10 @@ public class WordWrap {
             for (int j = i; j <= n; j++) {
                 if (space[i][j] < 0) {
                     ls[i][j] = inf;
+                } else if (j == n && space[i][j] >= 0) {
+                    ls[i][j] = 0;
+                } else {
+                    ls[i][j] = space[i][j] * space[i][j];
                 }
             }
         }

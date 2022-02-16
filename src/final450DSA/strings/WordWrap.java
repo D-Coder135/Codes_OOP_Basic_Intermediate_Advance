@@ -48,6 +48,10 @@ public class WordWrap {
     final static int inf = Integer.MAX_VALUE;
 
     public int solveWordWrap(int[] nums, int k) {
+        int n = nums.length;
+        int[][] space = new int[n + 1][n + 1];
+        int[][] ls = new int[n + 1][n + 1];
+        int[] c = new int[n + 1];
 
     }
 }

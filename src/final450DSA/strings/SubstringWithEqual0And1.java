@@ -42,5 +42,9 @@ public class SubstringWithEqual0And1 {
                 count++;
             }
         }
+
+        if (count0 != count1) {
+            return -1;
+        }
     }
 }

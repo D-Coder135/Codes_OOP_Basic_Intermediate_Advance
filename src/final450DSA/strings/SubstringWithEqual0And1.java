@@ -37,6 +37,10 @@ public class SubstringWithEqual0And1 {
             } else {
                 count1++;
             }
+
+            if (count0 == count1) {
+                count++;
+            }
         }
     }
 }

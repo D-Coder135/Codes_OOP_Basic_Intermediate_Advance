@@ -72,5 +72,16 @@ public class WordWrap {
                 }
             }
         }
+
+        c[0] = 0;
+        for (int j = 1; j <= n; j++) {
+            c[j] = inf;
+            for (int i = 1; i <= j; i++) {
+                if (c[i - 1] != inf && ls[i][j] != inf && (c[i - 1] + ls[i][j] < c[j])) {
+                    c[j] = c[i - 1] + ls[i][j];
+                }
+            }
+        }
+
     }
 }

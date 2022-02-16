@@ -28,6 +28,9 @@ package final450DSA.strings;
 
 public class SubstringWithEqual0And1 {
     public static int countSubstrings(String string) {
+        int count0 = 0, count1 = 0;
+        int count = 0;
+
 
     }
 }

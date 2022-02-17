@@ -39,6 +39,7 @@
 
 package leetCodes;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class NextPermutation {
@@ -65,6 +66,8 @@ public class NextPermutation {
                 int temp = arr[firstIndex - 1];
                 arr[firstIndex - 1] = arr[nextMax];
                 arr[nextMax] = temp;
+
+                Arrays.sort(arr, firstIndex, N);
             }
         }
     }

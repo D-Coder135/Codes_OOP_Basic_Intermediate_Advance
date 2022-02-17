@@ -39,6 +39,7 @@
 
 package leetCodes;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -71,6 +72,12 @@ public class NextPermutation {
             } else {
                 Arrays.sort(arr);
             }
+            List<Integer> list = new ArrayList<>();
+
+            for (int i : arr) {
+                list.add(i);
+            }
+            return list;
         }
     }
 }

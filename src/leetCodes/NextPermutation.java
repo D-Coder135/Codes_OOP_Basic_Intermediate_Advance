@@ -68,6 +68,8 @@ public class NextPermutation {
                 arr[nextMax] = temp;
 
                 Arrays.sort(arr, firstIndex, N);
+            } else {
+                Arrays.sort(arr);
             }
         }
     }

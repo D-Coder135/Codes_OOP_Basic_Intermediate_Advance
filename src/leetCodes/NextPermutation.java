@@ -62,6 +62,9 @@ public class NextPermutation {
                         nextMax = i;
                     }
                 }
+                int temp = arr[firstIndex - 1];
+                arr[firstIndex - 1] = arr[nextMax];
+                arr[nextMax] = temp;
             }
         }
     }

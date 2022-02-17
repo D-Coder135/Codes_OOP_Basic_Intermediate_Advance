@@ -45,6 +45,17 @@ public class NextPermutation {
     static class Solution {
         static List<Integer> nextPermutation(int N, int[] arr) {
             // code here
+            int firstIndex = N - 1;
+
+            for (int i = N - 2; i >= 0; i--) {
+                if (arr[firstIndex] <= arr[i]) {
+                    firstIndex--;
+                } else {
+                    break;
+                }
+            }
+
+
         }
     }
 }

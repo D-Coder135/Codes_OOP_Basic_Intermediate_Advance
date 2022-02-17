@@ -49,13 +49,15 @@ public class NextPermutation {
 
             for (int i = N - 2; i >= 0; i--) {
                 if (arr[firstIndex] <= arr[i]) {
-                    firstIndex--;
+                    firstIndex = i;
                 } else {
                     break;
                 }
             }
 
+            if (firstIndex != 0) {
 
+            }
         }
     }
 }

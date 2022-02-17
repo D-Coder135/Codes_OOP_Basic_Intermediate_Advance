@@ -39,5 +39,12 @@
 
 package leetCodes;
 
+import java.util.List;
+
 public class NextPermutation {
+    static class Solution {
+        static List<Integer> nextPermutation(int N, int[] arr) {
+            // code here
+        }
+    }
 }

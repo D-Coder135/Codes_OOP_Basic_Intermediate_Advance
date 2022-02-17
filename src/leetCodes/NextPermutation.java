@@ -56,7 +56,10 @@ public class NextPermutation {
             }
 
             if (firstIndex != 0) {
+                int nextMax = firstIndex;
+                for (int i = firstIndex + 1; i < N; i++) {
 
+                }
             }
         }
     }

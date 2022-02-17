@@ -58,7 +58,9 @@ public class NextPermutation {
             if (firstIndex != 0) {
                 int nextMax = firstIndex;
                 for (int i = firstIndex + 1; i < N; i++) {
-
+                    if (arr[i] > arr[firstIndex - 1] && arr[i] < arr[nextMax]) {
+                        nextMax = i;
+                    }
                 }
             }
         }

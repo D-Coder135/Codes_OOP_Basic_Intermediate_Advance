@@ -56,7 +56,7 @@ public class WordBreak2 {
             for (int end = start + 1; end <= s.length(); end++) {
                 String prefix = s.substring(start, end);
                 if (set.contains(prefix)) {
-                    List<String> suffixes = wordBreakHelper(s, end, set);
+                    List<String> suffixes = wordBreakDp(s, end, set, map);
 
                     for (String suffix : suffixes) {
                         validSubStr.add(prefix + (suffix.equals("") ? "" : " ") + suffix);

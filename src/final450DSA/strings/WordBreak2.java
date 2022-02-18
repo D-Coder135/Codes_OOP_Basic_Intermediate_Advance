@@ -26,6 +26,9 @@ public class WordBreak2 {
             }
             for (int end = start + 1; end <= s.length(); end++) {
                 String prefix = s.substring(start, end);
+                if (set.contains(prefix)) {
+                    
+                }
             }
             return null;
         }

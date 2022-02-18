@@ -45,12 +45,13 @@ public class WordBreak2 {
         private List<String> wordBreakDp(String s, int start, HashSet<String> set, HashMap<Integer, List<String>> map) {
             List<String> validSubStr = new ArrayList<>();
 
-            if (map.containsKey(start)) {
-                return map.get(start);
-            }
 
             if (start == s.length()) {
                 validSubStr.add("");
+            }
+
+            if (map.containsKey(start)) {
+                return map.get(start);
             }
             for (int end = start + 1; end <= s.length(); end++) {
                 String prefix = s.substring(start, end);
@@ -62,6 +63,7 @@ public class WordBreak2 {
                     }
                 }
             }
+            map.put(start, validSubStr);
             return validSubStr;
         }
     }

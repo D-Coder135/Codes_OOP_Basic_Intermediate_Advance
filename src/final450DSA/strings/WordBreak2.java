@@ -25,7 +25,7 @@ public class WordBreak2 {
                 validSubStr.add("");
             }
             for (int end = start + 1; end <= s.length(); end++) {
-
+                String prefix = s.substring(start, end);
             }
             return null;
         }

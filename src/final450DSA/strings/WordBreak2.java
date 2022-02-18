@@ -45,6 +45,10 @@ public class WordBreak2 {
         private List<String> wordBreakDp(String s, int start, HashSet<String> set, HashMap<Integer, List<String>> map) {
             List<String> validSubStr = new ArrayList<>();
 
+            if (map.containsKey(start)) {
+                return map.get(start);
+            }
+
             if (start == s.length()) {
                 validSubStr.add("");
             }

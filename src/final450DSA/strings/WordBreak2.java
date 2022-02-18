@@ -34,7 +34,7 @@ public class WordBreak2 {
                     }
                 }
             }
-            return null;
+            return validSubStr;
         }
     }
 }

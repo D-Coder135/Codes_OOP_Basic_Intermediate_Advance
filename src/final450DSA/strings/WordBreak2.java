@@ -7,12 +7,13 @@
 
 package final450DSA.strings;
 
+import java.util.HashSet;
 import java.util.List;
 
 public class WordBreak2 {
     static class Solution {
         public List<String> wordBreak(String s, List<String> wordDict) {
-
+            HashSet<String> set = new HashSet<>();
         }
     }
 }

@@ -15,5 +15,9 @@ public class WordBreak {
             int x = solve(s, wordDict);
             return x == 1;
         }
+
+        private int solve(String s, List<String> wordDict) {
+            return 0;
+        }
     }
 }

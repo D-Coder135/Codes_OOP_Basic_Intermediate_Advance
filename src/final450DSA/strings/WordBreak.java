@@ -31,6 +31,7 @@ public class WordBreak {
 
             for (int i = 0; i < len; i++) {
                 int flag = 0;
+                String subString = s.substring(0, i);
             }
             return 0;
         }

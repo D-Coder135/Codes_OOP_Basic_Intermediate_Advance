@@ -39,6 +39,23 @@ public class WordBreak2 {
         }
 
         // Using DP (More Optimized Solution)
+        private List<String> wordBreakDp(String s, int start, HashSet<String> set) {
+            List<String> validSubStr = new ArrayList<>();
 
+            if (start == s.length()) {
+                validSubStr.add("");
+            }
+            for (int end = start + 1; end <= s.length(); end++) {
+                String prefix = s.substring(start, end);
+                if (set.contains(prefix)) {
+                    List<String> suffixes = wordBreakHelper(s, end, set);
+
+                    for (String suffix : suffixes) {
+                        validSubStr.add(prefix + (suffix.equals("") ? "" : " ") + suffix);
+                    }
+                }
+            }
+            return validSubStr;
+        }
     }
 }

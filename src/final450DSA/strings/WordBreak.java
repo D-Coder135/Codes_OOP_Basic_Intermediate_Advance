@@ -31,6 +31,9 @@ public class WordBreak {
         public boolean wordBreakDP(String s, List<String> wordDict) {
             if (wordDict.contains(s))
                 return true;
+            if (map.containsKey(s)) {
+                return map.get(s);
+            }
             for (int i = 0; i < s.length(); i++) {
                 String sub = s.substring(0, i);
                 if (wordDict.contains(sub) && wordBreakDP(s.substring(i), wordDict))

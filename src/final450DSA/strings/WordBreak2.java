@@ -24,6 +24,9 @@ public class WordBreak2 {
             if (start == s.length()) {
                 validSubStr.add("");
             }
+            for (int end = start + 1; end <= s.length(); end++) {
+
+            }
             return null;
         }
     }

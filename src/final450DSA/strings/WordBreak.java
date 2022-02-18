@@ -11,7 +11,7 @@ import java.util.List;
 
 public class WordBreak {
     static class Solution {
-        // RECURSIVE APPROACH: TLE ERROR
+        // RECURSIVE APPROACH(GFG SOLUTION): TLE ERROR
         public boolean wordBreak(String s, List<String> wordDict) {
             if (wordDict.contains(s))
                 return true;

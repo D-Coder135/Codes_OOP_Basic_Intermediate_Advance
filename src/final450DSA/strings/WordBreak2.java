@@ -17,7 +17,8 @@ public class WordBreak2 {
         public List<String> wordBreak(String s, List<String> wordDict) {
             HashSet<String> set = new HashSet<>(wordDict);
             HashMap<Integer, List<String>> map = new HashMap<>();
-            return wordBreakHelper(s, 0, set);
+//            return wordBreakHelper(s, 0, set);
+            return wordBreakDp(s, 0, set, map);
         }
 
         // Using Recursion (Backtracking)
@@ -41,7 +42,7 @@ public class WordBreak2 {
         }
 
         // Using DP (More Optimized Solution)
-        private List<String> wordBreakDp(String s, int start, HashSet<String> set) {
+        private List<String> wordBreakDp(String s, int start, HashSet<String> set, HashMap<Integer, List<String>> map) {
             List<String> validSubStr = new ArrayList<>();
 
             if (start == s.length()) {

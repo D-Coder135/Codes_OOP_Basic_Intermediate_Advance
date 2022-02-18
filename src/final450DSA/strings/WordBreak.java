@@ -28,6 +28,10 @@ public class WordBreak {
             if (dp.get(s) != 0) {
                 return dp.get(s);
             }
+
+            for (int i = 0; i < len; i++) {
+                int flag = 0;
+            }
             return 0;
         }
     }

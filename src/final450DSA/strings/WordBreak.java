@@ -7,39 +7,19 @@
 
 package final450DSA.strings;
 
-import java.util.HashMap;
 import java.util.List;
 
 public class WordBreak {
     static class Solution {
-        static HashMap<String, Integer> dp = new HashMap<>();
         public boolean wordBreak(String s, List<String> wordDict) {
-            int x = solve(s, wordDict);
-            return x == 1;
-        }
-
-        private int solve(String s, List<String> wordDict) {
-            int len = s.length();
-
-            if (len == 0) {
-                return 1;
+            if (wordDict.contains(s))
+                return true;
+            for (int i = 0; i < s.length(); i++) {
+                String sub = s.substring(0, i);
+                if (wordDict.contains(sub) && wordBreak(s.substring(i), wordDict))
+                    return true;
             }
-
-            if (dp.get(s) != 0) {
-                return dp.get(s);
-            }
-
-            for (int i = 0; i < len; i++) {
-                int flag = 0;
-                String subString = s.substring(0, i);
-                for (String value : wordDict) {
-                    if (subString.equals(value)) {
-                        flag = 1;
-                        break;
-                    }
-                }
-            }
-            return 0;
+            return false;
         }
     }
 }

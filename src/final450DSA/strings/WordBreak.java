@@ -32,6 +32,12 @@ public class WordBreak {
             for (int i = 0; i < len; i++) {
                 int flag = 0;
                 String subString = s.substring(0, i);
+                for (int j = 0; j < wordDict.size(); j++) {
+                    if (subString.equals(wordDict.get(j))) {
+                        flag = 1;
+                        break;
+                    }
+                }
             }
             return 0;
         }

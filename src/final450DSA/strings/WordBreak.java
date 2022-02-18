@@ -8,7 +8,9 @@
 package final450DSA.strings;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class WordBreak {
     static class Solution {
@@ -26,6 +28,16 @@ public class WordBreak {
 
         // Optimized Approach DP
 
+        public boolean wordBreakDP(String s, List<String> wordDict) {
+            if (wordDict.contains(s))
+                return true;
+            for (int i = 0; i < s.length(); i++) {
+                String sub = s.substring(0, i);
+                if (wordDict.contains(sub) && wordBreakDP(s.substring(i), wordDict))
+                    return true;
+            }
+            return false;
+        }
     }
 
     // GFG SOLUTION: Recursive Approach

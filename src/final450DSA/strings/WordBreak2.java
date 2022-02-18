@@ -20,6 +20,10 @@ public class WordBreak2 {
 
         private List<String> wordBreakHelper(String s, int start, HashSet<String> set) {
             List<String> validSubStr = new ArrayList<>();
+
+            if (start == s.length()) {
+                validSubStr.add("");
+            }
             return null;
         }
     }

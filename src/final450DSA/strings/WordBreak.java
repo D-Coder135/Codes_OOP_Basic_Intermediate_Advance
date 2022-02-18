@@ -7,11 +7,12 @@
 
 package final450DSA.strings;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class WordBreak {
     static class Solution {
-        // RECURSIVE APPROACH(GFG SOLUTION): TLE ERROR
+        // RECURSIVE APPROACH: TLE ERROR
         public boolean wordBreak(String s, List<String> wordDict) {
             if (wordDict.contains(s))
                 return true;
@@ -21,6 +22,21 @@ public class WordBreak {
                     return true;
             }
             return false;
+        }
+    }
+
+    // GFG SOLUTION: Recursive Approach
+    static class Sol {
+        public static int wordBreak(String s, ArrayList<String> wordDict) {
+            //code here
+            if (wordDict.contains(s))
+                return 1;
+            for (int i = 0; i < s.length(); i++) {
+                String sub = s.substring(0, i);
+                if (wordDict.contains(sub) && wordBreak(s.substring(i), wordDict) == 1)
+                    return 1;
+            }
+            return 0;
         }
     }
 }

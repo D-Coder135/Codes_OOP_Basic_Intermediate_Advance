@@ -8,6 +8,7 @@
 package final450DSA.strings;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
@@ -15,6 +16,7 @@ public class WordBreak2 {
     static class Solution {
         public List<String> wordBreak(String s, List<String> wordDict) {
             HashSet<String> set = new HashSet<>(wordDict);
+            HashMap<Integer, List<String>> map = new HashMap<>();
             return wordBreakHelper(s, 0, set);
         }
 

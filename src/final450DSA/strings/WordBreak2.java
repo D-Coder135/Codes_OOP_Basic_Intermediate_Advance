@@ -30,7 +30,7 @@ public class WordBreak2 {
                     List<String> suffixes = wordBreakHelper(s, end, set);
 
                     for (String suffix : suffixes) {
-
+                        validSubStr.add(prefix + (suffix.equals("") ? "" : " ") + suffix);
                     }
                 }
             }

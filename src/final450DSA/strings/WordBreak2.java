@@ -7,6 +7,7 @@
 
 package final450DSA.strings;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
@@ -18,6 +19,7 @@ public class WordBreak2 {
         }
 
         private List<String> wordBreakHelper(String s, int start, HashSet<String> set) {
+            List<String> validSubStr = new ArrayList<>();
             return null;
         }
     }

@@ -11,7 +11,7 @@ import java.util.List;
 
 public class WordBreak {
     static class Solution {
-        public List<String> wordBreak(String s, List<String> wordDict) {
+        public boolean wordBreak(String s, List<String> wordDict) {
 
         }
     }

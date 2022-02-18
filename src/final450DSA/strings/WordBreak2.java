@@ -28,6 +28,10 @@ public class WordBreak2 {
                 String prefix = s.substring(start, end);
                 if (set.contains(prefix)) {
                     List<String> suffixes = wordBreakHelper(s, end, set);
+
+                    for (String suffix : suffixes) {
+
+                    }
                 }
             }
             return null;

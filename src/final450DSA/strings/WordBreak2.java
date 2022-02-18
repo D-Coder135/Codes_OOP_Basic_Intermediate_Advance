@@ -16,5 +16,9 @@ public class WordBreak2 {
             HashSet<String> set = new HashSet<>(wordDict);
             return wordBreakHelper(s, 0, set);
         }
+
+        private List<String> wordBreakHelper(String s, int start, HashSet<String> set) {
+            return null;
+        }
     }
 }

@@ -13,7 +13,8 @@ import java.util.List;
 public class WordBreak2 {
     static class Solution {
         public List<String> wordBreak(String s, List<String> wordDict) {
-            HashSet<String> set = new HashSet<>();
+            HashSet<String> set = new HashSet<>(wordDict);
+            return wordBreakHelper(s, 0, set);
         }
     }
 }

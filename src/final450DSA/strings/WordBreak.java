@@ -27,7 +27,7 @@ public class WordBreak {
         }
 
         // Optimized Approach DP
-
+        Map<String, Boolean> map = new HashMap<>();
         public boolean wordBreakDP(String s, List<String> wordDict) {
             if (wordDict.contains(s))
                 return true;

@@ -17,6 +17,11 @@ public class WordBreak {
         }
 
         private int solve(String s, List<String> wordDict) {
+            int len = s.length();
+
+            if (len == 0) {
+                return 1;
+            }
             return 0;
         }
     }

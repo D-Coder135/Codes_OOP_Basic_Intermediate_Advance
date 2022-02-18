@@ -16,7 +16,7 @@ public class WordBreak2 {
     static class Solution {
         public List<String> wordBreak(String s, List<String> wordDict) {
             HashSet<String> set = new HashSet<>(wordDict);
-            HashMap<Integer, List<String>> map = new HashMap<>();
+            HashMap<Integer, List<String>> map = new HashMap<>(); // For DP
 //            return wordBreakHelper(s, 0, set);
             return wordBreakDp(s, 0, set, map);
         }

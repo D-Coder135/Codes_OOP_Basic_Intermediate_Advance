@@ -24,6 +24,10 @@ public class WordBreak {
             if (len == 0) {
                 return 1;
             }
+
+            if (dp.get(s) != 0) {
+                return dp.get(s);
+            }
             return 0;
         }
     }

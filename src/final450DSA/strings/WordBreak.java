@@ -7,10 +7,12 @@
 
 package final450DSA.strings;
 
+import java.util.HashMap;
 import java.util.List;
 
 public class WordBreak {
     static class Solution {
+        static HashMap<String, Integer> dp = new HashMap<>();
         public boolean wordBreak(String s, List<String> wordDict) {
             int x = solve(s, wordDict);
             return x == 1;

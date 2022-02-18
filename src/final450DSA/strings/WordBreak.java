@@ -12,7 +12,8 @@ import java.util.List;
 public class WordBreak {
     static class Solution {
         public boolean wordBreak(String s, List<String> wordDict) {
-
+            int x = solve(s, wordDict);
+            return x == 1;
         }
     }
 }

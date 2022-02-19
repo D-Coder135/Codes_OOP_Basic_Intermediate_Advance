@@ -41,6 +41,8 @@ public class CountTheReversals {
 
                 if (openingCount % 2 != 0) {
                     openingCount = (openingCount / 2) + 1;
+                } else {
+                    openingCount = openingCount / 2;
                 }
             }
         }

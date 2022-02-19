@@ -30,7 +30,7 @@ public class CountTheReversals {
                         stack.pop();
                         openingCount--;
                     } else {
-
+                        closingCount++;
                     }
                 }
             }

@@ -14,6 +14,8 @@ public class CountTheReversals {
             // your code here
             if (s.length() == 0 || s.length() % 2 != 0) {
                 return -1;
+            } else {
+
             }
         }
     }

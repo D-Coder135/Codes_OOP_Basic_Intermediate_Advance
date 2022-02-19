@@ -33,6 +33,9 @@ public class CountTheReversals {
                         closingCount++;
                     }
                 }
+                if (closingCount % 2 != 0) {
+                    closingCount = (closingCount / 2) + 1;
+                }
             }
         }
     }

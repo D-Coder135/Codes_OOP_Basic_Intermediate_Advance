@@ -38,6 +38,10 @@ public class CountTheReversals {
                 } else {
                     closingCount = closingCount / 2;
                 }
+
+                if (openingCount % 2 != 0) {
+                    openingCount = (openingCount / 2) + 1;
+                }
             }
         }
     }

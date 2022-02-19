@@ -18,6 +18,9 @@ public class CountTheReversals {
                 return -1;
             } else {
                 Stack<Character> stack = new Stack<>();
+                int openingCount = 0;
+                int closingCount = 0;
+
             }
         }
     }

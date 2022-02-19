@@ -5,7 +5,13 @@
  *   File: CountTheReversals
  */
 
+
 package final450DSA.strings;
 
 public class CountTheReversals {
+    static class Sol {
+        int countRev(String s) {
+            // your code here
+        }
+    }
 }

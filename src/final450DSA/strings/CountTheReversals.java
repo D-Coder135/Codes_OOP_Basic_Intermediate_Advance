@@ -8,6 +8,8 @@
 
 package final450DSA.strings;
 
+import java.util.Stack;
+
 public class CountTheReversals {
     static class Sol {
         int countRev(String s) {
@@ -15,7 +17,7 @@ public class CountTheReversals {
             if (s.length() == 0 || s.length() % 2 != 0) {
                 return -1;
             } else {
-
+                Stack<Character> stack = new Stack<>();
             }
         }
     }

@@ -27,7 +27,8 @@ public class CountTheReversals {
                         stack.push(ch);
                         openingCount++;
                     } else if (ch == '}' && !stack.isEmpty() && stack.peek() == '{') {
-
+                        stack.pop();
+                        openingCount--;
                     }
                 }
             }

@@ -44,6 +44,7 @@ public class CountTheReversals {
                 } else {
                     openingCount = openingCount / 2;
                 }
+                return openingCount + closingCount;
             }
         }
     }

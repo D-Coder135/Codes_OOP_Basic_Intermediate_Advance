@@ -9,5 +9,8 @@ package final450DSA.strings;
 
 public class LongestPrefixSufixKMPAlgo {
     static class Solution {
+        public String longestPrefix(String s) {
+
+        }
     }
 }

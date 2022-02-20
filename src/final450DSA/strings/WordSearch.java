@@ -8,4 +8,7 @@
 package final450DSA.strings;
 
 public class WordSearch {
+    static class Solution {
+
+    }
 }

@@ -24,6 +24,9 @@ public class WordSearch {
             if (count == word.length()) {
                 return true;
             }
+            if (i == -1 || i == board.length || j == -1 || j == board[0].length || board[i][j] != word.charAt(count)) {
+                return false;
+            }
         }
     }
 }

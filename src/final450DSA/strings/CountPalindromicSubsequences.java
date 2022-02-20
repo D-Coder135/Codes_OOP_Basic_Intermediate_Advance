@@ -20,6 +20,8 @@ public class CountPalindromicSubsequences {
                     } else {
                         if (s.charAt(i) == s.charAt(j)) {
                             dp[i][j] = (dp[i][j - 1] + dp[i + 1][j] + 1) % 1000000007;
+                        } else {
+
                         }
                     }
                 }

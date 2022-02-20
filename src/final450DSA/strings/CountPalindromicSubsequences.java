@@ -15,6 +15,8 @@ public class CountPalindromicSubsequences {
                 for (int i = 0, j = gap; j < s.length(); i++, j++) {
                     if (gap == 0) {
                         dp[i][j] = 1;
+                    } else if (gap == 1) {
+
                     }
                 }
             }

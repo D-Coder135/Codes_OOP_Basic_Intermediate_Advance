@@ -25,7 +25,7 @@ public class CountPalindromicSubsequences {
                         }
 
                         if (dp[i][j] < 0) {
-
+                            dp[i][j] += 1000000007;
                         }
                     }
                 }

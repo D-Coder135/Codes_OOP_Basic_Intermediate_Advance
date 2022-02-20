@@ -27,6 +27,8 @@ public class WordSearch {
             if (i == -1 || i == board.length || j == -1 || j == board[0].length || board[i][j] != word.charAt(count)) {
                 return false;
             }
+            char temp = board[i][j];
+            board[i][j] = '*';
         }
     }
 }

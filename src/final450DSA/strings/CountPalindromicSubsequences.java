@@ -19,8 +19,10 @@ public class CountPalindromicSubsequences {
                         dp[i][j] = (s.charAt(i) == s.charAt(j) ? 3 : 2);
                     } else {
                         if (s.charAt(i) == s.charAt(j)) {
+                            // Count(Prefix) + Count(Suffix) + 1;
                             dp[i][j] = (dp[i][j - 1] + dp[i + 1][j] + 1) % 1000000007;
                         } else {
+                            // Count(Prefix) + Count(Suffix) - Count(mid);
                             dp[i][j] = (dp[i][j - 1] + dp[i + 1][j] - dp[i + 1][j - 1]) % 1000000007;
                         }
 

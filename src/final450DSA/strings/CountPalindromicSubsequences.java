@@ -12,7 +12,9 @@ public class CountPalindromicSubsequences {
         public int countPS(String s) {
             int[][] dp = new int[s.length()][s.length()];
             for (int gap = 0; gap < s.length(); gap++) {
+                for (int i = 0, j = gap; j < s.length(); i++, j++) {
 
+                }
             }
         }
     }

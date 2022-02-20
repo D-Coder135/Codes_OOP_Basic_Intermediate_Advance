@@ -18,7 +18,9 @@ public class CountPalindromicSubsequences {
                     } else if (gap == 1) {
                         dp[i][j] = (s.charAt(i) == s.charAt(j) ? 3 : 2);
                     } else {
-
+                        if (s.charAt(i) == s.charAt(j)) {
+                            dp[i][j] = (dp[i][j - 1] + dp[i + 1][j] + 1) % 1000000007;
+                        }
                     }
                 }
             }

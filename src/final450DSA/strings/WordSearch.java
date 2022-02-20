@@ -17,6 +17,7 @@ public class WordSearch {
                     }
                 }
             }
+            return false;
         }
     }
 }

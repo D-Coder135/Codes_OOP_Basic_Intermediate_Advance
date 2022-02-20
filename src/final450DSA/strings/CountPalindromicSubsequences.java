@@ -30,6 +30,7 @@ public class CountPalindromicSubsequences {
                     }
                 }
             }
+            return dp[0][s.length() - 1] % 1000000007;
         }
     }
 }

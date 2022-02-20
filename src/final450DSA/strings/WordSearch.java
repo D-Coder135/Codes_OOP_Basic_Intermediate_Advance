@@ -32,6 +32,8 @@ public class WordSearch {
 
             boolean found = dfs(board, i + 1, j, count + 1, word) || dfs(board, i - 1, j, count + 1, word) || dfs(board, i, j + 1, count + 1, word) || dfs(board, i, j - 1, count + 1, word);
             board[i][j] = temp;
+
+            return found;
         }
     }
 }

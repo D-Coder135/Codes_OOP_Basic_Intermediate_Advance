@@ -7,6 +7,8 @@
 
 package final450DSA.strings;
 
+import java.util.HashMap;
+
 public class WordPattern {
     static class Solution {
         public boolean wordPattern(String pattern, String s) {
@@ -15,6 +17,8 @@ public class WordPattern {
             if (words.length != pattern.length()) {
                 return false;
             }
+
+            HashMap<Character, String> map = new HashMap<>();
         }
     }
 }

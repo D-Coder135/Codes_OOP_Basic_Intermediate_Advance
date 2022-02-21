@@ -31,6 +31,8 @@ public class WordPattern {
                         used.put(words[i], true);
                         map.put(character, words[i]);
                     }
+                } else {
+                    String mapWith = map.get(character);
                 }
             }
         }

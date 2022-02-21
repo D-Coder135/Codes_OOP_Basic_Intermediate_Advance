@@ -23,6 +23,12 @@ public class RomanToDecimal {
             map.put('M', 1000);
 
             int result = map.get(str.charAt(str.length() - 1));
+
+            for (int i = str.length() - 2; i >= 0; i--) {
+                if (str.charAt(i) < str.charAt(i + 1)) {
+                    result -= map.get(str.charAt(i));
+                }
+            }
         }
     }
 }

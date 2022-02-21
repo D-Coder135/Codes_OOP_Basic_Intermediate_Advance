@@ -5,6 +5,32 @@
  *   File: RomanToDecimal
  */
 
+/**
+ * GFG QUESTION =>
+ * <p>
+ * Given a string in roman no format (s)  your task is to convert it to an integer . Various symbols and their
+ * values are given below.
+ * I 1
+ * V 5
+ * X 10
+ * L 50
+ * C 100
+ * D 500
+ * M 1000
+ * <p>
+ * Example 1:
+ * <p>
+ * Input:
+ * s = V
+ * Output: 5
+ * <p>
+ * Example 2:
+ * <p>
+ * Input:
+ * s = III
+ * Output: 3
+ */
+
 package final450DSA.strings;
 
 import java.util.HashMap;

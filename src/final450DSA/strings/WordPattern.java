@@ -19,6 +19,7 @@ public class WordPattern {
             }
 
             HashMap<Character, String> map = new HashMap<>();
+            HashMap<String, Boolean> used = new HashMap<>();
         }
     }
 }

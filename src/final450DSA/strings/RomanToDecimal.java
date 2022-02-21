@@ -27,6 +27,8 @@ public class RomanToDecimal {
             for (int i = str.length() - 2; i >= 0; i--) {
                 if (str.charAt(i) < str.charAt(i + 1)) {
                     result -= map.get(str.charAt(i));
+                } else {
+                    result += map.get(str.charAt(i));
                 }
             }
         }

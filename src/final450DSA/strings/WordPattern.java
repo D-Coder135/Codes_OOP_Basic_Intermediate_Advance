@@ -26,7 +26,7 @@ public class WordPattern {
 
                 if (!map.containsKey(character)) {
                     if (used.containsKey(words[i])) {
-                        
+                        return false;
                     }
                 }
             }

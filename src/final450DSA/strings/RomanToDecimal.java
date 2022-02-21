@@ -21,6 +21,8 @@ public class RomanToDecimal {
             map.put('C', 100);
             map.put('D', 500);
             map.put('M', 1000);
+
+            int result = map.get(str.charAt(str.length() - 1));
         }
     }
 }

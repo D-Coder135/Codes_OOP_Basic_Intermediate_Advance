@@ -9,6 +9,8 @@ package final450DSA.strings;
 
 public class RomanToDecimal {
     static class Solution {
+        public int romanToDecimal(String str) {
 
+        }
     }
 }

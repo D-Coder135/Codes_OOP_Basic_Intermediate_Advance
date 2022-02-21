@@ -7,10 +7,12 @@
 
 package final450DSA.strings;
 
+import java.util.HashMap;
+
 public class RomanToDecimal {
     static class Solution {
         public int romanToDecimal(String str) {
-
+            HashMap<Character, Integer> map = new HashMap<>();
         }
     }
 }

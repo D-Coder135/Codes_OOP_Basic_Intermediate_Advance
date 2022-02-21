@@ -20,6 +20,10 @@ public class WordPattern {
 
             HashMap<Character, String> map = new HashMap<>();
             HashMap<String, Boolean> used = new HashMap<>();
+
+            for (int i = 0; i < pattern.length(); i++) {
+                char character = pattern.charAt(i);
+            }
         }
     }
 }

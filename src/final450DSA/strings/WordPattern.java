@@ -33,6 +33,9 @@ public class WordPattern {
                     }
                 } else {
                     String mapWith = map.get(character);
+                    if (!mapWith.equals(words[i])) {
+                        return false;
+                    }
                 }
             }
         }

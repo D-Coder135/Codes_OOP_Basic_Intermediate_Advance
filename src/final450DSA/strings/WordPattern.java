@@ -23,6 +23,10 @@ public class WordPattern {
 
             for (int i = 0; i < pattern.length(); i++) {
                 char character = pattern.charAt(i);
+
+                if (!map.containsKey(character)) {
+
+                }
             }
         }
     }

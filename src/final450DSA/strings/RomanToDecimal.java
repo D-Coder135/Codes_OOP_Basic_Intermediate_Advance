@@ -31,6 +31,7 @@ public class RomanToDecimal {
                     result += map.get(str.charAt(i));
                 }
             }
+            return result;
         }
     }
 }

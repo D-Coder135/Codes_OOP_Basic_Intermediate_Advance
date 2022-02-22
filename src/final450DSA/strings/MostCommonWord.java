@@ -31,6 +31,10 @@ public class MostCommonWord {
 
             int max = 0;
             String ans = "";
+
+            for (String key : map.keySet()) {
+
+            }
         }
     }
 }

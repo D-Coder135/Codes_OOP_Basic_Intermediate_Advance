@@ -39,6 +39,10 @@ public class MinNumberOfFlips {
                         --diff2;
                     }
                 }
+
+                if (i >= len - 1) {
+                    res = Math.min(res, Math.min(diff1, diff2));
+                }
             }
         }
     }

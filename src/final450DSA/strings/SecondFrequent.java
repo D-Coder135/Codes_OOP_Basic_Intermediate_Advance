@@ -31,6 +31,10 @@ public class SecondFrequent {
 
             int secondMax = 0;
             String ans = "";
+
+            for (String key : map.keySet()) {
+
+            }
         }
     }
 }

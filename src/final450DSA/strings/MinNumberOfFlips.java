@@ -12,6 +12,7 @@ public class MinNumberOfFlips {
         public int minFlips(String s) {
             int len = s.length();
             s = s + s;
+            String alt1 = "", alt2 = "";
         }
     }
 }

@@ -26,6 +26,10 @@ public class MinNumberOfFlips {
                 if (alt1.charAt(i) != charArray[i]) {
                     ++diff1;
                 }
+
+                if (alt2.charAt(i) != charArray[i]) {
+                    ++diff2;
+                }
             }
         }
     }

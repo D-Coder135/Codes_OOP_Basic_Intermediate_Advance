@@ -38,6 +38,7 @@ public class SecondFrequent {
                     ans = key;
                 }
             }
+            return ans;
         }
     }
 }

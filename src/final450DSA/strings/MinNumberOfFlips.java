@@ -16,7 +16,7 @@ public class MinNumberOfFlips {
             StringBuilder alt1 = new StringBuilder();
             StringBuilder alt2 = new StringBuilder();
 
-            for (int i = 0; i < len; i++) {
+            for (int i = 0; i < len + len; i++) {
                 alt1.append(i % 2 == 0 ? "0" : "1");
                 alt2.append(i % 2 == 0 ? "1" : "0");
             }

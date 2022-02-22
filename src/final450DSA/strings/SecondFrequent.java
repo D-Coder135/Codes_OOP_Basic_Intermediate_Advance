@@ -28,6 +28,8 @@ public class SecondFrequent {
                     max = map.get(s);
                 }
             }
+
+            int secondMax = 0;
         }
     }
 }

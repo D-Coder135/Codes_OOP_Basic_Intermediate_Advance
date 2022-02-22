@@ -24,7 +24,7 @@ public class MostCommonWord {
             }
 
             for (String word : words) {
-                if (!map.containsKey(word)) {
+                if (!map1.containsKey(word)) {
                     map.put(word, map.getOrDefault(word, 0) + 1);
                 }
             }

@@ -12,6 +12,9 @@ public class MinNumberOfFlips {
         public int minFlips(String S) {
             int first = 0, second = 0;
 
+            for (int i = 0; i < S.length(); i++) {
+
+            }
         }
     }
 }

@@ -27,6 +27,9 @@ public class MinNumberOfFlips {
                 if (s.charAt(right) != alt1.charAt(right)) {
                     diff1++;
                 }
+                if (s.charAt(right) != alt2.charAt(right)) {
+                    diff2++;
+                }
             }
         }
     }

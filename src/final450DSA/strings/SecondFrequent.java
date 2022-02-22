@@ -17,6 +17,8 @@ public class SecondFrequent {
             for (String str : arr) {
                 if (map.containsKey(str)) {
                     map.put(str, map.get(str) + 1);
+                } else {
+                    map.put(str, 1);
                 }
             }
 

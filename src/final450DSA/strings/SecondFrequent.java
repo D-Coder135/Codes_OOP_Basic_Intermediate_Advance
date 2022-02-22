@@ -5,6 +5,23 @@
  *   File: SecondFrequent
  */
 
+/**
+ * GFG QUESTION =>
+ * <p>
+ * Given a sequence of strings, the task is to find out the second most repeated (or frequent) string in the given
+ * sequence.
+ * Note: No two strings are the second most repeated, there will be always a single string.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input:
+ * N = 6
+ * arr[] = {aaa, bbb, ccc, bbb, aaa, aaa}
+ * Output: bbb
+ * Explanation: "bbb" is the second most
+ * occurring string with frequency 2.
+ */
+
 package final450DSA.strings;
 
 import java.util.HashMap;

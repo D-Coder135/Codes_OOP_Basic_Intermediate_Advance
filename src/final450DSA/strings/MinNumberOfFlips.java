@@ -42,7 +42,7 @@ public class MinNumberOfFlips {
                 }
 
                 if ((right - left + 1) == len) {
-
+                    res = Math.min(res, Math.min(diff1, diff2));
                 }
             }
         }

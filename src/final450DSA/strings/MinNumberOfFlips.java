@@ -12,6 +12,7 @@ public class MinNumberOfFlips {
         public int minFlips(String s) {
             int len = s.length();
             s = s + s;
+            char[] charArray = s.toCharArray();
             StringBuilder alt1 = new StringBuilder();
             StringBuilder alt2 = new StringBuilder();
 

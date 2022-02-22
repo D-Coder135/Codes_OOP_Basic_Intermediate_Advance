@@ -8,7 +8,6 @@
 package final450DSA.strings;
 
 import java.util.HashMap;
-import java.util.Locale;
 
 public class MostCommonWord {
     static class Solution {

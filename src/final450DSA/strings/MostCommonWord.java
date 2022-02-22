@@ -18,6 +18,10 @@ public class MostCommonWord {
             HashMap<String, Integer> map = new HashMap<>();
             HashMap<String, Integer> map1 = new HashMap<>();
             String[] words = lowerCase.split("\\s+");
+
+            for (int i = 0; i < banned.length; i++) {
+
+            }
         }
     }
 }

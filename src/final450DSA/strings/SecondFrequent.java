@@ -15,7 +15,9 @@ public class SecondFrequent {
             // your code here
             HashMap<String, Integer> map = new HashMap<>();
             for (String str : arr) {
+                if (map.containsKey(str)) {
 
+                }
             }
 
         }

@@ -22,6 +22,8 @@ public class SecondFrequent {
                 }
             }
 
+            int max = 0;
+
         }
     }
 }

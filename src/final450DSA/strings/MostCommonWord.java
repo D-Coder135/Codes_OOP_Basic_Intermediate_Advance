@@ -23,9 +23,9 @@ public class MostCommonWord {
                 map1.put(banned[i], i + 1);
             }
 
-            for (int i = 0; i < words.length; i++) {
-                if (!map.containsKey(words[i])) {
-                    map.put(words[i], map.getOrDefault(words[i], 0) + 1);
+            for (String word : words) {
+                if (!map.containsKey(word)) {
+                    map.put(word, map.getOrDefault(word, 0) + 1);
                 }
             }
         }

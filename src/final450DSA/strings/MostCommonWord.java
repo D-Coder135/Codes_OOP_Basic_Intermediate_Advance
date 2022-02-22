@@ -24,7 +24,9 @@ public class MostCommonWord {
             }
 
             for (int i = 0; i < words.length; i++) {
+                if (!map.containsKey(words[i])) {
 
+                }
             }
         }
     }

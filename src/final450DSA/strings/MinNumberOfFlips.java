@@ -40,6 +40,10 @@ public class MinNumberOfFlips {
                     }
                     left++;
                 }
+
+                if ((right - left + 1) == len) {
+
+                }
             }
         }
     }

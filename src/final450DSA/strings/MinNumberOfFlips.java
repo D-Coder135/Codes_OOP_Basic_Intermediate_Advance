@@ -19,7 +19,7 @@ public class MinNumberOfFlips {
                 alt1.append(i % 2 == 0 ? "0" : "1");
                 alt2.append(i % 2 == 0 ? "1" : "0");
             }
-            int res = len;
+            int res = Integer.MAX_VALUE;
             int diff1 = 0, diff2 = 0;
             int left = 0;
 

@@ -14,6 +14,7 @@ public class MostCommonWord {
         public String mostCommonWord(String paragraph, String[] banned) {
 
             HashMap<String, Integer> map = new HashMap<>();
+            HashMap<String, Integer> map1 = new HashMap<>();
         }
     }
 }

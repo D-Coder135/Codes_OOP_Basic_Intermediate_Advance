@@ -5,6 +5,25 @@
  *   File: LongestCommonPrefix
  */
 
+/**
+ * LEETCODE QUESTION 14 =>
+ * <p>
+ * Write a function to find the longest common prefix string amongst an array of strings.
+ * <p>
+ * If there is no common prefix, return an empty string "".
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: strs = ["flower","flow","flight"]
+ * Output: "fl"
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: strs = ["dog","racecar","car"]
+ * Output: ""
+ * Explanation: There is no common prefix among the input strings.
+ */
+
 package final450DSA.strings;
 
 public class LongestCommonPrefix {

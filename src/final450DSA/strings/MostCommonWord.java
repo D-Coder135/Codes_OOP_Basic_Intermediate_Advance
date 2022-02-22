@@ -38,6 +38,7 @@ public class MostCommonWord {
                     max = map.get(key);
                 }
             }
+            return ans;
         }
     }
 }

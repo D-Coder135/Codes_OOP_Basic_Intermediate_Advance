@@ -34,7 +34,7 @@ public class SecondFrequent {
 
             for (String key : map.keySet()) {
                 if (map.get(key) < max && map.get(key) > secondMax) {
-
+                    secondMax = map.get(key);
                 }
             }
         }

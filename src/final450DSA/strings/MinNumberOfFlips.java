@@ -22,6 +22,10 @@ public class MinNumberOfFlips {
             int res = len;
             int diff1 = 0, diff2 = 0;
             int left = 0;
+
+            for (int right = 0; right < len; right++) {
+
+            }
         }
     }
 }

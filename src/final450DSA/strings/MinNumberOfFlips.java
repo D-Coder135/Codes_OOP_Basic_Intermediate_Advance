@@ -11,7 +11,7 @@ public class MinNumberOfFlips {
     static class Solution {
         public int minFlips(String s) {
             int len = s.length();
-
+            s = s + s;
         }
     }
 }

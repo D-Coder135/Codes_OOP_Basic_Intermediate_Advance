@@ -25,7 +25,7 @@ public class MinNumberOfFlips {
 
             for (int right = 0; right < len; right++) {
                 if (s.charAt(right) != alt1.charAt(right)) {
-
+                    diff1++;
                 }
             }
         }

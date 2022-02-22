@@ -20,7 +20,7 @@ public class MostCommonWord {
             String[] words = lowerCase.split("\\s+");
 
             for (int i = 0; i < banned.length; i++) {
-
+                map1.put(banned[i], i + 1);
             }
         }
     }

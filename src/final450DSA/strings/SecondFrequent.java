@@ -24,7 +24,9 @@ public class SecondFrequent {
 
             int max = 0;
             for (String s : map.keySet()) {
+                if (map.get(s) > max) {
 
+                }
             }
         }
     }

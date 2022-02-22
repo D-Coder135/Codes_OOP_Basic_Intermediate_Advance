@@ -19,6 +19,7 @@ public class MinNumberOfFlips {
                     second++;
                 }
             }
+            return Math.min(first, second);
         }
     }
 }

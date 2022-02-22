@@ -8,4 +8,9 @@
 package final450DSA.strings;
 
 public class MinNumberOfFlips {
+    static class Solution {
+        public int minFlips(String s) {
+
+        }
+    }
 }

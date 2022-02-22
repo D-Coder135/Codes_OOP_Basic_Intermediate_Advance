@@ -17,6 +17,7 @@ public class MostCommonWord {
             String lowerCase = paragraph.replaceAll("[^a-zA-Z0-9]", " ").toLowerCase();
             HashMap<String, Integer> map = new HashMap<>();
             HashMap<String, Integer> map1 = new HashMap<>();
+            String[] words = lowerCase.split("\\s+");
         }
     }
 }

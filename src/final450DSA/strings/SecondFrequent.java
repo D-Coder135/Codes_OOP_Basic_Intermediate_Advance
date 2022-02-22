@@ -8,4 +8,10 @@
 package final450DSA.strings;
 
 public class SecondFrequent {
+    static class Solution {
+        String secFrequent(String[] arr, int N) {
+            // your code here
+
+        }
+    }
 }

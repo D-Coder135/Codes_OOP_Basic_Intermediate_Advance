@@ -7,10 +7,13 @@
 
 package final450DSA.strings;
 
+import java.util.HashMap;
+
 public class MostCommonWord {
     static class Solution {
         public String mostCommonWord(String paragraph, String[] banned) {
 
+            HashMap<String, Integer> map = new HashMap<>();
         }
     }
 }

@@ -28,6 +28,9 @@ public class MostCommonWord {
                     map.put(word, map.getOrDefault(word, 0) + 1);
                 }
             }
+
+            int max = 0;
+            String ans = "";
         }
     }
 }

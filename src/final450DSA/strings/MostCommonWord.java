@@ -22,6 +22,10 @@ public class MostCommonWord {
             for (int i = 0; i < banned.length; i++) {
                 map1.put(banned[i], i + 1);
             }
+
+            for (int i = 0; i < words.length; i++) {
+
+            }
         }
     }
 }

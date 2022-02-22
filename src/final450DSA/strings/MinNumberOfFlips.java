@@ -12,10 +12,11 @@ public class MinNumberOfFlips {
         public int minFlips(String s) {
             int len = s.length();
             s = s + s;
-            String alt1 = "", alt2 = "";
+            StringBuilder alt1 = new StringBuilder();
+            String alt2 = "";
 
             for (int i = 0; i < len; i++) {
-                alt1 += i % 2 == 0 ? "0" : "1";
+                alt1.append(i % 2 == 0 ? "0" : "1");
             }
         }
     }

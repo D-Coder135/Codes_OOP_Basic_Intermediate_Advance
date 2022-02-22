@@ -13,6 +13,10 @@ public class MinNumberOfFlips {
             int len = s.length();
             s = s + s;
             String alt1 = "", alt2 = "";
+
+            for (int i = 0; i < len; i++) {
+                alt1 += i % 2 == 0 ? "0" : "1";
+            }
         }
     }
 }

@@ -13,6 +13,10 @@ public class LongestCommonPrefix {
             if (strs.length == 0) {
                 return "";
             }
+
+            for (int i = 1; i < strs.length; i++) {
+
+            }
         }
     }
 }

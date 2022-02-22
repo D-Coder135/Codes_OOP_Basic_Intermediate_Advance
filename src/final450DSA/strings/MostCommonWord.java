@@ -8,11 +8,13 @@
 package final450DSA.strings;
 
 import java.util.HashMap;
+import java.util.Locale;
 
 public class MostCommonWord {
     static class Solution {
         public String mostCommonWord(String paragraph, String[] banned) {
 
+            String lowerCase = paragraph.replaceAll("[^a-zA-Z0-9]", " ").toLowerCase();
             HashMap<String, Integer> map = new HashMap<>();
             HashMap<String, Integer> map1 = new HashMap<>();
         }

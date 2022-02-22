@@ -21,31 +21,7 @@ public class MinNumberOfFlips {
             }
             int res = Integer.MAX_VALUE;
             int diff1 = 0, diff2 = 0;
-            int left = 0;
 
-            for (int right = 0; right < len; right++) {
-                if (s.charAt(right) != alt1.charAt(right)) {
-                    diff1++;
-                }
-                if (s.charAt(right) != alt2.charAt(right)) {
-                    diff2++;
-                }
-
-                if ((right - left + 1) > len) {
-                    if (s.charAt(left) != alt1.charAt(left)) {
-                        diff1--;
-                    }
-                    if (s.charAt(left) != alt2.charAt(left)) {
-                        diff2--;
-                    }
-                    left++;
-                }
-
-                if ((right - left + 1) == len) {
-                    res = Math.min(res, Math.min(diff1, diff2));
-                }
-            }
-            return res;
         }
     }
 }

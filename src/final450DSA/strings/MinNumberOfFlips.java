@@ -21,7 +21,9 @@ public class MinNumberOfFlips {
             }
             int res = Integer.MAX_VALUE;
             int diff1 = 0, diff2 = 0;
+            for (int i = 0; i < len + len; i++) {
 
+            }
         }
     }
 }

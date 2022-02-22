@@ -8,4 +8,9 @@
 package final450DSA.strings;
 
 public class MostCommonWord {
+    static class Solution {
+        public String mostCommonWord(String paragraph, String[] banned) {
+
+        }
+    }
 }

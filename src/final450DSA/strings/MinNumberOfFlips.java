@@ -10,6 +10,7 @@ package final450DSA.strings;
 public class MinNumberOfFlips {
     static class Solution {
         public int minFlips(String S) {
+            int first = 0, second = 0;
 
         }
     }

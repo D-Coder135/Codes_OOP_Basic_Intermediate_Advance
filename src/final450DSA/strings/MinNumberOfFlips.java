@@ -45,6 +45,7 @@ public class MinNumberOfFlips {
                     res = Math.min(res, Math.min(diff1, diff2));
                 }
             }
+            return res;
         }
     }
 }

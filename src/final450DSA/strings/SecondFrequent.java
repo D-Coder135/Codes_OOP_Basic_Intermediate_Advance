@@ -30,6 +30,7 @@ public class SecondFrequent {
             }
 
             int secondMax = 0;
+            String ans = "";
         }
     }
 }

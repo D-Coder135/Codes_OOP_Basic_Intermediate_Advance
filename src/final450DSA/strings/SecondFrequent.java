@@ -14,7 +14,9 @@ public class SecondFrequent {
         String secFrequent(String[] arr, int N) {
             // your code here
             HashMap<String, Integer> map = new HashMap<>();
+            for (String str : arr) {
 
+            }
 
         }
     }

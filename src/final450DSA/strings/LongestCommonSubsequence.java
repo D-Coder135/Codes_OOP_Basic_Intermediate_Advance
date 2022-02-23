@@ -30,6 +30,9 @@ public class LongestCommonSubsequence {
             }
 
             int ans = 0;
+            if (s1.charAt(i) == s2.charAt(j)) {
+
+            }
 
             return 0;
         }

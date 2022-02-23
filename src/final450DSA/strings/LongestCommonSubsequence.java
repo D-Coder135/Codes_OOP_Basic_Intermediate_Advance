@@ -31,7 +31,7 @@ public class LongestCommonSubsequence {
 
             int ans = 0;
             if (s1.charAt(i) == s2.charAt(j)) {
-
+                ans = 1 + lcsDP(s1, s2, i + 1, j + 1, dp);
             }
 
             return 0;

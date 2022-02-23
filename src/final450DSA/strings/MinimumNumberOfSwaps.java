@@ -23,6 +23,7 @@ public class MinimumNumberOfSwaps {
                     }
                 }
             }
+            return swap;
         }
     }
 }

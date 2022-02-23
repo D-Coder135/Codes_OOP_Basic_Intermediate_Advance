@@ -30,6 +30,7 @@ public class MinimumNumberOfSwaps2 {
                 }
             }
             int ans = (stack.size() / 4) + (stack.size() % 4 == 0 ? 0 : 1);
+            return ans;
         }
     }
 }

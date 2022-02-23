@@ -22,6 +22,8 @@ public class MinimumSwapsStringEqual {
                 return (numberOfX + numberOfY) / 2;
             } else if (numberOfX % 2 == 1 && numberOfY % 2 == 1) {
                 return ((numberOfX + numberOfY) / 2) + 1;
+            } else {
+                return -1;
             }
         }
     }

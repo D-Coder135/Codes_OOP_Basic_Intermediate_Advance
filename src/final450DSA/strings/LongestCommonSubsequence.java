@@ -9,6 +9,8 @@ package final450DSA.strings;
 
 public class LongestCommonSubsequence {
     static class Solution {
+        static int lcs(int x, int y, String s1, String s2) {
 
+        }
     }
 }

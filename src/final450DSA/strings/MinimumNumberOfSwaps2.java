@@ -18,7 +18,9 @@ public class MinimumNumberOfSwaps2 {
                 if (stack.isEmpty()) {
                     stack.push(ch);
                 } else {
+                    if (ch == ']') {
 
+                    }
                 }
             }
         }

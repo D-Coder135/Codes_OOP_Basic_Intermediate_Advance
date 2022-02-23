@@ -19,5 +19,9 @@ public class LongestCommonSubsequence {
 
             return lcsDP(s1, s2, 0, 0, dp);
         }
+
+        private static int lcsDP(String s1, String s2, int i, int j, int[][] dp) {
+            return 0;
+        }
     }
 }

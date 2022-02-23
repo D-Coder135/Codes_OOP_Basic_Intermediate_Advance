@@ -14,7 +14,7 @@ public class MinimumSwapsStringEqual {
 
             for (int i = 0; i < s1.length(); i++) {
                 if (s1.charAt(i) != s2.charAt(i)) {
-
+                    if (s1.charAt(i) == 'x') numberOfX++;
                 }
             }
         }

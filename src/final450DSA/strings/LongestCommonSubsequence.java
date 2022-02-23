@@ -28,6 +28,9 @@ public class LongestCommonSubsequence {
             if (dp[i][j] != -1) {
                 return dp[i][j];
             }
+
+            int ans = 0;
+
             return 0;
         }
     }

@@ -13,6 +13,9 @@ public class MinimumNumberOfSwaps2 {
     static class Solution {
         public int minSwaps(String s) {
             Stack<Character> stack = new Stack<>();
+            for (int i = 0; i < s.length(); i++) {
+
+            }
         }
     }
 }

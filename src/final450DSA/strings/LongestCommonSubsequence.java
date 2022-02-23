@@ -5,6 +5,33 @@
  *   File: LongestCommonSubsequence
  */
 
+/**
+ * GFG QUESTION & LEETCODE QUESTION 1143 =>
+ * <p>
+ * Given two sequences, find the length of longest subsequence present in both of them. Both the strings are of uppercase.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input:
+ * A = 6, B = 6
+ * str1 = ABCDGH
+ * str2 = AEDFHR
+ * Output: 3
+ * Explanation: LCS for input Sequences
+ * “ABCDGH” and “AEDFHR” is “ADH” of
+ * length 3.
+ * <p>
+ * Example 2:
+ * <p>
+ * Input:
+ * A = 3, B = 2
+ * str1 = ABC
+ * str2 = AC
+ * Output: 2
+ * Explanation: LCS of "ABC" and "AC" is
+ * "AC" of length 2.
+ */
+
 package final450DSA.strings;
 
 import java.util.Arrays;

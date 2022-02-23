@@ -10,7 +10,7 @@ package final450DSA.strings;
 public class LongestCommonSubsequence {
     static class Solution {
         static int lcs(int x, int y, String s1, String s2) {
-
+            int[][] dp = new int[s1.length() + 1][s2.length() + 1];
         }
     }
 }

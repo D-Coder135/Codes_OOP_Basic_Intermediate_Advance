@@ -21,6 +21,9 @@ public class LongestCommonSubsequence {
         }
 
         private static int lcsDP(String s1, String s2, int i, int j, int[][] dp) {
+            if (i == s1.length() || j == s2.length()) {
+                return 0;
+            }
             return 0;
         }
     }

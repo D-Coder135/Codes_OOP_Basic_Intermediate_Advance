@@ -9,9 +9,8 @@ package final450DSA.strings;
 
 public class MinimumSwapsStringEqual {
     static class Solution {
-        int numberOfX = 0, numberOfY = 0;
-
         public int minimumSwap(String s1, String s2) {
+            int numberOfX = 0, numberOfY = 0;
         }
     }
 }

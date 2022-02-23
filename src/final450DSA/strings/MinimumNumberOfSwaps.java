@@ -15,6 +15,8 @@ public class MinimumNumberOfSwaps {
                 if (S.charAt(i) == ']') {
                     close++;
                     fault = close - open;
+                } else {
+
                 }
             }
         }

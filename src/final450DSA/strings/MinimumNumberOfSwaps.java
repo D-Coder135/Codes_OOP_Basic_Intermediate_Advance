@@ -10,6 +10,7 @@ package final450DSA.strings;
 public class MinimumNumberOfSwaps {
     static class Solution {
         static int minimumNumberOfSwaps(String S) {
+            int open = 0, close = 0, fault = 0, swap = 0;
 
         }
     }

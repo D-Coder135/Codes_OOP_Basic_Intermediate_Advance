@@ -17,6 +17,8 @@ public class MinimumNumberOfSwaps2 {
                 char ch = s.charAt(i);
                 if (stack.isEmpty()) {
                     stack.push(ch);
+                } else {
+
                 }
             }
         }

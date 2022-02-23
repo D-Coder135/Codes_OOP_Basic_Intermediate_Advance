@@ -7,10 +7,12 @@
 
 package final450DSA.strings;
 
+import java.util.Stack;
+
 public class MinimumNumberOfSwaps2 {
     static class Solution {
         public int minSwaps(String s) {
-
+            Stack<Character> stack = new Stack<>();
         }
     }
 }

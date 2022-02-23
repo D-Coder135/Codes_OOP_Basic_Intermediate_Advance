@@ -11,6 +11,10 @@ public class MinimumSwapsStringEqual {
     static class Solution {
         public int minimumSwap(String s1, String s2) {
             int numberOfX = 0, numberOfY = 0;
+
+            for (int i = 0; i < s1.length(); i++) {
+                
+            }
         }
     }
 }

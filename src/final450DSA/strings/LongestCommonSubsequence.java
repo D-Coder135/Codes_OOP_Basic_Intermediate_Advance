@@ -16,6 +16,8 @@ public class LongestCommonSubsequence {
             for (int[] a : dp) {
                 Arrays.fill(a, -1);
             }
+
+            return lcsDP(s1, s2, 0, 0, dp);
         }
     }
 }

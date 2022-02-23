@@ -8,4 +8,7 @@
 package final450DSA.strings;
 
 public class LongestCommonSubsequence {
+    static class Solution {
+
+    }
 }

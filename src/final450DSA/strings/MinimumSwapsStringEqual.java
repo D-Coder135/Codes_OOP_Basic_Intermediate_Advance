@@ -18,6 +18,9 @@ public class MinimumSwapsStringEqual {
                     else numberOfY++;
                 }
             }
+            if (numberOfX % 2 == 0 && numberOfY % 2 == 0) {
+                return (numberOfX + numberOfY) / 2;
+            }
         }
     }
 }

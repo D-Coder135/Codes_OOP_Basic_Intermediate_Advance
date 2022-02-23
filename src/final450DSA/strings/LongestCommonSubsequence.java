@@ -24,6 +24,10 @@ public class LongestCommonSubsequence {
             if (i == s1.length() || j == s2.length()) {
                 return 0;
             }
+
+            if (dp[i][j] != -1) {
+                return dp[i][j];
+            }
             return 0;
         }
     }

@@ -17,6 +17,9 @@ public class MinimumNumberOfSwaps {
                     fault = close - open;
                 } else {
                     open++;
+                    if (fault > 0) {
+
+                    }
                 }
             }
         }

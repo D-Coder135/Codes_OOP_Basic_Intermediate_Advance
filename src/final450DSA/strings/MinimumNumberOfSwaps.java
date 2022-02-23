@@ -9,6 +9,8 @@ package final450DSA.strings;
 
 public class MinimumNumberOfSwaps {
     static class Solution {
+        static int minimumNumberOfSwaps(String S) {
 
+        }
     }
 }

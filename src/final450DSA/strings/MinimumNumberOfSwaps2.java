@@ -20,7 +20,7 @@ public class MinimumNumberOfSwaps2 {
                 } else {
                     if (ch == ']') {
                         if (stack.peek() == '[') {
-
+                            stack.pop();
                         }
                     }
                 }

@@ -38,7 +38,7 @@ public class LongestCommonSubsequence {
                 ans = Math.max(fstr1, fstr2);
             }
 
-            return 0;
+            return dp[i][j] = ans;
         }
     }
 }

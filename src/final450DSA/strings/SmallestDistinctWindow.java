@@ -18,6 +18,8 @@ public class SmallestDistinctWindow {
             for (int i = 0; i < str.length(); i++) {
                 set.add(str.charAt(i));
             }
+
+            int distinctCount = set.size();
         }
     }
 }

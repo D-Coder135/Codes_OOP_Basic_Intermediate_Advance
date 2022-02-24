@@ -16,7 +16,7 @@ public class SmallestDistinctWindow {
             HashSet<Character> set = new HashSet<>();
 
             for (int i = 0; i < str.length(); i++) {
-
+                set.add(str.charAt(i));
             }
         }
     }

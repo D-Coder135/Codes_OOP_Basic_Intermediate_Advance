@@ -14,6 +14,10 @@ public class SmallestDistinctWindow {
         public String findSubString(String str) {
             // Your code goes here
             HashSet<Character> set = new HashSet<>();
+
+            for (int i = 0; i < str.length(); i++) {
+
+            }
         }
     }
 }

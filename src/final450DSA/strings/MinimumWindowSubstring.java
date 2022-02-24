@@ -50,7 +50,7 @@ public class MinimumWindowSubstring {
                     if (map1.get(ch) == 1) {
                         map1.remove(ch);
                     } else {
-
+                        map1.put(ch, map1.get(ch) - 1);
                     }
                 }
             }

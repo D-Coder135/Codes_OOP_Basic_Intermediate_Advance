@@ -35,6 +35,7 @@ public class SmallestDistinctWindow {
                     while (visited[str.charAt(start) - 65] > 1) {
                         if (visited[str.charAt(start) - 65] > 1) {
                             visited[str.charAt(start) - 65]--;
+                            start++;
                         }
                     }
                 }

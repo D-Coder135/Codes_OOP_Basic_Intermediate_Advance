@@ -7,10 +7,12 @@
 
 package final450DSA.strings;
 
+import java.util.HashMap;
+
 public class MinimumWindowSubstring {
     static class Solution {
         public String minWindow(String s, String t) {
-
+            HashMap<Character, Integer> map2 = new HashMap<>();
         }
     }
 }

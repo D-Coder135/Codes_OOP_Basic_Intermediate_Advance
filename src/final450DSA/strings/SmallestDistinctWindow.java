@@ -8,4 +8,9 @@
 package final450DSA.strings;
 
 public class SmallestDistinctWindow {
+    static class Solution {
+        public String findSubString(String str) {
+            // Your code goes here
+        }
+    }
 }

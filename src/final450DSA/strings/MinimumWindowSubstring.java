@@ -24,6 +24,10 @@ public class MinimumWindowSubstring {
             HashMap<Character, Integer> map1 = new HashMap<>();
             int i = -1;
             int j = -1;
+
+            while (true) {
+
+            }
         }
     }
 }

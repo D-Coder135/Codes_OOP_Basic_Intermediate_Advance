@@ -7,10 +7,13 @@
 
 package final450DSA.strings;
 
+import java.util.HashSet;
+
 public class SmallestDistinctWindow {
     static class Solution {
         public String findSubString(String str) {
             // Your code goes here
+            HashSet<Character> set = new HashSet<>();
         }
     }
 }

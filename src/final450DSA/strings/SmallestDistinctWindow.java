@@ -26,6 +26,10 @@ public class SmallestDistinctWindow {
 
             for (int i = 0; i < str.length(); i++) {
                 visited[str.charAt(i) - 65]++;
+
+                if (visited[str.charAt(i) - 65] == 1) {
+
+                }
             }
         }
     }

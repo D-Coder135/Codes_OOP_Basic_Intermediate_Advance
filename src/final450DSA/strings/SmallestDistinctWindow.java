@@ -37,6 +37,8 @@ public class SmallestDistinctWindow {
                             visited[str.charAt(start) - 65]--;
                             start++;
                         }
+                        int current_len = i - start + 1;
+
                     }
                 }
             }

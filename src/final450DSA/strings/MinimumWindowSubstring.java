@@ -48,7 +48,7 @@ public class MinimumWindowSubstring {
                     j++;
                     char ch = s.charAt(j);
                     if (map1.get(ch) == 1) {
-
+                        map1.remove(ch);
                     }
                 }
             }

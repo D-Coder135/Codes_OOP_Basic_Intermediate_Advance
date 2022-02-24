@@ -23,6 +23,10 @@ public class SmallestDistinctWindow {
             int start = 0, startIndex = 0, min_length = Integer.MAX_VALUE;
             int counter = 0;
             int[] visited = new int[254];
+
+            for (int i = 0; i < str.length(); i++) {
+                visited[str.charAt(i) - 65]++;
+            }
         }
     }
 }

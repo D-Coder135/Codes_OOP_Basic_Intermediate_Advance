@@ -52,6 +52,10 @@ public class MinimumWindowSubstring {
                     } else {
                         map1.put(ch, map1.get(ch) - 1);
                     }
+
+                    if (map1.getOrDefault(ch, 0) < map2.getOrDefault(ch, 0)) {
+
+                    }
                 }
             }
         }

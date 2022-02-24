@@ -30,6 +30,10 @@ public class SmallestDistinctWindow {
                 if (visited[str.charAt(i) - 65] == 1) {
                     counter++;
                 }
+
+                if (counter == distinctCount) {
+
+                }
             }
         }
     }

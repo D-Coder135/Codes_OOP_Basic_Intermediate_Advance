@@ -15,7 +15,7 @@ public class MinimumWindowSubstring {
             HashMap<Character, Integer> map2 = new HashMap<>();
 
             for (int i = 0; i < t.length(); i++) {
-
+                char ch = t.charAt(i);
             }
         }
     }

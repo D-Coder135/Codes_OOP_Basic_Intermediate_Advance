@@ -44,6 +44,9 @@ public class MinimumWindowSubstring {
                     if (ans.length() == 0 || potentialAns.length() < ans.length()) {
                         ans = potentialAns;
                     }
+
+                    j++;
+                    char ch = s.charAt(j);
                 }
             }
         }

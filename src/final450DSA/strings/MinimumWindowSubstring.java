@@ -39,7 +39,7 @@ public class MinimumWindowSubstring {
 
                 // release and collect answers
                 while (j < i && matchCount == desiredMatchCount) {
-
+                    String potentialAns = s.substring(j + 1, i + 1);
                 }
             }
         }

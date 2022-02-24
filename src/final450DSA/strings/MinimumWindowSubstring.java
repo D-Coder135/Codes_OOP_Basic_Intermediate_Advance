@@ -27,6 +27,11 @@ public class MinimumWindowSubstring {
 
             while (true) {
                 // acquire
+                while (i < s.length() - 1 && matchCount < desiredMatchCount) {
+                    i++;
+                    char ch = s.charAt(i);
+                    map1.put(ch, map1.getOrDefault(ch, 0) + 1);
+                }
             }
         }
     }

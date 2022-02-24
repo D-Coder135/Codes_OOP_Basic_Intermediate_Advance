@@ -62,6 +62,10 @@ public class MinimumWindowSubstring {
                     }
                     flag2 = true;
                 }
+
+                if (flag1 == false && flag2 == false) {
+
+                }
             }
         }
     }

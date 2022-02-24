@@ -22,7 +22,7 @@ public class SmallestDistinctWindow {
             int distinctCount = set.size();
             int start = 0, startIndex = 0, min_length = Integer.MAX_VALUE;
             int counter = 0;
-            int[] visited = new int[254];
+            int[] visited = new int[256];
 
             for (int i = 0; i < str.length(); i++) {
                 visited[str.charAt(i) - 65]++;
@@ -35,13 +35,13 @@ public class SmallestDistinctWindow {
                     while (visited[str.charAt(start) - 65] > 1) {
                         if (visited[str.charAt(start) - 65] > 1) {
                             visited[str.charAt(start) - 65]--;
+                        }
                             start++;
                         }
                         int current_len = i - start + 1;
                         if (current_len < min_length) {
                             min_length = current_len;
                             startIndex = start;
-                        }
                     }
                 }
             }

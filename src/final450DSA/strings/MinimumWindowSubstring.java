@@ -13,6 +13,10 @@ public class MinimumWindowSubstring {
     static class Solution {
         public String minWindow(String s, String t) {
             HashMap<Character, Integer> map2 = new HashMap<>();
+
+            for (int i = 0; i < t.length(); i++) {
+
+            }
         }
     }
 }

@@ -45,6 +45,7 @@ public class SmallestDistinctWindow {
                     }
                 }
             }
+            return str.substring(startIndex, startIndex + min_length);
         }
     }
 }

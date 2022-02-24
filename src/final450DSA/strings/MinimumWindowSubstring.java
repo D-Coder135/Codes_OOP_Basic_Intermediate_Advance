@@ -27,6 +27,9 @@ public class MinimumWindowSubstring {
             int j = -1;
 
             while (true) {
+
+                boolean flag1 = false, flag2 = false;
+
                 // acquire
                 while (i < s.length() - 1 && matchCount < desiredMatchCount) {
                     i++;

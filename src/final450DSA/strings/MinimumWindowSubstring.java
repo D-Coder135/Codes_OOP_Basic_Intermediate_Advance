@@ -39,6 +39,7 @@ public class MinimumWindowSubstring {
                     if (map1.getOrDefault(ch, 0) <= map2.getOrDefault(ch, 0)) {
                         matchCount++;
                     }
+                    flag1 = true;
                 }
 
                 // collect answers and release.

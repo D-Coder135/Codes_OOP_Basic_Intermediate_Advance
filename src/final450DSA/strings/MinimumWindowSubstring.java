@@ -22,6 +22,8 @@ public class MinimumWindowSubstring {
             int matchCount = 0;
             int desiredMatchCount = t.length();
             HashMap<Character, Integer> map1 = new HashMap<>();
+            int i = -1;
+            int j = -1;
         }
     }
 }

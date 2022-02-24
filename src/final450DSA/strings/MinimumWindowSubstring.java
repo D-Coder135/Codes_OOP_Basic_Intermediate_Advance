@@ -16,6 +16,7 @@ public class MinimumWindowSubstring {
 
             for (int i = 0; i < t.length(); i++) {
                 char ch = t.charAt(i);
+                map2.put(ch, map2.getOrDefault(ch, 0) + 1);
             }
         }
     }

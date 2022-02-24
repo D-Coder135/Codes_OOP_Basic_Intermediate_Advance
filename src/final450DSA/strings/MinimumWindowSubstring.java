@@ -31,6 +31,10 @@ public class MinimumWindowSubstring {
                     i++;
                     char ch = s.charAt(i);
                     map1.put(ch, map1.getOrDefault(ch, 0) + 1);
+
+                    if (map1.getOrDefault(ch, 0) <= map2.getOrDefault(ch, 0)) {
+
+                    }
                 }
             }
         }

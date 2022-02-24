@@ -39,7 +39,8 @@ public class SmallestDistinctWindow {
                         }
                         int current_len = i - start + 1;
                         if (current_len < min_length) {
-
+                            min_length = current_len;
+                            startIndex = start;
                         }
                     }
                 }

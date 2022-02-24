@@ -38,7 +38,7 @@ public class MinimumWindowSubstring {
                     }
                 }
 
-                // release and collect answers
+                // collect answers and release.
                 while (j < i && matchCount == desiredMatchCount) {
                     String potentialAns = s.substring(j + 1, i + 1);
                     if (ans.length() == 0 || potentialAns.length() < ans.length()) {

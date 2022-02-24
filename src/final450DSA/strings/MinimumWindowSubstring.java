@@ -8,4 +8,9 @@
 package final450DSA.strings;
 
 public class MinimumWindowSubstring {
+    static class Solution {
+        public String minWindow(String s, String t) {
+
+        }
+    }
 }

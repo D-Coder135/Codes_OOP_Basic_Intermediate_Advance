@@ -36,6 +36,8 @@ public class MinimumWindowSubstring {
                         matchCount++;
                     }
                 }
+
+                // release and collect answers
             }
         }
     }

@@ -32,7 +32,7 @@ public class ReorganizeString {
             block.freq--;
 
             while (priorityQueue.size() > 0) {
-
+                Pair temp = priorityQueue.poll();
             }
 
             return ans.toString();

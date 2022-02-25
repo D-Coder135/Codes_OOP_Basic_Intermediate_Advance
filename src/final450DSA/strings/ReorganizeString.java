@@ -29,6 +29,8 @@ public class ReorganizeString {
             StringBuilder ans = new StringBuilder();
             Pair block = priorityQueue.poll();
             ans.append(block.character);
+            block.freq--;
+
             return ans.toString();
         }
 

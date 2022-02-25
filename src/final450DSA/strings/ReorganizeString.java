@@ -20,7 +20,8 @@ public class ReorganizeString {
         }
 
         static class Pair {
-
+            char character;
+            int freq;
         }
     }
 }

@@ -12,7 +12,7 @@ public class ReorganizeString {
         public String reorganizeString(String s) {
             int[] map = new int[26];
             for (int i = 0; i < s.length(); i++) {
-
+                map[s.charAt(i) - 'a']++;
             }
         }
     }

@@ -7,6 +7,8 @@
 
 package final450DSA.strings;
 
+import java.util.PriorityQueue;
+
 public class ReorganizeString {
     static class Solution {
 
@@ -16,7 +18,7 @@ public class ReorganizeString {
                 map[s.charAt(i) - 'a']++;
             }
 
-
+            PriorityQueue<Pair> priorityQueue = new PriorityQueue<>();
         }
 
         static class Pair {

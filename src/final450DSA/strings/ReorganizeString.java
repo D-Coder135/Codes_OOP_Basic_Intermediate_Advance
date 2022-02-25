@@ -5,6 +5,24 @@
  *   File: ReorganizeString
  */
 
+/**
+ * GFG QUESTION LEETCODE QUESTION 767 (AMAZON)=>
+ * <p>
+ * Given a string s, rearrange the characters of s so that any two adjacent characters are not the same.
+ * <p>
+ * Return any possible rearrangement of s or return "" if not possible.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: s = "aab"
+ * Output: "aba"
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: s = "aaab"
+ * Output: ""
+ */
+
 package final450DSA.strings;
 
 import java.util.PriorityQueue;

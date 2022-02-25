@@ -22,6 +22,11 @@ public class ReorganizeString {
         static class Pair {
             char character;
             int freq;
+
+            public Pair(char character, int freq) {
+                this.character = character;
+                this.freq = freq;
+            }
         }
     }
 }

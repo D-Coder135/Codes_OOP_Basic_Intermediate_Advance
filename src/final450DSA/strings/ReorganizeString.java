@@ -39,6 +39,7 @@ public class ReorganizeString {
                 if (block.freq > 0) {
                     priorityQueue.add(block);
                 }
+                block = temp;
             }
 
             return ans.toString();

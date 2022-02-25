@@ -25,6 +25,8 @@ public class ReorganizeString {
                     priorityQueue.add(new Pair((char) ('a' + i), map[i]));
                 }
             }
+
+            StringBuilder ans = new StringBuilder();
         }
 
         static class Pair {

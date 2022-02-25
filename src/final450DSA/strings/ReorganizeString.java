@@ -43,7 +43,7 @@ public class ReorganizeString {
             }
 
             if (block.freq > 0) {
-
+                return "";
             }
 
             return ans.toString();

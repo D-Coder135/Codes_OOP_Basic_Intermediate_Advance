@@ -31,6 +31,10 @@ public class ReorganizeString {
             ans.append(block.character);
             block.freq--;
 
+            while (priorityQueue.size() > 0) {
+
+            }
+
             return ans.toString();
         }
 

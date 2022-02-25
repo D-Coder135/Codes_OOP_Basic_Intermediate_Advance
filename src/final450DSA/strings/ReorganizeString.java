@@ -35,6 +35,10 @@ public class ReorganizeString {
                 Pair temp = priorityQueue.poll();
                 ans.append(temp.character);
                 temp.freq--;
+
+                if (block.freq > 0) {
+
+                }
             }
 
             return ans.toString();

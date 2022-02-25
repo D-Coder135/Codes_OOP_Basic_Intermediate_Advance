@@ -18,7 +18,7 @@ public class ReorganizeString {
                 map[s.charAt(i) - 'a']++;
             }
 
-            PriorityQueue<Pair> priorityQueue = new PriorityQueue<>();
+            PriorityQueue<Pair> priorityQueue = new PriorityQueue<>((a, b) -> (b.freq - a.freq));
 
             for (int i = 0; i < map.length; i++) {
                 if (map[i] > 0) {

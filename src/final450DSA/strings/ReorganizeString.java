@@ -21,7 +21,9 @@ public class ReorganizeString {
             PriorityQueue<Pair> priorityQueue = new PriorityQueue<>();
 
             for (int i = 0; i < map.length; i++) {
-
+                if (map[i] > 0) {
+                    priorityQueue.add(new Pair((char) ('a' + i), map[i]));
+                }
             }
         }
 

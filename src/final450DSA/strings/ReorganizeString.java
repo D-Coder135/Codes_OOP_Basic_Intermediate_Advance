@@ -34,6 +34,7 @@ public class ReorganizeString {
             while (priorityQueue.size() > 0) {
                 Pair temp = priorityQueue.poll();
                 ans.append(temp.character);
+                temp.freq--;
             }
 
             return ans.toString();

@@ -42,6 +42,10 @@ public class ReorganizeString {
                 block = temp;
             }
 
+            if (block.freq > 0) {
+
+            }
+
             return ans.toString();
         }
 

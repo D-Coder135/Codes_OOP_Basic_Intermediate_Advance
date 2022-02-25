@@ -10,7 +10,7 @@ package final450DSA.strings;
 public class ReorganizeString {
     static class Solution {
         public String reorganizeString(String s) {
-
+            int[] map = new int[26];
         }
     }
 }

@@ -28,6 +28,7 @@ public class ReorganizeString {
 
             StringBuilder ans = new StringBuilder();
             Pair block = priorityQueue.poll();
+            ans.append(block.character);
         }
 
         static class Pair {

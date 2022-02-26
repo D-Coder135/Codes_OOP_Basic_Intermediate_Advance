@@ -5,6 +5,29 @@
  *   File: MinimumInsertionToMakePalindrome
  */
 
+/**
+ * LEETCODE QUESTION 1312 =>
+ * <p>
+ * Given a string s. In one step you can insert any character at any index of the string.
+ * <p>
+ * Return the minimum number of steps to make s palindrome.
+ * <p>
+ * A Palindrome String is one that reads the same backward as well as forward.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: s = "zzazz"
+ * Output: 0
+ * Explanation: The string "zzazz" is already palindrome we don't need any insertions.
+ * <p>
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: s = "mbadm"
+ * Output: 2
+ * Explanation: String can be "mbdadbm" or "mdbabdm".
+ */
+
 package final450DSA.strings;
 
 public class MinimumInsertionToMakePalindrome {

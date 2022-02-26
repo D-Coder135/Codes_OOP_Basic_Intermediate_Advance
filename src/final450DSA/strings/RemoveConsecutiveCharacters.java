@@ -8,4 +8,17 @@
 package final450DSA.strings;
 
 public class RemoveConsecutiveCharacters {
+    static class Solution {
+        public String removeConsecutiveCharacter(String S) {
+            StringBuilder res = new StringBuilder();
+            for (int i = 0; i < S.length(); i++) {
+                if (i < S.length() - 1 && S.charAt(i) == S.charAt(i + 1)) {
+                    continue;
+                } else {
+                    res.append(S.charAt(i));
+                }
+            }
+            return res.toString();
+        }
+    }
 }

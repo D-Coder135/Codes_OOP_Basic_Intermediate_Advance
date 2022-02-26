@@ -26,6 +26,7 @@ public class LongestPalindromicSubsequence {
                     }
                 }
             }
+            return dp[0][s.length() - 1];
         }
     }
 }

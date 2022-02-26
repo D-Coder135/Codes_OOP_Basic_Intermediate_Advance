@@ -5,6 +5,22 @@
  *   File: RemoveConsecutiveCharacters
  */
 
+/**
+ * GFG QUESTION =>
+ * <p>
+ * Given a string S delete the characters which are appearing more than once consecutively.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input:
+ * S = aabb
+ * Output:  ab
+ * Explanation: 'a' at 2nd position is
+ * appearing 2nd time consecutively.
+ * Similiar explanation for b at
+ * 4th position.
+ */
+
 package final450DSA.strings;
 
 public class RemoveConsecutiveCharacters {

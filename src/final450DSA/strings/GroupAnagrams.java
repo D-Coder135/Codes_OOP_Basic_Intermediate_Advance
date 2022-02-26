@@ -7,6 +7,7 @@
 
 package final450DSA.strings;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -23,7 +24,7 @@ public class GroupAnagrams {
                 }
 
                 if (!bigMap.containsKey(freqMap)) {
-
+                    List<String> list = new ArrayList<>();
                 }
             }
         }

@@ -5,6 +5,28 @@
  *   File: LongestPalindromicSubsequence
  */
 
+/**
+ * LEETCODE QUESTION 516 =>
+ * <p>
+ * Given a string s, find the longest palindromic subsequence's length in s.
+ * <p>
+ * A subsequence is a sequence that can be derived from another sequence by deleting some or no elements without
+ * changing the order of the remaining elements.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: s = "bbbab"
+ * Output: 4
+ * Explanation: One possible longest palindromic subsequence is "bbbb".
+ * <p>
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: s = "cbbd"
+ * Output: 2
+ * Explanation: One possible longest palindromic subsequence is "bb".
+ */
+
 package final450DSA.strings;
 
 public class LongestPalindromicSubsequence {

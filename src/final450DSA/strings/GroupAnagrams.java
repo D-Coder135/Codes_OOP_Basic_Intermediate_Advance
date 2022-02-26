@@ -33,7 +33,11 @@ public class GroupAnagrams {
                 }
             }
 
-            return new ArrayList<>(bigMap.values());
+            List<List<String>> result = new ArrayList<>();
+            for (List<String> val : bigMap.values()) {
+                result.add(val);
+            }
+            return result;
         }
     }
 }

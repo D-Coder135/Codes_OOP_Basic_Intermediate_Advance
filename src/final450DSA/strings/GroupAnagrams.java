@@ -32,6 +32,8 @@ public class GroupAnagrams {
                     list.add(str);
                 }
             }
+
+            List<String> result = new ArrayList<>();
         }
     }
 }

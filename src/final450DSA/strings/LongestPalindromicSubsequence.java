@@ -17,6 +17,8 @@ public class LongestPalindromicSubsequence {
 
                     } else if (gap == 1) {
 
+                    } else {
+
                     }
                 }
             }

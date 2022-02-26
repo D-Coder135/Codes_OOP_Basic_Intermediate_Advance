@@ -7,12 +7,13 @@
 
 package final450DSA.strings;
 
+import java.util.HashMap;
 import java.util.List;
 
 public class GroupAnagrams {
     static class Solution {
         public List<List<String>> groupAnagrams(String[] strs) {
-
+            HashMap<HashMap<Character, Integer>, List<String>> bigMap = new HashMap<>();
         }
     }
 }

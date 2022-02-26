@@ -26,6 +26,7 @@ public class GroupAnagrams {
                 if (!bigMap.containsKey(freqMap)) {
                     List<String> list = new ArrayList<>();
                     list.add(str);
+                    bigMap.put(freqMap, list);
                 }
             }
         }

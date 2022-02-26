@@ -16,7 +16,7 @@ public class GroupAnagrams {
             HashMap<HashMap<Character, Integer>, List<String>> bigMap = new HashMap<>();
 
             for (String str : strs) {
-
+                HashMap<Character, Integer> freqMap = new HashMap<>();
             }
         }
     }

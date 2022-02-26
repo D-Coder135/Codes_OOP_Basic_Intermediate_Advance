@@ -18,7 +18,9 @@ public class MinimumInsertionToMakePalindrome {
                     } else if (gap == 1) {
                         dp[i][j] = s.charAt(i) == s.charAt(j) ? 2 : 1;
                     } else {
+                        if (s.charAt(i) == s.charAt(j)) {
 
+                        }
                     }
                 }
             }

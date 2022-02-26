@@ -29,6 +29,7 @@ public class GroupAnagrams {
                     bigMap.put(freqMap, list);
                 } else {
                     List<String> list = bigMap.get(freqMap);
+                    list.add(str);
                 }
             }
         }

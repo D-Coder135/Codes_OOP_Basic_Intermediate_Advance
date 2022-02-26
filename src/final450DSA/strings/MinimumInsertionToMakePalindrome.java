@@ -26,6 +26,7 @@ public class MinimumInsertionToMakePalindrome {
                     }
                 }
             }
+            return s.length() - dp[0][s.length() - 1];
         }
     }
 }

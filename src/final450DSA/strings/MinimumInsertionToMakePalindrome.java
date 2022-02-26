@@ -11,6 +11,9 @@ public class MinimumInsertionToMakePalindrome {
     static class Solution {
         public int minInsertions(String s) {
             int[][] dp = new int[s.length()][s.length()];
+            for (int gap = 0; gap < s.length(); gap++) {
+
+            }
         }
     }
 }

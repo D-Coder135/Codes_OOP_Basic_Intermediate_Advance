@@ -10,7 +10,7 @@ package final450DSA.strings;
 public class MinimumInsertionToMakePalindrome {
     static class Solution {
         public int minInsertions(String s) {
-            return 0;
+            int[][] dp = new int[s.length()][s.length()];
         }
     }
 }

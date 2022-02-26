@@ -19,7 +19,7 @@ public class LongestPalindromicSubsequence {
                         dp[i][j] = s.charAt(i) == s.charAt(j) ? 2 : 1;
                     } else {
                         if (s.charAt(i) == s.charAt(j)) {
-
+                            dp[i][j] = 2 + dp[i + 1][j - 1];
                         }
                     }
                 }

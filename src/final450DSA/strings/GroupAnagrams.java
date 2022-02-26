@@ -21,6 +21,10 @@ public class GroupAnagrams {
                     char ch = str.charAt(i);
                     freqMap.put(ch, freqMap.getOrDefault(ch, 0) + 1);
                 }
+
+                if (!bigMap.containsKey(freqMap)) {
+
+                }
             }
         }
     }

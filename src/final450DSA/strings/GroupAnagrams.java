@@ -7,9 +7,7 @@
 
 package final450DSA.strings;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class GroupAnagrams {
     static class Solution {

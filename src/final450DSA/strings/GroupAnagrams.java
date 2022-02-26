@@ -38,6 +38,9 @@ public class GroupAnagrams {
                 result.add(val);
             }
             return result;
+
+            // Above three lines can also be directly written as =>
+            // return new ArrayList<>(bigMap.values());
         }
     }
 }

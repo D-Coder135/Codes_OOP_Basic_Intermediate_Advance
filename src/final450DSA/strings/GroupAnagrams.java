@@ -37,6 +37,7 @@ public class GroupAnagrams {
             for (List<String> val : bigMap.values()) {
                 result.add(val);
             }
+            return result;
         }
     }
 }

@@ -15,6 +15,8 @@ public class LongestPalindromicSubsequence {
                 for (int i = 0, j = gap; j < dp.length; i++, j++) {
                     if (gap == 0) {
 
+                    } else if (gap == 1) {
+
                     }
                 }
             }

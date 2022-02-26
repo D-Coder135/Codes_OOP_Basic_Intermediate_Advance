@@ -12,7 +12,9 @@ public class LongestPalindromicSubsequence {
         public int longestPalindromeSubseq(String s) {
             int[][] dp = new int[s.length()][s.length()];
             for (int gap = 0; gap < s.length(); gap++) {
+                for (int i = 0, j = gap; j < dp.length; i++, j++) {
 
+                }
             }
         }
     }

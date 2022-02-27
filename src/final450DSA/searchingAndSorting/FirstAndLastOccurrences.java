@@ -38,6 +38,8 @@ public class FirstAndLastOccurrences {
                     }
                 } else if (nums[mid] > target) {
                     right = mid - 1;
+                } else {
+                    left = mid + 1;
                 }
             }
 

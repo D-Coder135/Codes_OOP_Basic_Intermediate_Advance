@@ -23,6 +23,8 @@ public class WildcardMatching {
                         } else {
                             dp[i][j] = false;
                         }
+                    } else {
+
                     }
                 }
             }

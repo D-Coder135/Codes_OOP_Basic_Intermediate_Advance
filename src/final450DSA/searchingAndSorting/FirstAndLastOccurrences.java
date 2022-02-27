@@ -18,6 +18,8 @@ public class FirstAndLastOccurrences {
 
             int firstIndex = getPosition(nums, target, n, first);
             int lastIndex = getPosition(nums, target, n, !first);
+
+            return new int[]{firstIndex, lastIndex};
         }
     }
 }

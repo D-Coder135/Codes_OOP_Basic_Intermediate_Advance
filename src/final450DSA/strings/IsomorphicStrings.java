@@ -16,6 +16,7 @@ public class IsomorphicStrings {
         }
 
         private String helper(String s) {
+            StringBuilder ans = new StringBuilder();
             return null;
         }
     }

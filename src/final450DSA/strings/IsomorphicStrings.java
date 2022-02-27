@@ -23,6 +23,7 @@ public class IsomorphicStrings {
                 map.put(ch, map.getOrDefault(ch, 0) + 1);
 
                 ans.append(Integer.toString(map.get(ch)));
+                ans.append(" ");
             }
             return ans.toString();
         }

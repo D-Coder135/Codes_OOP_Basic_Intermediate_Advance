@@ -36,6 +36,7 @@ public class WildcardMatching {
                     }
                 }
             }
+            return dp[0][0];
         }
     }
 }

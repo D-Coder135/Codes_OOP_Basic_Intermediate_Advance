@@ -7,10 +7,12 @@
 
 package final450DSA.strings;
 
+import java.util.HashMap;
+
 public class IsomorphicStrings {
     static class Solution {
         public boolean isIsomorphic(String s, String t) {
-
+            return helper(s).equals(helper(t));
         }
     }
 }

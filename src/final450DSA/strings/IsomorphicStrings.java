@@ -14,5 +14,9 @@ public class IsomorphicStrings {
         public boolean isIsomorphic(String s, String t) {
             return helper(s).equals(helper(t));
         }
+
+        private String helper(String s) {
+            return null;
+        }
     }
 }

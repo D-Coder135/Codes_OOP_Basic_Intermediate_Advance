@@ -21,5 +21,9 @@ public class FirstAndLastOccurrences {
 
             return new int[]{firstIndex, lastIndex};
         }
+
+        private int getPosition(int[] nums, int target, int n, boolean first) {
+            return 0;
+        }
     }
 }

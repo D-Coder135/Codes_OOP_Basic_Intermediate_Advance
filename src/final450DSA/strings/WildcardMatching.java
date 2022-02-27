@@ -17,6 +17,8 @@ public class WildcardMatching {
                         dp[i][j] = true;
                     } else if (i == dp.length - 1) {
                         dp[i][j] = false;
+                    } else if (j == dp[0].length - 1) {
+
                     }
                 }
             }

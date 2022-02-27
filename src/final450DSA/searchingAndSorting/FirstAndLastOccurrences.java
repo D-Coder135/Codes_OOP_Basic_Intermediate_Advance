@@ -15,6 +15,8 @@ public class FirstAndLastOccurrences {
             }
             int n = nums.length;
             boolean first = true;
+
+            int firstIndex = getPosition(nums, target, n, first);
         }
     }
 }

@@ -27,7 +27,7 @@ public class WildcardMatching {
                         if (p.charAt(i) == '?') {
                             dp[i][j] = dp[i + 1][j + 1];
                         } else if (p.charAt(i) == '*') {
-
+                            dp[i][j] = dp[i + 1][j] || dp[i][j + 1];
                         }
                     }
                 }

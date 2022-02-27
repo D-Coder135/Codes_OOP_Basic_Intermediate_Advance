@@ -17,8 +17,10 @@ public class IsomorphicStrings {
 
         private String helper(String s) {
             StringBuilder ans = new StringBuilder();
+            HashMap<Character, Integer> map = new HashMap<>();
             for (int i = 0; i < s.length(); i++) {
                 char ch = s.charAt(i);
+
             }
             return ans.toString();
         }

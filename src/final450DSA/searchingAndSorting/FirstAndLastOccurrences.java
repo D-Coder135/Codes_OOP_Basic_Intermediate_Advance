@@ -25,6 +25,7 @@ public class FirstAndLastOccurrences {
         private int getPosition(int[] nums, int target, int n, boolean first) {
             int left = 0, right = n - 1;
             int mid = left + (right - left) / 2;
+            int ans = -1;
             return 0;
         }
     }

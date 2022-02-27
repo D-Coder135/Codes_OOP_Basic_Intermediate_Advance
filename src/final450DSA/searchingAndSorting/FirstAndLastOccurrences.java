@@ -29,7 +29,7 @@ public class FirstAndLastOccurrences {
 
             while (left <= right) {
                 if (nums[mid] == target) {
-
+                    ans = mid;
                 }
             }
 

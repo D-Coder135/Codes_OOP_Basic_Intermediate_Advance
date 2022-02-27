@@ -8,4 +8,9 @@
 package final450DSA.searchingAndSorting;
 
 public class FirstAndLastOccurrences {
+    static class Solution {
+        public int[] searchRange(int[] nums, int target) {
+
+        }
+    }
 }

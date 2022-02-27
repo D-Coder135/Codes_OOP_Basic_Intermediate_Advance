@@ -5,6 +5,28 @@
  *   File: WildcardMatching
  */
 
+/**
+ * LEETCODE QUESTION 44 (HARD) =>
+ * <p>
+ * Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*' where:
+ * <p>
+ * '?' Matches any single character.
+ * '*' Matches any sequence of characters (including the empty sequence).
+ * The matching should cover the entire input string (not partial).
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: s = "aa", p = "a"
+ * Output: false
+ * Explanation: "a" does not match the entire string "aa".
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: s = "aa", p = "*"
+ * Output: true
+ * Explanation: '*' matches any sequence.
+ */
+
 package final450DSA.strings;
 
 public class WildcardMatching {

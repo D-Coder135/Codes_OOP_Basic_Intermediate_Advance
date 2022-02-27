@@ -20,9 +20,11 @@ public class IsomorphicStrings {
             HashMap<Character, Integer> map = new HashMap<>();
             for (int i = 0; i < s.length(); i++) {
                 char ch = s.charAt(i);
-                map.put(ch, map.getOrDefault(ch, 0) + 1);
+                if (!map.containsKey(ch)) {
+                    map.put(ch, i);
+                }
 
-                ans.append(Integer.toString(map.get(ch)));
+                ans.append(map.get(ch));
                 ans.append(" ");
             }
             return ans.toString();

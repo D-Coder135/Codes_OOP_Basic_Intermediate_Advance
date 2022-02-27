@@ -33,6 +33,8 @@ public class FirstAndLastOccurrences {
 
                     if (first) {
                         right = mid - 1;
+                    } else if (!first) {
+                        left = mid + 1;
                     }
                 }
             }

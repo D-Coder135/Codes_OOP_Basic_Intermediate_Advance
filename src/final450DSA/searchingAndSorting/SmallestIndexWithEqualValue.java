@@ -23,6 +23,7 @@ public class SmallestIndexWithEqualValue {
                 Collections.sort(list);
                 return list.get(0);
             }
+            return -1;
         }
     }
 }

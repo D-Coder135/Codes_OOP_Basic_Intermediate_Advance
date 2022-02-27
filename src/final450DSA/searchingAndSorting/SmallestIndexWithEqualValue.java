@@ -13,6 +13,9 @@ public class SmallestIndexWithEqualValue {
     static class Solution {
         public int smallestEqual(int[] nums) {
             ArrayList<Integer> list = new ArrayList<>();
+            for (int i = 0; i < nums.length; i++) {
+                
+            }
         }
     }
 }

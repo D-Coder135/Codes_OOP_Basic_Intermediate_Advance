@@ -10,7 +10,9 @@ package final450DSA.searchingAndSorting;
 public class FirstAndLastOccurrences {
     static class Solution {
         public int[] searchRange(int[] nums, int target) {
-
+            if (nums == null || nums.length == 0) {
+                return new int[]{-1, -1};
+            }
         }
     }
 }

@@ -8,4 +8,9 @@
 package final450DSA.strings;
 
 public class WildcardMatching {
+    static class Solution {
+        public boolean isMatch(String s, String p) {
+
+        }
+    }
 }

@@ -13,6 +13,8 @@ public class FirstAndLastOccurrences {
             if (nums == null || nums.length == 0) {
                 return new int[]{-1, -1};
             }
+            int n = nums.length;
+
         }
     }
 }

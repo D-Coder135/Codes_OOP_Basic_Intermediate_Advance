@@ -28,7 +28,9 @@ public class FirstAndLastOccurrences {
             int ans = -1;
 
             while (left <= right) {
+                if (nums[mid] == target) {
 
+                }
             }
 
             return ans;

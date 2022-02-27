@@ -8,4 +8,9 @@
 package final450DSA.strings;
 
 public class IsomorphicStrings {
+    static class Solution {
+        public boolean isIsomorphic(String s, String t) {
+
+        }
+    }
 }

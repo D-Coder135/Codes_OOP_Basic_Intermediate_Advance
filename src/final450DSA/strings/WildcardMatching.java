@@ -19,7 +19,9 @@ public class WildcardMatching {
                         dp[i][j] = false;
                     } else if (j == dp[0].length - 1) {
                         if (p.charAt(i) == '*') {
-                            dp[i][j] = dp[i - 1][j];
+                            dp[i][j] = dp[i + 1][j];
+                        } else {
+                            dp[i][j] = false;
                         }
                     }
                 }

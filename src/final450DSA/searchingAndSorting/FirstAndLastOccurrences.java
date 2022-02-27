@@ -30,6 +30,10 @@ public class FirstAndLastOccurrences {
             while (left <= right) {
                 if (nums[mid] == target) {
                     ans = mid;
+
+                    if (first) {
+                        right = mid - 1;
+                    }
                 }
             }
 

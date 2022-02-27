@@ -24,7 +24,9 @@ public class WildcardMatching {
                             dp[i][j] = false;
                         }
                     } else {
-
+                        if (p.charAt(i) == '?') {
+                            dp[i][j] = dp[i + 1][j + 1];
+                        }
                     }
                 }
             }

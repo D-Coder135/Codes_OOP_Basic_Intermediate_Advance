@@ -7,10 +7,12 @@
 
 package final450DSA.searchingAndSorting;
 
+import java.util.ArrayList;
+
 public class SmallestIndexWithEqualValue {
     static class Solution {
         public int smallestEqual(int[] nums) {
-
+            ArrayList<Integer> list = new ArrayList<>();
         }
     }
 }

@@ -30,6 +30,8 @@ public class WildcardMatching {
                             dp[i][j] = dp[i + 1][j] || dp[i][j + 1];
                         } else if (p.charAt(i) == s.charAt(j)) {
                             dp[i][j] = dp[i + 1][j + 1];
+                        } else {
+                            dp[i][j] = false;
                         }
                     }
                 }

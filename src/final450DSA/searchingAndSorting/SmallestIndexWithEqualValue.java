@@ -8,6 +8,7 @@
 package final450DSA.searchingAndSorting;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class SmallestIndexWithEqualValue {
     static class Solution {
@@ -17,6 +18,10 @@ public class SmallestIndexWithEqualValue {
                 if ((i % 10) == nums[i]) {
                     list.add(i);
                 }
+            }
+            if (!list.isEmpty()) {
+                Collections.sort(list);
+                return list.get(0);
             }
         }
     }

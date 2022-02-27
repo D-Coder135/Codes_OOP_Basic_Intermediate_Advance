@@ -21,6 +21,8 @@ public class IsomorphicStrings {
             for (int i = 0; i < s.length(); i++) {
                 char ch = s.charAt(i);
                 map.put(ch, map.getOrDefault(ch, 0) + 1);
+
+                ans.append(Integer.toString(map.get(ch)));
             }
             return ans.toString();
         }

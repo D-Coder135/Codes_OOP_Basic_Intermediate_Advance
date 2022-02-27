@@ -14,7 +14,7 @@ public class FirstAndLastOccurrences {
                 return new int[]{-1, -1};
             }
             int n = nums.length;
-
+            boolean first = true;
         }
     }
 }

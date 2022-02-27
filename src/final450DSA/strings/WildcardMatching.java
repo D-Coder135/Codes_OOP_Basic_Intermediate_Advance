@@ -10,7 +10,7 @@ package final450DSA.strings;
 public class WildcardMatching {
     static class Solution {
         public boolean isMatch(String s, String p) {
-            int[][] dp = new int[p.length() + 1][s.length() + 1];
+            boolean[][] dp = new boolean[p.length() + 1][s.length() + 1];
             for (int i = dp.length - 1; i >= 0; i--) {
                 for (int j = dp[0].length - 1; j >= 0; j--) {
 

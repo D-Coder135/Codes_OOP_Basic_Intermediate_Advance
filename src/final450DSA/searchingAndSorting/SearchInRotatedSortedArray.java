@@ -15,12 +15,14 @@ public class SearchInRotatedSortedArray {
                 int mid = (start + end) / 2;
                 if (nums[mid] == target) {
                     return mid;
-                } else if (nums[0] < nums[mid]) {
+                } else if (nums[0] <= nums[mid]) {
                     if (target > nums[0] && target < nums[mid]) {
                         end = mid - 1;
                     } else {
                         start = mid + 1;
                     }
+                } else {
+
                 }
             }
         }

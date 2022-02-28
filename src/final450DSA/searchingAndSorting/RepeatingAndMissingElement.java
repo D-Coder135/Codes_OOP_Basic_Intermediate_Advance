@@ -18,6 +18,10 @@ public class RepeatingAndMissingElement {
                     arr[Math.abs(arr[i]) - 1] = -arr[Math.abs(arr[i]) - 1];
                 }
             }
+
+            for (int i = 0; i < n; i++) {
+
+            }
         }
     }
 }

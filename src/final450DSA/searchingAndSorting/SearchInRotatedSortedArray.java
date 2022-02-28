@@ -8,4 +8,9 @@
 package final450DSA.searchingAndSorting;
 
 public class SearchInRotatedSortedArray {
+    static class Solution {
+        public int search(int[] nums, int target) {
+
+        }
+    }
 }

@@ -22,6 +22,7 @@ public class MajorityElement {
                     return key;
                 }
             }
+            return -1;
         }
     }
 }

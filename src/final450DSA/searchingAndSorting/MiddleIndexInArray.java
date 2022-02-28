@@ -27,6 +27,7 @@ public class MiddleIndexInArray {
                 }
                 leftSum += nums[i];
             }
+            return -1;
         }
     }
 }

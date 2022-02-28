@@ -25,6 +25,7 @@ public class MiddleIndexInArray {
                 if (leftSum == totalSum) {
                     return i;
                 }
+                leftSum += nums[i];
             }
         }
     }

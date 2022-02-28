@@ -10,6 +10,7 @@ package final450DSA.searchingAndSorting;
 public class RepeatingAndMissingElement {
     static class Solution {
         int[] findTwoElement(int[] arr, int n) {
+            int repeating = 0, missing = 0;
             for (int i = 0; i < n; i++) {
 
             }

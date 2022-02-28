@@ -13,6 +13,9 @@ public class MajorityElement {
     static class Solution {
         public int majorityElement(int[] nums) {
             HashMap<Integer, Integer> map = new HashMap<>();
+            for (int num : nums) {
+
+            }
         }
     }
 }

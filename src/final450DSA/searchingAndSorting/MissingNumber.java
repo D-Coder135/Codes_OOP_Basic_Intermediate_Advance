@@ -9,6 +9,8 @@ package final450DSA.searchingAndSorting;
 
 public class MissingNumber {
     static class Solution {
+        public int missingNumber(int[] nums) {
 
+        }
     }
 }

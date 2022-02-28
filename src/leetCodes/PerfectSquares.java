@@ -18,6 +18,9 @@ public class PerfectSquares {
                 int min = Integer.MAX_VALUE;
                 for (int j = 1; j * j <= i; j++) {
                     int rem = i - (j * j);
+                    if (dp[rem] < min) {
+                        min = dp[rem];
+                    }
                 }
             }
         }

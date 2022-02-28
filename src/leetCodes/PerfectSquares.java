@@ -10,7 +10,7 @@ package leetCodes;
 public class PerfectSquares {
     static class Solution {
         public int numSquares(int n) {
-
+            int[] dp = new int[n + 1];
         }
     }
 }

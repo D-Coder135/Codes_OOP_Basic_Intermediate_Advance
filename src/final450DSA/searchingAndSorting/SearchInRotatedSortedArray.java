@@ -12,7 +12,7 @@ public class SearchInRotatedSortedArray {
         public int search(int[] nums, int target) {
             int start = 0, end = nums.length;
             while (start <= end) {
-
+                int mid = (start + end) / 2;
             }
         }
     }

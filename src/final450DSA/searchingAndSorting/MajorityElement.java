@@ -18,7 +18,9 @@ public class MajorityElement {
             }
 
             for (Integer key : map.keySet()) {
-
+                if (map.get(key) > (nums.length / 2)) {
+                    return key;
+                }
             }
         }
     }

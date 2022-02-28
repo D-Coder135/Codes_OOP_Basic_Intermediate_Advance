@@ -15,8 +15,8 @@ public class MiddleIndexInArray {
             }
 
             int totalSum = 0;
-            for (int i = 0; i < nums.length; i++) {
-                totalSum += nums[i];
+            for (int num : nums) {
+                totalSum += num;
             }
 
             int leftSum = 0;

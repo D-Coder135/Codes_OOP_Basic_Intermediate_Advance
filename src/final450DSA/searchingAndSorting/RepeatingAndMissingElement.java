@@ -24,6 +24,7 @@ public class RepeatingAndMissingElement {
                     missing = i + 1;
                 }
             }
+            return new int[]{repeating, missing};
         }
     }
 }

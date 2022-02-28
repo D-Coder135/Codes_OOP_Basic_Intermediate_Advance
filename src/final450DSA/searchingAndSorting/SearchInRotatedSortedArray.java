@@ -11,6 +11,9 @@ public class SearchInRotatedSortedArray {
     static class Solution {
         public int search(int[] nums, int target) {
             int start = 0, end = nums.length;
+            while (start <= end) {
+
+            }
         }
     }
 }

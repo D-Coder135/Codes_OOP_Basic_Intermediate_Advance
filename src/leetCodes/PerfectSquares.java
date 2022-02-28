@@ -8,4 +8,9 @@
 package leetCodes;
 
 public class PerfectSquares {
+    static class Solution {
+        public int numSquares(int n) {
+
+        }
+    }
 }

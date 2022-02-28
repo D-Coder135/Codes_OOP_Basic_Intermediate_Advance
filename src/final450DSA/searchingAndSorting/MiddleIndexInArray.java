@@ -13,6 +13,9 @@ public class MiddleIndexInArray {
             if (nums.length == 1) {
                 return 0;
             }
+
+            int totalSum = 0;
+
         }
     }
 }

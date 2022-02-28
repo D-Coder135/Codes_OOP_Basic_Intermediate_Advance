@@ -13,7 +13,7 @@ public class RepeatingAndMissingElement {
             int repeating = 0, missing = 0;
             for (int i = 0; i < n; i++) {
                 if (arr[Math.abs(arr[i]) - 1] < 0) {
-
+                    repeating = Math.abs(arr[i]);
                 }
             }
         }

@@ -20,7 +20,9 @@ public class RepeatingAndMissingElement {
             }
 
             for (int i = 0; i < n; i++) {
-
+                if (arr[i] > 0) {
+                    missing = i + 1;
+                }
             }
         }
     }

@@ -7,10 +7,12 @@
 
 package final450DSA.searchingAndSorting;
 
+import java.util.HashMap;
+
 public class MajorityElement {
     static class Solution {
         public int majorityElement(int[] nums) {
-
+            HashMap<Integer, Integer> map = new HashMap<>();
         }
     }
 }

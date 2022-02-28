@@ -16,6 +16,10 @@ public class MissingNumber {
             for (int num : nums) {
                 set.add(num);
             }
+
+            for (int i = 0; i <= nums.length; i++) {
+
+            }
         }
     }
 }

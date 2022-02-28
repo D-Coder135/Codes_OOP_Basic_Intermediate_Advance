@@ -16,7 +16,9 @@ public class SearchInRotatedSortedArray {
                 if (nums[mid] == target) {
                     return mid;
                 } else if (nums[0] < nums[mid]) {
+                    if (target > nums[0] && target < nums[mid]) {
 
+                    }
                 }
             }
         }

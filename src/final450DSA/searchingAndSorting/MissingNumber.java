@@ -13,6 +13,9 @@ public class MissingNumber {
     static class Solution {
         public int missingNumber(int[] nums) {
             HashSet<Integer> set = new HashSet<>();
+            for (int num : nums) {
+
+            }
         }
     }
 }

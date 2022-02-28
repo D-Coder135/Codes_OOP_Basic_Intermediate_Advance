@@ -7,10 +7,12 @@
 
 package final450DSA.searchingAndSorting;
 
+import java.util.HashSet;
+
 public class MissingNumber {
     static class Solution {
         public int missingNumber(int[] nums) {
-
+            HashSet<Integer> set = new HashSet<>();
         }
     }
 }

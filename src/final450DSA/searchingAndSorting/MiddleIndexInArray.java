@@ -8,4 +8,9 @@
 package final450DSA.searchingAndSorting;
 
 public class MiddleIndexInArray {
+    static class Solution {
+        public int findMiddleIndex(int[] nums) {
+
+        }
+    }
 }

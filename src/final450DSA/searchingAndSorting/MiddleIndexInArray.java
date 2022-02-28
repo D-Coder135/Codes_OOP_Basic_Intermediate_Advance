@@ -10,7 +10,7 @@ package final450DSA.searchingAndSorting;
 public class MiddleIndexInArray {
     static class Solution {
         public int findMiddleIndex(int[] nums) {
-
+            int start = 0, end = nums.length - 1;
         }
     }
 }

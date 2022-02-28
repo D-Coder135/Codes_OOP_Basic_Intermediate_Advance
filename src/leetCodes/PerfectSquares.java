@@ -22,6 +22,7 @@ public class PerfectSquares {
                         min = dp[rem];
                     }
                 }
+                dp[i] = min + 1;
             }
         }
     }

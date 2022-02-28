@@ -22,6 +22,7 @@ public class MissingNumber {
                     return i;
                 }
             }
+            return -1;
         }
     }
 }

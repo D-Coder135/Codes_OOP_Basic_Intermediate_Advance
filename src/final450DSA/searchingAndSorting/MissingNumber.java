@@ -8,4 +8,7 @@
 package final450DSA.searchingAndSorting;
 
 public class MissingNumber {
+    static class Solution {
+
+    }
 }

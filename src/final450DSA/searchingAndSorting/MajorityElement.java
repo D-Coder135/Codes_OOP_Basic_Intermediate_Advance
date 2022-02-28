@@ -9,6 +9,8 @@ package final450DSA.searchingAndSorting;
 
 public class MajorityElement {
     static class Solution {
+        public int majorityElement(int[] nums) {
 
+        }
     }
 }

@@ -14,7 +14,7 @@ public class MissingNumber {
         public int missingNumber(int[] nums) {
             HashSet<Integer> set = new HashSet<>();
             for (int num : nums) {
-
+                set.add(num);
             }
         }
     }

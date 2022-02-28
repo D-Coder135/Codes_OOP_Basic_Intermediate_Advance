@@ -24,6 +24,7 @@ public class PerfectSquares {
                 }
                 dp[i] = min + 1;
             }
+            return dp[n];
         }
     }
 }

@@ -8,4 +8,7 @@
 package final450DSA.searchingAndSorting;
 
 public class MajorityElement {
+    static class Solution {
+
+    }
 }

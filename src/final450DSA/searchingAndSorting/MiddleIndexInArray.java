@@ -22,6 +22,9 @@ public class MiddleIndexInArray {
             int leftSum = 0;
             for (int i = 0; i < nums.length; i++) {
                 totalSum -= nums[i];
+                if (leftSum == totalSum) {
+                    return i;
+                }
             }
         }
     }

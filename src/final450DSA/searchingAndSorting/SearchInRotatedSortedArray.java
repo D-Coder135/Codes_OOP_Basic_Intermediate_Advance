@@ -29,6 +29,7 @@ public class SearchInRotatedSortedArray {
                     }
                 }
             }
+            return -1;
         }
     }
 }

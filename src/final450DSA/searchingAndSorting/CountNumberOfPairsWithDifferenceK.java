@@ -5,6 +5,34 @@
  *   File: CountNumberOfPairsWithDifferenceK
  */
 
+/**
+ * LEETCODE QUESTION 2006 =>
+ * <p>
+ * Given an integer array nums and an integer k, return the number of pairs (i, j) where i < j
+ * such that |nums[i] - nums[j]| == k.
+ * <p>
+ * The value of |x| is defined as:
+ * <p>
+ * x if x >= 0.
+ * -x if x < 0.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: nums = [1,2,2,1], k = 1
+ * Output: 4
+ * Explanation: The pairs with an absolute difference of 1 are:
+ * - [1,2,2,1]
+ * - [1,2,2,1]
+ * - [1,2,2,1]
+ * - [1,2,2,1]
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: nums = [1,3], k = 3
+ * Output: 0
+ * Explanation: There are no pairs with an absolute difference of 3.
+ */
+
 package final450DSA.searchingAndSorting;
 
 import java.util.HashMap;

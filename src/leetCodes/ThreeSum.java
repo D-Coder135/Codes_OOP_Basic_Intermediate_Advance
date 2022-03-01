@@ -47,7 +47,7 @@ public class ThreeSum {
                 }
                 int sum = arr[left] + arr[right];
 
-                if (sum == 0) {
+                if (sum == target) {
                     List<Integer> subRes = new ArrayList<>();
                     subRes.add(left);
                     subRes.add(right);

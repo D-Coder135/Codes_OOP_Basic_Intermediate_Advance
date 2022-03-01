@@ -55,6 +55,8 @@ public class ThreeSum {
                     right--;
                 } else if (sum > target) {
                     right--;
+                } else {
+                    left++;
                 }
             }
         }

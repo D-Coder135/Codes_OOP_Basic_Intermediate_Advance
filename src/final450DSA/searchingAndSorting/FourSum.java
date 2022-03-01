@@ -8,6 +8,7 @@
 package final450DSA.searchingAndSorting;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class FourSum {
@@ -18,6 +19,7 @@ public class FourSum {
             if (n < 4) {
                 return res;
             }
+            Arrays.sort(nums);
         }
     }
 }

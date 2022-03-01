@@ -16,7 +16,9 @@ public class PairGivenDifference {
             Arrays.sort(arr);
 
             for (int i = 0; i < size; i++) {
-
+                if (binarySearch(arr, i + 1, size - 1, arr[i] + n)) {
+                    return true;
+                }
             }
         }
     }

@@ -51,6 +51,7 @@ public class ThreeSum {
                     List<Integer> subRes = new ArrayList<>();
                     subRes.add(left);
                     subRes.add(right);
+                    res.add(subRes);
                     left++;
                     right--;
                 } else if (sum > target) {

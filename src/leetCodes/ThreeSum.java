@@ -30,6 +30,7 @@ public class ThreeSum {
 
                 for (List<Integer> list : subRes) {
                     list.add(val);
+                    res.add(list);
                 }
             }
         }

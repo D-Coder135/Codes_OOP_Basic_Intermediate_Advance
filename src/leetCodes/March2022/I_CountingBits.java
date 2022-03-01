@@ -8,4 +8,7 @@
 package leetCodes.March2022;
 
 public class I_CountingBits {
+    static class Solution {
+
+    }
 }

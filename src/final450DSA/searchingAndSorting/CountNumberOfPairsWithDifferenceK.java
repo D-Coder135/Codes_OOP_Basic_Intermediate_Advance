@@ -9,6 +9,8 @@ package final450DSA.searchingAndSorting;
 
 public class CountNumberOfPairsWithDifferenceK {
     static class Solution {
+        public int countKDifference(int[] nums, int k) {
 
+        }
     }
 }

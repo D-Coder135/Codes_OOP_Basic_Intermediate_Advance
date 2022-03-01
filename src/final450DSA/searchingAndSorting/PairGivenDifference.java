@@ -20,6 +20,7 @@ public class PairGivenDifference {
                     return true;
                 }
             }
+            return false;
         }
     }
 }

@@ -26,7 +26,7 @@ public class ThreeSum {
                     continue;
                 }
                 int val = nums[i];
-                List<List<Integer>> subRes = twoSum(nums, i + 1, n - 1);
+                List<List<Integer>> subRes = twoSum(nums, i + 1, n - 1, 0);
 
                 for (List<Integer> list : subRes) {
                     list.add(val);
@@ -34,6 +34,10 @@ public class ThreeSum {
                 }
             }
             return res;
+        }
+
+        private List<List<Integer>> twoSum(int[] nums, int start, int end, int target) {
+
         }
     }
 }

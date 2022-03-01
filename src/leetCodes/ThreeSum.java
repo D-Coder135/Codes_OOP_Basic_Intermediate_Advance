@@ -36,15 +36,16 @@ public class ThreeSum {
             return res;
         }
 
-        private List<List<Integer>> twoSum(int[] nums, int start, int end, int target) {
+        private List<List<Integer>> twoSum(int[] arr, int start, int end, int target) {
             int left = start;
             int right = end;
             List<List<Integer>> res = new ArrayList<>();
             while (left < right) {
-                if (left != start && nums[left] == nums[left - 1]) {
+                if (left != start && arr[left] == arr[left - 1]) {
                     left++;
                     continue;
                 }
+                int sum = arr[left] + arr[right];
             }
         }
     }

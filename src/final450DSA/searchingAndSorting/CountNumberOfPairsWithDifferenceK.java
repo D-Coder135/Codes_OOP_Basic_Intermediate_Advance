@@ -8,4 +8,7 @@
 package final450DSA.searchingAndSorting;
 
 public class CountNumberOfPairsWithDifferenceK {
+    static class Solution {
+
+    }
 }

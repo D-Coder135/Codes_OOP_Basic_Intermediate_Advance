@@ -15,6 +15,7 @@ public class CountNumberOfPairsWithDifferenceK {
             HashMap<Integer, Integer> map = new HashMap<>();
             int res = 0;
             for (int num : nums) {
+                res += map.getOrDefault(num - k, 0) + map.getOrDefault(num + k, 0);
 
             }
         }

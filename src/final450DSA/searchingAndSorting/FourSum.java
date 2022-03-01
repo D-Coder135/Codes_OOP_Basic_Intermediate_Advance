@@ -5,6 +5,29 @@
  *   File: FourSum
  */
 
+/**
+ * GFG & LEETCODE QUESTION 18 =>
+ * <p>
+ * Given an array nums of n integers, return an array of all the unique quadruplets
+ * [nums[a], nums[b], nums[c], nums[d]] such that:
+ * <p>
+ * 0 <= a, b, c, d < n
+ * a, b, c, and d are distinct.
+ * nums[a] + nums[b] + nums[c] + nums[d] == target
+ * You may return the answer in any order.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: nums = [1,0,-1,0,-2,2], target = 0
+ * Output: [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
+ * <p>
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: nums = [2,2,2,2,2], target = 8
+ * Output: [[2,2,2,2]]
+ */
+
 package final450DSA.searchingAndSorting;
 
 import java.util.ArrayList;

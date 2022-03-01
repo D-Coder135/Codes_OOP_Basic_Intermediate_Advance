@@ -33,6 +33,7 @@ public class ThreeSum {
                     res.add(list);
                 }
             }
+            return res;
         }
     }
 }

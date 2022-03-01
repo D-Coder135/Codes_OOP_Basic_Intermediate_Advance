@@ -26,6 +26,9 @@ public class PairGivenDifference {
         private boolean binarySearch(int[] arr, int low, int high, int target) {
             while (low <= high) {
                 int mid = (low + high) / 2;
+                if (arr[mid] == target) {
+                    return true;
+                }
             }
             return false;
         }

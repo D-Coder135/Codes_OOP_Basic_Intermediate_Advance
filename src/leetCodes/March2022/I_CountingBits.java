@@ -11,6 +11,7 @@ public class I_CountingBits {
     static class Solution {
         public int[] countBits(int n) {
             int[] ans = new int[n + 1];
+            ans[0] = 0;
             return ans;
         }
     }

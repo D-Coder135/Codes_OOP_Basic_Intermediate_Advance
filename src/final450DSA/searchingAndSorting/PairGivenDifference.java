@@ -14,6 +14,10 @@ public class PairGivenDifference {
         public boolean findPair(int[] arr, int size, int n) {
             //code here.
             Arrays.sort(arr);
+
+            for (int i = 0; i < size; i++) {
+
+            }
         }
     }
 }

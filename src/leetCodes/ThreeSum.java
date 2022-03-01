@@ -7,5 +7,12 @@
 
 package leetCodes;
 
+import java.util.List;
+
 public class ThreeSum {
+    static class Solution {
+        public List<List<Integer>> threeSum(int[] nums) {
+
+        }
+    }
 }

@@ -8,6 +8,7 @@
 package leetCodes;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ThreeSum {
@@ -18,7 +19,7 @@ public class ThreeSum {
             if (n < 3) {
                 return res;
             }
-
+            Arrays.sort(nums);
         }
     }
 }

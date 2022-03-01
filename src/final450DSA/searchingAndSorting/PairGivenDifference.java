@@ -7,10 +7,13 @@
 
 package final450DSA.searchingAndSorting;
 
+import java.util.Arrays;
+
 public class PairGivenDifference {
     static class Solution {
         public boolean findPair(int[] arr, int size, int n) {
             //code here.
+            Arrays.sort(arr);
         }
     }
 }

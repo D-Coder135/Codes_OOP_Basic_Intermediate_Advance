@@ -7,10 +7,12 @@
 
 package final450DSA.searchingAndSorting;
 
+import java.util.HashMap;
+
 public class CountNumberOfPairsWithDifferenceK {
     static class Solution {
         public int countKDifference(int[] nums, int k) {
-
+            HashMap<Integer, Integer> map = new HashMap<>();
         }
     }
 }

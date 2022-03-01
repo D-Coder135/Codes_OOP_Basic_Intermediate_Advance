@@ -60,6 +60,7 @@ public class ThreeSum {
                     left++;
                 }
             }
+            return res;
         }
     }
 }

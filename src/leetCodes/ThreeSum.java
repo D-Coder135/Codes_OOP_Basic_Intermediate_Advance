@@ -15,6 +15,10 @@ public class ThreeSum {
         public List<List<Integer>> threeSum(int[] nums) {
             List<List<Integer>> res = new ArrayList<>();
             int n = nums.length;
+            if (n < 3) {
+                return res;
+            }
+
         }
     }
 }

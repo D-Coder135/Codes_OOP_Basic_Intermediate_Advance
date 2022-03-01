@@ -14,6 +14,7 @@ public class ThreeSum {
     static class Solution {
         public List<List<Integer>> threeSum(int[] nums) {
             List<List<Integer>> res = new ArrayList<>();
+            int n = nums.length;
         }
     }
 }

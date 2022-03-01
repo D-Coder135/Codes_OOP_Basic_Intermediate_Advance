@@ -53,6 +53,8 @@ public class ThreeSum {
                     subRes.add(right);
                     left++;
                     right--;
+                } else if (sum > target) {
+                    right--;
                 }
             }
         }

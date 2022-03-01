@@ -37,7 +37,8 @@ public class ThreeSum {
         }
 
         private List<List<Integer>> twoSum(int[] nums, int start, int end, int target) {
-
+            int left = start;
+            int right = end;
         }
     }
 }

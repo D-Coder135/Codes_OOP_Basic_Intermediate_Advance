@@ -40,6 +40,9 @@ public class ThreeSum {
             int left = start;
             int right = end;
             List<List<Integer>> res = new ArrayList<>();
+            while (left < right) {
+
+            }
         }
     }
 }

@@ -26,6 +26,7 @@ public class ThreeSum {
                     continue;
                 }
                 int val = nums[i];
+                List<List<Integer>> subRes = twoSum(nums, i + 1, n - 1, 0);
             }
         }
     }

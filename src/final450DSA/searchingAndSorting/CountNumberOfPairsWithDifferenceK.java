@@ -14,6 +14,9 @@ public class CountNumberOfPairsWithDifferenceK {
         public int countKDifference(int[] nums, int k) {
             HashMap<Integer, Integer> map = new HashMap<>();
             int res = 0;
+            for (int num : nums) {
+
+            }
         }
     }
 }

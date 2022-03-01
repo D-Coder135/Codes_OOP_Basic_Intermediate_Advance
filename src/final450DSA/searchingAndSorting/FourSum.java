@@ -20,6 +20,19 @@ public class FourSum {
                 return res;
             }
             Arrays.sort(nums);
+            for (int i = 0; i <= n - 4; i++) {
+                if (i != 0 && nums[i] == nums[i - 1]) {
+                    continue;
+                }
+                int val = nums[i];
+                List<List<Integer>> subRes = threeSum(nums, target - val, i + 1);
+
+                for (List<Integer> list : subRes) {
+                    list.add(val);
+                    res.add(list);
+                }
+            }
+            return res;
         }
     }
 }

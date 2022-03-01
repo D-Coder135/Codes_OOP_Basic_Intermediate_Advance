@@ -5,6 +5,26 @@
  *   File: ThreeSum
  */
 
+/**
+ * LEETCODE QUESTION 15 =>
+ * <p>
+ * Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k,
+ * and j != k, and nums[i] + nums[j] + nums[k] == 0.
+ * <p>
+ * Notice that the solution set must not contain duplicate triplets.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: nums = [-1,0,1,2,-1,-4]
+ * Output: [[-1,-1,2],[-1,0,1]]
+ * <p>
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: nums = []
+ * Output: []
+ */
+
 package leetCodes;
 
 import java.util.ArrayList;

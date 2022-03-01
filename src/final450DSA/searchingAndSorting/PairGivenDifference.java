@@ -22,5 +22,9 @@ public class PairGivenDifference {
             }
             return false;
         }
+
+        private boolean binarySearch(int[] arr, int low, int high, int target) {
+            return false;
+        }
     }
 }

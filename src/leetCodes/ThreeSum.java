@@ -41,7 +41,10 @@ public class ThreeSum {
             int right = end;
             List<List<Integer>> res = new ArrayList<>();
             while (left < right) {
-
+                if (left != start && nums[left] == nums[left - 1]) {
+                    left++;
+                    continue;
+                }
             }
         }
     }

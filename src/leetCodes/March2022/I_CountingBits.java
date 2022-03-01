@@ -10,7 +10,7 @@ package leetCodes.March2022;
 public class I_CountingBits {
     static class Solution {
         public int[] countBits(int n) {
-
+            int[] ans = new int[n + 1];
         }
     }
 }

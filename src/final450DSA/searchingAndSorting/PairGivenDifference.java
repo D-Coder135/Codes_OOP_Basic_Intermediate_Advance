@@ -28,6 +28,8 @@ public class PairGivenDifference {
                 int mid = (low + high) / 2;
                 if (arr[mid] == target) {
                     return true;
+                } else if (arr[mid] > target) {
+                    high = mid - 1;
                 }
             }
             return false;

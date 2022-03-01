@@ -25,6 +25,7 @@ public class ThreeSum {
                 if (i != 0 && nums[i] == nums[i - 1]) {
                     continue;
                 }
+                int val = nums[i];
             }
         }
     }

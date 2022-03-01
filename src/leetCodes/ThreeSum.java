@@ -46,6 +46,14 @@ public class ThreeSum {
                     continue;
                 }
                 int sum = arr[left] + arr[right];
+
+                if (sum == 0) {
+                    List<Integer> subRes = new ArrayList<>();
+                    subRes.add(left);
+                    subRes.add(right);
+                    left++;
+                    right--;
+                }
             }
         }
     }

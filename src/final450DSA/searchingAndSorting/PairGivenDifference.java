@@ -8,4 +8,9 @@
 package final450DSA.searchingAndSorting;
 
 public class PairGivenDifference {
+    static class Solution {
+        public boolean findPair(int arr[], int size, int n) {
+            //code here.
+        }
+    }
 }

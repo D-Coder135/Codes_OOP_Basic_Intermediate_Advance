@@ -7,12 +7,13 @@
 
 package final450DSA.searchingAndSorting;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class FourSum {
     static class Solution {
         public List<List<Integer>> fourSum(int[] nums, int target) {
-
+            List<List<Integer>> res = new ArrayList<>();
         }
     }
 }

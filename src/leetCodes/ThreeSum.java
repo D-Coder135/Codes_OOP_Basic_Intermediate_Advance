@@ -13,7 +13,7 @@ import java.util.List;
 
 public class ThreeSum {
     static class Solution {
-        public List<List<Integer>> threeSum(int[] nums) {
+        public static List<List<Integer>> threeSum(int[] nums) {
             List<List<Integer>> res = new ArrayList<>();
             int n = nums.length;
             if (n < 3) {
@@ -26,7 +26,8 @@ public class ThreeSum {
                     continue;
                 }
                 int val = nums[i];
-                List<List<Integer>> subRes = twoSum(nums, i + 1, n - 1, 0);
+                int target = -val;
+                List<List<Integer>> subRes = twoSum(nums, i + 1, n - 1, target);
 
                 for (List<Integer> list : subRes) {
                     list.add(val);
@@ -36,7 +37,7 @@ public class ThreeSum {
             return res;
         }
 
-        private List<List<Integer>> twoSum(int[] arr, int start, int end, int target) {
+        private static List<List<Integer>> twoSum(int[] arr, int start, int end, int target) {
             int left = start;
             int right = end;
             List<List<Integer>> res = new ArrayList<>();
@@ -49,8 +50,8 @@ public class ThreeSum {
 
                 if (sum == target) {
                     List<Integer> subRes = new ArrayList<>();
-                    subRes.add(left);
-                    subRes.add(right);
+                    subRes.add(arr[left]);
+                    subRes.add(arr[right]);
                     res.add(subRes);
                     left++;
                     right--;
@@ -63,4 +64,5 @@ public class ThreeSum {
             return res;
         }
     }
+
 }

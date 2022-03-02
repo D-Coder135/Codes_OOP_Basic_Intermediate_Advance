@@ -16,5 +16,9 @@ public class HouseRobber {
             Arrays.fill(dp, -1);
             return robbed(arr, dp, 0);
         }
+
+        private int robbed(int[] arr, int[] dp, int i) {
+            return 0;
+        }
     }
 }

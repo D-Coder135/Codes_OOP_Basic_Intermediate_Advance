@@ -8,4 +8,7 @@
 package final450DSA.searchingAndSorting;
 
 public class HouseRobber {
+    static class Solution {
+
+    }
 }

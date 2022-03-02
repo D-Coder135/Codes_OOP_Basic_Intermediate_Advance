@@ -25,6 +25,8 @@ public class HouseRobber {
             if (dp[i] != -1) {
                 return dp[i];
             }
+
+            int robbed = arr[i] + robbed(arr, dp, i + 2);
         }
     }
 }

@@ -21,6 +21,10 @@ public class HouseRobber {
             if (i >= arr.length) {
                 return 0;
             }
+
+            if (dp[i] != -1) {
+                return dp[i];
+            }
         }
     }
 }

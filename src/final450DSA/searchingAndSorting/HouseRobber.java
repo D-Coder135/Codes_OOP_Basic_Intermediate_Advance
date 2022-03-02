@@ -9,6 +9,8 @@ package final450DSA.searchingAndSorting;
 
 public class HouseRobber {
     static class Solution {
+        public int findMaxSum(int[] arr, int n) {
 
+        }
     }
 }

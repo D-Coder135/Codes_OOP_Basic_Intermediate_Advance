@@ -14,6 +14,10 @@ public class CountTripletsSmallerThanSum {
         long countTriplets(int[] arr, int n, int sum) {
             long counter = 0;
             Arrays.sort(arr);
+
+            for (int k = 0; k < n - 2; k++) {
+
+            }
         }
     }
 }

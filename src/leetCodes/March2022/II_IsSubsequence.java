@@ -9,6 +9,8 @@ package leetCodes.March2022;
 
 public class II_IsSubsequence {
     static class Solution {
+        public boolean isSubsequence(String s, String t) {
 
+        }
     }
 }

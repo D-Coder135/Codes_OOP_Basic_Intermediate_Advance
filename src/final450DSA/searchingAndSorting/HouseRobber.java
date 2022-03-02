@@ -18,7 +18,9 @@ public class HouseRobber {
         }
 
         private int robbed(int[] arr, int[] dp, int i) {
-            return 0;
+            if (i >= arr.length) {
+                return 0;
+            }
         }
     }
 }

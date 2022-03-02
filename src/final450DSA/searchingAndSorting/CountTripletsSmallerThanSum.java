@@ -25,6 +25,8 @@ public class CountTripletsSmallerThanSum {
                     if (addSum < sum) {
                         counter += j - i;
                         i++;
+                    } else {
+                        j++;
                     }
                 }
             }

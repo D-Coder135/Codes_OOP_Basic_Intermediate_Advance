@@ -21,6 +21,11 @@ public class CountTripletsSmallerThanSum {
 
                 while (i < j) {
                     long addSum = arr[k] + arr[i] + arr[j];
+
+                    if (addSum < sum) {
+                        counter += j - i;
+                        i++;
+                    }
                 }
             }
         }

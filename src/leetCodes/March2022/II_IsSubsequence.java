@@ -20,6 +20,7 @@ public class II_IsSubsequence {
                     j++;
                 }
             }
+            return i == s.length();
         }
     }
 }

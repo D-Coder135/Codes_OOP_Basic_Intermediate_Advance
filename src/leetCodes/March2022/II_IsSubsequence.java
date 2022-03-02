@@ -16,6 +16,8 @@ public class II_IsSubsequence {
                 if (s.charAt(i) == t.charAt(j)) {
                     i++;
                     j++;
+                } else {
+                    j++;
                 }
             }
         }

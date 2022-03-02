@@ -9,6 +9,8 @@ package final450DSA.searchingAndSorting;
 
 public class CountTripletsSmallerThanSum {
     static class Solution {
+        long countTriplets(int[] arr, int n, int sum) {
 
+        }
     }
 }

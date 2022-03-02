@@ -28,6 +28,8 @@ public class HouseRobber {
 
             int robbed = arr[i] + robbed(arr, dp, i + 2);
             int notRobbed = robbed(arr, dp, i + 1);
+
+            return dp[i] = Math.max(robbed, notRobbed);
         }
     }
 }

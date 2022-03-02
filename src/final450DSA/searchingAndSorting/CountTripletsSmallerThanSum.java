@@ -20,7 +20,7 @@ public class CountTripletsSmallerThanSum {
                 int j = n - 1;
 
                 while (i < j) {
-
+                    long addSum = arr[k] + arr[i] + arr[j];
                 }
             }
         }

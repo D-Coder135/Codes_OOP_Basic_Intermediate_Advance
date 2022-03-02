@@ -14,6 +14,7 @@ public class HouseRobber {
         public int findMaxSum(int[] arr, int n) {
             int[] dp = new int[n + 1];
             Arrays.fill(dp, -1);
+            return robbed(arr, dp, 0);
         }
     }
 }

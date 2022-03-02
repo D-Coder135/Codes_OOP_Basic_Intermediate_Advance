@@ -10,7 +10,9 @@ package leetCodes;
 public class HouseRobber2 {
     static class Solution {
         public int rob(int[] nums) {
-
+            if (nums.length == 1) {
+                return nums[0];
+            }
         }
     }
 }

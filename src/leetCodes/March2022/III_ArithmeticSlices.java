@@ -16,6 +16,10 @@ public class III_ArithmeticSlices {
 
             int ans = 0;
             int[] dp = new int[nums.length];
+
+            for (int i = 2; i < nums.length; i++) {
+
+            }
         }
     }
 }

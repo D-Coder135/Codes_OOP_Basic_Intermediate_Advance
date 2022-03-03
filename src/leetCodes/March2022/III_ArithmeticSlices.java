@@ -13,6 +13,9 @@ public class III_ArithmeticSlices {
             if (nums.length < 3) {
                 return 0;
             }
+
+            int ans = 0;
+            int[] dp = new int[nums.length];
         }
     }
 }

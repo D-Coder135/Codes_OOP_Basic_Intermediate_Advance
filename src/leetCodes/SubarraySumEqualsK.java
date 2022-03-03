@@ -13,6 +13,7 @@ public class SubarraySumEqualsK {
     static class Solution {
         public int subarraySum(int[] nums, int k) {
             HashMap<Integer, Integer> map = new HashMap<>();
+            int sum = 0, ans = 0;
         }
     }
 }

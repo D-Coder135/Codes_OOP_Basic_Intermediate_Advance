@@ -7,10 +7,12 @@
 
 package leetCodes;
 
+import java.util.HashMap;
+
 public class SubarraySumEqualsK {
     static class Solution {
         public int subarraySum(int[] nums, int k) {
-
+            HashMap<Integer, Integer> map = new HashMap<>();
         }
     }
 }

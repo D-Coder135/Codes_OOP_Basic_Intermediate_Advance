@@ -10,7 +10,9 @@ package leetCodes.March2022;
 public class III_ArithmeticSlices {
     static class Solution {
         public int numberOfArithmeticSlices(int[] nums) {
-
+            if (nums.length < 3) {
+                return 0;
+            }
         }
     }
 }

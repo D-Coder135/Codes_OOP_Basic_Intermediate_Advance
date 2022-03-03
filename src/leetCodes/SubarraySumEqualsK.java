@@ -20,6 +20,7 @@ public class SubarraySumEqualsK {
                 if (map.containsKey(sum - k)) {
                     ans += map.get(sum - k);
                 }
+                map.put(sum, map.getOrDefault(sum, 0) + 1);
             }
         }
     }

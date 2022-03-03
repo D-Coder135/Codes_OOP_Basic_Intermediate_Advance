@@ -9,6 +9,8 @@ package leetCodes.March2022;
 
 public class III_ArithmeticSlices {
     static class Solution {
+        public int numberOfArithmeticSlices(int[] nums) {
 
+        }
     }
 }

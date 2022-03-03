@@ -12,7 +12,11 @@ public class MergeWithoutExtraSpace {
 
         public void merge(int[] arr1, int[] arr2, int n, int m) {
             // code here
-            int i = 0, j = 0, k = m - 1;
+            int i = 0, j = 0, k = n - 1;
+
+            while (i <= k && j < m) {
+
+            }
         }
     }
 }

@@ -8,4 +8,11 @@
 package final450DSA.searchingAndSorting;
 
 public class MergeWithoutExtraSpace {
+    static class Solution {
+
+        public void merge(int[] arr1, int[] arr2, int n, int m) {
+            // code here
+
+        }
+    }
 }

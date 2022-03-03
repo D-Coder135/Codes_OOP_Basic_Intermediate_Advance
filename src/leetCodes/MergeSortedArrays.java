@@ -8,4 +8,7 @@
 package leetCodes;
 
 public class MergeSortedArrays {
+    static class Solution {
+
+    }
 }

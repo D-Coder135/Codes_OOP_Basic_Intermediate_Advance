@@ -22,6 +22,7 @@ public class SubarraySumEqualsK {
                 }
                 map.put(sum, map.getOrDefault(sum, 0) + 1);
             }
+            return ans;
         }
     }
 }

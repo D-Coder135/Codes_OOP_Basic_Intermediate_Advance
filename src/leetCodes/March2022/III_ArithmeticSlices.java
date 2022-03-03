@@ -23,6 +23,7 @@ public class III_ArithmeticSlices {
                     ans += dp[i];
                 }
             }
+            return ans;
         }
     }
 }

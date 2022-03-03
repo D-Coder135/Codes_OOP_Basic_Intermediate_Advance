@@ -15,7 +15,9 @@ public class MergeWithoutExtraSpace {
             int i = 0, j = 0, k = n - 1;
 
             while (i <= k && j < m) {
-
+                if (arr1[i] < arr2[j]) {
+                    i++;
+                }
             }
         }
     }

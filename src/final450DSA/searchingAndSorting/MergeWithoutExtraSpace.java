@@ -7,6 +7,8 @@
 
 package final450DSA.searchingAndSorting;
 
+import java.util.Arrays;
+
 public class MergeWithoutExtraSpace {
     static class Solution {
 
@@ -25,6 +27,8 @@ public class MergeWithoutExtraSpace {
                     k--;
                 }
             }
+            Arrays.sort(arr1);
+            Arrays.sort(arr2);
         }
     }
 }

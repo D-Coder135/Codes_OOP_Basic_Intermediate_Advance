@@ -14,6 +14,9 @@ public class ProductArrayPuzzle {
             int[] left = new int[n];
             int[] right = new int[n];
             int[] output = new int[n];
+
+            left[0] = nums[0];
+            right[n - 1] = nums[n - 1];
         }
     }
 }

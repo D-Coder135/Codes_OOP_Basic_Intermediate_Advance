@@ -54,6 +54,13 @@ import java.util.List;
 
 public class IV_ChampagneTower {
     static class Solution {
+        /*
+         * Using Pascal's Triangle =>
+         *
+         *                                                   n
+         *                                    (n - 1) / 2        (n - 1) / 2
+         * (((n - 1)/ 2) - 1) / 2)        (((n - 1)/ 2) - 1) / 2) + (((n - 1)/ 2) - 1) / 2)      (((n - 1)/ 2) - 1) / 2)
+         * */
         public double champagneTower(int poured, int query_row, int query_glass) {
             if (poured == 0)
                 return 0;

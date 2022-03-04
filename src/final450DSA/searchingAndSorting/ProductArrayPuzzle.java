@@ -8,4 +8,9 @@
 package final450DSA.searchingAndSorting;
 
 public class ProductArrayPuzzle {
+    static class Solution {
+        public int[] productExceptItself(int[] nums) {
+
+        }
+    }
 }

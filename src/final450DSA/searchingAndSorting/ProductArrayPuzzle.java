@@ -32,6 +32,7 @@ public class ProductArrayPuzzle {
             for (int i = 1; i < n - 1; i++) {
                 output[i] = left[i - 1] * right[i + 1];
             }
+            return output;
         }
     }
 }

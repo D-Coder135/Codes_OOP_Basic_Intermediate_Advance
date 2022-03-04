@@ -8,4 +8,9 @@
 package final450DSA.searchingAndSorting;
 
 public class SortBySetBitCount {
+    static class Solution {
+        public int[] sortByBits(int[] arr) {
+
+        }
+    }
 }

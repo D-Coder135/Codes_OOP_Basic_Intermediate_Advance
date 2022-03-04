@@ -26,6 +26,8 @@ public class ProductArrayPuzzle {
                 right[i] = nums[i] * right[i + 1];
             }
 
+            output[0] = right[1];
+            output[n - 1] = left[n - 2];
 
         }
     }

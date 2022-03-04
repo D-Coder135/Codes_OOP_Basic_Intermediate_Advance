@@ -17,6 +17,10 @@ public class ProductArrayPuzzle {
 
             left[0] = nums[0];
             right[n - 1] = nums[n - 1];
+
+            for (int i = 1; i < n; i++) {
+                left[i] = left[i - 1] * nums[i];
+            }
         }
     }
 }

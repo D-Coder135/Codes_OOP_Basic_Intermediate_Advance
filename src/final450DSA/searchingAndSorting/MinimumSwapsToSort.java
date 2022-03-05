@@ -24,6 +24,11 @@ public class MinimumSwapsToSort {
 
             Arrays.sort(arr, Comparator.comparingInt(a -> a.value));
 
+            for (int i = 0; i < nums.length; i++) {
+                while (arr[i].index != i) {
+
+                }
+            }
         }
 
         static class Pair {

@@ -24,9 +24,9 @@ public class MinimumSwapsToSort {
         static class Pair {
             int index, value;
 
-            public Pair(int index, int value) {
-                this.index = index;
+            public Pair(int value, int index) {
                 this.value = value;
+                this.index = index;
             }
         }
 

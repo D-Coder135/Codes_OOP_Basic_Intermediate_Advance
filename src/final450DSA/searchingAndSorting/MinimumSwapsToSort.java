@@ -8,4 +8,10 @@
 package final450DSA.searchingAndSorting;
 
 public class MinimumSwapsToSort {
+    static class Solution {
+        //Function to find the minimum number of swaps required to sort the array.
+        public int minSwaps(int[] nums) {
+            // Code here
+        }
+    }
 }

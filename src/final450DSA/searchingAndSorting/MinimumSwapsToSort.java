@@ -12,6 +12,7 @@ public class MinimumSwapsToSort {
         //Function to find the minimum number of swaps required to sort the array.
         public int minSwaps(int[] nums) {
             // Code here
+            Pair[] arr = new Pair[nums.length];
 
         }
 

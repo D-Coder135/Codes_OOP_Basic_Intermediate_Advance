@@ -32,6 +32,10 @@ public class MinimumSwapsToSort {
             }
         }
 
+        private void swap(Pair[] arr, int i, int index) {
+
+        }
+
         static class Pair {
             int index, value;
 

@@ -16,7 +16,7 @@ public class MinimumSwapsToSort {
             int counter = 0;
 
             for (int i = 0; i < nums.length; i++) {
-
+                arr[i] = new Pair(nums[i], i);
             }
 
         }

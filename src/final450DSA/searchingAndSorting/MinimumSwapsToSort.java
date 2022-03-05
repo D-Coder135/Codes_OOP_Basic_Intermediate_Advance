@@ -26,7 +26,7 @@ public class MinimumSwapsToSort {
 
             for (int i = 0; i < nums.length; i++) {
                 while (arr[i].index != i) {
-
+                    swap(arr, i, arr[i].index);
                 }
             }
         }

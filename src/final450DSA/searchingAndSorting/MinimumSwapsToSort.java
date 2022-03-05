@@ -7,6 +7,9 @@
 
 package final450DSA.searchingAndSorting;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 public class MinimumSwapsToSort {
     static class Solution {
         //Function to find the minimum number of swaps required to sort the array.
@@ -18,6 +21,8 @@ public class MinimumSwapsToSort {
             for (int i = 0; i < nums.length; i++) {
                 arr[i] = new Pair(nums[i], i);
             }
+
+            Arrays.sort(arr, Comparator.comparingInt(a -> a.value));
 
         }
 

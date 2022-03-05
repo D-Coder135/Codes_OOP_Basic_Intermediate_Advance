@@ -16,6 +16,7 @@ public class MinimumSwapsToSort {
         }
 
         static class Pair {
+            int index, value;
         }
 
     }

@@ -33,7 +33,10 @@ public class ReverseNodesInKGroups {
         static ListNode tempTail = null;
 
         public static void addFirst(ListNode node) {
-
+            if (tempHead == null) {
+                tempHead = node;
+                tempTail = node;
+            }
         }
 
         public ListNode reverseKGroups(ListNode head, int k) {

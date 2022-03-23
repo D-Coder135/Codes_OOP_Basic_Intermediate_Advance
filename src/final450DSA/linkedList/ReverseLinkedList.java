@@ -54,6 +54,7 @@ public class ReverseLinkedList {
             while (current != null) {
                 next = current.next;
                 current.next = prev;
+                prev = current;
             }
         }
     }

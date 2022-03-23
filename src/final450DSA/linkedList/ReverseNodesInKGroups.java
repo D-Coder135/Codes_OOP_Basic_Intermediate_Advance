@@ -58,6 +58,7 @@ public class ReverseNodesInKGroups {
             }
 
             ListNode originalHead = null, originalTail = null;
+            int len = length(head);
         }
     }
 

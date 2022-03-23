@@ -49,6 +49,7 @@ public class ReverseLinkedList {
     }
 
     static class Solution {
+        // Iterative Approach
         public ListNode reverseList(ListNode head) {
             ListNode prev = null, next = null, current = head;
             while (current != null) {

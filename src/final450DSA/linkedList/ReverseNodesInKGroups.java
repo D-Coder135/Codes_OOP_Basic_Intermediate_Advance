@@ -37,7 +37,8 @@ public class ReverseNodesInKGroups {
                 tempHead = node;
                 tempTail = node;
             } else {
-
+                node.next = tempHead;
+                tempHead = node;
             }
         }
 

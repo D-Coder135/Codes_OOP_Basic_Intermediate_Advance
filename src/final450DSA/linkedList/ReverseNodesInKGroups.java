@@ -29,8 +29,12 @@ public class ReverseNodesInKGroups {
 
     static class Solution {
 
-        static ListNode tempHead;
-        static ListNode tempTail;
+        static ListNode tempHead = null;
+        static ListNode tempTail = null;
+
+        public static void addFirst(ListNode node) {
+
+        }
 
         public ListNode reverseKGroups(ListNode head, int k) {
 

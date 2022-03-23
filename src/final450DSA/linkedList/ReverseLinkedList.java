@@ -51,6 +51,9 @@ public class ReverseLinkedList {
     static class Solution {
         public ListNode reverseList(ListNode head) {
             ListNode prev = null, next = null, current = head;
+            while (current != null) {
+
+            }
         }
     }
 }

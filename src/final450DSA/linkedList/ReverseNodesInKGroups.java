@@ -73,10 +73,11 @@ public class ReverseNodesInKGroups {
 
                 if (originalHead == null) {
                     originalHead = tempHead;
+                    originalTail = tempTail;
                 } else {
                     originalTail.next = tempHead;
+                    originalTail = tempTail;
                 }
-                originalTail = tempTail;
 
                 tempHead = null;
                 tempTail = null;

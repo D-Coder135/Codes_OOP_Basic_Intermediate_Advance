@@ -57,6 +57,7 @@ public class ReverseLinkedList {
                 prev = current;
                 current = next;
             }
+            return prev;
         }
     }
 }

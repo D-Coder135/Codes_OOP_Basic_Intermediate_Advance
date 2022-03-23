@@ -43,7 +43,7 @@ public class ReverseNodesInKGroups {
         }
 
         public static int length(ListNode node) {
-
+            ListNode current = node;
         }
 
         public ListNode reverseKGroups(ListNode head, int k) {

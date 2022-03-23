@@ -52,7 +52,7 @@ public class ReverseLinkedList {
         public ListNode reverseList(ListNode head) {
             ListNode prev = null, next = null, current = head;
             while (current != null) {
-
+                next = current.next;
             }
         }
     }

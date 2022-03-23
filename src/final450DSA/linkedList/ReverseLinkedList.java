@@ -63,7 +63,9 @@ public class ReverseLinkedList {
 
         // Recursive Approach
         public ListNode reverseListRecursive(ListNode head) {
-
+            if (head == null || head.next == null) {
+                return head;
+            }
         }
     }
 }

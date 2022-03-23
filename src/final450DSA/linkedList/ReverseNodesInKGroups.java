@@ -26,4 +26,8 @@ public class ReverseNodesInKGroups {
             this.next = next;
         }
     }
+
+    static class Solution {
+    }
+
 }

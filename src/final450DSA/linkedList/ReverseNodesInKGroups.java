@@ -42,6 +42,10 @@ public class ReverseNodesInKGroups {
             }
         }
 
+        public static int length(ListNode node) {
+
+        }
+
         public ListNode reverseKGroups(ListNode head, int k) {
 
         }

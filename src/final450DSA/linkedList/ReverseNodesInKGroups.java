@@ -28,6 +28,9 @@ public class ReverseNodesInKGroups {
     }
 
     static class Solution {
+        public ListNode reverseKGroups(ListNode head, int k) {
+
+        }
     }
 
 }

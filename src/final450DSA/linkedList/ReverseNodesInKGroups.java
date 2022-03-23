@@ -56,6 +56,8 @@ public class ReverseNodesInKGroups {
             if (head == null || head.next == null || k == 0) {
                 return head;
             }
+
+            ListNode originalHead = null, originalTail = null;
         }
     }
 

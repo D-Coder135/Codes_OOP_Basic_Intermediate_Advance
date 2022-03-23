@@ -61,9 +61,29 @@ public class ReverseNodesInKGroups {
             int len = length(head);
             ListNode current = head;
 
-            while (len <= k) {
+            while (len >= k) {
+                int tempK = k;
 
+                while (tempK-- > 0) {
+                    ListNode ahead = current.next;
+                    current.next = null;
+                    addFirst(current);
+                    current = ahead;
+                }
+
+                if (originalHead == null) {
+                    originalHead = tempHead;
+                } else {
+                    originalTail.next = tempHead;
+                }
+                originalTail = tempTail;
+
+                tempHead = null;
+                tempTail = null;
+                len -= k;
             }
+            originalTail.next = current;
+            return originalHead;
         }
     }
 

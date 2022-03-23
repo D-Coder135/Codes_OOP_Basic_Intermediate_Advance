@@ -47,4 +47,10 @@ public class ReverseLinkedList {
             this.next = next;
         }
     }
+
+    static class Solution {
+        public ListNode reverseList(ListNode head) {
+
+        }
+    }
 }

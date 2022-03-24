@@ -5,6 +5,36 @@
  *   File: RemoveCycle
  */
 
+/**
+ * GFG QUESTION =>
+ * <p>
+ * Given a linked list of N nodes such that it may contain a loop.
+ * <p>
+ * A loop here means that the last node of the link list is connected to the node at position X. If the
+ * link list does not have any loop, X=0.
+ * <p>
+ * Remove the loop from the linked list, if it is present.
+ * <p>
+ * <p>
+ * Example 1:
+ * <p>
+ * Input:
+ * N = 4
+ * value[] = {1,8,3,4}
+ * X = 0
+ * Output: 1
+ * Explanation: The Linked list does not
+ * contain any loop.
+ * <p>
+ * Example 2:
+ * <p>
+ * Input:
+ * N = 4
+ * value[] = {1,2,3,4}
+ * X = 1
+ * Output: 1
+ */
+
 package final450DSA.linkedList;
 
 public class RemoveCycle {

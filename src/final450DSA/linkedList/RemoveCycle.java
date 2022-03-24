@@ -24,6 +24,9 @@ public class RemoveCycle {
             dummy.next = head;
             Node fast = dummy, slow = dummy, temp = dummy;
 
+            while (fast != null && fast.next != null) {
+
+            }
         }
     }
 }

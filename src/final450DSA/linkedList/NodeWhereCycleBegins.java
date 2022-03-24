@@ -39,6 +39,7 @@ public class NodeWhereCycleBegins {
                     return current; // or temp;
                 }
             }
+            return null;
         }
     }
 }

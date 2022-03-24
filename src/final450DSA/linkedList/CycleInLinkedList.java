@@ -22,7 +22,9 @@ public class CycleInLinkedList {
     }
 
     static class Solution {
+        public boolean hasCycle(ListNode headNode) {
 
+        }
     }
 
 

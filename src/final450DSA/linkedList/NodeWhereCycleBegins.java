@@ -36,6 +36,7 @@ public class NodeWhereCycleBegins {
                         temp = temp.next;
                         current = current.next;
                     }
+                    return current;
                 }
             }
         }

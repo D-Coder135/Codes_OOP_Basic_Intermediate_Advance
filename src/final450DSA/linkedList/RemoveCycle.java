@@ -33,6 +33,7 @@ public class RemoveCycle {
                         slow = slow.next;
                         temp = temp.next;
                     }
+                    slow.next = null;
                 }
             }
         }

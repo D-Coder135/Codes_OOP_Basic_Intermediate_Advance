@@ -12,7 +12,7 @@ public class NodeWhereCycleBegins {
     // Definition for singly-linked list.
     static class ListNode {
         int val;
-        CycleInLinkedList.ListNode next;
+        ListNode next;
 
         ListNode(int x) {
             val = x;
@@ -27,7 +27,8 @@ public class NodeWhereCycleBegins {
             ListNode temp = null;
 
             while (fast != null && fast.next != null) {
-
+                slow = slow.next;
+                fast = fast.next.next;
             }
         }
     }

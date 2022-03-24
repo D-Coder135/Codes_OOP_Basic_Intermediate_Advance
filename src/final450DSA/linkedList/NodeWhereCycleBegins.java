@@ -19,4 +19,8 @@ public class NodeWhereCycleBegins {
             next = null;
         }
     }
+
+    static class Solution {
+
+    }
 }

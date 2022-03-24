@@ -29,7 +29,9 @@ public class RemoveCycle {
                 fast = fast.next.next;
 
                 if (fast == slow) {
+                    while (slow.next != temp.next) {
 
+                    }
                 }
             }
         }

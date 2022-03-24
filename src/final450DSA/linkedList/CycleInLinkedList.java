@@ -33,6 +33,7 @@ public class CycleInLinkedList {
                     return true;
                 }
             }
+            return false;
         }
     }
 

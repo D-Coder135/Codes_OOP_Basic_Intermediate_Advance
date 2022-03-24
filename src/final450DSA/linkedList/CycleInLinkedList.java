@@ -22,8 +22,8 @@ public class CycleInLinkedList {
     }
 
     static class Solution {
-        public boolean hasCycle(ListNode headNode) {
-
+        public boolean hasCycle(ListNode head) {
+            ListNode slow = head, fast = head;
         }
     }
 

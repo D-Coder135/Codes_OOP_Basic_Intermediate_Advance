@@ -8,4 +8,15 @@
 package final450DSA.linkedList;
 
 public class NodeWhereCycleBegins {
+
+    // Definition for singly-linked list.
+    static class ListNode {
+        int val;
+        CycleInLinkedList.ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
 }

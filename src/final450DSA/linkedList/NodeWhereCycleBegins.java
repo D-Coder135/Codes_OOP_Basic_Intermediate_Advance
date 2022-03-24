@@ -31,7 +31,7 @@ public class NodeWhereCycleBegins {
                 fast = fast.next.next;
 
                 if (slow == fast) {
-                    temp = slow;
+                    temp = slow; // or fast.
                 }
             }
         }

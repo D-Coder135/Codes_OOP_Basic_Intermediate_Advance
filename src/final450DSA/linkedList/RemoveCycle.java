@@ -30,7 +30,8 @@ public class RemoveCycle {
 
                 if (fast == slow) {
                     while (slow.next != temp.next) {
-
+                        slow = slow.next;
+                        temp = temp.next;
                     }
                 }
             }

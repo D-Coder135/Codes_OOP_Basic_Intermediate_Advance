@@ -8,4 +8,18 @@
 package final450DSA.linkedList;
 
 public class CycleInLinkedList {
+
+
+    // Definition for singly-linked list.
+    static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
+
+
 }

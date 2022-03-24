@@ -22,7 +22,9 @@ public class NodeWhereCycleBegins {
 
     static class Solution {
         public ListNode detectCycle(ListNode head) {
-
+            ListNode current = head;
+            ListNode slow = head, fast = head;
+            ListNode temp = null;
         }
     }
 }

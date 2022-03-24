@@ -21,6 +21,8 @@ public class NodeWhereCycleBegins {
     }
 
     static class Solution {
+        public ListNode detectCycle(ListNode head) {
 
+        }
     }
 }

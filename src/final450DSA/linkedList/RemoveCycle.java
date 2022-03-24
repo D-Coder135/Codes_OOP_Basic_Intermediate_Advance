@@ -21,6 +21,8 @@ public class RemoveCycle {
             // remove the loop without losing any nodes
 
             Node dummy = new Node();
+            dummy.next = head;
+            Node fast = dummy, slow = dummy, temp = dummy;
 
         }
     }

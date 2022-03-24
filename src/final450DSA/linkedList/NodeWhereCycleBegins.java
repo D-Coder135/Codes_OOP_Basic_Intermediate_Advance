@@ -25,6 +25,10 @@ public class NodeWhereCycleBegins {
             ListNode current = head;
             ListNode slow = head, fast = head;
             ListNode temp = null;
+
+            while (fast != null && fast.next != null) {
+
+            }
         }
     }
 }

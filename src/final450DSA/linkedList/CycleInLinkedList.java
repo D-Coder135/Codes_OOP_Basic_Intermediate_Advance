@@ -21,5 +21,9 @@ public class CycleInLinkedList {
         }
     }
 
+    static class Solution {
+
+    }
+
 
 }

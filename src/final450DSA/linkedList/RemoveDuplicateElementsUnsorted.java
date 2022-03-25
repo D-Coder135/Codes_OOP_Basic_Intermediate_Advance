@@ -40,6 +40,7 @@ public class RemoveDuplicateElementsUnsorted {
                     set.add(current.data);
                     prev = current;
                 }
+                current = current.next;
             }
         }
     }

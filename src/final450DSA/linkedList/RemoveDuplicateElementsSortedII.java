@@ -36,7 +36,9 @@ public class RemoveDuplicateElementsSortedII {
             ListNode prev = dummy;
 
             while (head != null) {
+                if (head.next != null && head.val == head.next.val) {
 
+                }
             }
 
         }

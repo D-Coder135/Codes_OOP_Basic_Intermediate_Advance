@@ -36,6 +36,9 @@ public class RemoveDuplicateElementsUnsorted {
             while (current != null) {
                 if (set.contains(current.data)) {
                     prev.next = current.next;
+                } else {
+                    set.add(current.data);
+                    prev = current;
                 }
             }
         }

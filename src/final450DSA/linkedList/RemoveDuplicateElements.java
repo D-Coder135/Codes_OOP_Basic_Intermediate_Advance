@@ -5,6 +5,24 @@
  *   File: RemoveDupliicateElements
  */
 
+/**
+ * GFG & LEETCODE QUESTION 83 =>
+ * <p>
+ * Given the head of a sorted linked list, delete all duplicates such that each element appears only once.
+ * Return the linked list sorted as well.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: head = [1,1,2]
+ * Output: [1,2]
+ * <p>
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: head = [1,1,2,3,3]
+ * Output: [1,2,3]
+ */
+
 package final450DSA.linkedList;
 
 public class RemoveDuplicateElements {

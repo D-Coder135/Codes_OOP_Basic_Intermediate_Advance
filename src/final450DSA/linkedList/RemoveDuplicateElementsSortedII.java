@@ -34,6 +34,11 @@ public class RemoveDuplicateElementsSortedII {
 
             ListNode dummy = new ListNode(0, head);
             ListNode prev = dummy;
+
+            while (head != null) {
+
+            }
+
         }
     }
 }

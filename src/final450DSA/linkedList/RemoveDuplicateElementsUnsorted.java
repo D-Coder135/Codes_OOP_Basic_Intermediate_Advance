@@ -32,6 +32,10 @@ public class RemoveDuplicateElementsUnsorted {
             HashSet<Integer> set = new HashSet<>();
             Node current = head;
             Node prev = null;
+
+            while (current != null) {
+
+            }
         }
     }
 }

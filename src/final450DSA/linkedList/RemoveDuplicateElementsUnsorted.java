@@ -7,6 +7,8 @@
 
 package final450DSA.linkedList;
 
+import java.util.HashSet;
+
 public class RemoveDuplicateElementsUnsorted {
     // The structure of linked list is the following
     static class Node {
@@ -26,6 +28,8 @@ public class RemoveDuplicateElementsUnsorted {
             if (head == null || head.next == null) {
                 return head;
             }
+
+            HashSet<Integer> set = new HashSet<>();
         }
     }
 }

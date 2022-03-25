@@ -42,6 +42,7 @@ public class RemoveDuplicateElementsUnsorted {
                 }
                 current = current.next;
             }
+            return head;
         }
     }
 }

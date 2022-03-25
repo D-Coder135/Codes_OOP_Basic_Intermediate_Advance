@@ -46,6 +46,7 @@ public class RemoveDuplicateElementsSortedII {
                 }
                 head = head.next;
             }
+            return dummy.next;
 
         }
     }

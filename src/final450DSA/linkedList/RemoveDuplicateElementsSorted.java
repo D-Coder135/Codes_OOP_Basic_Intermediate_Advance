@@ -25,7 +25,7 @@
 
 package final450DSA.linkedList;
 
-public class RemoveDuplicateElements {
+public class RemoveDuplicateElementsSorted {
 
     // Definition for singly-linked list.
     public static class ListNode {

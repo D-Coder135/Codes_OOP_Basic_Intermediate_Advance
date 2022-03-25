@@ -34,6 +34,10 @@ public class RemoveDuplicateElements {
             }
 
             ListNode temp = head;
+
+            while (temp != null && temp.next != null) {
+
+            }
         }
     }
 }

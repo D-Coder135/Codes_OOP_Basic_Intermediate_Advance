@@ -8,5 +8,15 @@
 package final450DSA.linkedList;
 
 public class RemoveDuplicateElementsUnsorted {
+    // The structure of linked list is the following
+    static class Node {
+        int data;
+        Node next;
+
+        Node(int d) {
+            data = d;
+            next = null;
+        }
+    }
 
 }

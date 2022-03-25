@@ -40,6 +40,7 @@ public class RemoveDuplicateElementsSortedII {
                     while (head.next != null && head.val == head.next.val) {
                         head = head.next;
                     }
+                    prev.next = head.next;
                 }
             }
 

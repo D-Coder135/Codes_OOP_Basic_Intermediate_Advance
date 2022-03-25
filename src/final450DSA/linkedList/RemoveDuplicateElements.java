@@ -26,4 +26,10 @@ public class RemoveDuplicateElements {
             this.next = next;
         }
     }
+
+    static class Solution {
+        public ListNode deleteDuplicates(ListNode head) {
+
+        }
+    }
 }

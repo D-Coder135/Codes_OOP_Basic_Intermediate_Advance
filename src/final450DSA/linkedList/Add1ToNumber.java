@@ -37,6 +37,8 @@ public class Add1ToNumber {
             BigInteger one = new BigInteger("1");
             BigInteger res = num.add(one);
             System.out.println(res);
+
+            return null;
         }
     }
 }

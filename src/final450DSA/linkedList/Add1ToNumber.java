@@ -26,7 +26,8 @@ public class Add1ToNumber {
             StringBuilder str = new StringBuilder();
 
             while (temp != null) {
-
+                str.append(temp.data);
+                temp = temp.next;
             }
         }
     }

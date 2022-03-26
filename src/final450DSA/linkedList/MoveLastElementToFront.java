@@ -8,4 +8,14 @@
 package final450DSA.linkedList;
 
 public class MoveLastElementToFront {
+    // The structure of linked list is the following
+    static class Node {
+        int data;
+        RemoveDuplicateElementsUnsorted.Node next;
+
+        Node(int d) {
+            data = d;
+            next = null;
+        }
+    }
 }

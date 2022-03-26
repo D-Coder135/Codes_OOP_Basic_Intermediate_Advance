@@ -36,6 +36,9 @@ public class AddTwoNumbers {
 
             while (l1 != null || l2 != null) {
                 int sum = 0;
+                if (l1 != null) {
+
+                }
             }
         }
 

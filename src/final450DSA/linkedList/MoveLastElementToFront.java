@@ -18,4 +18,8 @@ public class MoveLastElementToFront {
             next = null;
         }
     }
+
+    static class Solution {
+    }
+
 }

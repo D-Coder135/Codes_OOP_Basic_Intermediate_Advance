@@ -24,6 +24,10 @@ public class Add1ToNumber {
             //code here.
             Node temp = head;
             StringBuilder str = new StringBuilder();
+
+            while (temp != null) {
+
+            }
         }
     }
 }

@@ -19,4 +19,9 @@ public class Add1ToNumber {
         }
     }
 
+    static class Solution {
+        public static Node addOne(Node head) {
+            //code here.
+        }
+    }
 }

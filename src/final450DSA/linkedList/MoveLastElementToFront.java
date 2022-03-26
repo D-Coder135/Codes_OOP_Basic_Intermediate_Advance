@@ -21,7 +21,9 @@ public class MoveLastElementToFront {
 
     static class Solution {
         public Node moveToFront(Node headNode) {
-
+            if (headNode == null || headNode.next == null) {
+                return headNode;
+            }
         }
     }
 }

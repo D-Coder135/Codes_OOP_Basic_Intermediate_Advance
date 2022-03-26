@@ -50,6 +50,8 @@ public class AddTwoNumbers {
 
                 ListNode newNode = new ListNode(sum % 10);
                 carry = sum / 10;
+                temp.next = newNode;
+                temp = temp.next;
             }
         }
 

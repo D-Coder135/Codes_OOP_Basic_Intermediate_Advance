@@ -7,6 +7,9 @@
 
 package final450DSA.linkedList;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
+
 public class Add1ToNumber {
 
     static class Node {
@@ -29,6 +32,11 @@ public class Add1ToNumber {
                 str.append(temp.data);
                 temp = temp.next;
             }
+
+            BigInteger num = new BigInteger(str.toString());
+            BigInteger one = new BigInteger("1");
+            BigInteger res = num.add(one);
+            
         }
     }
 }

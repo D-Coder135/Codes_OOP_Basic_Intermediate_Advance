@@ -23,6 +23,7 @@ public class Add1ToNumber {
         public static Node addOne(Node head) {
             //code here.
             Node temp = head;
+            StringBuilder str = new StringBuilder();
         }
     }
 }

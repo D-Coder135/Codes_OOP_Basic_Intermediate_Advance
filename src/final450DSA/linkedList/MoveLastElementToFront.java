@@ -20,6 +20,8 @@ public class MoveLastElementToFront {
     }
 
     static class Solution {
-    }
+        public Node moveToFront(Node headNode) {
 
+        }
+    }
 }

@@ -32,6 +32,9 @@ public class MoveLastElementToFront {
                 secondLast = last;
                 last = last.next;
             }
+            secondLast.next = null;
+            last.next = headNode;
+            headNode = last;
 
         }
     }

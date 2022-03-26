@@ -5,6 +5,41 @@
  *   File: AddTwoNumber_GFG
  */
 
+/**
+ * GFG QUESTION =>
+ * <p>
+ * Given two numbers represented by two linked lists of size N and M. The task is to return a sum list.
+ * <p>
+ * The sum list is a linked list representation of the addition of two input numbers from the last.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input:
+ * N = 2
+ * valueN[] = {4,5}
+ * M = 3
+ * valueM[] = {3,4,5}
+ * Output: 3 9 0
+ * Explanation: For the given two linked
+ * list (4 5) and (3 4 5), after adding
+ * the two linked list resultant linked
+ * list will be (3 9 0).
+ * <p>
+ * <p>
+ * Example 2:
+ * <p>
+ * Input:
+ * N = 2
+ * valueN[] = {6,3}
+ * M = 1
+ * valueM[] = {7}
+ * Output: 7 0
+ * Explanation: For the given two linked
+ * list (6 3) and (7), after adding the
+ * two linked list resultant linked list
+ * will be (7 0).
+ */
+
 package final450DSA.linkedList;
 
 public class AddTwoNumber_GFG {

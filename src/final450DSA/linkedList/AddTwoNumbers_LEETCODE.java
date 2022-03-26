@@ -29,7 +29,7 @@
 
 package final450DSA.linkedList;
 
-public class AddTwoNumbers {
+public class AddTwoNumbers_LEETCODE {
 
     // Definition for singly-linked list.
     public static class ListNode {

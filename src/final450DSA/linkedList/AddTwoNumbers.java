@@ -33,6 +33,10 @@ public class AddTwoNumbers {
             ListNode temp = new ListNode();
             ListNode ans = temp;
             int carry = 0;
+
+            while (l1 != null || l2 != null) {
+                
+            }
         }
 
     }

@@ -24,6 +24,9 @@ public class MoveLastElementToFront {
             if (headNode == null || headNode.next == null) {
                 return headNode;
             }
+
+            Node secondLast = null;
+            Node last = headNode;
         }
     }
 }

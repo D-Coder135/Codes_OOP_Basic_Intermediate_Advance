@@ -53,6 +53,10 @@ public class AddTwoNumbers {
                 temp.next = newNode;
                 temp = temp.next;
             }
+
+            if (carry != 0) {
+                temp.next = new ListNode(carry);
+            }
         }
 
     }

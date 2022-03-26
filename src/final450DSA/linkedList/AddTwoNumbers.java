@@ -26,4 +26,8 @@ public class AddTwoNumbers {
             this.next = next;
         }
     }
+
+    static class Solution {
+    }
+
 }

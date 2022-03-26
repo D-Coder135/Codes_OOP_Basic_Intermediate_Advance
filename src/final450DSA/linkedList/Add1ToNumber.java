@@ -5,6 +5,26 @@
  *   File: Add1ToNumber
  */
 
+/**
+ * GFG QUESTION =>
+ * <p>
+ * A number N is represented in Linked List such that each digit corresponds to a node in linked list.
+ * You need to add 1 to it.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input:
+ * LinkedList: 4->5->6
+ * Output: 457
+ * <p>
+ * <p>
+ * Example 2:
+ * <p>
+ * Input:
+ * LinkedList: 1->2->3
+ * Output: 124
+ */
+
 package final450DSA.linkedList;
 
 import java.math.BigInteger;

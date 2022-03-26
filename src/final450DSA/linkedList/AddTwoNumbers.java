@@ -57,6 +57,8 @@ public class AddTwoNumbers {
             if (carry != 0) {
                 temp.next = new ListNode(carry);
             }
+
+            return ans.next;
         }
 
     }

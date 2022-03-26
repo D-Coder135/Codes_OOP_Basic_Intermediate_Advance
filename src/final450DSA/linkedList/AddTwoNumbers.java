@@ -49,6 +49,7 @@ public class AddTwoNumbers {
                 sum += carry;
 
                 ListNode newNode = new ListNode(sum % 10);
+                carry = sum / 10;
             }
         }
 

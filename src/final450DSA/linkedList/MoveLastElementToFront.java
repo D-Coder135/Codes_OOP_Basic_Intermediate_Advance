@@ -43,6 +43,7 @@ public class MoveLastElementToFront {
             last.next = headNode;
             headNode = last;
 
+            return headNode;
         }
     }
 }

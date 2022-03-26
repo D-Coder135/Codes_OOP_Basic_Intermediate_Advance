@@ -11,7 +11,7 @@ public class MoveLastElementToFront {
     // The structure of linked list is the following
     static class Node {
         int data;
-        RemoveDuplicateElementsUnsorted.Node next;
+        Node next;
 
         Node(int d) {
             data = d;
@@ -29,7 +29,8 @@ public class MoveLastElementToFront {
             Node last = headNode;
 
             while (last.next != null) {
-
+                secondLast = last;
+                last = last.next;
             }
 
         }

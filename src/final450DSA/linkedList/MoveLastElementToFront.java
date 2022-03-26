@@ -27,6 +27,11 @@ public class MoveLastElementToFront {
 
             Node secondLast = null;
             Node last = headNode;
+
+            while (last.next != null) {
+
+            }
+
         }
     }
 }

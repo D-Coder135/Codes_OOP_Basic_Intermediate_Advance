@@ -32,6 +32,8 @@ public class IntersectionOfTwoLinkedList_GFG {
                     res = res.next;
                     temp1 = temp1.next;
                     temp2 = temp2.next;
+                } else if (temp1.data > temp2.data) {
+                    temp2 = temp2.next;
                 }
             }
         }

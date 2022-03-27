@@ -27,8 +27,7 @@ public class IntersectionOfTwoLinkedList_GFG {
 
             while (temp1 != null && temp2 != null) {
                 if (temp1.data == temp2.data) {
-                    Node node = new Node(temp1.data);
-                    res.next = node;
+                    res.next = new Node(temp1.data);
                     res = res.next;
                     temp1 = temp1.next;
                     temp2 = temp2.next;

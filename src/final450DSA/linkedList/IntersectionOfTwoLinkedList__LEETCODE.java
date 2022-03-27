@@ -28,6 +28,10 @@ public class IntersectionOfTwoLinkedList__LEETCODE {
                 } else {
                     temp1 = temp1.next;
                 }
+
+                if (temp2 == null) {
+                    temp2 = headA;
+                }
             }
         }
     }

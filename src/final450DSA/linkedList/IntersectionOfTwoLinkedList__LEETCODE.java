@@ -23,7 +23,9 @@ public class IntersectionOfTwoLinkedList__LEETCODE {
             ListNode temp1 = headA, temp2 = headB;
 
             while (temp1 != temp2) {
-
+                if (temp1 == null) {
+                    temp1 = headB;
+                }
             }
         }
     }

@@ -21,6 +21,8 @@ public class IntersectionOfTwoLinkedList_GFG {
     static class Sol {
         public static Node findIntersection(Node head1, Node head2) {
             // code here.
+            Node temp1 = head1, temp2 = head2;
+            Node res = new Node(0);
         }
     }
 }

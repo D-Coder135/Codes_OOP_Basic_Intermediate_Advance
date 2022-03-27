@@ -17,4 +17,10 @@ public class IntersectionOfTwoLinkedList_GFG {
             next = null;
         }
     }
+
+    static class Sol {
+        public static Node findIntersection(Node head1, Node head2) {
+            // code here.
+        }
+    }
 }

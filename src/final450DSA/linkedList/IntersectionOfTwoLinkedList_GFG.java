@@ -23,6 +23,7 @@ public class IntersectionOfTwoLinkedList_GFG {
             // code here.
             Node temp1 = head1, temp2 = head2;
             Node res = new Node(0);
+            Node ans = res;
         }
     }
 }

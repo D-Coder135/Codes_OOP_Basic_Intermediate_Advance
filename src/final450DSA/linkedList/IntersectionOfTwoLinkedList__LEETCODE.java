@@ -35,6 +35,8 @@ public class IntersectionOfTwoLinkedList__LEETCODE {
                     temp2 = temp2.next;
                 }
             }
+
+            return temp1;
         }
     }
 }

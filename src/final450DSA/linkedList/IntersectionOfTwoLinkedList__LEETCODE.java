@@ -17,4 +17,10 @@ public class IntersectionOfTwoLinkedList__LEETCODE {
             next = null;
         }
     }
+
+    public static class Solution {
+        public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+
+        }
+    }
 }

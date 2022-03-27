@@ -31,6 +31,8 @@ public class IntersectionOfTwoLinkedList__LEETCODE {
 
                 if (temp2 == null) {
                     temp2 = headA;
+                } else {
+                    temp2 = temp2.next;
                 }
             }
         }

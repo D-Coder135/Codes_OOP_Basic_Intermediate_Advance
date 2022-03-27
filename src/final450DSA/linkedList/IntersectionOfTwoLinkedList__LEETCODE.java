@@ -20,6 +20,8 @@ public class IntersectionOfTwoLinkedList__LEETCODE {
 
     public static class Solution {
         public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+            ListNode temp1 = headA, temp2 = headB;
+
 
         }
     }

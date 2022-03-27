@@ -38,6 +38,7 @@ public class IntersectionOfTwoLinkedList_GFG {
                     temp1 = temp1.next;
                 }
             }
+            return ans.next;
         }
     }
 }

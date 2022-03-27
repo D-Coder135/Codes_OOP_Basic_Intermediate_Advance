@@ -5,6 +5,31 @@
  *   File: IntersectionOfTwoLinkedList
  */
 
+/**
+ * GFG QUESTION =>
+ * <p>
+ * Given two lists sorted in increasing order, create a new list representing the intersection of the two lists.
+ * The new list should be made with its own memory — the original lists should not be changed.
+ * Note: The list elements are not necessarily distinct.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input:
+ * L1 = 1->2->3->4->6
+ * L2 = 2->4->6->8
+ * Output: 2 4 6
+ * Explanation: For the given first two
+ * linked list, 2, 4 and 6 are the elements
+ * in the intersection.
+ * <p>
+ * Example 2:
+ * <p>
+ * Input:
+ * L1 = 10->20->40->50
+ * L2 = 15->40
+ * Output: 40
+ */
+
 package final450DSA.linkedList;
 
 public class IntersectionOfTwoLinkedList_GFG {

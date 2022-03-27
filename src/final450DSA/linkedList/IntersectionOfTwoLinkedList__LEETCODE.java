@@ -25,6 +25,8 @@ public class IntersectionOfTwoLinkedList__LEETCODE {
             while (temp1 != temp2) {
                 if (temp1 == null) {
                     temp1 = headB;
+                } else {
+                    temp1 = temp1.next;
                 }
             }
         }

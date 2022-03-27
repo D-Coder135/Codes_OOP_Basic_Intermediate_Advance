@@ -30,7 +30,7 @@
 
 package final450DSA.linkedList;
 
-public class IntersectionOfTwoLinkedList__LEETCODE {
+public class IntersectionPointOfTwoLinkedList {
     public static class ListNode {
         int val;
         ListNode next;

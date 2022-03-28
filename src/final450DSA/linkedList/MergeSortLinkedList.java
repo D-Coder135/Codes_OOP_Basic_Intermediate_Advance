@@ -19,6 +19,11 @@ public class MergeSortLinkedList {
     }
 
     static class Solution {
+
+        static Node merge(Node left, Node right) {
+
+        }
+
         //Function to sort the given linked list using Merge Sort.
         static Node mergeSort(Node head) {
             // add your code here
@@ -33,7 +38,7 @@ public class MergeSortLinkedList {
                 fast = fast.next.next;
             }
 
-            Node left = head, mid = slow, right = slow.next, res = null;
+            Node left = head, mid = slow, right = mid.next, res;
 
             mid.next = null;
 

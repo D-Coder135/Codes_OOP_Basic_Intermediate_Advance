@@ -42,7 +42,11 @@ public class MergeSortLinkedList {
             Node temp = head;
 
             while (leftNode != null && rightNode != null) {
-
+                if (leftNode.data <= rightNode.data) {
+                    temp.next = leftNode;
+                    leftNode = leftNode.next;
+                    temp = temp.next;
+                }
             }
         }
 

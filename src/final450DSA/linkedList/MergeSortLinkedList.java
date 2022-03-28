@@ -23,6 +23,8 @@ public class MergeSortLinkedList {
         static Node merge(Node left, Node right) {
             if (left == null && right == null) {
                 return null;
+            } else if (left == null) {
+                return right;
             }
         }
 

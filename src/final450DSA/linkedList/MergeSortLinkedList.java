@@ -22,6 +22,9 @@ public class MergeSortLinkedList {
         //Function to sort the given linked list using Merge Sort.
         static Node mergeSort(Node head) {
             // add your code here
+            if (head == null || head.next != null) {
+                return head;
+            }
         }
     }
 

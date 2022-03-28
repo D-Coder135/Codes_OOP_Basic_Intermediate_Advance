@@ -17,4 +17,12 @@ public class QuickSortLinkedList {
             next = null;
         }
     }
+
+    static class GfG {
+        public static Node quickSort(Node node) {
+            //Your code here
+        }
+
+
+    }
 }

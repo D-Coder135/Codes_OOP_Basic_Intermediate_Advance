@@ -19,6 +19,11 @@ public class QuickSortLinkedList {
     }
 
     static class GfG {
+
+        public static Node partition(Node node) {
+
+        }
+
         public static Node quickSort(Node node) {
             //Your code here
         }

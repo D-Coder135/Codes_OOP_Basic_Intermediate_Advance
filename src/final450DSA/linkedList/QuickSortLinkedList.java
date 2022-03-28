@@ -48,6 +48,10 @@ public class QuickSortLinkedList {
             if (node == null) {
                 return null;
             }
+
+            Node partition = partition(node);
+            Node temp = partition.next;
+            partition.next = null;
         }
 
 

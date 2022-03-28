@@ -36,6 +36,12 @@ public class QuickSortLinkedList {
                 }
                 ahead = ahead.next;
             }
+
+            int temp = temp1.data;
+            temp1.data = my.data;
+            my.data = temp;
+
+
         }
 
         public static Node quickSort(Node node) {

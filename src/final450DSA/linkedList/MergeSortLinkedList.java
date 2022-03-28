@@ -54,6 +54,8 @@ public class MergeSortLinkedList {
             }
             if (leftNode == null) {
                 temp.next = rightNode;
+            } else if (rightNode == null) {
+                temp.next = left;
             }
         }
 

@@ -21,7 +21,10 @@ public class QuickSortLinkedList {
     static class GfG {
 
         public static Node partition(Node node) {
-
+            Node ahead = node.next;
+            Node temp1 = node;
+            Node my = node;
+            Node prev = temp1;
         }
 
         public static Node quickSort(Node node) {

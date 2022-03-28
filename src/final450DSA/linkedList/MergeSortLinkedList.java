@@ -34,6 +34,9 @@ public class MergeSortLinkedList {
             if (leftNode.data <= rightNode.data) {
                 head = leftNode;
                 leftNode = leftNode.next;
+            } else if (leftNode.data > rightNode.data) {
+                head = rightNode;
+                rightNode = rightNode.next;
             }
         }
 

@@ -41,7 +41,7 @@ public class QuickSortLinkedList {
             temp1.data = my.data;
             my.data = temp;
 
-
+            return prev;
         }
 
         public static Node quickSort(Node node) {

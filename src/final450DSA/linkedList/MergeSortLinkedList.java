@@ -28,6 +28,8 @@ public class MergeSortLinkedList {
             } else if (right == null) {
                 return left;
             }
+
+            Node leftNode = left, rightNode = right, head = null;
         }
 
         //Function to sort the given linked list using Merge Sort.

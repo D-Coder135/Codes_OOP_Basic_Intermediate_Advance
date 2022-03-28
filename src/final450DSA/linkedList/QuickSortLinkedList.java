@@ -58,6 +58,8 @@ public class QuickSortLinkedList {
             }
             if (node == partition) {
                 quickSort(temp);
+            } else if (temp != null) {
+                quickSort(temp.next);
             }
         }
 

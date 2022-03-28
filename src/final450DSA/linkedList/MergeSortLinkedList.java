@@ -40,6 +40,10 @@ public class MergeSortLinkedList {
             }
 
             Node temp = head;
+
+            while (leftNode != null && rightNode != null) {
+
+            }
         }
 
         //Function to sort the given linked list using Merge Sort.

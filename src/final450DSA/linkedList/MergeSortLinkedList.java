@@ -38,6 +38,8 @@ public class MergeSortLinkedList {
                 head = rightNode;
                 rightNode = rightNode.next;
             }
+
+            Node temp = head;
         }
 
         //Function to sort the given linked list using Merge Sort.

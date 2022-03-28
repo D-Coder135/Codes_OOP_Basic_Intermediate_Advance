@@ -45,6 +45,9 @@ public class QuickSortLinkedList {
 
         public static Node quickSort(Node node) {
             //Your code here
+            if (node == null) {
+                return null;
+            }
         }
 
 

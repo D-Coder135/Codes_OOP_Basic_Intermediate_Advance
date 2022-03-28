@@ -57,6 +57,7 @@ public class MergeSortLinkedList {
             } else if (rightNode == null) {
                 temp.next = left;
             }
+            return head;
         }
 
         //Function to sort the given linked list using Merge Sort.

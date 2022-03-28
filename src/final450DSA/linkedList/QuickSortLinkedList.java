@@ -63,6 +63,8 @@ public class QuickSortLinkedList {
             }
 
             partition.next = temp;
+
+            return node;
         }
 
 

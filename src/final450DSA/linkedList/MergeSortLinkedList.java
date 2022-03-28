@@ -30,6 +30,11 @@ public class MergeSortLinkedList {
             }
 
             Node leftNode = left, rightNode = right, head = null;
+
+            if (leftNode.data <= rightNode.data) {
+                head = leftNode;
+                leftNode = leftNode.next;
+            }
         }
 
         //Function to sort the given linked list using Merge Sort.

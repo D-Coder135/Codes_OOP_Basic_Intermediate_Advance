@@ -5,6 +5,34 @@
  *   File: MergeSortLinkedList
  */
 
+/**
+ * GFG & LEETCODE QUESTION 148 =>
+ * <p>
+ * Given Pointer/Reference to the head of the linked list, the task is to Sort the given linked list using Merge Sort.
+ * Note: If the length of linked list is odd, then the extra node should go in the first list while splitting.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input:
+ * N = 5
+ * value[]  = {3,5,2,4,1}
+ * Output: 1 2 3 4 5
+ * Explanation: After sorting the given
+ * linked list, the resultant matrix
+ * will be 1->2->3->4->5.
+ * <p>
+ * <p>
+ * Example 2:
+ * <p>
+ * Input:
+ * N = 3
+ * value[]  = {9,15,0}
+ * Output: 0 9 15
+ * Explanation: After sorting the given
+ * linked list , resultant will be
+ * 0->9->15.
+ */
+
 package final450DSA.linkedList;
 
 public class MergeSortLinkedList {

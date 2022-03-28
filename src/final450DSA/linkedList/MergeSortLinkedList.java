@@ -21,7 +21,9 @@ public class MergeSortLinkedList {
     static class Solution {
 
         static Node merge(Node left, Node right) {
-
+            if (left == null && right == null) {
+                return null;
+            }
         }
 
         //Function to sort the given linked list using Merge Sort.

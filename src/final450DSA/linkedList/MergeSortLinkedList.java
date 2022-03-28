@@ -25,6 +25,8 @@ public class MergeSortLinkedList {
                 return null;
             } else if (left == null) {
                 return right;
+            } else if (right == null) {
+                return left;
             }
         }
 

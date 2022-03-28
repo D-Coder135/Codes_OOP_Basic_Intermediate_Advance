@@ -41,6 +41,8 @@ public class MergeSortLinkedList {
             right = mergeSort(right);
             res = merge(left, right);
 
+            return res;
+
         }
     }
 

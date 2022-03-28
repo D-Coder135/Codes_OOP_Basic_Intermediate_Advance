@@ -46,6 +46,10 @@ public class MergeSortLinkedList {
                     temp.next = leftNode;
                     leftNode = leftNode.next;
                     temp = temp.next;
+                } else if (leftNode.data > rightNode.data) {
+                    temp.next = rightNode;
+                    rightNode = rightNode.next;
+                    temp = temp.next;
                 }
             }
         }

@@ -8,4 +8,13 @@
 package final450DSA.linkedList;
 
 public class MergeSortLinkedList {
+    static class Node {
+        int data;
+        Node next;
+
+        Node(int key) {
+            this.data = key;
+            next = null;
+        }
+    }
 }

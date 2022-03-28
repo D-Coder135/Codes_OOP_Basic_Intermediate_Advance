@@ -17,4 +17,12 @@ public class MergeSortLinkedList {
             next = null;
         }
     }
+
+    static class Solution {
+        //Function to sort the given linked list using Merge Sort.
+        static Node mergeSort(Node head) {
+            // add your code here
+        }
+    }
+
 }

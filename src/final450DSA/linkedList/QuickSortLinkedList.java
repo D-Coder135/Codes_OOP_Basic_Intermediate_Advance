@@ -23,11 +23,10 @@ public class QuickSortLinkedList {
         public static Node partition(Node node) {
             Node ahead = node.next;
             Node temp1 = node;
-            Node my = node;
             Node prev = temp1;
 
             while (ahead != null) {
-                if (ahead.data <= my.data) {
+                if (ahead.data <= node.data) {
                     prev = temp1;
                     temp1 = temp1.next;
                     int data = ahead.data;
@@ -38,8 +37,8 @@ public class QuickSortLinkedList {
             }
 
             int temp = temp1.data;
-            temp1.data = my.data;
-            my.data = temp;
+            temp1.data = node.data;
+            node.data = temp;
 
             return prev;
         }

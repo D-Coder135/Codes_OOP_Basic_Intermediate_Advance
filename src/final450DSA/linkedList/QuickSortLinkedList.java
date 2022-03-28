@@ -52,6 +52,10 @@ public class QuickSortLinkedList {
             Node partition = partition(node);
             Node temp = partition.next;
             partition.next = null;
+
+            if (node != partition) {
+                quickSort(node);
+            }
         }
 
 

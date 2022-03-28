@@ -27,7 +27,13 @@ public class QuickSortLinkedList {
             Node prev = temp1;
 
             while (ahead != null) {
-
+                if (ahead.data <= my.data) {
+                    prev = temp1;
+                    temp1 = temp1.next;
+                    int data = ahead.data;
+                    ahead.data = temp1.data;
+                    temp1.data = data;
+                }
             }
         }
 

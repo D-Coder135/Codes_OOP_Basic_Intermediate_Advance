@@ -32,6 +32,8 @@ public class MergeSortLinkedList {
                 slow = slow.next;
                 fast = fast.next.next;
             }
+
+            Node left = head, mid = slow, right = slow.next;
         }
     }
 

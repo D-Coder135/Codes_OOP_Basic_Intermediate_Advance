@@ -25,6 +25,8 @@ public class MergeSortLinkedList {
             if (head == null || head.next != null) {
                 return head;
             }
+
+            Node slow = head, fast = head;
         }
     }
 

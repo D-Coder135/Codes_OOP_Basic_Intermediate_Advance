@@ -25,6 +25,10 @@ public class QuickSortLinkedList {
             Node temp1 = node;
             Node my = node;
             Node prev = temp1;
+
+            while (ahead != null) {
+
+            }
         }
 
         public static Node quickSort(Node node) {

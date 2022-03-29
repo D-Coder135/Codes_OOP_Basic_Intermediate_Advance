@@ -27,6 +27,9 @@ public class IsCircularLinkedList {
 
             Node temp = head;
 
+            while (temp != null) {
+
+            }
         }
     }
 }

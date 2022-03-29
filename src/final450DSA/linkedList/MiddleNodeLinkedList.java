@@ -30,6 +30,8 @@ public class MiddleNodeLinkedList {
             if (head == null || head.next == null) {
                 return head;
             }
+
+            ListNode slow = head, fast = head;
         }
     }
 }

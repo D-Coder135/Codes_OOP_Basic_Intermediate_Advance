@@ -131,7 +131,7 @@ public class SplitCircularList {
 
 
             while (temp.next != list.head) {
-
+                temp = temp.next;
             }
         }
     }

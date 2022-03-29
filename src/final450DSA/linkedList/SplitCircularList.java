@@ -120,7 +120,8 @@ public class SplitCircularList {
             Node slow = list.head, fast = list.head;
 
             while (fast.next != list.head && fast.next.next != list.head) {
-
+                slow = slow.next;
+                fast = fast.next.next;
             }
         }
     }

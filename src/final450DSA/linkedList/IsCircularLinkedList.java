@@ -29,6 +29,10 @@ public class IsCircularLinkedList {
 
             while (temp != null) {
                 temp = temp.next;
+
+                if (temp == head) {
+                    return true;
+                }
             }
         }
     }

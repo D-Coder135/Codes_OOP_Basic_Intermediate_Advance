@@ -17,4 +17,10 @@ public class IsCircularLinkedList {
             next = null;
         }
     }
+
+    static class GfG {
+        boolean isCircular(Node head) {
+            // Your code here
+        }
+    }
 }

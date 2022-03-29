@@ -24,4 +24,10 @@ public class MiddleNodeLinkedList {
             this.next = next;
         }
     }
+
+    static class Solution {
+        public ListNode middleNode(ListNode head) {
+
+        }
+    }
 }

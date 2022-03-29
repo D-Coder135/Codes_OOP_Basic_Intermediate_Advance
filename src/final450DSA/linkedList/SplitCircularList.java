@@ -110,6 +110,8 @@ public class SplitCircularList {
 
 
     static class GFG {
+        void splitList(circular_LinkedList list) {
 
+        }
     }
 }

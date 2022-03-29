@@ -24,6 +24,9 @@ public class IsCircularLinkedList {
             if (head == null || head.next == null) {
                 return false;
             }
+
+            Node temp = head;
+
         }
     }
 }

@@ -34,6 +34,7 @@ public class IsCircularLinkedList {
                     return true;
                 }
             }
+            return false;
         }
     }
 }

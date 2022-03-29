@@ -130,6 +130,9 @@ public class SplitCircularList {
             list.head2 = temp;
 
 
+            while (temp.next != list.head) {
+
+            }
         }
     }
 }

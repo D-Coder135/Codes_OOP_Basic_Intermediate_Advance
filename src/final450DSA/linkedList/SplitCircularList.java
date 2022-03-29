@@ -19,6 +19,8 @@ public class SplitCircularList {
     }
 
     static class GFG {
+        void splitList(Node head) {
 
+        }
     }
 }

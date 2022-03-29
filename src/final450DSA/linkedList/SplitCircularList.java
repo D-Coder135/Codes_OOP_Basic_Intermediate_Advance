@@ -123,6 +123,13 @@ public class SplitCircularList {
                 slow = slow.next;
                 fast = fast.next.next;
             }
+
+            Node temp = slow.next;
+            slow.next = list.head;
+            list.head1 = list.head;
+            list.head2 = temp;
+
+
         }
     }
 }

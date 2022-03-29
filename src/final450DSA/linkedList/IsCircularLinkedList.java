@@ -21,6 +21,9 @@ public class IsCircularLinkedList {
     static class GfG {
         boolean isCircular(Node head) {
             // Your code here
+            if (head == null || head.next == null) {
+                return false;
+            }
         }
     }
 }

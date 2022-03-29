@@ -116,6 +116,8 @@ public class SplitCircularList {
                 list.head2 = null;
                 return;
             }
+
+            Node slow = list.head, fast = list.head;
         }
     }
 }

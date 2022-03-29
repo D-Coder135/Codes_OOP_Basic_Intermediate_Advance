@@ -8,4 +8,13 @@
 package final450DSA.linkedList;
 
 public class IsCircularLinkedList {
+    static class Node {
+        int data;
+        Node next;
+
+        Node(int d) {
+            data = d;
+            next = null;
+        }
+    }
 }

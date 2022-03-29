@@ -5,6 +5,30 @@
  *   File: SplitCircularList
  */
 
+/**
+ * GFG QUESTION =>
+ * <p>
+ * Given a Circular Linked List of size N, split it into two halves circular lists. If there are odd number of nodes
+ * in the given circular linked list then out of the resulting two halved lists, first list should have one node more
+ * than the second list. The resultant lists should also be circular lists and not linear lists.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input:
+ * Circular LinkedList: 1->5->7
+ * Output:
+ * 1 5
+ * 7
+ * <p>
+ * Example 2:
+ * <p>
+ * Input:
+ * Circular LinkedList: 2->6->1->5
+ * Output:
+ * 2 6
+ * 1 5
+ */
+
 package final450DSA.linkedList;
 
 import java.util.Scanner;

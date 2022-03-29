@@ -17,4 +17,8 @@ public class SplitCircularList {
             next = null;
         }
     }
+
+    static class GFG {
+
+    }
 }

@@ -111,7 +111,11 @@ public class SplitCircularList {
 
     static class GFG {
         void splitList(circular_LinkedList list) {
-
+            if (list.head.next == list.head) {
+                list.head1 = list.head;
+                list.head2 = null;
+                return;
+            }
         }
     }
 }

@@ -5,6 +5,24 @@
  *   File: ReverseDoublyLinkedList
  */
 
+/**
+ * GFG QUESTION =>
+ * <p>
+ * Given a doubly linked list of n elements. The task is to reverse the doubly linked list.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input:
+ * LinkedList: 3 <--> 4 <--> 5
+ * Output: 5 4 3
+ * <p>
+ * Example 2:
+ * <p>
+ * Input:
+ * LinkedList: 75 <--> 122 <--> 59 <--> 196
+ * Output: 196 59 122 75
+ */
+
 package final450DSA.linkedList;
 
 public class ReverseDoublyLinkedList {

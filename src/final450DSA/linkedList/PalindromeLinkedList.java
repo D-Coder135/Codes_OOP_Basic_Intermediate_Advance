@@ -27,7 +27,9 @@ public class PalindromeLinkedList {
 
     static class Solution {
         public boolean isPalindrome(ListNode head) {
-
+            if (head == null) {
+                return false;
+            }
         }
     }
 }

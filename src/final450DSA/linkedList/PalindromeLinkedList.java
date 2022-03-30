@@ -38,7 +38,8 @@ public class PalindromeLinkedList {
             StringBuilder str = new StringBuilder();
 
             while (head != null) {
-
+                str.append(head.val);
+                head = head.next;
             }
         }
     }

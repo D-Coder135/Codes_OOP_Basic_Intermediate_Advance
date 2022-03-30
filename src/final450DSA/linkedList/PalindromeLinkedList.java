@@ -24,4 +24,10 @@ public class PalindromeLinkedList {
             this.next = next;
         }
     }
+
+    static class Solution {
+        public boolean isPalindrome(ListNode head) {
+
+        }
+    }
 }

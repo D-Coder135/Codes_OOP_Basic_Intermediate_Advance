@@ -48,6 +48,9 @@ public class DeleteAndReverseCircularLinkedList {
             while (tail.next != head) {
                 tail = tail.next;
             }
+            tail.next = null;
+
+            Node prev = null, ahead = null, curr = head;
         }
     }
 }

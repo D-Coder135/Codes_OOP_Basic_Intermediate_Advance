@@ -34,6 +34,8 @@ public class PalindromeLinkedList {
             if (head.next == null) {
                 return true;
             }
+
+            StringBuilder str = new StringBuilder();
         }
     }
 }

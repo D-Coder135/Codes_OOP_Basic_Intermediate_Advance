@@ -26,6 +26,11 @@ public class ReverseDoublyLinkedList {
             }
 
             Node curr = head, temp = null;
+
+            while (curr != null) {
+
+            }
+
         }
     }
 }

@@ -32,6 +32,11 @@ public class DeleteAndReverseCircularLinkedList {
                 prev = curr;
                 curr = curr.next;
             }
+
+            if (curr.next != head) {
+                prev.next = curr.next;
+                curr.next = null;
+            }
         }
 
         //This method returns the head node of the reversed Linked list.

@@ -20,6 +20,8 @@ public class ReverseDoublyLinkedList {
     }
 
     static class GFG {
+        public static Node reverseDLL(Node head) {
 
+        }
     }
 }

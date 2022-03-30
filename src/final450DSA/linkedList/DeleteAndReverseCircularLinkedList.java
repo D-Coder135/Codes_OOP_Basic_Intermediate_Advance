@@ -5,6 +5,43 @@
  *   File: DeleteAndReverseCircularLinkedList
  */
 
+/**
+ * GFG QUESTION =>
+ * <p>
+ * Given a Circular Linked List of size N. The task is to delete the given node (excluding the first and last node)
+ * in the circular linked list and then print the reverse of the circular linked list.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input:
+ * 5
+ * 2 5 7 8 10
+ * 8
+ * <p>
+ * Output:
+ * 10 7 5 2
+ * Explanation:
+ * After deleting 8 from the given circular linked
+ * list, it has elements as 2, 5, 7, 10. Now,
+ * reversing this list will result in 10, 7, 5, 2.
+ * <p>
+ * <p>
+ * Example 2:
+ * <p>
+ * Input:
+ * 4
+ * 1 7 8 10
+ * 8
+ * <p>
+ * Output:
+ * 10 7 1
+ * <p>
+ * Explanation:
+ * After deleting 8 from the given circular linked
+ * list, it has elements as 1, 7,10. Now, reversing
+ * this list will result in 10, 7, 1.
+ */
+
 package final450DSA.linkedList;
 
 public class DeleteAndReverseCircularLinkedList {

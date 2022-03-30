@@ -21,7 +21,9 @@ public class ReverseDoublyLinkedList {
 
     static class GFG {
         public static Node reverseDLL(Node head) {
-
+            if (head == null || head.next == null) {
+                return head;
+            }
         }
     }
 }

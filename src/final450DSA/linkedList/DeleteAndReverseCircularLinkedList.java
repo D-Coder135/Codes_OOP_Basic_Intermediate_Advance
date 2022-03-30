@@ -43,6 +43,7 @@ public class DeleteAndReverseCircularLinkedList {
         //This method returns the head node of the reversed Linked list.
         public static Node reverse(Node head) {
             //Add your code here
+            Node tail = head;
         }
     }
 }

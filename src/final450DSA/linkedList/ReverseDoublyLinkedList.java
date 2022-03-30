@@ -35,6 +35,7 @@ public class ReverseDoublyLinkedList {
                 curr = curr.prev;
             }
 
+            return temp.prev;
         }
     }
 }

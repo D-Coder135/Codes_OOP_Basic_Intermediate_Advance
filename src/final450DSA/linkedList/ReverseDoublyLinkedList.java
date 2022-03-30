@@ -18,4 +18,8 @@ public class ReverseDoublyLinkedList {
             this.prev = null;
         }
     }
+
+    static class GFG {
+
+    }
 }

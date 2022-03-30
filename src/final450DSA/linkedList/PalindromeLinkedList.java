@@ -30,6 +30,10 @@ public class PalindromeLinkedList {
             if (head == null) {
                 return false;
             }
+
+            if (head.next == null) {
+                return true;
+            }
         }
     }
 }

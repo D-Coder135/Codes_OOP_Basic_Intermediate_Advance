@@ -44,6 +44,10 @@ public class DeleteAndReverseCircularLinkedList {
         public static Node reverse(Node head) {
             //Add your code here
             Node tail = head;
+
+            while (tail.next != head) {
+                tail = tail.next;
+            }
         }
     }
 }

@@ -41,6 +41,8 @@ public class PalindromeLinkedList {
                 str.append(head.val);
                 head = head.next;
             }
+
+            return str.toString().equals(str.reverse().toString());
         }
     }
 }

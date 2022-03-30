@@ -36,6 +36,10 @@ public class PalindromeLinkedList {
             }
 
             StringBuilder str = new StringBuilder();
+
+            while (head != null) {
+
+            }
         }
     }
 }

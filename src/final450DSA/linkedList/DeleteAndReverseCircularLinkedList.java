@@ -58,6 +58,8 @@ public class DeleteAndReverseCircularLinkedList {
                 prev = curr;
                 curr = ahead;
             }
+            head.next = prev;
+            return prev;
         }
     }
 }

@@ -24,6 +24,8 @@ public class ReverseDoublyLinkedList {
             if (head == null || head.next == null) {
                 return head;
             }
+
+            Node curr = head, temp = null;
         }
     }
 }

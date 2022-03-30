@@ -5,6 +5,22 @@
  *   File: PalindromeLinkedList
  */
 
+/**
+ * GFG & LEETCODE QUESTION 234 =>
+ * <p>
+ * Given the head of a singly linked list, return true if it is a palindrome.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: head = [1,2,2,1]
+ * Output: true
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: head = [1,2]
+ * Output: false
+ */
+
 package final450DSA.linkedList;
 
 public class PalindromeLinkedList {

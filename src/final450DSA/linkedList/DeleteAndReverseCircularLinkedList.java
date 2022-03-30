@@ -25,6 +25,9 @@ public class DeleteAndReverseCircularLinkedList {
             if (head == null || head.next == null) {
                 return head;
             }
+
+            Node curr = head, prev = null;
+
         }
 
         //This method returns the head node of the reversed Linked list.

@@ -13,5 +13,7 @@ public class FindPairEqualsGivenSumDLL {
         Node next, prev;
     }
 
-    ;
+    static void pairSum(Node head, int sum) {
+
+    }
 }

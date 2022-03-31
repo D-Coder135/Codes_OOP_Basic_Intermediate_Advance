@@ -23,5 +23,9 @@ public class FindPairEqualsGivenSumDLL {
         while (second.next != null) {
             second = second.next;
         }
+
+        while (first != second || second.next != first) {
+
+        }
     }
 }

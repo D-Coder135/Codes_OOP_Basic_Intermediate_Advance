@@ -19,5 +19,7 @@ public class CountTripletsEqualToGivenSumDLL {
         }
 
         Node current, ahead, last;
+        int count = 0;
+
     }
 }

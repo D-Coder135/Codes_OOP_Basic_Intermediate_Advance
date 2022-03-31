@@ -40,7 +40,11 @@ public class CountTripletsEqualToGivenSumDLL {
         int count = 0;
 
         while (first != null && last != null && first != last && last.next != first) {
-
+            if (first.data + last.data == value) {
+                count++;
+                first = first.next;
+                last = last.prev;
+            }
         }
     }
 }

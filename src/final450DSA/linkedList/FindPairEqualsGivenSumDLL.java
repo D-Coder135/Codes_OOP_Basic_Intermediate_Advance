@@ -36,5 +36,9 @@ public class FindPairEqualsGivenSumDLL {
                 second = second.prev;
             }
         }
+
+        if (!found) {
+            System.out.println("No Pairs Found As Such!");
+        }
     }
 }

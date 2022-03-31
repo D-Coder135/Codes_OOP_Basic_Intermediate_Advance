@@ -8,4 +8,8 @@
 package final450DSA.linkedList;
 
 public class CountTripletsEqualToGivenSumDLL {
+    static class Node {
+        int data;
+        Node next, prev;
+    }
 }

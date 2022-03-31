@@ -28,7 +28,9 @@ public class CountTripletsEqualToGivenSumDLL {
         }
 
         for (current = head; current != null; current = current.next) {
+            ahead = current.next;
 
+            count += countPairs(ahead, last, sum - current.data);
         }
     }
 }

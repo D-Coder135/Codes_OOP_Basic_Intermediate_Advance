@@ -14,6 +14,8 @@ public class FindPairEqualsGivenSumDLL {
     }
 
     static void pairSum(Node head, int sum) {
-
+        if (head == null || head.next == null) {
+            return;
+        }
     }
 }

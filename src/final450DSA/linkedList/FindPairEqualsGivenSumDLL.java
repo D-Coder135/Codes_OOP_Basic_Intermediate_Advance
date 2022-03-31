@@ -32,6 +32,8 @@ public class FindPairEqualsGivenSumDLL {
                 System.out.println("(" + first.data + ", " + second.data + ")");
             } else if (first.data + second.data < sum) {
                 first = first.next;
+            } else {
+                second = second.prev;
             }
         }
     }

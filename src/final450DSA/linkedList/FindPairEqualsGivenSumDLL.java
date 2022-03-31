@@ -24,6 +24,8 @@ public class FindPairEqualsGivenSumDLL {
             second = second.next;
         }
 
+        boolean found = false;
+
         while (first != second || second.next != first) {
             if (first.data + second.data < sum) {
 

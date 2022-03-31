@@ -26,5 +26,9 @@ public class CountTripletsEqualToGivenSumDLL {
         while (last.next != null) {
             last = last.next;
         }
+
+        for (current = head; current != null; current = current.next) {
+
+        }
     }
 }

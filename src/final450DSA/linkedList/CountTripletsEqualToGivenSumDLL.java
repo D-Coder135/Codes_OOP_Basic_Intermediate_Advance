@@ -46,6 +46,8 @@ public class CountTripletsEqualToGivenSumDLL {
                 last = last.prev;
             } else if (first.data + last.data < value) {
                 first = first.next;
+            } else {
+                last = last.prev;
             }
         }
     }

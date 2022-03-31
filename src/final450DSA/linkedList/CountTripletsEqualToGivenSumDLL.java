@@ -32,5 +32,7 @@ public class CountTripletsEqualToGivenSumDLL {
 
             count += countPairs(ahead, last, sum - current.data);
         }
+
+        return count;
     }
 }

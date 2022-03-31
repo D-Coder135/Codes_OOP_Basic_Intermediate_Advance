@@ -27,8 +27,9 @@ public class FindPairEqualsGivenSumDLL {
         boolean found = false;
 
         while (first != second || second.next != first) {
-            if (first.data + second.data < sum) {
-
+            if (first.data + second.data == sum) {
+                found = true;
+                System.out.println("(" + first.data + ", " + second.data + ")");
             }
         }
     }

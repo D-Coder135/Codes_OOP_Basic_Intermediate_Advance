@@ -14,6 +14,8 @@ public class CountTripletsEqualToGivenSumDLL {
     }
 
     static int countTriplets(Node head, int sum) {
-
+        if (head == null || head.next == null) {
+            return 0;
+        }
     }
 }

@@ -38,5 +38,9 @@ public class CountTripletsEqualToGivenSumDLL {
 
     private static int countPairs(Node first, Node last, int value) {
         int count = 0;
+
+        while (first != null && last != null && first != last && last.next != first) {
+
+        }
     }
 }

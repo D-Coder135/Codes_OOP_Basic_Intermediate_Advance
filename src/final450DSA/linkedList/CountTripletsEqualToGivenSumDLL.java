@@ -50,5 +50,6 @@ public class CountTripletsEqualToGivenSumDLL {
                 last = last.prev;
             }
         }
+        return count;
     }
 }

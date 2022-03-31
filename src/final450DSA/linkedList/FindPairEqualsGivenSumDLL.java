@@ -17,5 +17,7 @@ public class FindPairEqualsGivenSumDLL {
         if (head == null || head.next == null) {
             return;
         }
+
+        Node first = head, second = head;
     }
 }

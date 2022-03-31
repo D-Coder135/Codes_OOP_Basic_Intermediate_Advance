@@ -12,4 +12,8 @@ public class CountTripletsEqualToGivenSumDLL {
         int data;
         Node next, prev;
     }
+
+    static int countTriplets(Node head, int sum) {
+
+    }
 }

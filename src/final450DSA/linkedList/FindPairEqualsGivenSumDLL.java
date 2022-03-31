@@ -5,6 +5,13 @@
  *   File: FindPairEqualsGivenSumDLL
  */
 
+/**
+ * GFG QUESTION =>
+ * <p>
+ * Given a sorted doubly linked list of positive distinct elements, the task is to find pairs in a doubly-linked list
+ * whose sum is equal to given value x, without using any extra space?
+ */
+
 package final450DSA.linkedList;
 
 public class FindPairEqualsGivenSumDLL {

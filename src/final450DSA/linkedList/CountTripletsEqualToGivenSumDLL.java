@@ -17,5 +17,7 @@ public class CountTripletsEqualToGivenSumDLL {
         if (head == null || head.next == null) {
             return 0;
         }
+
+        Node current, ahead, last;
     }
 }

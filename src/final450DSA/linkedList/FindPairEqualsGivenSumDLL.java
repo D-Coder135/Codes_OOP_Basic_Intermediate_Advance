@@ -8,4 +8,10 @@
 package final450DSA.linkedList;
 
 public class FindPairEqualsGivenSumDLL {
+    static class Node {
+        int data;
+        Node next, prev;
+    }
+
+    ;
 }

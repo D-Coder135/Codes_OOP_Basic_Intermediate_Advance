@@ -25,7 +25,9 @@ public class FindPairEqualsGivenSumDLL {
         }
 
         while (first != second || second.next != first) {
+            if (first.data + second.data < sum) {
 
+            }
         }
     }
 }

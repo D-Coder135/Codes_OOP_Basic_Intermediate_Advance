@@ -54,6 +54,11 @@ public class SortKSortedDLL {
             }
 
             priorityQueue.poll();
+
+            if (head != null) {
+                priorityQueue.add(head);
+                head = head.next;
+            }
         }
     }
 }

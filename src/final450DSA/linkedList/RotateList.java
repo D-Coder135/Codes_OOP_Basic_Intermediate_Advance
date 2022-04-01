@@ -43,6 +43,11 @@ public class RotateList {
 
             k = length - (k % length);
 
+            while (k > 0) {
+                tail = tail.next;
+                k--;
+            }
+
         }
     }
 }

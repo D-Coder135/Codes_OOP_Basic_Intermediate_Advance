@@ -52,6 +52,8 @@ public class SortKSortedDLL {
                 priorityQueue.peek().prev = last;
                 last = priorityQueue.peek();
             }
+
+            priorityQueue.poll();
         }
     }
 }

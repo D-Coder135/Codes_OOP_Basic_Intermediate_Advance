@@ -48,6 +48,8 @@ public class RotateList {
                 k--;
             }
 
+            head = tail.next;
+            tail.next = null;
         }
     }
 }

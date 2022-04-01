@@ -24,4 +24,10 @@ public class RotateList {
             this.next = next;
         }
     }
+
+    static class Solution {
+        public ListNode rotateRight(ListNode head, int k) {
+
+        }
+    }
 }

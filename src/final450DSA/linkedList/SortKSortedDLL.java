@@ -8,6 +8,7 @@
 package final450DSA.linkedList;
 
 import java.util.Comparator;
+import java.util.PriorityQueue;
 
 public class SortKSortedDLL {
     static class Node {
@@ -32,5 +33,7 @@ public class SortKSortedDLL {
         if (head == null) {
             return head;
         }
+
+        PriorityQueue<Node> priorityQueue = new PriorityQueue<>(new CompareNodes());
     }
 }

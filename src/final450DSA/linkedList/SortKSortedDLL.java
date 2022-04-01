@@ -7,6 +7,8 @@
 
 package final450DSA.linkedList;
 
+import java.util.Comparator;
+
 public class SortKSortedDLL {
     static class Node {
         int data;
@@ -18,8 +20,12 @@ public class SortKSortedDLL {
         }
     }
 
-    static class CompareNodes implements Comparable<Node> {
+    static class CompareNodes implements Comparator<Node> {
 
+        @Override
+        public int compare(Node o1, Node o2) {
+            return 0;
+        }
     }
 
 }

@@ -18,7 +18,8 @@ public class SortKSortedDLL {
         }
     }
 
-    static class CompareNodes {
+    static class CompareNodes implements Comparable<Node> {
+
     }
 
 }

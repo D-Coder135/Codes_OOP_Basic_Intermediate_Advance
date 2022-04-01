@@ -50,6 +50,8 @@ public class RotateList {
 
             head = tail.next;
             tail.next = null;
+
+            return head;
         }
     }
 }

@@ -30,6 +30,9 @@ public class RotateList {
             if (head == null || head.next == null || k == 0) {
                 return head;
             }
+
+            ListNode tail = head;
+
         }
     }
 }

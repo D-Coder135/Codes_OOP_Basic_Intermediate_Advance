@@ -17,4 +17,8 @@ public class SortKSortedDLL {
             next = prev = null;
         }
     }
+
+    static class CompareNodes {
+    }
+
 }

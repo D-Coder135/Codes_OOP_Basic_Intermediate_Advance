@@ -39,6 +39,8 @@ public class RotateList {
                 length++;
             }
 
+            tail.next = head;
+
         }
     }
 }

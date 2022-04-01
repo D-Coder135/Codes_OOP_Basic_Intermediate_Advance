@@ -35,5 +35,6 @@ public class SortKSortedDLL {
         }
 
         PriorityQueue<Node> priorityQueue = new PriorityQueue<>(new CompareNodes());
+        Node newHead = null, last = null;
     }
 }

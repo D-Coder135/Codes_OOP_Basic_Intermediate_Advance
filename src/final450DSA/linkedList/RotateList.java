@@ -41,6 +41,8 @@ public class RotateList {
 
             tail.next = head;
 
+            k = length - (k % length);
+
         }
     }
 }

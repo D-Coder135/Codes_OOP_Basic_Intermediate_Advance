@@ -23,8 +23,8 @@ public class SortKSortedDLL {
     static class CompareNodes implements Comparator<Node> {
 
         @Override
-        public int compare(Node o1, Node o2) {
-            return 0;
+        public int compare(Node node1, Node node2) {
+            return node1.data - node2.data;
         }
     }
 

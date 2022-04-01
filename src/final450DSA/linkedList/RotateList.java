@@ -34,6 +34,10 @@ public class RotateList {
             ListNode tail = head;
             int length = 1;
 
+            while (tail.next != null) {
+                tail = tail.next;
+                length++;
+            }
 
         }
     }

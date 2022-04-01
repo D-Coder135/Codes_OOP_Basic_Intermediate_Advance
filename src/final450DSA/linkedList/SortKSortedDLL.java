@@ -41,5 +41,9 @@ public class SortKSortedDLL {
             priorityQueue.add(head);
             head = head.next;
         }
+
+        while (!priorityQueue.isEmpty()) {
+
+        }
     }
 }

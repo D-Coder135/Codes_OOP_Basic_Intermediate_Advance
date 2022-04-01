@@ -32,6 +32,8 @@ public class RotateList {
             }
 
             ListNode tail = head;
+            int length = 1;
+
 
         }
     }

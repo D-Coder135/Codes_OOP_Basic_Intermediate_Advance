@@ -8,4 +8,13 @@
 package final450DSA.linkedList;
 
 public class SortKSortedDLL {
+    static class Node {
+        int data;
+        Node next, prev;
+
+        Node(int d) {
+            data = d;
+            next = prev = null;
+        }
+    }
 }

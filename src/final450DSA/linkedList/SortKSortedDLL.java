@@ -38,7 +38,8 @@ public class SortKSortedDLL {
         Node newHead = null, last = null;
 
         for (int i = 0; head != null && i <= k; i++) {
-            
+            priorityQueue.add(head);
+            head = head.next;
         }
     }
 }

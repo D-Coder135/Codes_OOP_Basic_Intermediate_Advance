@@ -43,7 +43,11 @@ public class SortKSortedDLL {
         }
 
         while (!priorityQueue.isEmpty()) {
-
+            if (newHead == null) {
+                newHead = priorityQueue.peek();
+                newHead.prev = null;
+                last = newHead;
+            }
         }
     }
 }

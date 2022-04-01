@@ -62,5 +62,7 @@ public class SortKSortedDLL {
         }
 
         last.next = null;
+
+        return newHead;
     }
 }

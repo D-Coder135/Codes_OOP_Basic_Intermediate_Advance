@@ -27,5 +27,7 @@ public class ReverseDLLInGroups {
         Node curr = head;
         Node newHead = null;
 
+        int count = 0;
+
     }
 }

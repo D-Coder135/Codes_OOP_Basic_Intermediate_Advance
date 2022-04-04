@@ -18,5 +18,9 @@ public class ReverseDLLInGroups {
         if (head == null) {
             return null;
         }
+
+        head.prev = null;
+        Node temp;
+
     }
 }

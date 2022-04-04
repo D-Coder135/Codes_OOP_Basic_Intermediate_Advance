@@ -46,5 +46,7 @@ public class ReverseDLLInGroups {
                 rest.prev = head;
             }
         }
+
+        return newHead;
     }
 }

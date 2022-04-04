@@ -37,6 +37,11 @@ public class RotateListDLLByPNodes {
             while (curr.next != null) {
                 curr = curr.next;
             }
+
+            curr.next = start;
+            start.prev = curr;
+
+            return newHead;
         }
     }
 }

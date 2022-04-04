@@ -22,6 +22,9 @@ public class RotateListDLLByPNodes {
     static class Solution {
         public Node update(Node start, int p) {
             //Write your code here
+            Node curr = start;
+
+            
         }
     }
 }

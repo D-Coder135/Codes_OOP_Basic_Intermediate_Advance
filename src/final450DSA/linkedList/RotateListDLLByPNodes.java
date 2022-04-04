@@ -34,7 +34,9 @@ public class RotateListDLLByPNodes {
 
             curr = newHead;
 
-
+            while (curr.next != null) {
+                curr = curr.next;
+            }
         }
     }
 }

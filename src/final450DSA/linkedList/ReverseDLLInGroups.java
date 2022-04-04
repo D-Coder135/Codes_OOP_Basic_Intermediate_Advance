@@ -14,4 +14,7 @@ public class ReverseDLLInGroups {
         Node next, prev;
     }
 
+    static Node reverseByN(Node head, int k) {
+
+    }
 }

@@ -41,6 +41,10 @@ public class ReverseDLLInGroups {
         if (count >= k) {
             Node rest = reverseByN(curr, k);
             head.next = rest;
+
+            if (rest != null) {
+                rest.prev = head;
+            }
         }
     }
 }

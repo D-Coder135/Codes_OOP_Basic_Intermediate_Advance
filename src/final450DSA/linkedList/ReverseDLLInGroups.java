@@ -7,6 +7,8 @@
 
 package final450DSA.linkedList;
 
+import org.w3c.dom.Node;
+
 public class ReverseDLLInGroups {
 
     static class Node {
@@ -23,6 +25,7 @@ public class ReverseDLLInGroups {
 
         Node temp;
         Node curr = head;
+        Node newHead = null;
 
     }
 }

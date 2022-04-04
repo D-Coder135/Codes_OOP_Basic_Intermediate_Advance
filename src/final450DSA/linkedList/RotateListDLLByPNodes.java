@@ -27,6 +27,10 @@ public class RotateListDLLByPNodes {
             for (int i = 0; i < p - 1; i++) {
                 curr = curr.next;
             }
+
+            Node newHead = curr.next;
+            newHead.prev = null;
+            curr.next = null;
         }
     }
 }

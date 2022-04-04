@@ -29,5 +29,14 @@ public class ReverseDLLInGroups {
 
         int count = 0;
 
+        while (curr != null && count < k) {
+            newHead = curr;
+            temp = curr.prev;
+            curr.prev = curr.next;
+            curr.next = temp;
+            curr = curr.prev;
+            count++;
+        }
+
     }
 }

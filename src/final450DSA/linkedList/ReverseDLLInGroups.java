@@ -20,7 +20,9 @@ public class ReverseDLLInGroups {
         }
 
         head.prev = null;
+
         Node temp;
+        Node curr = head;
 
     }
 }

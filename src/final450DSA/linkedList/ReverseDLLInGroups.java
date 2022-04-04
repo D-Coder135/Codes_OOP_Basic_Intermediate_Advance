@@ -38,5 +38,8 @@ public class ReverseDLLInGroups {
             count++;
         }
 
+        if (count >= k) {
+
+        }
     }
 }

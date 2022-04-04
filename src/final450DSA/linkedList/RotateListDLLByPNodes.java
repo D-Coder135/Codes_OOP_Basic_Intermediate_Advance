@@ -18,4 +18,10 @@ public class RotateListDLLByPNodes {
             prev = null;
         }
     }
+
+    static class Solution {
+        public Node update(Node start, int p) {
+            //Write your code here
+        }
+    }
 }

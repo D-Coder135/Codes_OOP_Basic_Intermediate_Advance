@@ -5,9 +5,13 @@
  *   File: ReverseDLLInGroups
  */
 
-package final450DSA.linkedList;
+/**
+ * GFG QUESTION =>
+ * <p>
+ * Given a doubly linked list containing n nodes. The problem is to reverse every group of k nodes in the list.
+ */
 
-import org.w3c.dom.Node;
+package final450DSA.linkedList;
 
 public class ReverseDLLInGroups {
 

@@ -15,6 +15,8 @@ public class ReverseDLLInGroups {
     }
 
     static Node reverseByN(Node head, int k) {
-
+        if (head == null) {
+            return null;
+        }
     }
 }

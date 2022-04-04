@@ -24,7 +24,9 @@ public class RotateListDLLByPNodes {
             //Write your code here
             Node curr = start;
 
-            
+            for (int i = 0; i < p - 1; i++) {
+                curr = curr.next;
+            }
         }
     }
 }

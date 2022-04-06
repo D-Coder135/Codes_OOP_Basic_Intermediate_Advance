@@ -23,6 +23,9 @@ public class FlatternALinkedList {
     static class GfG {
         Node flatten(Node root) {
             // Your code here
+            if (root == null || root.next == null) {
+                return root;
+            }
         }
     }
 }

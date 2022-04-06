@@ -18,6 +18,8 @@ public class FlattenDLL {
     static class Solution {
 
         private Node flattenRecursive(Node headNode) {
+            Node curr = headNode, tail = headNode;
+
 
         }
 

@@ -51,6 +51,8 @@ public class FlattenDLL {
             if (head != null) {
                 flattenRecursive(head);
             }
+
+            return head;
         }
     }
 }

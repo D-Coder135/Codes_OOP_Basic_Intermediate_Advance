@@ -26,6 +26,8 @@ public class FlatternALinkedList {
             if (root == null || root.next == null) {
                 return root;
             }
+
+            return merge(root, flatten(root.next));
         }
     }
 }

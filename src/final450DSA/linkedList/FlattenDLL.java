@@ -14,4 +14,10 @@ public class FlattenDLL {
         public Node next;
         public Node child;
     }
+
+    static class Solution {
+        public Node flatten(Node head) {
+
+        }
+    }
 }

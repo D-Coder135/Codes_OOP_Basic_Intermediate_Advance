@@ -38,6 +38,10 @@ public class FlattenDLL {
                     curr = tail;
                 } else {
                     curr = next;
+
+                    if (curr != null) {
+                        tail = curr;
+                    }
                 }
             }
         }

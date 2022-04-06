@@ -21,7 +21,8 @@ public class FlattenDLL {
             Node curr = headNode, tail = headNode;
 
             while (curr != null) {
-
+                Node child = curr.child;
+                Node next = curr.next;
             }
         }
 

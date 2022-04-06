@@ -44,6 +44,9 @@ public class FlatternALinkedList {
             if (firstNode.data < secondNode.data) {
                 result = firstNode;
                 result.bottom = merge(firstNode.bottom, secondNode);
+            } else {
+                result = secondNode;
+                result.bottom = merge(firstNode, secondNode.bottom);
             }
 
             return null;

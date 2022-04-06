@@ -48,7 +48,9 @@ public class FlattenDLL {
         }
 
         public Node flatten(Node head) {
-
+            if (head != null) {
+                flattenRecursive(head);
+            }
         }
     }
 }

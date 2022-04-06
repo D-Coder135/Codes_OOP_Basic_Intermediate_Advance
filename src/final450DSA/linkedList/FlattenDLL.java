@@ -16,6 +16,11 @@ public class FlattenDLL {
     }
 
     static class Solution {
+
+        private Node flattenRecursive(Node headNode) {
+
+        }
+
         public Node flatten(Node head) {
 
         }

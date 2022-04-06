@@ -29,5 +29,9 @@ public class FlatternALinkedList {
 
             return merge(root, flatten(root.next));
         }
+
+        private Node merge(Node firstNode, Node secondNode) {
+            return null;
+        }
     }
 }

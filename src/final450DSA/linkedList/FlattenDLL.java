@@ -38,12 +38,13 @@ public class FlattenDLL {
                     curr = tail;
                 } else {
                     curr = next;
+                }
 
-                    if (curr != null) {
-                        tail = curr;
-                    }
+                if (curr != null) {
+                    tail = curr;
                 }
             }
+            return tail;
         }
 
         public Node flatten(Node head) {

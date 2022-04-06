@@ -19,4 +19,10 @@ public class FlatternALinkedList {
             bottom = null;
         }
     }
+
+    static class GfG {
+        Node flatten(Node root) {
+            // Your code here
+        }
+    }
 }

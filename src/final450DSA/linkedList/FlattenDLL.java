@@ -26,6 +26,11 @@ public class FlattenDLL {
 
                 if (child != null) {
                     Node _tail = flattenRecursive(child);
+                    _tail.next = next;
+
+                    if (next != null) {
+                        next.prev = _tail;
+                    }
                 }
             }
         }

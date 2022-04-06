@@ -31,6 +31,11 @@ public class FlattenDLL {
                     if (next != null) {
                         next.prev = _tail;
                     }
+
+                    curr.next = child;
+                    child.prev = curr;
+                    curr.child = null;
+                    curr = tail;
                 }
             }
         }

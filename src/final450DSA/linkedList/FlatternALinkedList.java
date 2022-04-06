@@ -34,6 +34,10 @@ public class FlatternALinkedList {
             if (firstNode == null) {
                 return secondNode;
             }
+
+            if (secondNode == null) {
+                return firstNode;
+            }
             return null;
         }
     }

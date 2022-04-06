@@ -23,6 +23,10 @@ public class FlattenDLL {
             while (curr != null) {
                 Node child = curr.child;
                 Node next = curr.next;
+
+                if (child != null) {
+                    Node _tail = flattenRecursive(child);
+                }
             }
         }
 

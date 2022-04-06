@@ -20,7 +20,9 @@ public class FlattenDLL {
         private Node flattenRecursive(Node headNode) {
             Node curr = headNode, tail = headNode;
 
+            while (curr != null) {
 
+            }
         }
 
         public Node flatten(Node head) {

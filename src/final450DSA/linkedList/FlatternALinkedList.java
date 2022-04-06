@@ -48,8 +48,8 @@ public class FlatternALinkedList {
                 result = secondNode;
                 result.bottom = merge(firstNode, secondNode.bottom);
             }
-
-            return null;
+            result.next = null;
+            return result;
         }
     }
 }

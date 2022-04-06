@@ -31,6 +31,9 @@ public class FlatternALinkedList {
         }
 
         private Node merge(Node firstNode, Node secondNode) {
+            if (firstNode == null) {
+                return secondNode;
+            }
             return null;
         }
     }

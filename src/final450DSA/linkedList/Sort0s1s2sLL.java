@@ -82,7 +82,8 @@ public class Sort0s1s2sLL {
             } else {
                 if (h1 == null) {
                     if (h2 == null) {
-
+                        t0.next = null;
+                        return h0;
                     }
                 }
             }

@@ -26,6 +26,8 @@ public class Sort0s1s2sLL {
             if (head == null || head.next == null) {
                 return head;
             }
+
+            Node curr = head;
         }
     }
 

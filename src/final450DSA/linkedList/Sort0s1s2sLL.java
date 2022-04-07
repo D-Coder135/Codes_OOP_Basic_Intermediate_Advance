@@ -89,6 +89,10 @@ public class Sort0s1s2sLL {
                         t2.next = null;
                         return h0;
                     }
+                } else {
+                    if (h2 == null) {
+
+                    }
                 }
             }
         }

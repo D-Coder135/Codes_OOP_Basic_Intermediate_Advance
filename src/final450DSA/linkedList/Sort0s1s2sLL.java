@@ -79,6 +79,12 @@ public class Sort0s1s2sLL {
                         return h1;
                     }
                 }
+            } else {
+                if (h1 == null) {
+                    if (h2 == null) {
+
+                    }
+                }
             }
         }
     }

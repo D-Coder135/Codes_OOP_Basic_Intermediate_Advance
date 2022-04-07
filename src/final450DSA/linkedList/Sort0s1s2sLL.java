@@ -22,6 +22,10 @@ public class Sort0s1s2sLL {
         //Function to sort a linked list of 0s, 1s and 2s.
         static Node segregate(Node head) {
             // add your code here
+
+            if (head == null || head.next == null) {
+                return head;
+            }
         }
     }
 

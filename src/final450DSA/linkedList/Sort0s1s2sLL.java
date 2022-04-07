@@ -30,6 +30,10 @@ public class Sort0s1s2sLL {
             Node curr = head;
             Node h0, h1, h2, t0, t1, t2;
             h0 = h1 = h2 = t0 = t1 = t2 = null;
+
+            while (curr != null) {
+
+            }
         }
     }
 

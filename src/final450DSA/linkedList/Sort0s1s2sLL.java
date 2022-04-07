@@ -8,4 +8,13 @@
 package final450DSA.linkedList;
 
 public class Sort0s1s2sLL {
+    static class Node {
+        int data;
+        Node next;
+
+        Node(int data) {
+            this.data = data;
+            next = null;
+        }
+    }
 }

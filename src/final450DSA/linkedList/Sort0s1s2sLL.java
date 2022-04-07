@@ -94,6 +94,11 @@ public class Sort0s1s2sLL {
                         t0.next = h1;
                         t1.next = null;
                         return h0;
+                    } else {
+                        t0.next = h1;
+                        t1.next = h2;
+                        t2.next = null;
+                        return h0;
                     }
                 }
             }

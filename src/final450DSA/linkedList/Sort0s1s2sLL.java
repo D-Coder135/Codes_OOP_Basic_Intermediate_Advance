@@ -73,6 +73,10 @@ public class Sort0s1s2sLL {
                     if (h2 == null) {
                         t1.next = null;
                         return h1;
+                    } else {
+                        t1.next = h2;
+                        t2.next = null;
+                        return h1;
                     }
                 }
             }

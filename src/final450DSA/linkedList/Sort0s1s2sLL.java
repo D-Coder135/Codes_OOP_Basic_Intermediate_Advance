@@ -84,7 +84,7 @@ public class Sort0s1s2sLL {
                     if (h2 == null) {
                         t0.next = null;
                         return h0;
-                    } else if (h2 != null) {
+                    } else {
                         t0.next = h2;
                         t2.next = null;
                         return h0;
@@ -102,7 +102,6 @@ public class Sort0s1s2sLL {
                     }
                 }
             }
-            return head;
         }
     }
 

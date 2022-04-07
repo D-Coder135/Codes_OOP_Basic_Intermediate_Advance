@@ -52,6 +52,9 @@ public class Sort0s1s2sLL {
                     if (h2 == null) {
                         h2 = curr;
                         t2 = curr;
+                    } else {
+                        t2.next = curr;
+                        t2 = t2.next;
                     }
                 }
             }

@@ -40,6 +40,8 @@ public class Sort0s1s2sLL {
                         t0.next = curr;
                         t0 = t0.next;
                     }
+                } else if (curr.data == 1) {
+
                 }
             }
         }

@@ -65,6 +65,9 @@ public class Sort0s1s2sLL {
                 if (h1 == null) {
                     if (h2 == null) {
                         return head;
+                    } else {
+                        t2.next = null;
+                        return h2;
                     }
                 }
             }

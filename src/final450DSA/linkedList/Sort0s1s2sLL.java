@@ -49,7 +49,10 @@ public class Sort0s1s2sLL {
                         t1 = t1.next;
                     }
                 } else if (curr.data == 2) {
-
+                    if (h2 == null) {
+                        h2 = curr;
+                        t2 = curr;
+                    }
                 }
             }
         }

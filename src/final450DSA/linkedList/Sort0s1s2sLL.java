@@ -28,77 +28,77 @@ public class Sort0s1s2sLL {
             }
 
             Node curr = head;
-            Node h0, h1, h2, t0, t1, t2;
-            h0 = h1 = h2 = t0 = t1 = t2 = null;
+            Node head0, head1, head2, temp0, temp1, temp2;
+            head0 = head1 = head2 = temp0 = temp1 = temp2 = null;
 
             while (curr != null) {
                 if (curr.data == 0) {
-                    if (h0 == null) {
-                        h0 = curr;
-                        t0 = curr;
+                    if (head0 == null) {
+                        head0 = curr;
+                        temp0 = curr;
                     } else {
-                        t0.next = curr;
-                        t0 = t0.next;
+                        temp0.next = curr;
+                        temp0 = temp0.next;
                     }
                 } else if (curr.data == 1) {
-                    if (h1 == null) {
-                        h1 = curr;
-                        t1 = curr;
+                    if (head1 == null) {
+                        head1 = curr;
+                        temp1 = curr;
                     } else {
-                        t1.next = curr;
-                        t1 = t1.next;
+                        temp1.next = curr;
+                        temp1 = temp1.next;
                     }
                 } else if (curr.data == 2) {
-                    if (h2 == null) {
-                        h2 = curr;
-                        t2 = curr;
+                    if (head2 == null) {
+                        head2 = curr;
+                        temp2 = curr;
                     } else {
-                        t2.next = curr;
-                        t2 = t2.next;
+                        temp2.next = curr;
+                        temp2 = temp2.next;
                     }
                 }
 
                 curr = curr.next;
             }
 
-            if (h0 == null) {
-                if (h1 == null) {
-                    if (h2 == null) {
+            if (head0 == null) {
+                if (head1 == null) {
+                    if (head2 == null) {
                         return head;
                     } else {
-                        t2.next = null;
-                        return h2;
+                        temp2.next = null;
+                        return head2;
                     }
                 } else {
-                    if (h2 == null) {
-                        t1.next = null;
-                        return h1;
+                    if (head2 == null) {
+                        temp1.next = null;
+                        return head1;
                     } else {
-                        t1.next = h2;
-                        t2.next = null;
-                        return h1;
+                        temp1.next = head2;
+                        temp2.next = null;
+                        return head1;
                     }
                 }
             } else {
-                if (h1 == null) {
-                    if (h2 == null) {
-                        t0.next = null;
-                        return h0;
+                if (head1 == null) {
+                    if (head2 == null) {
+                        temp0.next = null;
+                        return head0;
                     } else {
-                        t0.next = h2;
-                        t2.next = null;
-                        return h0;
+                        temp0.next = head2;
+                        temp2.next = null;
+                        return head0;
                     }
                 } else {
-                    if (h2 == null) {
-                        t0.next = h1;
-                        t1.next = null;
-                        return h0;
+                    if (head2 == null) {
+                        temp0.next = head1;
+                        temp1.next = null;
+                        return head0;
                     } else {
-                        t0.next = h1;
-                        t1.next = h2;
-                        t2.next = null;
-                        return h0;
+                        temp0.next = head1;
+                        temp1.next = head2;
+                        temp2.next = null;
+                        return head0;
                     }
                 }
             }

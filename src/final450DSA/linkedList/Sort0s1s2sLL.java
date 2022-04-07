@@ -48,6 +48,8 @@ public class Sort0s1s2sLL {
                         t1.next = curr;
                         t1 = t1.next;
                     }
+                } else if (curr.data == 2) {
+
                 }
             }
         }

@@ -41,7 +41,10 @@ public class Sort0s1s2sLL {
                         t0 = t0.next;
                     }
                 } else if (curr.data == 1) {
-
+                    if (h1 == null) {
+                        h1 = curr;
+                        t1 = curr;
+                    }
                 }
             }
         }

@@ -60,6 +60,14 @@ public class Sort0s1s2sLL {
 
                 curr = curr.next;
             }
+
+            if (h0 == null) {
+                if (h1 == null) {
+                    if (h2 == null) {
+                        return head;
+                    }
+                }
+            }
         }
     }
 

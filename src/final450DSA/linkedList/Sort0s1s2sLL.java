@@ -44,6 +44,9 @@ public class Sort0s1s2sLL {
                     if (h1 == null) {
                         h1 = curr;
                         t1 = curr;
+                    } else {
+                        t1.next = curr;
+                        t1 = t1.next;
                     }
                 }
             }

@@ -71,7 +71,8 @@ public class Sort0s1s2sLL {
                     }
                 } else {
                     if (h2 == null) {
-
+                        t1.next = null;
+                        return h1;
                     }
                 }
             }

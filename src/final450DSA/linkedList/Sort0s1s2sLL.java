@@ -32,7 +32,9 @@ public class Sort0s1s2sLL {
             h0 = h1 = h2 = t0 = t1 = t2 = null;
 
             while (curr != null) {
+                if (curr.data == 0) {
 
+                }
             }
         }
     }

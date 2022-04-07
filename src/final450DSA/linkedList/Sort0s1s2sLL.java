@@ -57,6 +57,8 @@ public class Sort0s1s2sLL {
                         t2 = t2.next;
                     }
                 }
+
+                curr = curr.next;
             }
         }
     }

@@ -7,6 +7,8 @@
 
 package final450DSA.linkedList;
 
+import java.util.HashMap;
+
 public class CopyListWithRandomPointers {
     static class Node {
         int val;
@@ -22,6 +24,7 @@ public class CopyListWithRandomPointers {
 
     static class Solution {
         public Node copyRandomList(Node head) {
+            HashMap<Node, Node> map = new HashMap<>();
 
         }
     }

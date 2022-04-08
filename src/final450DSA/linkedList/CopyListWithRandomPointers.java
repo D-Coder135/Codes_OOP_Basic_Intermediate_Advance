@@ -25,7 +25,9 @@ public class CopyListWithRandomPointers {
     static class Solution {
         public Node copyRandomList(Node head) {
             HashMap<Node, Node> map = new HashMap<>();
-
+            Node curr = head;
+            Node newHead = new Node(-1);
+            Node prev = newHead;
         }
     }
 

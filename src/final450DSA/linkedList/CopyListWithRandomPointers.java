@@ -41,6 +41,15 @@ public class CopyListWithRandomPointers {
             newHead = newHead.next;
             Node temp1 = head;
             Node temp2 = newHead;
+
+            while (temp1 != null) {
+                temp2.random = temp1.random != null ? map.get(temp1.random) : null;
+
+                temp1 = temp1.next;
+                temp2 = temp2.next;
+            }
+
+
         }
     }
 

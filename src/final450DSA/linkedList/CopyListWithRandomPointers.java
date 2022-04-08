@@ -49,7 +49,7 @@ public class CopyListWithRandomPointers {
                 temp2 = temp2.next;
             }
 
-
+            return newHead;
         }
     }
 

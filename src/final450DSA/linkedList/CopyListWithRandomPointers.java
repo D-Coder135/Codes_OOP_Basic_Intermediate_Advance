@@ -28,6 +28,15 @@ public class CopyListWithRandomPointers {
             Node curr = head;
             Node newHead = new Node(-1);
             Node prev = newHead;
+
+            while (curr != null) {
+                Node newNode = new Node(curr.val);
+                prev.next = newNode;
+
+                map.put(curr, newNode);
+                prev = prev.next;
+                curr = curr.next;
+            }
         }
     }
 

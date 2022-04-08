@@ -19,4 +19,11 @@ public class CopyListWithRandomPointers {
             this.random = null;
         }
     }
+
+    static class Solution {
+        public Node copyRandomList(Node head) {
+
+        }
+    }
+
 }

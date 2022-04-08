@@ -37,6 +37,10 @@ public class CopyListWithRandomPointers {
                 prev = prev.next;
                 curr = curr.next;
             }
+
+            newHead = newHead.next;
+            Node temp1 = head;
+            Node temp2 = newHead;
         }
     }
 

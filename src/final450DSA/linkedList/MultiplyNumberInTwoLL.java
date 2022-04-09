@@ -22,20 +22,8 @@ public class MultiplyNumberInTwoLL {
         /*You are required to complete this method */
         public long multiplyTwoLists(Node l1, Node l2) {
             //add code here.
-            StringBuilder str1 = new StringBuilder();
-            StringBuilder str2 = new StringBuilder();
-
-            while (l1 != null) {
-                str1.append(l1.data);
-                l1 = l1.next;
-            }
-
-            while (l2 != null) {
-                str2.append(l2.data);
-                l2 = l2.next;
-            }
-
-            return ((Long.parseLong(str1.toString()) * Long.parseLong(str2.toString())) % 1000000007);
+            long mod = 1000000007;
+            long num1 = 0, num2 = 0;
         }
     }
 }

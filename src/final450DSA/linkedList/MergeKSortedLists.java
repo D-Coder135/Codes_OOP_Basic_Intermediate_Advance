@@ -24,4 +24,10 @@ public class MergeKSortedLists {
             this.next = next;
         }
     }
+
+    static class Solution {
+        public ListNode mergeKLists(ListNode[] lists) {
+
+        }
+    }
 }

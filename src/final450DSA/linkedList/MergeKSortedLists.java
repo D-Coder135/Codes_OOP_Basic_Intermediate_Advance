@@ -7,6 +7,8 @@
 
 package final450DSA.linkedList;
 
+import java.util.ArrayList;
+
 public class MergeKSortedLists {
     public static class ListNode {
         int val;
@@ -30,6 +32,8 @@ public class MergeKSortedLists {
             if (lists.length == 0) {
                 return null;
             }
+
+            ArrayList<Integer> list = new ArrayList<>();
         }
     }
 }

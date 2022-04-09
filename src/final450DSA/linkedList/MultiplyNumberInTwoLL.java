@@ -30,7 +30,12 @@ public class MultiplyNumberInTwoLL {
                     num1 = ((num1 * 10) % mod) + l1.data;
                     l1 = l1.next;
                 }
+                if (l2 != null) {
+                    num2 = ((num2 * 10) % mod) + l2.data;
+                    l2 = l2.next;
+                }
             }
+            return ((num1 % mod) * (num2 % mod) % mod);
         }
     }
 }

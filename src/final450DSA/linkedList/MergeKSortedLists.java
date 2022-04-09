@@ -53,6 +53,8 @@ public class MergeKSortedLists {
                 curr.next = new ListNode(list.get(i));
                 curr = curr.next;
             }
+
+            return head;
         }
     }
 }

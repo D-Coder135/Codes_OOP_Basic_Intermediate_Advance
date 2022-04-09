@@ -24,6 +24,10 @@ public class MultiplyNumberInTwoLL {
             //add code here.
             long mod = 1000000007;
             long num1 = 0, num2 = 0;
+
+            while (l1 != null || l2 != null) {
+
+            }
         }
     }
 }

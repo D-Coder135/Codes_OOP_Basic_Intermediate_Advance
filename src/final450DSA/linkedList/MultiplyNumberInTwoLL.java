@@ -26,7 +26,10 @@ public class MultiplyNumberInTwoLL {
             long num1 = 0, num2 = 0;
 
             while (l1 != null || l2 != null) {
-
+                if (l1 != null) {
+                    num1 = ((num1 * 10) % mod) + l1.data;
+                    l1 = l1.next;
+                }
             }
         }
     }

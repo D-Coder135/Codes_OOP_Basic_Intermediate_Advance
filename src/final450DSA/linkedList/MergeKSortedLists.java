@@ -45,6 +45,9 @@ public class MergeKSortedLists {
             }
 
             Collections.sort(list);
+
+            ListNode head = new ListNode(list.get(0));
+            ListNode curr = head;
         }
     }
 }

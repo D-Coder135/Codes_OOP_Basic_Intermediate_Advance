@@ -46,6 +46,10 @@ public class MergeKSortedLists {
 
             Collections.sort(list);
 
+            if (list.size() == 0) {
+                return null;
+            }
+
             ListNode head = new ListNode(list.get(0));
             ListNode curr = head;
 

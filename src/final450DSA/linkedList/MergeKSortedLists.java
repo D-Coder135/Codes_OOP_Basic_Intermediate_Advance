@@ -8,6 +8,7 @@
 package final450DSA.linkedList;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class MergeKSortedLists {
     public static class ListNode {
@@ -42,6 +43,8 @@ public class MergeKSortedLists {
                     curr = curr.next;
                 }
             }
+
+            Collections.sort(list);
         }
     }
 }

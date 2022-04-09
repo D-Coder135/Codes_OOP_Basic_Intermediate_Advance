@@ -48,6 +48,11 @@ public class MergeKSortedLists {
 
             ListNode head = new ListNode(list.get(0));
             ListNode curr = head;
+
+            for (int i = 1; i < list.size(); i++) {
+                curr.next = new ListNode(list.get(i));
+                curr = curr.next;
+            }
         }
     }
 }

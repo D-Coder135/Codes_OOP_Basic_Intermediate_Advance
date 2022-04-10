@@ -34,6 +34,14 @@ public class DeleteNodesHavingGreaterValueOnRight {
             Node res = new Node(-1);
             Node ans = res;
             Node tempNode = prev;
+
+            while (tempNode != null) {
+                if (tempNode.data >= max) {
+                    res.next = new Node(tempNode.data);
+                    res = res.next;
+                    max = tempNode.data;
+                }
+            }
         }
     }
 }

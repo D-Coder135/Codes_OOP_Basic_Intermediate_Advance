@@ -5,6 +5,30 @@
  *   File: RemoveLinkedListElement
  */
 
+/**
+ * LEETCODE QUESTION 203 =>
+ * <p>
+ * Given the head of a linked list and an integer val, remove all the nodes of the linked list
+ * that has Node.val == val, and return the new head.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: head = [1,2,6,3,4,5,6], val = 6
+ * Output: [1,2,3,4,5]
+ * <p>
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: head = [], val = 1
+ * Output: []
+ * <p>
+ * <p>
+ * Example 3:
+ * <p>
+ * Input: head = [7,7,7,7], val = 7
+ * Output: []
+ */
+
 package final450DSA.linkedList;
 
 public class RemoveLinkedListElement {

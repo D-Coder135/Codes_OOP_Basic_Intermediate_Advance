@@ -31,6 +31,7 @@ public class DeleteNodesHavingGreaterValueOnRight {
             }
 
             int max = prev.data;
+            Node res = new Node(-1);
         }
     }
 }

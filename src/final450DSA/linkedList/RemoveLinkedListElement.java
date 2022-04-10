@@ -32,6 +32,10 @@ public class RemoveLinkedListElement {
             }
 
             ListNode curr = head;
+
+            while (curr != null) {
+
+            }
         }
     }
 }

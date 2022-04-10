@@ -8,4 +8,12 @@
 package final450DSA.linkedList;
 
 public class DeleteNodesHavingGreaterValueOnRight {
+    static class Node {
+        int data;
+        Node next;
+
+        Node(int data) {
+            this.data = data;
+        }
+    }
 }

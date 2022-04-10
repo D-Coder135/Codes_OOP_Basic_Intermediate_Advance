@@ -43,6 +43,9 @@ public class DeleteNodesHavingGreaterValueOnRight {
                 }
                 tempNode = tempNode.next;
             }
+
+            Node curr1 = ans.next;
+            Node prev1 = null;
         }
     }
 }

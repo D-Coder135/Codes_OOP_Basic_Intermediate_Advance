@@ -16,4 +16,10 @@ public class DeleteNodesHavingGreaterValueOnRight {
             this.data = data;
         }
     }
+
+    static class Solution {
+        Node compute(Node head) {
+            // your code here
+        }
+    }
 }

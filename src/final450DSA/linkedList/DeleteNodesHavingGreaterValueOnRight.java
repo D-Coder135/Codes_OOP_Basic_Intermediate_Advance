@@ -29,6 +29,8 @@ public class DeleteNodesHavingGreaterValueOnRight {
                 prev = curr;
                 curr = temp;
             }
+
+            int max = prev.data;
         }
     }
 }

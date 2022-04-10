@@ -53,6 +53,7 @@ public class DeleteNodesHavingGreaterValueOnRight {
                 prev1 = curr1;
                 curr1 = temp1;
             }
+            return prev1;
         }
     }
 }

@@ -27,7 +27,9 @@ public class RemoveLinkedListElement {
 
     static class Solution {
         public ListNode removeElements(ListNode head, int val) {
-
+            while (head != null && head.val == val) {
+                head = head.next;
+            }
         }
     }
 }

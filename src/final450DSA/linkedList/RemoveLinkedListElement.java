@@ -30,6 +30,8 @@ public class RemoveLinkedListElement {
             while (head != null && head.val == val) {
                 head = head.next;
             }
+
+            ListNode curr = head;
         }
     }
 }

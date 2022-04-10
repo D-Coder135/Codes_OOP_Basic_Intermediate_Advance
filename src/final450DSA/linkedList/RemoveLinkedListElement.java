@@ -40,6 +40,8 @@ public class RemoveLinkedListElement {
                     curr = curr.next;
                 }
             }
+
+            return head;
         }
     }
 }

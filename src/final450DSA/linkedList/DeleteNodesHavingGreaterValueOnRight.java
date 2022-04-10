@@ -41,6 +41,7 @@ public class DeleteNodesHavingGreaterValueOnRight {
                     res = res.next;
                     max = tempNode.data;
                 }
+                tempNode = tempNode.next;
             }
         }
     }

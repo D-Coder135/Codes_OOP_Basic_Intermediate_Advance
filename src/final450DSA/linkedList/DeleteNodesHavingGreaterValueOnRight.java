@@ -20,6 +20,8 @@ public class DeleteNodesHavingGreaterValueOnRight {
     static class Solution {
         Node compute(Node head) {
             // your code here
+            Node curr = head;
+            Node prev = null;
         }
     }
 }

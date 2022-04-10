@@ -24,4 +24,10 @@ public class RemoveLinkedListElement {
             this.next = next;
         }
     }
+
+    static class Solution {
+        public ListNode removeElements(ListNode head, int val) {
+
+        }
+    }
 }

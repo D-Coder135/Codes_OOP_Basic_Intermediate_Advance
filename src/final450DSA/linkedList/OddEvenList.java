@@ -24,4 +24,10 @@ public class OddEvenList {
             this.next = next;
         }
     }
+
+    static class Solution {
+        public ListNode oddEvenList(ListNode head) {
+
+        }
+    }
 }

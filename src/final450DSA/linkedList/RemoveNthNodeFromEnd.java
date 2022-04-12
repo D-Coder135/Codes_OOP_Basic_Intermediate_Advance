@@ -24,4 +24,36 @@ public class RemoveNthNodeFromEnd {
             this.next = next;
         }
     }
+
+    static class Solution {
+        public ListNode removeNthFromEnd(ListNode head, int n) {
+            if (head.next == null) {
+                return null;
+            }
+            ListNode curr = head;
+            int counter = 0;
+
+            while (counter < n && curr != null) {
+                curr = curr.next;
+                counter++;
+            }
+
+            if (curr == null) {
+                return head.next;
+            }
+
+            ListNode slow = head, prev = null;
+
+            while (curr != null) {
+                curr = curr.next;
+
+                prev = slow;
+                slow = slow.next;
+            }
+            prev.next = slow.next;
+
+            return head;
+        }
+    }
+
 }

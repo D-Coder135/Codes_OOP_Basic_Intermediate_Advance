@@ -27,7 +27,10 @@ public class SegregateEvenOddNodes {
             Node startingOddNode = odd;
 
             while (head != null) {
-
+                if (head.data % 2 == 0) {
+                    even.next = head;
+                    even = even.next;
+                }
             }
         }
     }

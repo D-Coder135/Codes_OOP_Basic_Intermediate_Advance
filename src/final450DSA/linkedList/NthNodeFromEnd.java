@@ -29,6 +29,9 @@ public class NthNodeFromEnd {
                 temp = temp.next;
                 length++;
             }
+
+            temp = head;
+
         }
     }
 }

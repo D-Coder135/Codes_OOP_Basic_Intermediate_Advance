@@ -22,6 +22,8 @@ public class NthNodeFromEnd {
         //Function to find the data of nth node from the end of a linked list.
         int getNthFromLast(Node head, int n) {
             // Your code here
+            Node temp = head;
+
         }
     }
 }

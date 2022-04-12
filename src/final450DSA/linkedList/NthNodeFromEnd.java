@@ -32,6 +32,10 @@ public class NthNodeFromEnd {
 
             temp = head;
             int diff = length - n;
+
+            if (diff < 0) {
+                return -1;
+            }
         }
     }
 }

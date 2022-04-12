@@ -21,6 +21,8 @@ public class SegregateEvenOddNodes {
     static class Solution {
         Node divide(int N, Node head) {
             // code here
+            Node even = new Node(-1);
+            Node odd = new Node(-1);
         }
     }
 }

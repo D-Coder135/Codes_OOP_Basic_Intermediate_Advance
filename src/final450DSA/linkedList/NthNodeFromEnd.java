@@ -24,6 +24,11 @@ public class NthNodeFromEnd {
             // Your code here
             Node temp = head;
             int length = 0;
+
+            while (temp != null) {
+                temp = temp.next;
+                length++;
+            }
         }
     }
 }

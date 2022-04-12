@@ -30,6 +30,9 @@ public class SegregateEvenOddNodes {
                 if (head.data % 2 == 0) {
                     even.next = head;
                     even = even.next;
+                } else {
+                    odd.next = head;
+                    odd = odd.next;
                 }
             }
         }

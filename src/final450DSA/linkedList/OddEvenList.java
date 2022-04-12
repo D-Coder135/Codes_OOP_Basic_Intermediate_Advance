@@ -51,7 +51,7 @@ public class OddEvenList {
     static class Solution {
         public ListNode oddEvenList(ListNode head) {
             if (head == null) {
-                return head;
+                return null;
             }
 
             ListNode odd = head;

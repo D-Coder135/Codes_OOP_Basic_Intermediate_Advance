@@ -25,6 +25,10 @@ public class SegregateEvenOddNodes {
             Node odd = new Node(-1);
             Node startingEvenNode = even;
             Node startingOddNode = odd;
+
+            while (head != null) {
+
+            }
         }
     }
 }

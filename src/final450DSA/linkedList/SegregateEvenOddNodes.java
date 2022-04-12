@@ -8,4 +8,13 @@
 package final450DSA.linkedList;
 
 public class SegregateEvenOddNodes {
+    static class Node {
+        int data;
+        Node next;
+
+        Node(int x) {
+            data = x;
+            next = null;
+        }
+    }
 }

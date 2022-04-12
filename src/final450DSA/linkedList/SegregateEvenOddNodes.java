@@ -34,6 +34,7 @@ public class SegregateEvenOddNodes {
                     odd.next = head;
                     odd = odd.next;
                 }
+                head = head.next;
             }
         }
     }

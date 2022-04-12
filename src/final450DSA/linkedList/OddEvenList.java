@@ -34,6 +34,13 @@ public class OddEvenList {
             ListNode odd = head;
             ListNode even = head.next;
             ListNode ans = even;
+
+            while (even != null && even.next != null) {
+                odd.next = odd.next.next;
+                even.next = even.next.next;
+                odd = odd.next;
+                even = even.next;
+            }
         }
     }
 }

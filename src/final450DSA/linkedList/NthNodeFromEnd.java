@@ -40,6 +40,8 @@ public class NthNodeFromEnd {
             while (diff-- > 0) {
                 temp = temp.next;
             }
+
+            return temp.data;
         }
     }
 }

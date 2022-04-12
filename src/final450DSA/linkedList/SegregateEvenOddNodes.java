@@ -36,6 +36,9 @@ public class SegregateEvenOddNodes {
                 }
                 head = head.next;
             }
+
+            even.next = startingOddNode.next;
+            odd.next = null;
         }
     }
 }

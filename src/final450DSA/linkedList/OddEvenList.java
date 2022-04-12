@@ -42,6 +42,8 @@ public class OddEvenList {
                 even = even.next;
             }
             odd.next = ans;
+
+            return head;
         }
     }
 }

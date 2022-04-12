@@ -23,6 +23,8 @@ public class SegregateEvenOddNodes {
             // code here
             Node even = new Node(-1);
             Node odd = new Node(-1);
+            Node startingEvenNode = even;
+            Node startingOddNode = odd;
         }
     }
 }

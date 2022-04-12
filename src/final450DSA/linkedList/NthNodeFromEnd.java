@@ -36,6 +36,10 @@ public class NthNodeFromEnd {
             if (diff < 0) {
                 return -1;
             }
+
+            while (diff-- > 0) {
+                temp = temp.next;
+            }
         }
     }
 }

@@ -31,7 +31,7 @@ public class NthNodeFromEnd {
             }
 
             temp = head;
-
+            int diff = length - n;
         }
     }
 }

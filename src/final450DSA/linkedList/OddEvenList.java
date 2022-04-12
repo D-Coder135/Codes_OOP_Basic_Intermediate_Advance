@@ -30,6 +30,10 @@ public class OddEvenList {
             if (head == null) {
                 return head;
             }
+
+            ListNode odd = head;
+            ListNode even = head.next;
+            ListNode ans = even;
         }
     }
 }

@@ -17,4 +17,10 @@ public class SegregateEvenOddNodes {
             next = null;
         }
     }
+
+    static class Solution {
+        Node divide(int N, Node head) {
+            // code here
+        }
+    }
 }

@@ -23,7 +23,7 @@ public class NthNodeFromEnd {
         int getNthFromLast(Node head, int n) {
             // Your code here
             Node temp = head;
-
+            int length = 0;
         }
     }
 }

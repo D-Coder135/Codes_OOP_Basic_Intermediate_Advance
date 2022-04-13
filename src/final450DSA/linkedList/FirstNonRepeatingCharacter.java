@@ -35,6 +35,8 @@ public class FirstNonRepeatingCharacter {
 
                 if (queue.size() == 0) {
                     str.append("#");
+                } else {
+                    str.append(queue.peek());
                 }
             }
         }

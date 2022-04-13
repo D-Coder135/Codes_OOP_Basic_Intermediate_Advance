@@ -8,9 +8,6 @@
 package final450DSA.linkedList;
 
 import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Queue;
 
 public class FirstUniqueCharacter {
     static class Solution {

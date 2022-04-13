@@ -26,7 +26,7 @@
  * Output: -1
  */
 
-package final450DSA.linkedList;
+package leetCodes;
 
 import java.util.HashMap;
 

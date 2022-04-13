@@ -24,6 +24,7 @@ public class FirstNonRepeatingCharacter {
 
                 if (!map.containsKey(ch)) {
                     map.put(ch, 1);
+                    queue.add(ch);
                 }
             }
         }

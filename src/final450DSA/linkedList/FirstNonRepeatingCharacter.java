@@ -8,4 +8,9 @@
 package final450DSA.linkedList;
 
 public class FirstNonRepeatingCharacter {
+    static class Solution {
+        public String FirstNonRepeating(String A) {
+            // code here
+        }
+    }
 }

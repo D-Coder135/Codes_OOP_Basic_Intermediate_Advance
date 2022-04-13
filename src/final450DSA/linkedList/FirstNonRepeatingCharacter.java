@@ -22,7 +22,9 @@ public class FirstNonRepeatingCharacter {
             for (int i = 0; i < A.length(); i++) {
                 char ch = A.charAt(i);
 
-
+                if (!map.containsKey(ch)) {
+                    map.put(ch, 1);
+                }
             }
         }
     }

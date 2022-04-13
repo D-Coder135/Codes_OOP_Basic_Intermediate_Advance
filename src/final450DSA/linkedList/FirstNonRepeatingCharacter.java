@@ -8,12 +8,15 @@
 package final450DSA.linkedList;
 
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class FirstNonRepeatingCharacter {
     static class Solution {
         public String FirstNonRepeating(String A) {
             // code here
             HashMap<Character, Integer> map = new HashMap<>();
+            Queue<Integer> queue = new LinkedList<>();
         }
     }
 }

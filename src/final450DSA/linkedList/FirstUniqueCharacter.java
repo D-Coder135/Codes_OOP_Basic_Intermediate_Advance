@@ -10,7 +10,9 @@ package final450DSA.linkedList;
 public class FirstUniqueCharacter {
     static class Solution {
         public int firstUniqChar(String s) {
-
+            if (s.isEmpty() || s.isBlank()) {
+                return -1;
+            }
         }
     }
 }

@@ -17,6 +17,7 @@ public class FirstNonRepeatingCharacter {
             // code here
             HashMap<Character, Integer> map = new HashMap<>();
             Queue<Integer> queue = new LinkedList<>();
+            StringBuilder str = new StringBuilder();
         }
     }
 }

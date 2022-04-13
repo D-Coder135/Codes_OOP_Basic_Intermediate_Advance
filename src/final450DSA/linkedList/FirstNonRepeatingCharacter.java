@@ -32,6 +32,10 @@ public class FirstNonRepeatingCharacter {
                 while (queue.size() > 0 && map.get(queue.peek()) != 1) {
                     queue.poll();
                 }
+
+                if (queue.size() == 0) {
+                    str.append("#");
+                }
             }
         }
     }

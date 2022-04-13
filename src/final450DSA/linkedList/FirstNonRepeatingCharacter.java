@@ -39,6 +39,7 @@ public class FirstNonRepeatingCharacter {
                     str.append(queue.peek());
                 }
             }
+            return str.toString();
         }
     }
 }

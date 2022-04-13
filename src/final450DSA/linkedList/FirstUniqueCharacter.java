@@ -5,6 +5,27 @@
  *   File: FirstUniqueCharacter
  */
 
+/**
+ * LEETCODE QUESTION 387 =>
+ * <p>
+ * Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: s = "leetcode"
+ * Output: 0
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: s = "loveleetcode"
+ * Output: 2
+ * <p>
+ * Example 3:
+ * <p>
+ * Input: s = "aabb"
+ * Output: -1
+ */
+
 package final450DSA.linkedList;
 
 import java.util.HashMap;

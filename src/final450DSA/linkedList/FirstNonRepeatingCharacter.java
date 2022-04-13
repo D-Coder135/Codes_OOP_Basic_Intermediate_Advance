@@ -16,7 +16,7 @@ public class FirstNonRepeatingCharacter {
         public String FirstNonRepeating(String A) {
             // code here
             HashMap<Character, Integer> map = new HashMap<>();
-            Queue<Integer> queue = new LinkedList<>();
+            Queue<Character> queue = new LinkedList<>();
             StringBuilder str = new StringBuilder();
 
             for (int i = 0; i < A.length(); i++) {

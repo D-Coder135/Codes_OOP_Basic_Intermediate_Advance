@@ -28,6 +28,10 @@ public class FirstNonRepeatingCharacter {
                 } else {
                     map.put(ch, 2);
                 }
+
+                while (queue.size() > 0 && map.get(queue.peek()) != 1) {
+                    queue.poll();
+                }
             }
         }
     }

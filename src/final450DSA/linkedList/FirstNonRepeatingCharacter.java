@@ -18,6 +18,12 @@ public class FirstNonRepeatingCharacter {
             HashMap<Character, Integer> map = new HashMap<>();
             Queue<Integer> queue = new LinkedList<>();
             StringBuilder str = new StringBuilder();
+
+            for (int i = 0; i < A.length(); i++) {
+                char ch = A.charAt(i);
+
+
+            }
         }
     }
 }

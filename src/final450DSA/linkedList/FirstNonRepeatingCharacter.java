@@ -7,10 +7,13 @@
 
 package final450DSA.linkedList;
 
+import java.util.HashMap;
+
 public class FirstNonRepeatingCharacter {
     static class Solution {
         public String FirstNonRepeating(String A) {
             // code here
+            HashMap<Character, Integer> map = new HashMap<>();
         }
     }
 }

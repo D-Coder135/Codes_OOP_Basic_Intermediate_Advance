@@ -36,6 +36,8 @@ public class QueueImplementation {
     }
 
     int dequeue() {
-
+        if (isEmpty(this)) {
+            return Integer.MIN_VALUE;
+        }
     }
 }

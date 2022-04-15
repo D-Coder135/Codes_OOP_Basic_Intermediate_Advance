@@ -39,5 +39,8 @@ public class QueueImplementation {
         if (isEmpty(this)) {
             return Integer.MIN_VALUE;
         }
+
+        int item = this.array[this.front];
+
     }
 }

@@ -17,4 +17,8 @@ public class StackImplementation {
         stackArray = new long[maxSize];
         top = -1;
     }
+
+    public void push(long j) {
+
+    }
 }

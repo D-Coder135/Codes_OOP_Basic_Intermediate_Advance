@@ -21,4 +21,8 @@ public class StackImplementation {
     public void push(long j) {
         stackArray[++top] = j;
     }
+
+    public long pop() {
+
+    }
 }

@@ -30,5 +30,6 @@ public class QueueImplementation {
         if (isFull(this)) {
             return;
         }
+        this.rear = (this.rear + 1) % this.capacity;
     }
 }

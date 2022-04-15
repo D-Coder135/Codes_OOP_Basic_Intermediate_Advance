@@ -11,4 +11,8 @@ public class StackImplementation {
     private int maxSize;
     private int top;
     private long[] stackArray;
+
+    public StackImplementation(int maxSize) {
+        this.maxSize = maxSize;
+    }
 }

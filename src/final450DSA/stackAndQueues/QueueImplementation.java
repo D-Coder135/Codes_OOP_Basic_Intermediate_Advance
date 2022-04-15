@@ -9,4 +9,5 @@ package final450DSA.stackAndQueues;
 
 public class QueueImplementation {
     int front, rear, size, capacity;
+    int[] array;
 }

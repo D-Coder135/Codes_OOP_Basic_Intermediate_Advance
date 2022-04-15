@@ -27,6 +27,8 @@ public class QueueImplementation {
     }
 
     void enqueue(int item) {
-
+        if (isFull(this)) {
+            return;
+        }
     }
 }

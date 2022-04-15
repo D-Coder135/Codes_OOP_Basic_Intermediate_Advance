@@ -14,5 +14,7 @@ public class StackImplementation {
 
     public StackImplementation(int maxSize) {
         this.maxSize = maxSize;
+        stackArray = new long[maxSize];
+        top = -1;
     }
 }

@@ -19,6 +19,6 @@ public class QueueImplementation {
     }
 
     boolean isFull(QueueImplementation queue) {
-        
+        return queue.size == queue.capacity;
     }
 }

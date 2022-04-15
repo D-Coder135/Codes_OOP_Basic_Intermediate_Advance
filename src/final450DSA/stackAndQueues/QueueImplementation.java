@@ -31,5 +31,6 @@ public class QueueImplementation {
             return;
         }
         this.rear = (this.rear + 1) % this.capacity;
+        this.array[this.rear] = item;
     }
 }

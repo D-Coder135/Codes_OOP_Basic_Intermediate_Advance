@@ -13,5 +13,8 @@ public class QueueImplementation {
 
     public QueueImplementation(int capacity) {
         this.capacity = capacity;
+        front = this.size = 0;
+        rear = capacity - 1;
+        array = new int[this.capacity];
     }
 }

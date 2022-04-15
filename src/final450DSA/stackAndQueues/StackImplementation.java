@@ -8,4 +8,6 @@
 package final450DSA.stackAndQueues;
 
 public class StackImplementation {
+    private int maxSize;
+    private int top;
 }

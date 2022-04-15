@@ -17,4 +17,8 @@ public class QueueImplementation {
         rear = capacity - 1;
         array = new int[this.capacity];
     }
+
+    boolean isFull(QueueImplementation queue) {
+        
+    }
 }

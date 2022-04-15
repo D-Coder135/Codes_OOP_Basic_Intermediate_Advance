@@ -34,4 +34,8 @@ public class QueueImplementation {
         this.array[this.rear] = item;
         this.size = this.size + 1;
     }
+
+    int dequeue() {
+
+    }
 }

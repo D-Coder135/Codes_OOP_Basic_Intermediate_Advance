@@ -31,6 +31,6 @@ public class StackImplementation {
     }
 
     public boolean isEmpty() {
-
+        return top == maxSize - 1;
     }
 }

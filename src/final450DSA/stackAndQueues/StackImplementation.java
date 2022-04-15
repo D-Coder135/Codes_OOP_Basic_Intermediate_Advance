@@ -27,6 +27,6 @@ public class StackImplementation {
     }
 
     public long peek() {
-
+        return stackArray[top];
     }
 }

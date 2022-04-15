@@ -25,4 +25,8 @@ public class StackImplementation {
     public long pop() {
         return stackArray[top--];
     }
+
+    public long peek() {
+
+    }
 }

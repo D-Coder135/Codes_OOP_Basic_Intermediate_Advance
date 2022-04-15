@@ -23,6 +23,6 @@ public class QueueImplementation {
     }
 
     boolean isEmpty(QueueImplementation queue) {
-
+        return queue.size == 0;
     }
 }

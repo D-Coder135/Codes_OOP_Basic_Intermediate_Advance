@@ -24,7 +24,8 @@ public class ImplementTwoStacksInAnArray {
     static class Stacks {
         //Function to push an integer into the stack1.
         void push1(int x, TwoStack sq) {
-
+            sq.arr[sq.top1 + 1] = x;
+            sq.top1 = sq.top1 + 1;
         }
 
         //Function to push an integer into the stack2.

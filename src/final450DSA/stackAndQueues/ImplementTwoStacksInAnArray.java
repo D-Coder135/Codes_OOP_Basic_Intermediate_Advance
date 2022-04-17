@@ -30,7 +30,8 @@ public class ImplementTwoStacksInAnArray {
 
         //Function to push an integer into the stack2.
         void push2(int x, TwoStack sq) {
-
+            sq.arr[sq.top2 - 1] = x;
+            sq.top2 = sq.top2 - 1;
         }
 
         //Function to remove an element from top of the stack1.

@@ -36,7 +36,13 @@ public class ImplementTwoStacksInAnArray {
 
         //Function to remove an element from top of the stack1.
         int pop1(TwoStack sq) {
-
+            if (sq.top1 != -1) {
+                int temp = sq.arr[sq.top1];
+                sq.arr[sq.top1] = 0;
+                sq.top1 = sq.top1 - 1;
+                return temp;
+            }
+            return -1;
         }
 
         //Function to remove an element from top of the stack2.

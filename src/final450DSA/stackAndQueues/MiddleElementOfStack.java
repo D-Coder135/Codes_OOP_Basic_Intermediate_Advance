@@ -17,4 +17,11 @@ public class MiddleElementOfStack {
             this.data = data;
         }
     }
+
+    static class myStack {
+        DLLNode head;
+        DLLNode mid;
+        int count;
+    }
+
 }

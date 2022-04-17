@@ -29,4 +29,8 @@ public class MiddleElementOfStack {
         ms.count = 0;
         return ms;
     }
+
+    void push(myStack ms, int new_data) {
+        DLLNode newNode = new DLLNode(new_data);
+    }
 }

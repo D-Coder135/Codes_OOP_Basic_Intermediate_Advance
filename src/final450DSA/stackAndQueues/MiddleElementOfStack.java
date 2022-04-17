@@ -55,5 +55,17 @@ public class MiddleElementOfStack {
         DLLNode head = ms.head;
         int item = head.data;
         ms.head = head.next;
+
+        if (ms.head != null) {
+            ms.head.prev = null;
+        }
+
+        ms.count -= 1;
+
+        if (ms.count % 2 == 0) {
+            ms.mid = ms.mid.next;
+        }
+
+        return item;
     }
 }

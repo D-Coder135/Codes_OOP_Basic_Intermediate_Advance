@@ -68,4 +68,11 @@ public class MiddleElementOfStack {
 
         return item;
     }
+
+    int findMiddle(myStack ms) {
+        if (ms.count == 0) {
+            return -1;
+        }
+        return ms.mid.data;
+    }
 }

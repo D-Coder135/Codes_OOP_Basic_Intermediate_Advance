@@ -13,6 +13,8 @@ public class MiddleElementOfStack {
         DLLNode next;
         int data;
 
-
+        public DLLNode(int data) {
+            this.data = data;
+        }
     }
 }

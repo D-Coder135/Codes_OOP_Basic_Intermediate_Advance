@@ -46,4 +46,14 @@ public class MiddleElementOfStack {
         }
         ms.head = newNode;
     }
+
+    int pop(myStack ms) {
+        if (ms.count == 0) {
+            return -1;
+        }
+
+        DLLNode head = ms.head;
+        int item = head.data;
+        ms.head = head.next;
+    }
 }

@@ -24,4 +24,9 @@ public class MiddleElementOfStack {
         int count;
     }
 
+    myStack createMyStack() {
+        myStack ms = new myStack();
+        ms.count = 0;
+        return ms;
+    }
 }

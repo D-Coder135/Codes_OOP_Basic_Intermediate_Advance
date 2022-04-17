@@ -32,5 +32,18 @@ public class MiddleElementOfStack {
 
     void push(myStack ms, int new_data) {
         DLLNode newNode = new DLLNode(new_data);
+        newNode.prev = null;
+        newNode.next = ms.head;
+        ms.count += 1;
+
+        if (ms.count == 1) {
+            ms.mid = newNode;
+        } else {
+            ms.head.prev = newNode;
+            if (ms.count % 2 != 0) {
+                ms.mid = ms.mid.prev;
+            }
+        }
+        ms.head = newNode;
     }
 }

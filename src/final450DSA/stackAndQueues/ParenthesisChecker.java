@@ -5,6 +5,35 @@
  *   File: ParenthesisChecker
  */
 
+/**
+ * GFG QUESTION =>
+ * <p>
+ * Given an expression string x. Examine whether the pairs and the orders of “{“,”}”,”(“,”)”,”[“,”]” are correct in exp.
+ * For example, the function should return 'true' for exp = “[()]{}{[()()]()}” and 'false' for exp = “[(])”.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input:
+ * {([])}
+ * Output:
+ * true
+ * Explanation:
+ * { ( [ ] ) }. Same colored brackets can form
+ * balanced pairs, with 0 number of
+ * unbalanced bracket.
+ * <p>
+ * Example 2:
+ * <p>
+ * Input:
+ * ()
+ * Output:
+ * true
+ * Explanation:
+ * (). Same bracket can form balanced pairs,
+ * and here only 1 type of bracket is
+ * present and in balanced way.
+ */
+
 package final450DSA.stackAndQueues;
 
 import java.util.Stack;

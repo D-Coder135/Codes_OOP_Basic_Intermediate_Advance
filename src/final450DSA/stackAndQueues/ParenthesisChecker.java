@@ -36,6 +36,8 @@ public class ParenthesisChecker {
 
                         if (topChar == '(' && ch == ')') {
                             continue;
+                        } else {
+                            return false;
                         }
                     }
                 }

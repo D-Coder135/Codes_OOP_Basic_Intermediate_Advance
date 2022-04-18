@@ -29,6 +29,10 @@ public class ParenthesisChecker {
                         if (topChar == '{' && ch == '}') {
                             continue;
                         }
+
+                        if (topChar == '[' && ch == ']') {
+                            continue;
+                        }
                     }
                 }
             }

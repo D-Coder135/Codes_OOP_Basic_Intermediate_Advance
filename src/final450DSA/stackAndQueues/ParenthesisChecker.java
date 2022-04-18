@@ -15,6 +15,10 @@ public class ParenthesisChecker {
         static boolean ispar(String x) {
             // add your code here
             Stack<Character> stack = new Stack<>();
+            for (int i = 0; i < x.length(); i++) {
+                char ch = x.charAt(i);
+
+            }
         }
     }
 }

@@ -23,6 +23,12 @@ public class ParenthesisChecker {
                 } else {
                     if (stack.isEmpty()) {
                         return false;
+                    } else {
+                        char topChar = stack.pop();
+
+                        if (topChar == '{' && ch == '}') {
+                            continue;
+                        }
                     }
                 }
             }

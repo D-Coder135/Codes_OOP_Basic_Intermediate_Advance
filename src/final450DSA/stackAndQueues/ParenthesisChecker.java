@@ -18,6 +18,9 @@ public class ParenthesisChecker {
             for (int i = 0; i < x.length(); i++) {
                 char ch = x.charAt(i);
 
+                if (ch == '{' || ch == '[' || ch == '(') {
+                    stack.push(ch);
+                }
             }
         }
     }

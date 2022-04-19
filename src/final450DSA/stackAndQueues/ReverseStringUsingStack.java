@@ -15,6 +15,7 @@ public class ReverseStringUsingStack {
         public String reverse(String S) {
             //code here
             Stack<Character> stack = new Stack<>();
+            StringBuilder str = new StringBuilder();
         }
 
     }

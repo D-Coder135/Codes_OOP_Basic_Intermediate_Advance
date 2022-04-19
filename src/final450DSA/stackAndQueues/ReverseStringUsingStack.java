@@ -21,6 +21,10 @@ public class ReverseStringUsingStack {
                 char ch = S.charAt(i);
                 stack.push(ch);
             }
+
+            while (!stack.isEmpty()) {
+                
+            }
         }
 
     }

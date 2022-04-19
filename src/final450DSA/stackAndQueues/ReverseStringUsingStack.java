@@ -8,5 +8,11 @@
 package final450DSA.stackAndQueues;
 
 public class ReverseStringUsingStack {
+    static class Solution {
 
+        public String reverse(String S) {
+            //code here
+        }
+
+    }
 }

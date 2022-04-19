@@ -25,6 +25,8 @@ public class ReverseStringUsingStack {
             while (!stack.isEmpty()) {
                 str.append(stack.pop());
             }
+
+            return str.toString();
         }
 
     }

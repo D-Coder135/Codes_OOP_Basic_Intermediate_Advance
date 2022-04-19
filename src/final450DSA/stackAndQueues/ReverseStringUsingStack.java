@@ -19,6 +19,7 @@ public class ReverseStringUsingStack {
 
             for (int i = 0; i < S.length(); i++) {
                 char ch = S.charAt(i);
+                stack.push(ch);
             }
         }
 

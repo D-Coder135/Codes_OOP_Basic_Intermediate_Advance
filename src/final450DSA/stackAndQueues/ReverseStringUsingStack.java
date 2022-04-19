@@ -5,6 +5,17 @@
  *   File: ReverseStringUsingStack
  */
 
+/**
+ * GFG QUESTION =>
+ * <p>
+ * You are given a string S, the task is to reverse the string using stack.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: S="GeeksforGeeks"
+ * Output: skeeGrofskeeG
+ */
+
 package final450DSA.stackAndQueues;
 
 import java.util.Stack;

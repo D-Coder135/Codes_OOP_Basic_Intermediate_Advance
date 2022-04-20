@@ -30,6 +30,8 @@ public class TheCelebrityProblem {
                     stack.push(i);
                 }
             }
+
+            int potentialAns = stack.pop();
         }
     }
 }

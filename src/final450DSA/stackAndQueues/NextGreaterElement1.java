@@ -24,7 +24,7 @@ public class NextGreaterElement1 {
             }
 
             for (int i = 0; i < nums1.length; i++) {
-                nums1[i] = map.getOrDefault(map.get(nums1[i]), -1);
+                nums1[i] = map.getOrDefault(nums1[i], -1);
             }
             return nums1;
         }

@@ -19,6 +19,11 @@ public class TheCelebrityProblem {
             for (int i = 0; i < n; i++) {
                 stack.push(i);
             }
+
+            while (stack.size() >= 2) {
+                int i = stack.pop();
+                int j = stack.pop();
+            }
         }
     }
 }

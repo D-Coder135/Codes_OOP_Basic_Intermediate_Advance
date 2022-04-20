@@ -26,6 +26,8 @@ public class TheCelebrityProblem {
 
                 if (arr[i][j] == 1) {
                     stack.push(j);
+                } else {
+                    stack.push(i);
                 }
             }
         }

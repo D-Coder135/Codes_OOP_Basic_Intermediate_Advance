@@ -40,6 +40,7 @@ public class TheCelebrityProblem {
                     }
                 }
             }
+            return potentialAns;
         }
     }
 }

@@ -15,6 +15,7 @@ public class NextGreaterElement {
         public static long[] nextLargerElement(long[] arr, int n) {
             // Your code here
             Stack<Integer> stack = new Stack<>();
+            long[] ans = new long[n];
         }
     }
 }

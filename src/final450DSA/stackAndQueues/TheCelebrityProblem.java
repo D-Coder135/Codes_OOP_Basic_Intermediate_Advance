@@ -23,6 +23,10 @@ public class TheCelebrityProblem {
             while (stack.size() >= 2) {
                 int i = stack.pop();
                 int j = stack.pop();
+
+                if (arr[i][j] == 1) {
+                    stack.push(j);
+                }
             }
         }
     }

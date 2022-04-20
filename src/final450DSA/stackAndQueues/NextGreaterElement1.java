@@ -7,10 +7,12 @@
 
 package final450DSA.stackAndQueues;
 
+import java.util.Stack;
+
 public class NextGreaterElement1 {
     static class Solution {
         public int[] nextGreaterElement(int[] nums1, int[] nums2) {
-
+            Stack<Integer> stack = new Stack<>();
         }
     }
 }

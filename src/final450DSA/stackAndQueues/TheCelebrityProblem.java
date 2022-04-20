@@ -34,7 +34,11 @@ public class TheCelebrityProblem {
             int potentialAns = stack.pop();
 
             for (int i = 0; i < arr.length; i++) {
-                
+                if (i != potentialAns) {
+                    if (arr[i][potentialAns] == 0 || arr[potentialAns][i] == 1) {
+                        return -1;
+                    }
+                }
             }
         }
     }

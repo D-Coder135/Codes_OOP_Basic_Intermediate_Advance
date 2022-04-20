@@ -8,4 +8,9 @@
 package final450DSA.stackAndQueues;
 
 public class NextGreaterElement1 {
+    static class Solution {
+        public int[] nextGreaterElement(int[] nums1, int[] nums2) {
+
+        }
+    }
 }

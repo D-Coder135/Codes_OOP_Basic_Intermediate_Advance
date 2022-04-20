@@ -7,12 +7,14 @@
 
 package final450DSA.stackAndQueues;
 
+import java.util.HashMap;
 import java.util.Stack;
 
 public class NextGreaterElement1 {
     static class Solution {
         public int[] nextGreaterElement(int[] nums1, int[] nums2) {
             Stack<Integer> stack = new Stack<>();
+            HashMap<Integer, Integer> map = new HashMap<>();
         }
     }
 }

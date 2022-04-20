@@ -20,6 +20,7 @@ public class NextGreaterElement1 {
                 while (!stack.isEmpty() && j > stack.peek()) {
                     map.put(stack.pop(), j);
                 }
+                stack.push(j);
             }
         }
     }

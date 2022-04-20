@@ -16,6 +16,9 @@ public class ReverseString {
             for (char character : s) {
                 stack.push(character);
             }
+
+            int index = 0;
+
         }
     }
 }

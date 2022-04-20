@@ -15,6 +15,10 @@ public class NextGreaterElement1 {
         public int[] nextGreaterElement(int[] nums1, int[] nums2) {
             Stack<Integer> stack = new Stack<>();
             HashMap<Integer, Integer> map = new HashMap<>();
+
+            for (int j : nums2) {
+
+            }
         }
     }
 }

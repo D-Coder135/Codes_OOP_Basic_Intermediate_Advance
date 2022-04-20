@@ -15,6 +15,10 @@ public class TheCelebrityProblem {
         int celebrity(int[][] arr, int n) {
             // code here
             Stack<Integer> stack = new Stack<>();
+
+            for (int i = 0; i < n; i++) {
+                stack.push(i);
+            }
         }
     }
 }

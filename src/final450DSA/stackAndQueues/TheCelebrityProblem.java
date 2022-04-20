@@ -8,4 +8,10 @@
 package final450DSA.stackAndQueues;
 
 public class TheCelebrityProblem {
+    static class Solution {
+        //Function to find if there is a celebrity in the party or not.
+        int celebrity(int M[][], int n) {
+            // code here
+        }
+    }
 }

@@ -7,10 +7,12 @@
 
 package final450DSA.stackAndQueues;
 
+import java.util.Stack;
+
 public class ReverseString {
     static class Solution {
         public void reverseString(char[] s) {
-
+            Stack<Character> stack = new Stack<>();
         }
     }
 }

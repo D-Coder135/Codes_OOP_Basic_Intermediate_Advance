@@ -7,11 +7,14 @@
 
 package final450DSA.stackAndQueues;
 
+import java.util.Stack;
+
 public class TheCelebrityProblem {
     static class Solution {
         //Function to find if there is a celebrity in the party or not.
         int celebrity(int[][] arr, int n) {
             // code here
+            Stack<Integer> stack = new Stack<>();
         }
     }
 }

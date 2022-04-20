@@ -7,11 +7,14 @@
 
 package final450DSA.stackAndQueues;
 
+import java.util.Stack;
+
 public class NextGreaterElement {
     static class Solution {
         //Function to find the next greater element for each element of the array.
         public static long[] nextLargerElement(long[] arr, int n) {
             // Your code here
+            Stack<Integer> stack = new Stack<>();
         }
     }
 }

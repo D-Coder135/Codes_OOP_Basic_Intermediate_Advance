@@ -16,6 +16,10 @@ public class NextGreaterElement {
             // Your code here
             Stack<Integer> stack = new Stack<>();
             long[] ans = new long[n];
+
+            for (int i = 0; i < n; i++) {
+
+            }
         }
     }
 }

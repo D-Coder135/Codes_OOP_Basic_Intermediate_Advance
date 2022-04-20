@@ -17,7 +17,9 @@ public class NextGreaterElement1 {
             HashMap<Integer, Integer> map = new HashMap<>();
 
             for (int j : nums2) {
-
+                while (!stack.isEmpty() && j > stack.peek()) {
+                    map.put(stack.pop(), j);
+                }
             }
         }
     }

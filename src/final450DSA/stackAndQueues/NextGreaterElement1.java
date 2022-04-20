@@ -22,6 +22,10 @@ public class NextGreaterElement1 {
                 }
                 stack.push(j);
             }
+
+            for (int i = 0; i < nums1.length; i++) {
+                nums1[i] = map.getOrDefault(map.get(nums1[i]), -1);
+            }
         }
     }
 }

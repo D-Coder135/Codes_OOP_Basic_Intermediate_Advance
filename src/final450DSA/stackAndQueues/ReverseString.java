@@ -8,4 +8,9 @@
 package final450DSA.stackAndQueues;
 
 public class ReverseString {
+    static class Solution {
+        public void reverseString(char[] s) {
+
+        }
+    }
 }

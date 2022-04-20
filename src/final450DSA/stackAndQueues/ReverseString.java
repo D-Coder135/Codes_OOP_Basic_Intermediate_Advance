@@ -18,7 +18,9 @@ public class ReverseString {
             }
 
             int index = 0;
-
+            while (!stack.isEmpty()) {
+                s[index++] = stack.pop();
+            }
         }
     }
 }

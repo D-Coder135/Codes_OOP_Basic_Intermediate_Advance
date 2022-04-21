@@ -21,7 +21,10 @@ public class ReversePolishNotation {
             String p = "";
 
             for (String character : str) {
-
+                if (!character.equals("+") && !character.equals("-") && !character.equals("*") && character.equals("/")) {
+                    stack.push(character);
+                    continue;
+                }
             }
         }
     }

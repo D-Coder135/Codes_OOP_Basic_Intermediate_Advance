@@ -11,7 +11,7 @@ import java.util.Stack;
 
 public class ReversePolishNotation {
     static class Solution {
-        public int evalRPN(String[] strings) {
+        public int evalRPN(String[] str) {
             Stack<String> stack = new Stack<>();
             int x, y;
             int value;
@@ -19,6 +19,8 @@ public class ReversePolishNotation {
             String result;
             String choice;
             String p = "";
+
+
         }
     }
 }

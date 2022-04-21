@@ -9,6 +9,8 @@ package final450DSA.stackAndQueues;
 
 public class ReversePolishNotation {
     static class Solution {
+        public int evalRPN(String[] strings) {
 
+        }
     }
 }

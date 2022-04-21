@@ -24,6 +24,8 @@ public class ReversePolishNotation {
                 if (!character.equals("+") && !character.equals("-") && !character.equals("*") && character.equals("/")) {
                     stack.push(character);
                     continue;
+                } else {
+                    choice = character;
                 }
             }
         }

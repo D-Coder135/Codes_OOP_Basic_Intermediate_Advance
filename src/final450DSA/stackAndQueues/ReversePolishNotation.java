@@ -20,7 +20,9 @@ public class ReversePolishNotation {
             String choice;
             String p = "";
 
+            for (String character : str) {
 
+            }
         }
     }
 }

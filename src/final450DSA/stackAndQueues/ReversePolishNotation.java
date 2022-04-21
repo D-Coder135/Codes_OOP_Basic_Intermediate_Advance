@@ -39,7 +39,7 @@ public class ReversePolishNotation {
                     case "-" -> {
                         x = Integer.parseInt(String.valueOf(stack.pop()));
                         y = Integer.parseInt(String.valueOf(stack.pop()));
-                        value = x - y;
+                        value = y - x;
                         result = p + value;
                         stack.push(result);
                     }

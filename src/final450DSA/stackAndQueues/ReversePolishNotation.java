@@ -29,7 +29,13 @@ public class ReversePolishNotation {
                 }
 
                 switch (choice) {
-
+                    case "+" -> {
+                        x = Integer.parseInt(String.valueOf(stack.pop()));
+                        y = Integer.parseInt(String.valueOf(stack.pop()));
+                        value = x + y;
+                        result = p + value;
+                        stack.push(result);
+                    }
                 }
             }
         }

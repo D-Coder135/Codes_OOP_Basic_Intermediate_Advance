@@ -21,7 +21,7 @@ public class ReversePolishNotation {
             String p = "";
 
             for (String character : str) {
-                if (!character.equals("+") && !character.equals("-") && !character.equals("*") && character.equals("/")) {
+                if (!character.equals("+") && !character.equals("-") && !character.equals("*") && !character.equals("/")) {
                     stack.push(character);
                     continue;
                 } else {
@@ -36,8 +36,33 @@ public class ReversePolishNotation {
                         result = p + value;
                         stack.push(result);
                     }
+                    case "-" -> {
+                        x = Integer.parseInt(String.valueOf(stack.pop()));
+                        y = Integer.parseInt(String.valueOf(stack.pop()));
+                        value = x - y;
+                        result = p + value;
+                        stack.push(result);
+                    }
+                    case "*" -> {
+                        x = Integer.parseInt(String.valueOf(stack.pop()));
+                        y = Integer.parseInt(String.valueOf(stack.pop()));
+                        value = x * y;
+                        result = p + value;
+                        stack.push(result);
+                    }
+                    case "/" -> {
+                        x = Integer.parseInt(stack.pop());
+                        y = Integer.parseInt(stack.pop());
+                        value = y / x;
+                        result = p + value;
+                        stack.push(result);
+                    }
+                    default -> {
+
+                    }
                 }
             }
+            return Integer.parseInt(stack.pop());
         }
     }
 }

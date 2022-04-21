@@ -13,6 +13,9 @@ public class ReversePolishNotation {
     static class Solution {
         public int evalRPN(String[] strings) {
             Stack<String> stack = new Stack<>();
+            int x, y;
+            int value;
+
         }
     }
 }

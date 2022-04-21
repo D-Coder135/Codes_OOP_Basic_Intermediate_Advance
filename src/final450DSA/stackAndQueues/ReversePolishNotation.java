@@ -16,6 +16,9 @@ public class ReversePolishNotation {
             int x, y;
             int value;
 
+            String result;
+            String choice;
+            String p = "";
         }
     }
 }

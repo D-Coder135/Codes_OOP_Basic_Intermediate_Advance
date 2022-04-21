@@ -7,10 +7,12 @@
 
 package final450DSA.stackAndQueues;
 
+import java.util.Stack;
+
 public class ReversePolishNotation {
     static class Solution {
         public int evalRPN(String[] strings) {
-
+            Stack<String> stack = new Stack<>();
         }
     }
 }

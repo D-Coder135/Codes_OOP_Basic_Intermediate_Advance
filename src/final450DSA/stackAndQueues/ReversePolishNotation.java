@@ -27,6 +27,10 @@ public class ReversePolishNotation {
                 } else {
                     choice = character;
                 }
+
+                switch (choice) {
+
+                }
             }
         }
     }

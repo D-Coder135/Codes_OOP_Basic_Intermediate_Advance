@@ -8,4 +8,7 @@
 package final450DSA.stackAndQueues;
 
 public class ReversePolishNotation {
+    static class Solution {
+
+    }
 }

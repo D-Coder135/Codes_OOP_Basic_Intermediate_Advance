@@ -11,6 +11,8 @@ import java.util.Stack;
 
 public class ReverseAStack {
     public static void reverseStack(Stack<Integer> stack) {
-
+        if (stack.isEmpty()) {
+            return;
+        }
     }
 }

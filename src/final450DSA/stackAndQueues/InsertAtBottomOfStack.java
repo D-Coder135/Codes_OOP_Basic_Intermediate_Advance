@@ -11,6 +11,9 @@ import java.util.Stack;
 
 public class InsertAtBottomOfStack {
     public static void insertAtBottom(Stack<Integer> stack, int item) {
-
+        if (stack.isEmpty()) {
+            stack.push(item);
+            return;
+        }
     }
 }

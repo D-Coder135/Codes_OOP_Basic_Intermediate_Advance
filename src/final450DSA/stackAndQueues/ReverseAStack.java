@@ -20,6 +20,9 @@ public class ReverseAStack {
     }
 
     private static void insertBottom(Stack<Integer> stack, int item) {
-
+        if (stack.isEmpty()) {
+            stack.push(item);
+            return;
+        }
     }
 }

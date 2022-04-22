@@ -33,7 +33,7 @@ public class SortAStack {
             } else {
                 stack.push(item);
             }
-
+            return stack;
         }
     }
 }

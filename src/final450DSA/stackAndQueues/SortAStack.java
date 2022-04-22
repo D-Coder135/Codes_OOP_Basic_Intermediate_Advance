@@ -20,5 +20,9 @@ public class SortAStack {
             sort(s);
             return insertInStack(s, item);
         }
+
+        private Stack<Integer> insertInStack(Stack<Integer> stack, int item) {
+            return null;
+        }
     }
 }

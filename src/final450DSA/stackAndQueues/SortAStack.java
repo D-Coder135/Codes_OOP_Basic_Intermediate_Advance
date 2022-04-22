@@ -16,6 +16,7 @@ public class SortAStack {
             if (s.isEmpty()) {
                 return s;
             }
+            int item = s.pop();
         }
     }
 }

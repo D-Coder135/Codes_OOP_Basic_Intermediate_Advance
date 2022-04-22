@@ -22,7 +22,10 @@ public class SortAStack {
         }
 
         private Stack<Integer> insertInStack(Stack<Integer> stack, int item) {
-            return null;
+            if (stack.isEmpty()) {
+                stack.push(item);
+                return;
+            }
         }
     }
 }

@@ -30,6 +30,8 @@ public class SortAStack {
                 int tempItem = stack.pop();
                 insertInStack(stack, item);
                 stack.push(tempItem);
+            } else {
+                stack.push(item);
             }
 
         }

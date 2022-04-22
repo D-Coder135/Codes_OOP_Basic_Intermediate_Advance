@@ -26,7 +26,11 @@ public class SortAStack {
                 stack.push(item);
                 return;
             }
-            int tempItem = stack.pop();
+            if (item < stack.peek()) {
+                int tempItem = stack.pop();
+
+            }
+
         }
     }
 }

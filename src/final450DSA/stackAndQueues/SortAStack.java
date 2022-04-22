@@ -17,6 +17,7 @@ public class SortAStack {
                 return s;
             }
             int item = s.pop();
+            sort(s);
         }
     }
 }

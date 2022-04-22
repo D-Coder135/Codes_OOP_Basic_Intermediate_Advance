@@ -25,5 +25,6 @@ public class ReverseAStack {
             return;
         }
         int topItem = stack.pop();
+        insertBottom(stack, item);
     }
 }

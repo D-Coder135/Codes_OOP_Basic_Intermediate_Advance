@@ -5,6 +5,24 @@
  *   File: SortAStack
  */
 
+/**
+ * GFG QUESTION =>
+ * <p>
+ * Given a stack, the task is to sort it such that the top of the stack has the greatest element.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input:
+ * Stack: 3 2 1
+ * Output: 3 2 1
+ * <p>
+ * Example 2:
+ * <p>
+ * Input:
+ * Stack: 11 2 32 3 41
+ * Output: 41 32 11 3 2
+ */
+
 package final450DSA.stackAndQueues;
 
 import java.util.Stack;

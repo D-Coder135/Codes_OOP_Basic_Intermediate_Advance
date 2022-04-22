@@ -7,5 +7,10 @@
 
 package final450DSA.stackAndQueues;
 
+import java.util.Stack;
+
 public class InsertAtBottomOfStack {
+    public static void insertAtBottom(Stack<Integer> stack, int item) {
+
+    }
 }

@@ -26,6 +26,7 @@ public class SortAStack {
                 stack.push(item);
                 return;
             }
+            int tempItem = stack.pop();
         }
     }
 }

@@ -14,5 +14,6 @@ public class ReverseAStack {
         if (stack.isEmpty()) {
             return;
         }
+        int item = stack.pop();
     }
 }

@@ -17,5 +17,6 @@ public class InsertAtBottomOfStack {
         }
         int x = stack.pop();
         insertAtBottom(stack, item);
+        stack.push(x);
     }
 }

@@ -5,6 +5,10 @@
  *   File: InsertAtBottomOfStack
  */
 
+/**
+ * WAP to insert an element at the bottom of the stack.
+ */
+
 package final450DSA.stackAndQueues;
 
 import java.util.Stack;

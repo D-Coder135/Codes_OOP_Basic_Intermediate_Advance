@@ -24,5 +24,6 @@ public class ReverseAStack {
             stack.push(item);
             return;
         }
+        int topItem = stack.pop();
     }
 }

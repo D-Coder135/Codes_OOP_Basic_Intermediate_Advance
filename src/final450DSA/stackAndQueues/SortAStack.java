@@ -13,6 +13,9 @@ public class SortAStack {
     static class GfG {
         public Stack<Integer> sort(Stack<Integer> s) {
             //add code here.
+            if (s.isEmpty()) {
+                return s;
+            }
         }
     }
 }

@@ -8,4 +8,7 @@
 package final450DSA.stackAndQueues;
 
 public class ReverseAStack {
+    public static void reverseStack(Stack<Integer> stack) {
+
+    }
 }

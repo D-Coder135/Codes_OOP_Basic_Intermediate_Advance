@@ -18,4 +18,8 @@ public class ReverseAStack {
         reverseStack(stack);
         insertBottom(stack, item);
     }
+
+    private static void insertBottom(Stack<Integer> stack, int item) {
+
+    }
 }

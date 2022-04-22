@@ -15,5 +15,6 @@ public class ReverseAStack {
             return;
         }
         int item = stack.pop();
+        reverseStack(stack);
     }
 }

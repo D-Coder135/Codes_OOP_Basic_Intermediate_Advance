@@ -24,7 +24,7 @@ public class SortAStack {
         private Stack<Integer> insertInStack(Stack<Integer> stack, int item) {
             if (stack.isEmpty()) {
                 stack.push(item);
-                return;
+                return stack;
             }
             if (item < stack.peek()) {
                 int tempItem = stack.pop();

@@ -33,6 +33,9 @@ public class MergeOverlappingIntervals {
             }
 
             Stack<Pair> rs = new Stack<>();
+            while (st.size() > 0) {
+                rs.push(st.pop());
+            }
 
             //return ans.toArray(new int[0][]);
         }

@@ -15,6 +15,8 @@ public class MergeOverlappingIntervals {
         }
 
         public static class Pair {
+            int start;
+            int end;
         }
 
     }

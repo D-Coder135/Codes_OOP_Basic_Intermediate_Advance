@@ -11,6 +11,9 @@ public class MergeOverlappingIntervals {
     static class Solution {
         public int[][] merge(int[][] intervals) {
             Pair[] pairs = new Pair[intervals.length];
+            for (int i = 0; i < intervals.length; i++) {
+                pairs[i] = new Pair(intervals[i][0], intervals[i][1]);
+            }
             //return ans.toArray(new int[0][]);
         }
 

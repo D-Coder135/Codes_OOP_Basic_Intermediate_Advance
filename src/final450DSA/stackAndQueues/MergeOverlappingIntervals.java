@@ -8,6 +8,7 @@
 package final450DSA.stackAndQueues;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 public class MergeOverlappingIntervals {
     static class Solution {
@@ -16,6 +17,7 @@ public class MergeOverlappingIntervals {
             for (int i = 0; i < intervals.length; i++) {
                 pairs[i] = new Pair(intervals[i][0], intervals[i][1]);
             }
+            Stack<Pair> st = new Stack<>();
 
             //return ans.toArray(new int[0][]);
         }

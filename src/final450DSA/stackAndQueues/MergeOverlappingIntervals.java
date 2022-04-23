@@ -20,7 +20,7 @@ public class MergeOverlappingIntervals {
             Stack<Pair> st = new Stack<>();
             for (int i = 0; i < pairs.length; i++) {
                 if (i == 0) {
-
+                    st.push(pairs[i]);
                 }
             }
 

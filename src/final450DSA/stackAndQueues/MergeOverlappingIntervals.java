@@ -21,6 +21,12 @@ public class MergeOverlappingIntervals {
             for (int i = 0; i < pairs.length; i++) {
                 if (i == 0) {
                     st.push(pairs[i]);
+                } else {
+                    Pair top = st.peek();
+
+                    if (pairs[i].start > top.end) {
+                        st.push(pairs[i]);
+                    }
                 }
             }
 

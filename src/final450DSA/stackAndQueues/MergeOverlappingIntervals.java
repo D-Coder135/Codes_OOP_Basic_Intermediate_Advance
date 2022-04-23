@@ -22,6 +22,11 @@ public class MergeOverlappingIntervals {
                 this.start = start;
                 this.end = end;
             }
+
+            @Override
+            public int compareTo(Pair other) {
+                return 0;
+            }
         }
 
     }

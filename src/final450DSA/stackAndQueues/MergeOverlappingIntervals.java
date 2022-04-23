@@ -8,4 +8,11 @@
 package final450DSA.stackAndQueues;
 
 public class MergeOverlappingIntervals {
+    static class Solution {
+        public int[][] merge(int[][] intervals) {
+
+            //return ans.toArray(new int[0][]);
+        }
+
+    }
 }

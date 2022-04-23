@@ -26,6 +26,8 @@ public class MergeOverlappingIntervals {
 
                     if (pairs[i].start > top.end) {
                         st.push(pairs[i]);
+                    } else {
+                        top.end = Math.max(top.end, pairs[i].end);
                     }
                 }
             }

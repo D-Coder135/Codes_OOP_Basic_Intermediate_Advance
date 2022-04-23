@@ -18,6 +18,11 @@ public class MergeOverlappingIntervals {
                 pairs[i] = new Pair(intervals[i][0], intervals[i][1]);
             }
             Stack<Pair> st = new Stack<>();
+            for (int i = 0; i < pairs.length; i++) {
+                if (i == 0) {
+
+                }
+            }
 
             //return ans.toArray(new int[0][]);
         }

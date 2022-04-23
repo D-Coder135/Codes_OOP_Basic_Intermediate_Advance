@@ -14,7 +14,7 @@ public class MergeOverlappingIntervals {
             //return ans.toArray(new int[0][]);
         }
 
-        public static class Pair {
+        public static class Pair implements Comparable<Pair> {
             int start;
             int end;
 

@@ -7,6 +7,7 @@
 
 package final450DSA.stackAndQueues;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Stack;
 
@@ -14,6 +15,7 @@ public class MergeOverlappingIntervals {
     static class Solution {
         public int[][] merge(int[][] intervals) {
             Pair[] pairs = new Pair[intervals.length];
+            ArrayList<int[]> ans = new ArrayList<>();
             for (int i = 0; i < intervals.length; i++) {
                 pairs[i] = new Pair(intervals[i][0], intervals[i][1]);
             }
@@ -37,7 +39,11 @@ public class MergeOverlappingIntervals {
                 rs.push(st.pop());
             }
 
-            //return ans.toArray(new int[0][]);
+            while (rs.size() > 0) {
+                Pair p = rs.pop();
+                ans.add(new int[]{p.start, p.end});
+            }
+            return ans.toArray(new int[0][]);
         }
 
         public static class Pair {
@@ -48,15 +54,6 @@ public class MergeOverlappingIntervals {
                 this.start = start;
                 this.end = end;
             }
-
-//            @Override
-//            public int compareTo(Pair other) {
-//                if (this.start != other.start) {
-//                    return this.start - other.start;
-//                } else {
-//                    return this.end - other.end;
-//                }
-//            }
         }
 
     }

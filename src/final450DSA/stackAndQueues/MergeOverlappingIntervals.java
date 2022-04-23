@@ -25,7 +25,9 @@ public class MergeOverlappingIntervals {
 
             @Override
             public int compareTo(Pair other) {
-                return 0;
+                if (this.start != other.start) {
+                    return this.start - other.start;
+                }
             }
         }
 

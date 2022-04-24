@@ -7,9 +7,7 @@
 
 package final450DSA.stackAndQueues;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.Stack;
 
 public class MergeOverlappingIntervals {

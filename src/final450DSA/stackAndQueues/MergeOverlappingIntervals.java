@@ -18,11 +18,11 @@ public class MergeOverlappingIntervals {
             Arrays.sort(intervals, (int[] a, int[] b) -> Integer.compare(a[0], b[0]));
             Stack<int[]> stack = new Stack<>();
 
-            for (int i = 0; i < intervals.length; i++) {
-                if (stack.isEmpty() || stack.peek()[1] < intervals[i][0]) {
-                    stack.push(intervals[i]);
+            for (int[] interval : intervals) {
+                if (stack.isEmpty() || stack.peek()[1] < interval[0]) {
+                    stack.push(interval);
                 } else {
-                    stack.peek()[1] = Math.max(intervals[i][1], stack.peek()[1]);
+                    stack.peek()[1] = Math.max(interval[1], stack.peek()[1]);
                 }
             }
         }

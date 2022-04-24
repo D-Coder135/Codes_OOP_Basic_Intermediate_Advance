@@ -32,6 +32,7 @@ public class MergeOverlappingIntervals {
             while (!stack.isEmpty()) {
                 res[--size] = stack.pop();
             }
+            return res;
         }
 
     }

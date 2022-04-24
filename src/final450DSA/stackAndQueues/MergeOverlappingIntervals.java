@@ -27,6 +27,7 @@ public class MergeOverlappingIntervals {
             }
 
             int size = stack.size();
+            int[][] res = new int[size][];
         }
 
     }

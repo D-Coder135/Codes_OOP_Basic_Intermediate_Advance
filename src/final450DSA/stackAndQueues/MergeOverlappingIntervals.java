@@ -28,6 +28,10 @@ public class MergeOverlappingIntervals {
 
             int size = stack.size();
             int[][] res = new int[size][];
+
+            while (!stack.isEmpty()) {
+                res[--size] = stack.pop();
+            }
         }
 
     }

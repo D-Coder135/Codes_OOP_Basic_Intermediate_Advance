@@ -25,6 +25,8 @@ public class MergeOverlappingIntervals {
                     stack.peek()[1] = Math.max(interval[1], stack.peek()[1]);
                 }
             }
+
+            int size = stack.size();
         }
 
     }

@@ -17,6 +17,12 @@ public class MergeOverlappingIntervals {
         public int[][] merge(int[][] intervals) {
             Arrays.sort(intervals, (int[] a, int[] b) -> Integer.compare(a[0], b[0]));
             Stack<int[]> stack = new Stack<>();
+
+            for (int i = 0; i < intervals.length; i++) {
+                if (stack.isEmpty() || stack.peek()[1] < intervals[i][0]) {
+                    stack.push(intervals[i]);
+                }
+            }
         }
 
     }

@@ -7,10 +7,12 @@
 
 package final450DSA.stackAndQueues;
 
+import java.util.Stack;
+
 public class LongestValidParentheses {
     static class Solution {
         public int longestValidParentheses(String s) {
-
+            Stack<Integer> stack = new Stack<>();
         }
     }
 }

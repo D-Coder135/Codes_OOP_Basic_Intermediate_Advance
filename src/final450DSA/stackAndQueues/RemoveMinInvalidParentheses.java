@@ -35,9 +35,15 @@ public class RemoveMinInvalidParentheses {
             if (min == 0) {
                 int minNow = getMin(str);
                 if (minNow == 0) {
-                    ansList.add(str)
+                    ansList.add(str);
                 }
                 return;
+            }
+
+            for (int i = 0; i < str.length(); i++) {
+                if (str.charAt(i) != '(' && str.charAt(i) != ')') {
+                    continue;
+                }
             }
         }
 

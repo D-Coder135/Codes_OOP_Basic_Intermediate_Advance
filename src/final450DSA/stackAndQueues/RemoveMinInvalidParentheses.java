@@ -30,6 +30,7 @@ public class RemoveMinInvalidParentheses {
             if (set.contains(str)) {
                 return;
             }
+            set.add(str);
         }
 
         private int getMin(String s) {

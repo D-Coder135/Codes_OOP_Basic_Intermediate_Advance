@@ -21,6 +21,8 @@ public class RemoveMinInvalidParentheses {
             int min = getMin(s);
             solution(s, min, set, ansList);
 
+            return ansList;
+
         }
     }
 }

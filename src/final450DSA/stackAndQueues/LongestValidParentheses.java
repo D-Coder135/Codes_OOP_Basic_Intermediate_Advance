@@ -15,17 +15,17 @@ public class LongestValidParentheses {
             Stack<Integer> stack = new Stack<>();
             int maxLength = 0;
 
-            for (int i = 0; i < s.length(); i++) {
-                char ch = s.charAt(i);
+            for (int index = 0; index < s.length(); index++) {
+                char ch = s.charAt(index);
 
                 if (ch == '(') {
-                    stack.push(i);
+                    stack.push(index);
                 } else {
                     stack.pop();
                     if (stack.isEmpty()) {
-                        stack.push(i);
+                        stack.push(index);
                     } else {
-                        int length = i - stack.peek();
+                        int length = index - stack.peek();
                         maxLength = Math.max(length, maxLength);
                     }
                 }

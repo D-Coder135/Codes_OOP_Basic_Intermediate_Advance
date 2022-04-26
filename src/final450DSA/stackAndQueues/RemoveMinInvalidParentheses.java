@@ -42,6 +42,7 @@ public class RemoveMinInvalidParentheses {
                     }
                 }
             }
+            return stack.size();
         }
     }
 }

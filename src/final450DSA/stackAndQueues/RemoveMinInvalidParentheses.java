@@ -18,6 +18,9 @@ public class RemoveMinInvalidParentheses {
             HashSet<String> set = new HashSet<>();
             List<String> ansList = new ArrayList<>();
 
+            int min = getMin(s);
+
+
         }
     }
 }

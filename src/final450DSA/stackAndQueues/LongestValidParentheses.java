@@ -8,4 +8,9 @@
 package final450DSA.stackAndQueues;
 
 public class LongestValidParentheses {
+    static class Solution {
+        public int longestValidParentheses(String s) {
+
+        }
+    }
 }

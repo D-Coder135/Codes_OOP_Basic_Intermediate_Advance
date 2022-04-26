@@ -5,6 +5,30 @@
  *   File: LongestValidParenthesis
  */
 
+/**
+ * GFG & LEETCODE QUESTION 32 =>
+ * <p>
+ * Given a string containing just the characters '(' and ')', find the length of the longest
+ * valid (well-formed) parentheses substring.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: s = "(()"
+ * Output: 2
+ * Explanation: The longest valid parentheses substring is "()".
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: s = ")()())"
+ * Output: 4
+ * Explanation: The longest valid parentheses substring is "()()".
+ * <p>
+ * Example 3:
+ * <p>
+ * Input: s = ""
+ * Output: 0
+ */
+
 package final450DSA.stackAndQueues;
 
 import java.util.Stack;

@@ -7,11 +7,14 @@
 
 package final450DSA.stackAndQueues;
 
+import java.util.HashSet;
 import java.util.List;
 
 public class RemoveMinInvalidParentheses {
     static class Solution {
         public List<String> removeInvalidParentheses(String s) {
+
+            HashSet<String> set = new HashSet<>();
 
         }
     }

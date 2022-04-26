@@ -13,6 +13,7 @@ public class LongestValidParentheses {
     static class Solution {
         public int longestValidParentheses(String s) {
             Stack<Integer> stack = new Stack<>();
+            stack.push(-1);
             int maxLength = 0;
 
             for (int index = 0; index < s.length(); index++) {

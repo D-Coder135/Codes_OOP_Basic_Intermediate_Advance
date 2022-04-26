@@ -10,6 +10,7 @@ package final450DSA.stackAndQueues;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Stack;
 
 public class RemoveMinInvalidParentheses {
     static class Solution {
@@ -26,7 +27,7 @@ public class RemoveMinInvalidParentheses {
         }
 
         private int getMin(String s) {
-            return 0;
+            Stack<Character> stack = new Stack<>();
         }
     }
 }

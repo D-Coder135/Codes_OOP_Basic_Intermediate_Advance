@@ -24,5 +24,9 @@ public class RemoveMinInvalidParentheses {
             return ansList;
 
         }
+
+        private int getMin(String s) {
+            return 0;
+        }
     }
 }

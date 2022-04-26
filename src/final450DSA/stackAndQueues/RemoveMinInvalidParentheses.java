@@ -27,7 +27,9 @@ public class RemoveMinInvalidParentheses {
         }
 
         private void solution(String str, int min, HashSet<String> set, List<String> ansList) {
-
+            if (set.contains(str)) {
+                return;
+            }
         }
 
         private int getMin(String s) {

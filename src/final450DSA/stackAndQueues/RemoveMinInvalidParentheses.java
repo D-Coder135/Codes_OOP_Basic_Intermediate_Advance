@@ -7,5 +7,12 @@
 
 package final450DSA.stackAndQueues;
 
+import java.util.List;
+
 public class RemoveMinInvalidParentheses {
+    static class Solution {
+        public List<String> removeInvalidParentheses(String s) {
+
+        }
+    }
 }

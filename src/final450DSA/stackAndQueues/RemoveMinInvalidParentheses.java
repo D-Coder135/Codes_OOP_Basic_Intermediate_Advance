@@ -19,7 +19,7 @@ public class RemoveMinInvalidParentheses {
             List<String> ansList = new ArrayList<>();
 
             int min = getMin(s);
-
+            solution(s, min, set, ansList);
 
         }
     }

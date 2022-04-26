@@ -26,6 +26,10 @@ public class RemoveMinInvalidParentheses {
 
         }
 
+        private void solution(String str, int min, HashSet<String> set, List<String> ansList) {
+
+        }
+
         private int getMin(String s) {
             Stack<Character> stack = new Stack<>();
 

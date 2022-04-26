@@ -47,6 +47,10 @@ public class RemoveMinInvalidParentheses {
 
                 String left = str.substring(0, i);
                 String right = str.substring(i + 1);
+
+                if (!set.contains(left + right)) {
+                    solution(left + right, min - 1, set, ansList);
+                }
             }
         }
 

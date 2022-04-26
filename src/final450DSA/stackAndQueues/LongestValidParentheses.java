@@ -20,6 +20,8 @@ public class LongestValidParentheses {
 
                 if (ch == '(') {
                     stack.push(i);
+                } else {
+                    stack.pop();
                 }
             }
         }

@@ -24,6 +24,8 @@ public class LongestValidParentheses {
                     stack.pop();
                     if (stack.isEmpty()) {
                         stack.push(i);
+                    } else {
+                        int length = i - stack.peek();
                     }
                 }
             }

@@ -31,6 +31,14 @@ public class RemoveMinInvalidParentheses {
                 return;
             }
             set.add(str);
+
+            if (min == 0) {
+                int minNow = getMin(str);
+                if (minNow == 0) {
+                    ansList.add(str)
+                }
+                return;
+            }
         }
 
         private int getMin(String s) {

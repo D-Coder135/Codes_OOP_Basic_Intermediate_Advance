@@ -34,6 +34,12 @@ public class RemoveMinInvalidParentheses {
 
                 if (ch == '(') {
                     stack.push(ch);
+                } else if (ch == ')') {
+                    if (!stack.isEmpty() && stack.peek() == '(') {
+                        stack.pop();
+                    } else {
+                        stack.push(ch);
+                    }
                 }
             }
         }

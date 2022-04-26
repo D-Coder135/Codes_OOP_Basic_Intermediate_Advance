@@ -44,6 +44,9 @@ public class RemoveMinInvalidParentheses {
                 if (str.charAt(i) != '(' && str.charAt(i) != ')') {
                     continue;
                 }
+
+                String left = str.substring(0, i);
+                String right = str.substring(i + 1);
             }
         }
 

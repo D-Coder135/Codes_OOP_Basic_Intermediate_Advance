@@ -5,6 +5,30 @@
  *   File: RemoveMinInvalidParentheses
  */
 
+/**
+ * GFG & LEETCODE QUESTION 301 =>
+ * <p>
+ * Given a string s that contains parentheses and letters, remove the minimum number of
+ * invalid parentheses to make the input string valid.
+ * <p>
+ * Return all the possible results. You may return the answer in any order.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: s = "()())()"
+ * Output: ["(())()","()()()"]
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: s = "(a)())()"
+ * Output: ["(a())()","(a)()()"]
+ * <p>
+ * Example 3:
+ * <p>
+ * Input: s = ")("
+ * Output: [""]
+ */
+
 package final450DSA.stackAndQueues;
 
 import java.util.ArrayList;

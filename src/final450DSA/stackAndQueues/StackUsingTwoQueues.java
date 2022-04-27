@@ -22,7 +22,9 @@ public class StackUsingTwoQueues {
         }
 
         public void push(int x) {
-
+            while (!queue1.isEmpty()) {
+                queue2.offer(queue1.poll());
+            }
         }
 
         public int pop() {

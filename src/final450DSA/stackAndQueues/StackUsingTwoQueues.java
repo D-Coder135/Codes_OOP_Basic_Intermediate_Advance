@@ -36,6 +36,7 @@ public class StackUsingTwoQueues {
             if (queue1.isEmpty()) {
                 return -1;
             }
+            return queue1.poll();
         }
 
         public int top() {

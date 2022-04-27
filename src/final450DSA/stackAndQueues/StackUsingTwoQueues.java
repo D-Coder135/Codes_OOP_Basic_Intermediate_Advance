@@ -40,7 +40,7 @@ public class StackUsingTwoQueues {
         }
 
         public int top() {
-
+            return queue1.peek();
         }
 
         public boolean empty() {

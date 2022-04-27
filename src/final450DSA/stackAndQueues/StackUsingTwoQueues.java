@@ -26,6 +26,10 @@ public class StackUsingTwoQueues {
                 queue2.offer(queue1.poll());
             }
             queue1.offer(x);
+
+            while (!queue2.isEmpty()) {
+                queue1.offer(queue2.poll());
+            }
         }
 
         public int pop() {

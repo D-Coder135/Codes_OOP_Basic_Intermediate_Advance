@@ -33,7 +33,9 @@ public class StackUsingTwoQueues {
         }
 
         public int pop() {
-
+            if (queue1.isEmpty()) {
+                return -1;
+            }
         }
 
         public int top() {

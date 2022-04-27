@@ -44,7 +44,7 @@ public class StackUsingTwoQueues {
         }
 
         public boolean empty() {
-
+            return queue1.isEmpty();
         }
     }
 }

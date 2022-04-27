@@ -7,8 +7,15 @@
 
 package final450DSA.stackAndQueues;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class StackUsingTwoQueues {
     static class MyStack {
+
+        Queue<Integer> queue1 = new LinkedList<>();
+        Queue<Integer> queue2 = new LinkedList<>();
+
 
         public MyStack() {
 

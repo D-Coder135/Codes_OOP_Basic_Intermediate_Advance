@@ -8,4 +8,9 @@
 package final450DSA.stackAndQueues;
 
 public class ValidateStackSequence {
+    static class Solution {
+        public boolean validateStackSequences(int[] pushed, int[] popped) {
+
+        }
+    }
 }

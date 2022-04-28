@@ -8,4 +8,7 @@
 package final450DSA.stackAndQueues;
 
 public class StackUsingDequeue {
+    static class Stack {
+
+    }
 }

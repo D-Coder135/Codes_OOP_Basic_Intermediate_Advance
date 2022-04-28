@@ -7,8 +7,12 @@
 
 package final450DSA.stackAndQueues;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class StackUsingDequeue {
     static class Stack {
+        Deque<Integer> deque = new LinkedList<>();
 
     }
 }

@@ -7,10 +7,12 @@
 
 package final450DSA.stackAndQueues;
 
+import java.util.Stack;
+
 public class ValidateStackSequence {
     static class Solution {
         public boolean validateStackSequences(int[] pushed, int[] popped) {
-
+            Stack<Integer> stack = new Stack<>();
         }
     }
 }

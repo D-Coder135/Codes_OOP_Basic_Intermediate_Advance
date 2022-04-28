@@ -18,6 +18,10 @@ public class ValidateStackSequence {
             for (int element : pushed) {
                 stack.push(element);
 
+                while (!stack.isEmpty() && stack.peek() == popped[index]) {
+                    stack.pop();
+                    index++;
+                }
 
             }
         }

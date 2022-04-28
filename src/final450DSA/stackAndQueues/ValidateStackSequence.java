@@ -22,8 +22,9 @@ public class ValidateStackSequence {
                     stack.pop();
                     index++;
                 }
-
             }
+
+            return index == popped.length;
         }
     }
 }

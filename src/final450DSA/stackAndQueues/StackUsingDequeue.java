@@ -14,5 +14,8 @@ public class StackUsingDequeue {
     static class Stack {
         Deque<Integer> deque = new LinkedList<>();
 
+        public void push(int x) {
+
+        }
     }
 }

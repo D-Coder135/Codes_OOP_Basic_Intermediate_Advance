@@ -21,6 +21,10 @@ public class QueueImplementationUsingStack {
         public void push(int x) {
             if (stack1.isEmpty()) {
                 stack1.push(x);
+            } else {
+                while (!stack1.isEmpty()) {
+                    stack2.push(stack1.pop());
+                }
             }
         }
 

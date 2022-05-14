@@ -19,7 +19,9 @@ public class QueueImplementationUsingStack {
         }
 
         public void push(int x) {
-
+            if (stack1.isEmpty()) {
+                stack1.push(x);
+            }
         }
 
         public int pop() {

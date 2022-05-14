@@ -33,7 +33,7 @@ public class QueueImplementationUsingStack {
         }
 
         public int pop() {
-
+            return stack1.isEmpty() ? -1 : stack1.pop();
         }
 
         public int peek() {

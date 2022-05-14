@@ -12,9 +12,10 @@ import java.util.Stack;
 public class QueueImplementationUsingStack {
     static class MyQueue {
 
+        Stack<Integer> stack1 = new Stack<>();
+        Stack<Integer> stack2 = new Stack<>();
+
         public MyQueue() {
-            Stack<Integer> stack1 = new Stack<>();
-            Stack<Integer> stack2 = new Stack<>();
         }
 
         public void push(int x) {

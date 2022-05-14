@@ -8,4 +8,26 @@
 package final450DSA.stackAndQueues;
 
 public class QueueImplementationUsingStack {
+    static class MyQueue {
+
+        public MyQueue() {
+
+        }
+
+        public void push(int x) {
+
+        }
+
+        public int pop() {
+
+        }
+
+        public int peek() {
+
+        }
+
+        public boolean empty() {
+
+        }
+    }
 }

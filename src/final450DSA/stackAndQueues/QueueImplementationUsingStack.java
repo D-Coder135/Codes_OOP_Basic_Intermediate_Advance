@@ -25,6 +25,8 @@ public class QueueImplementationUsingStack {
                 while (!stack1.isEmpty()) {
                     stack2.push(stack1.pop());
                 }
+                stack1.push(x);
+
             }
         }
 

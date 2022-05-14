@@ -41,7 +41,7 @@ public class QueueImplementationUsingStack {
         }
 
         public boolean empty() {
-
+            return stack1.isEmpty();
         }
     }
 }
